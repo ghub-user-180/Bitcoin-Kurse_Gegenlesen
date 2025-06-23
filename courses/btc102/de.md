@@ -1,5 +1,5 @@
 ---
-name: Ihre ersten Bitcoins bekommen
+name: Wie Sie Ihre ersten Bitcoins bekommen
 goal: Lernen Sie, wie Sie Ihre ersten Bitcoins selbständig kaufen, sichern und verwalten können.
 objectives: 
 
