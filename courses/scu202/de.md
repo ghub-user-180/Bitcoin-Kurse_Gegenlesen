@@ -1,5 +1,5 @@
 ---
-name: Verbesserung Ihrer persönlichen digitalen Sicherheit
+name: Verbesserung deiner persönlichen digitalen Sicherheit
 goal: Einrichtung einer sicheren, stabilen und effizienten persönlichen digitalen Umgebung.
 objectives: 
 
