@@ -20,16 +20,12 @@ objectives:
 Wir leben in einer Welt, in der digitale Geräte allgegenwärtig sind, aber nur selten beherrscht werden. Deshalb ist es eine Notwendigkeit, zu lernen, wie man seine eigene IT-Umgebung sichert. Egal, ob es sich um deinen Computer, deinen Browser, dein Telefon oder dein Heimnetzwerk handelt, jedes dieser Elements kann ein potenzielles Einfallstor für deine Privatsphäre sein. Dieser Kurs hilft dir, die Kontrolle über deine digitalen Geräte wiederzuerlangen.
 
 
+Es geht nicht nur darum, Best Practices zu kennen: Es geht darum, zu verstehen, was du verwendest, wie du es verwendest und was das für deine Sicherheit bedeutet. Dieser SCU202-Kurs bietet eine ausführliche Einführung in die technischen Grundlagen von Betriebssystemen, führt dich in die praktische Nutzung von Linux ein und leitet dich bei der Einrichtung einer stabilen, funktionalen und widerstandsfähigen Arbeitsumgebung an.
 
-Es geht nicht nur darum, Best Practices zu kennen: Es geht darum, zu verstehen, was Sie verwenden, wie Sie es verwenden und was das für Ihre Sicherheit bedeutet. Dieser SCU202-Kurs bietet eine ausführliche Einführung in die technischen Grundlagen von Betriebssystemen, führt Sie in die praktische Nutzung von Linux ein und leitet Sie bei der Einrichtung einer stabilen, funktionalen und widerstandsfähigen Arbeitsumgebung an.
-
-
-
-In den Modulen des Kurses erfahren Sie, wie Sie die Integrität der von Ihnen installierten Software überprüfen, Ihre Daten effektiv verschlüsseln, Ihren Browser und Ihr Telefon mit einem Minimum an Datenverlusten nutzen und die Sicherheit Ihres Heimnetzwerks verbessern können.
+In den Modulen des Kurses erfährst du, wie du die Integrität der von dir installierten Software überprüfst, deine Daten effektiv verschlüsselst, deinen Browser und dein Telefon mit einem Minimum an Datenverlusten nutzt und die Sicherheit deines Heimnetzwerks verbessern kannst.
 
 
-
-Dieser Kurs richtet sich an fortgeschrittene Nutzer, die ihre digitalen Werkzeuge besser beherrschen wollen. Er basiert auf einem praktischen Ansatz, der sich auf Autonomie und Souveränität konzentriert, um sicherere und bewusstere tägliche IT-Gewohnheiten zu entwickeln, nach dem Motto "*Don't Trust, Verify*".
+Dieser Kurs richtet sich an fortgeschrittene Nutzer, die ihre digitalen Werkzeuge besser beherrschen wollen. Er basiert auf einem praktischen Ansatz, der sich auf Autonomie und Souveränität konzentriert, um sicherere und bewusstere tägliche IT-Gewohnheiten zu entwickeln, nach dem Motto "Don't Trust, Verify".
 
 
 
@@ -49,44 +45,30 @@ Dieser Kurs richtet sich an fortgeschrittene Nutzer, die ihre digitalen Werkzeug
 
 
 
-Willkommen zum Kurs SCU202, der Fortsetzung des Kurses SCU101, der Sie in Ihrer Beherrschung der IT-Sicherheit weiterbringt, indem er den Schwerpunkt auf die individuelle Souveränität, den Schutz der Privatsphäre und die sichere Verwaltung Ihrer persönlichen Daten legt. Hier finden Sie einen Überblick darüber, was Sie im Kurs SCU202 entdecken werden.
-
-
+Willkommen zum Kurs SCU202, der Fortsetzung des Kurses SCU101. Er hilft dir, deine Fähigkeiten in der IT-Sicherheit zu vertiefen und unterstützt dich dabei, mehr Kontrolle über deine digitale Sicherheit zu gewinnen. Dabei stehen deine individuelle Souveränität, der Schutz der Privatsphäre und die sichere Verwaltung deiner persönlichen Daten im Mittelpunkt. Hier erhältst du einen Überblick darüber, was dich im Kurs SCU202 erwartet.
 
 ### Teil 1 - Einführung
 
 
 
-Der Kurs beginnt mit einer kurzen Wiederholung der in SCU101 behandelten Konzepte, um sicherzustellen, dass Sie über die grundlegenden Prinzipien auf dem Laufenden sind, die notwendig sind, um die folgenden Themen richtig anzugehen.
-
-
+Der Kurs beginnt mit einer kurzen Wiederholung der in SCU101 behandelten Konzepte, um sicherzustellen, dass du über die grundlegenden Prinzipien auf dem Laufenden bist, die notwendig sind, um die folgenden Themen richtig anzugehen.
 
 ### Teil 2 - Vom Klick zum Terminal: Linux beherrschen
 
 
+In diesem Teil wird das GNU/Linux-System vorgestellt, eine Säule der digitalen Souveränität. Du wirst die Unterschiede zwischen Linux, Windows und macOS erforschen, die faszinierende Geschichte von Linux und freier Software entdecken und verstehen, warum Linux oft ein Synonym für Sicherheit und Freiheit ist.
 
-In diesem Teil wird das GNU/Linux-System vorgestellt, eine Säule der digitalen Souveränität. Sie werden die Unterschiede zwischen Linux, Windows und macOS erforschen, die faszinierende Geschichte von Linux und freier Software entdecken und verstehen, warum Linux oft ein Synonym für Sicherheit und Freiheit ist.
-
-
-
-Als Nächstes lernen Sie, wie Sie die Linux-Distribution auswählen, die am besten zu Ihren Bedürfnissen und Ihrer Desktop-Umgebung passt. Schliesslich werden Sie Ihre ersten Schritte mit Ubuntu anhand einer detaillierten Installations- und Konfigurationsanleitung machen.
-
-
+Als Nächstes lernst du, wie du die Linux-Distribution auswählst, die am besten zu deinen Bedürfnissen und deiner Desktop-Umgebung passt. Schliesslich wirst du deine ersten Schritte mit Ubuntu anhand einer detaillierten Installations- und Konfigurationsanleitung machen.
 
 ![Image](assets/fr/064.webp)
 
 
 
-### Teil 3 - Sichern Ihres Computers
+### Teil 3 - Sichern deines Computers
 
+In diesem Abschnitt erfährst du, wie du die Sicherheit deines Computers erhöhen kannst. Wir gehen auf Methoden ein, mit denen du deinen Zugang wirksam schützt und deine Anwendungsfälle in der Nutzung trennen kannst. Du wirst verstehen, wie wichtig regelmäßige System- und Software-Updates sind, um potenzielle Schwachstellen zu minimieren.
 
-In diesem Abschnitt erfahren Sie, wie Sie die Sicherheit Ihres Computers erhöhen können. Wir gehen auf Methoden ein, mit denen Sie Ihren Zugang wirksam schützen und Ihre Nutzung trennen können. Sie werden verstehen, wie wichtig regelmässige System- und Software-Updates sind, um potenzielle Schwachstellen zu minimieren.
-
-
-
-Ausserdem lernen Sie, wie Sie die Integrität und Authentizität heruntergeladener Software überprüfen, um Infektionen oder Kompromisse zu vermeiden, und wie Sie Ihre persönlichen Daten und Backups durch Verschlüsselung effektiv schützen. Schliesslich erfahren Sie, warum und wie Sie die Metadaten Ihrer Dateien bereinigen, um Ihre Privatsphäre online zu schützen.
-
-
+Ausserdem lernst du, wie du die Integrität und Authentizität heruntergeladener Software überprüfst, um Infektionen oder Kompromisse zu vermeiden, und wie du deine persönlichen Daten und Backups durch Verschlüsselung effektiv schützt. Schliesslich erfährst du, warum und wie du die Metadaten deiner Dateien bereinigst, um deine Privatsphäre online zu schützen.
 
 ![Image](assets/fr/235.webp)
 
@@ -100,7 +82,7 @@ Heutzutage sind Webbrowser in unserem täglichen digitalen Leben allgegenwärtig
 
 
 
-Anschliessend erhalten Sie einen Überblick über die heutigen Rendering-Engines und Browser, ihre Vor- und Nachteile sowie konkrete Best Practices, um Ihr Surfen so sicher wie möglich zu machen.
+Anschliessend erhältst du einen Überblick über die heutigen Rendering-Engines und Browser, ihre Vor- und Nachteile sowie konkrete Best Practices, um dein Surfen so sicher wie möglich zu machen.
 
 
 
@@ -108,31 +90,23 @@ Anschliessend erhalten Sie einen Überblick über die heutigen Rendering-Engines
 
 
 
-### Teil 5 - Die Kontrolle über Ihr Telefon zurückgewinnen
+### Teil 5 - Die Kontrolle über dein Handy zurückgewinnen
 
+Heutzutage sind unsere Smartphones eine Erweiterung unseres privaten und beruflichen Lebens, weshalb es so wichtig ist, ihre Sicherheit zu kontrollieren. Wir beschäftigen uns ausführlich mit den verschiedenen mobilen Betriebssystemen, ihren Vorteilen und Einschränkungen und entdecken gleichzeitig Open-Source-Alternativen, mit denen du die volle Kontrolle über dein Gerät zurückgewinnen kannst.
 
-
-Heutzutage sind unsere Smartphones eine Erweiterung unseres privaten und beruflichen Lebens, weshalb es so wichtig ist, ihre Sicherheit zu kontrollieren. Wir werden uns ausführlich mit den verschiedenen mobilen Betriebssystemen, ihren Vorteilen und Einschränkungen befassen und gleichzeitig Open-Source-Alternativen entdecken, mit denen Sie die volle Kontrolle über Ihr Gerät zurückgewinnen können.
-
-
-
-Dann lernen Sie die besten Praktiken für die tägliche Sicherheit kennen, von Updates bis zur Trennung Ihrer persönlichen und beruflichen Daten. Schliesslich entdecken Sie sichere Kommunikationstools und alternative Open-Source-Anwendungen, mit denen Sie die Privatsphäre und Sicherheit Ihres Telefons verbessern können.
-
+Dann lernst du die besten Praktiken für die tägliche Sicherheit kennen – von Updates bis hin zur Trennung deiner persönlichen und beruflichen Daten. Schliesslich entdeckst du sichere Kommunikationstools und alternative Open-Source-Anwendungen, mit denen du die Privatsphäre und Sicherheit deines Telefons verbessern kannst.
 
 
 ![Image](assets/fr/142.webp)
 
 
 
-### Teil 6 - Absicherung Ihres lokalen Netzwerks
+### Teil 6 - Absicherung deines lokalen Netzwerks
 
 
+Dein Heimnetzwerk ist ein wichtiger kritischer Punkt, wenn es um die Sicherheit geht. Wir werfen zunächst einen Blick darauf, wie ein lokales Netzwerk funktioniert, und gehen dann zu den praktischen Schritten über, um es effektiv zu sichern.
 
-Ihr Heimnetzwerk ist ein wichtiger kritischer Punkt, wenn es um die Sicherheit geht. Wir werfen zunächst einen Blick darauf, wie ein lokales Netzwerk funktioniert, und gehen dann zu den praktischen Schritten über, um es effektiv zu sichern.
-
-
-
-Sie lernen, wie Sie einen sicheren Router auswählen und konfigurieren, Ihr Netzwerk segmentieren, Ihr Wi-Fi-Netzwerk stärken und Überwachungstools einsetzen, um Anomalien schnell zu erkennen.
+Du lernst, wie du einen sicheren Router auswählst und konfigurierst, dein Netzwerk segmentierst, dein Wi-Fi-Netzwerk stärkst und Überwachungstools einsetzt, um Anomalien schnell zu erkennen.
 
 
 
@@ -143,8 +117,7 @@ Sie lernen, wie Sie einen sicheren Router auswählen und konfigurieren, Ihr Netz
 ### Teil 7 - Letzter Abschnitt
 
 
-
-Zum Abschluss des Kurses können Sie die Abschlussprüfung ablegen, um Ihr Zertifikat zu erhalten und zu überprüfen, ob Sie die besprochenen Themen verstanden haben.
+Zum Abschluss des Kurses kannst du die Abschlussprüfung ablegen, um dein Zertifikat zu erhalten und zu überprüfen, ob du die besprochenen Themen verstanden hast.
 
 
 
@@ -152,11 +125,12 @@ Zum Abschluss des Kurses können Sie die Abschlussprüfung ablegen, um Ihr Zerti
 
 
 
-Sind Sie bereit, die volle Kontrolle über Ihre IT-Sicherheit zu übernehmen, Ihre individuelle Souveränität zu stärken und Ihre Online-Privatsphäre zu gewährleisten? Los geht's!
+Bist du bereit, die volle Kontrolle über deine IT-Sicherheit zu übernehmen, deine individuelle Souveränität zu stärken und deine Online-Privatsphäre zu gewährleisten? Los geht’s!
 
 
 
-*N.B.: Wenn Sie während des Kurses auf unbekannte Begriffe stossen, konsultieren Sie bitte [das Glossar] (https://planb.network/resources/glossary) für Definitionen
+*Hinweis: Wenn du während des Kurses auf unbekannte Begriffe stößt, konsultiere bitte das [das Glossar] (https://planb.network/resources/glossary) für Definitionen.
+
 
 
 
@@ -171,7 +145,7 @@ Bevor ich mit dem Kurs SCU202 beginne, möchte ich in diesem Kapitel kurz die gr
 
 
 
-Wenn Sie noch Anfänger sind und noch nicht SCU101 besucht haben, empfehle ich Ihnen dringend, mit diesem ersten Kurs zu beginnen, bevor Sie zu diesem Kurs übergehen. Die in SCU101 behandelten Grundlagen werden hier nicht wiederholt. Ich werde daher weder auf grundlegende Sicherheitspraktiken noch auf die Verwendung von VPNs, Passwortmanagern oder Zwei-Faktor-Authentifizierung eingehen. Dennoch ist es wichtig, all diese Konzepte zu beherrschen, bevor man zu den fortgeschritteneren Anwendungen übergeht, die wir in den folgenden Kapiteln behandeln werden.
+Wenn du noch Anfänger bist und SCU101 noch nicht besucht hast, empfehle ich dir dringend, mit dem SCU101-Kurs zu beginnen, bevor du zu diesem hier übergehst. Die in SCU101 behandelten Grundlagen werden hier nicht wiederholt. Ich werde daher weder auf grundlegende Sicherheitspraktiken noch auf die Verwendung von VPNs, Passwortmanagern oder Zwei-Faktor-Authentifizierung eingehen. Dennoch ist es wichtig, all diese Konzepte zu beherrschen, bevor man zu den fortgeschritteneren Anwendungen übergeht, die wir in den folgenden Kapiteln behandeln werden.
 
 
 
@@ -185,15 +159,11 @@ https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 
 
-Das Surfen im Internet ist oft der Haupteinstiegspunkt für Bedrohungen der Cybersicherheit. In SCU101 haben wir gesehen, dass es wichtig ist, wachsam zu bleiben, besonders wenn es um Downloads geht. Laden Sie nur Dateien aus zuverlässigen Quellen herunter und bevorzugen Sie Open-Source-Software, die oft von grösserer Transparenz und Kontrolle durch die Gemeinschaft profitiert.
+Das Surfen im Internet ist oft der Haupteinstiegspunkt für Bedrohungen der Cybersicherheit. In SCU101 haben wir gesehen, dass es wichtig ist, wachsam zu bleiben, besonders wenn es um Downloads geht. Lade nur Dateien aus zuverlässigen Quellen herunter und bevorzuge Open-Source-Software, die oft von größerer Transparenz und Kontrolle durch die Gemeinschaft profitiert.
 
+Eine weitere gute Praxis, die im Kurs behandelt wurde, sind Cookies – diese kleinen Dateien, die auf deinem Computer gespeichert werden, wenn du Websites besuchst. Du solltest sie regelmäßig löschen oder einschränken, um deine Privatsphäre zu schützen.
 
-
-Eine weitere gute Praxis, die in dem Kurs behandelt wurde, sind Cookies, diese kleinen Dateien, die auf Ihrem Computer gespeichert werden, wenn Sie Websites besuchen. Sie sollten sie regelmässig löschen oder einschränken, um Ihre Privatsphäre zu schützen.
-
-
-
-Generell erfordert sicheres Surfen ein gewisses Mass an Vorsicht: Klicken Sie nicht auf unbekannte Links, meiden Sie verdächtige Websites und verwenden Sie einen sicheren, aktuellen Browser.
+Generell erfordert sicheres Surfen ein gewisses Maß an Vorsicht: Klicke nicht auf unbekannte Links, meide verdächtige Websites und verwende einen sicheren, aktuellen Browser.
 
 
 
@@ -201,15 +171,13 @@ Generell erfordert sicheres Surfen ein gewisses Mass an Vorsicht: Klicken Sie ni
 
 
 
-### VPNs verstehen und Ihre Internetverbindung sichern
+### VPNs verstehen und deine Internetverbindung sichern
 
 
 
-SCU101 hat Ihnen das Konzept eines VPN (Virtual Private Network) vorgestellt. In der Praxis verschlüsselt ein VPN Ihren Internetverkehr, indem es einen sicheren Tunnel zwischen Ihrem Gerät und einem entfernten Server herstellt. Aber nicht alle VPNs sind gleich: Bevorzugen Sie transparente, zuverlässige Anbieter, die eine anonyme Anmeldung ermöglichen, wie Mullvad, ProtonVPN oder IVPN. Diese VPNs garantieren Ihnen optimale Privatsphäre, ohne Ihre persönlichen Daten unnötig zu sammeln.
+SCU101 hat dir das Konzept eines VPN (Virtual Private Network) vorgestellt. In der Praxis verschlüsselt ein VPN deinen Internetverkehr, indem es einen sicheren Tunnel zwischen deinem Gerät und einem entfernten Server herstellt. Aber nicht alle VPNs sind gleich: Bevorzuge transparente, zuverlässige Anbieter, die eine anonyme Anmeldung ermöglichen, wie Mullvad, ProtonVPN oder IVPN. Diese VPNs garantieren dir optimale Privatsphäre, ohne deine persönlichen Daten unnötig zu sammeln.
 
-
-
-Ausserdem haben wir gesehen, dass die Verbindung in öffentlichen Wi-Fi-Netzwerken besonders gefährdet ist. Aus diesem Grund ist die Verwendung eines VPN unerlässlich. Wenn Sie keins verwenden können, verbinden Sie sich nur mit HTTPS-Websites, um Ihren Datenaustausch zu schützen.
+Ausserdem haben wir gesehen, dass die Verbindung in öffentlichen Wi-Fi-Netzwerken besonders riskant ist. Aus diesem Grund ist die Verwendung eines VPN unerlässlich. Wenn du keines verwenden kannst, verbinde dich nur mit HTTPS-Websites, um deinen Datenaustausch zu schützen.
 
 
 
@@ -217,11 +185,11 @@ Ausserdem haben wir gesehen, dass die Verbindung in öffentlichen Wi-Fi-Netzwerk
 
 
 
-### Sorgfältiger Umgang mit Ihrem Computer
+### Sorgfältiger Umgang mit deinem Computer
 
 
 
-Sicherheit bedeutet auch, dass Sie Ihr Betriebssystem (OS) kennen. Sie haben die drei wichtigsten Betriebssysteme kennengelernt: Windows, macOS und Linux, jedes mit seinen eigenen Sicherheitsfunktionen. Insbesondere unter Windows ist ein aktuelles Antivirenprogramm unerlässlich, um Malware zu erkennen und zu blockieren.
+Sicherheit bedeutet auch, dass du dein Betriebssystem (OS) kennst. Du hast die drei wichtigsten Betriebssysteme kennengelernt: Windows, macOS und Linux – jedes mit seinen eigenen Sicherheitsfunktionen. Besonders unter Windows ist ein aktuelles Antivirenprogramm unerlässlich, um Malware zu erkennen und zu blockieren.
 
 
 
@@ -237,15 +205,12 @@ SCU101 warnt ausserdem davor, unbekannte USB-Laufwerke an den Computer anzuschli
 
 
 
-Ein wesentlicher Bestandteil der SCU101-Schulung war das Verständnis von Cyberangriffen. Viren tauchen nicht einfach von selbst auf: Sie erfordern in der Regel ein unbeabsichtigtes Eingreifen Ihrerseits, z. B. das Herunterladen einer infizierten Datei oder das Öffnen eines betrügerischen Links in einer E-Mail.
+Ein wesentlicher Bestandteil der SCU101-Schulung war, dass du Cyberangriffe verstehst. Viren tauchen nicht einfach von selbst auf: Sie erfordern meistens, dass du unbeabsichtigt etwas tust, zum Beispiel indem du eine infizierte Datei herunterlädst oder einen betrügerischen Link in einer E-Mail öffnest.
 
 
+Einer der häufigsten Angriffe ist das Phishing, bei dem betrügerische Nachrichten verschickt werden, um dich dazu zu bringen, sensible Daten preiszugeben. Wenn du mit solchen Angriffen konfrontiert wirst, überprüfe systematisch den Absender und vermeide es, auf Links zu klicken oder Anhänge von unbekannten oder verdächtigen Quellen zu öffnen.
 
-Einer der häufigsten Angriffe ist das Phishing, bei dem betrügerische Nachrichten verschickt werden, um Sie dazu zu bringen, sensible Daten preiszugeben. Wenn Sie mit solchen Angriffen konfrontiert werden, überprüfen Sie systematisch den Absender und vermeiden Sie es, auf Links zu klicken oder Anhänge von unbekannten oder verdächtigen Quellen zu öffnen.
-
-
-
-Eine weitere grosse Bedrohung ist Ransomware, die Ihre Daten verschlüsselt und ein Lösegeld verlangt. Um dem zu begegnen, ist eine regelmässige Sicherung Ihrer Daten unerlässlich.
+Eine weitere große Bedrohung ist Ransomware, die deine Daten verschlüsselt und ein Lösegeld verlangt. Um dem zu begegnen, ist eine regelmäßige Sicherung deiner Daten unerlässlich.
 
 
 
@@ -253,16 +218,12 @@ Eine weitere grosse Bedrohung ist Ransomware, die Ihre Daten verschlüsselt und 
 
 
 
-### Sichern Sie Ihre Postfächer wirksam
+### Sichere deine Postfächer wirksam
 
 
+SCU101 hob besonders hervor, wie wichtig es ist, deine E-Mails, das Tor zu all deinen anderen Online-Konten, zu sichern. Eine kompromittierte Mailbox ermöglicht es Hackern, die Passwörter fast aller deiner Konten über die üblichen E-Mail-Wiederherstellungsverfahren zurückzusetzen.
 
-SCU101 hob besonders hervor, wie wichtig es ist, Ihre E-Mail, das Tor zu all Ihren anderen Online-Konten, zu sichern. Eine kompromittierte Mailbox ermöglicht es den Hackern, die Passwörter fast aller Ihrer Konten über die üblichen E-Mail-Wiederherstellungsverfahren zurückzusetzen.
-
-
-
-Sie haben also gesehen, wie wichtig es ist, sichere, dedizierte E-Mail-Adressen einzurichten. Es ist ratsam, eine spezielle E-Mail Address für die Wiederherstellung des Kontos zu reservieren, die von Ihrer Haupt-Address getrennt ist.
-
+Du hast also gesehen, wie wichtig es ist, sichere, dedizierte E-Mail-Adressen einzurichten. Es ist ratsam, eine spezielle E-Mail-Adresse für die Kontowiederherstellung zu reservieren, die von deiner Hauptadresse getrennt ist.
 
 
 ![Image](assets/fr/272.webp)
@@ -273,11 +234,9 @@ Sie haben also gesehen, wie wichtig es ist, sichere, dedizierte E-Mail-Adressen 
 
 
 
-Die digitale Sicherheit hängt stark von der Qualität Ihrer Passwörter ab. SCU101 erklärt, warum die Verwendung eines Passwortmanagers unerlässlich ist: Mit diesen Tools können Sie komplexe, eindeutige und zufällige Passwörter für jeden von Ihnen genutzten Dienst speichern.
+Die digitale Sicherheit hängt stark von der Qualität deiner Passwörter ab. SCU101 erklärt, warum die Verwendung eines Passwortmanagers unerlässlich ist: Mit diesen Tools kannst du komplexe, eindeutige und zufällige Passwörter für jeden von dir genutzten Dienst speichern.
 
-
-
-Passwort-Manager vereinfachen die Aufgabe für Sie, da Sie sich nur ein Master-Passwort für alle anderen merken müssen.
+Passwortmanager vereinfachen dir die Aufgabe, da du dir nur ein Master-Passwort merken musst.
 
 
 
@@ -289,19 +248,15 @@ Passwort-Manager vereinfachen die Aufgabe für Sie, da Sie sich nur ein Master-P
 
 
 
-Schliesslich wurden Sie in SCU101 in die Zwei-Faktor-Authentifizierung (2FA) eingeführt. Das Prinzip besteht darin, die Authentifizierung in zwei separaten Schritten durchzuführen: Ihr normales Passwort und ein zweiter Faktor, wie ein temporärer Code, der von einer Anwendung wie Google Authenticator oder Authy generiert wird, oder ein Hardware-Schlüssel wie YubiKey.
+Schließlich wurdest du in SCU101 in die Zwei-Faktor-Authentifizierung (2FA) eingeführt. Das Prinzip besteht darin, die Authentifizierung in zwei separaten Schritten durchzuführen: dein normales Passwort und ein zweiter Faktor – zum Beispiel ein temporärer Code, der von einer Anwendung wie Google Authenticator oder Authy generiert wird, oder ein Hardware-Schlüssel wie YubiKey.
 
-
-
-2FA schützt Ihre Konten wesentlich besser: Selbst wenn Ihr Passwort kompromittiert wird, bleibt der Zugang ohne den zweiten Faktor unmöglich. Beachten Sie, dass per SMS oder E-Mail gesendete Codes weniger sicher sind, da sie abgefangen oder umgeleitet werden können.
-
-
+2FA schützt deine Konten wesentlich besser: Selbst wenn dein Passwort kompromittiert wird, bleibt der Zugang ohne den zweiten Faktor unmöglich. Beachte, dass per SMS oder E-Mail gesendete Codes weniger sicher sind, da sie abgefangen oder umgeleitet werden können.
 
 ___
 
 
 
-Diese Erinnerung an die Grundlagen wird als Basis für unseren Kurs SCU202 dienen, in dem wir die Beherrschung von Cybersicherheitstechniken vertiefen werden, um Ihre individuelle Souveränität, Ihre Privatsphäre und Ihre persönlichen Daten insgesamt besser zu schützen.
+Diese Erinnerung an die Grundlagen wird als Basis für unseren Kurs SCU202 dienen, in dem wir die Beherrschung von Cybersicherheitstechniken vertiefen werden, um deine individuelle Souveränität, deine Privatsphäre und deine persönlichen Daten insgesamt besser zu schützen.
 
 
 
@@ -312,18 +267,16 @@ Diese Erinnerung an die Grundlagen wird als Basis für unseren Kurs SCU202 diene
 
 
 
-## Linux, Windows, macOS: Was ist das Richtige für Sie?
+## Linux, Windows, macOS: Was ist das Richtige für dich?
 
 
 <chapterId>598cdecb-f90c-4382-b13c-0ba5a9dfeede</chapterId>
 
 
 
-Beginnen wir diesen SCU202-Kurs mit den Grundlagen: dem Betriebssystem (OS) Ihres Computers. Es entscheidet nicht nur über die Wahl der Hardware, sondern auch über die Sicherheit, die Benutzerfreundlichkeit und die Möglichkeit, den Computer individuell anzupassen.
+Beginnen wir diesen SCU202-Kurs mit den Grundlagen: dem Betriebssystem (OS) deines Computers. Es entscheidet nicht nur über die Wahl der Hardware, sondern auch über die Sicherheit, die Benutzerfreundlichkeit und die Möglichkeit, deinen Computer individuell anzupassen.
 
-
-
-Bevor in den nächsten Kapiteln auf die technischen Details von Linux eingegangen wird, ist es wichtig, die wichtigsten Unterschiede zwischen den drei gängigsten Systemen zu verstehen: Windows, macOS und GNU/Linux. In diesem Kapitel werden wir jede Lösung untersuchen, ihre Stärken und Grenzen herausarbeiten und dann eine fundierte Wahl treffen, die Ihren Bedürfnissen entspricht.
+Bevor wir in den nächsten Kapiteln auf die technischen Details von Linux eingehen, ist es wichtig, die wichtigsten Unterschiede zwischen den drei gängigsten Systemen zu verstehen: Windows, macOS und GNU/Linux. In diesem Kapitel wirst du jede Lösung kennenlernen, ihre Stärken und Grenzen herausarbeiten und dann eine fundierte Wahl treffen, die deinen Bedürfnissen entspricht.
 
 
 
@@ -331,13 +284,9 @@ Bevor in den nächsten Kapiteln auf die technischen Details von Linux eingegange
 
 
 
-Ein Betriebssystem ist eine Reihe zentraler Programme, die als Vermittler zwischen dem Benutzer, den Anwendungen (die ebenfalls Software sind) und der Hardware, d. h. dem Computer, fungieren. Es ist die grundlegende Software Layer, die die Nutzung der Hardwareressourcen eines Computers (Prozessor, Speicher, Festplatten, Peripheriegeräte usw.) ermöglicht.
+Ein Betriebssystem ist eine Reihe zentraler Programme, die als Vermittler zwischen dir, den Anwendungen (die ebenfalls Software sind) und der Hardware, also deinem Computer, fungieren. Es ist die grundlegende Software-Schicht, die die Nutzung der Hardwareressourcen eines Computers (Prozessor, Speicher, Festplatten, Peripheriegeräte usw.) ermöglicht.
 
-
-
-Konkret empfängt, verarbeitet und beantwortet das Betriebssystem die Anfragen Ihrer Software und nutzt die Ressourcen des Computers so effizient wie möglich. Es verwaltet die gleichzeitige Ausführung mehrerer Programme, steuert die Komponenten des PCs, verwaltet Verbindungen, ermöglicht die Dateiverwaltung und gewährleistet die Datensicherheit durch Autorisierungs- und Authentifizierungsmechanismen.
-
-
+Konkret empfängt, verarbeitet und beantwortet das Betriebssystem die Anfragen deiner Software und nutzt die Ressourcen des Computers so effizient wie möglich. Es verwaltet die gleichzeitige Ausführung mehrerer Programme, steuert die Komponenten des PCs, verwaltet Verbindungen, ermöglicht die Dateiverwaltung und gewährleistet die Datensicherheit durch Autorisierungs- und Authentifizierungsmechanismen.
 
 ![Image](assets/fr/001.webp)
 
@@ -347,7 +296,7 @@ Ohne ein Betriebssystem müsste jedes Softwareprogramm seinen eigenen Weg zur Ko
 
 
 
-Genau so funktionierten die frühen Computer. Das allererste Betriebssystem, GM-NAA I/O, kam erst 1956 auf den Markt.  Es führte die Stapelverarbeitung ein, die die Aufgabenverwaltung automatisierte. In den 1960er Jahren kamen mit CTSS (1961) und Multics (1969) die Multiprogrammierung und das Time-Sharing auf, die es mehreren Benutzern ermöglichten, gleichzeitig mit demselben System zu arbeiten. In den 1970er Jahren revolutionierte die Erfindung von Unix die Computertechnik durch seine Portabilität, die Verwaltung von Multitasking und seine Einfachheit.
+Genau so funktionierten die frühen Computer. Das allererste Betriebssystem, GM-NAA I/O, kam  1956 auf den Markt.  Es führte die Stapelverarbeitung ein, die die Aufgabenverwaltung automatisierte. In den 1960er Jahren kamen mit CTSS (1961) und Multics (1969) die Multiprogrammierung und das Time-Sharing auf, die es mehreren Benutzern ermöglichten, gleichzeitig mit demselben System zu arbeiten. In den 1970er Jahren revolutionierte die Erfindung von Unix die Computertechnik durch seine Portabilität, die Verwaltung von Multitasking und seine Einfachheit.
 
 
 
@@ -369,7 +318,7 @@ Aktuellen Statistiken zufolge ist Windows mit einem Marktanteil von rund 71 % im
 
 
 
-- Seit den 1990er Jahren ist Windows standardmässig auf den meisten verkauften Computern installiert und hat in der Öffentlichkeit einen enormen Bekanntheitsgrad erreicht. Microsoft hat schnell eine grosse Anzahl von OEM-Verträgen (Verträge, mit denen PC-Hersteller Windows vorinstallieren) abgeschlossen und damit eine Trägheit geschaffen, die nur schwer zu bremsen ist.
+- Seit den 1990er Jahren ist Windows standardmässig auf den meisten verkauften Computern installiert und hat in der Öffentlichkeit einen enormen Bekanntheitsgrad erreicht. Microsoft hat schnell eine grosse Anzahl von OEM-Verträgen (Verträge, mit denen PC-Hersteller Windows vorinstallieren) abgeschlossen und damit eine Trägheit geschaffen, aus der nur schwer zu entkommen ist.
 
 
 
@@ -397,7 +346,7 @@ macOS hingegen hat einen Marktanteil von etwa 16 % und wird im Allgemeinen wegen
 
 Linux ist auf Personalcomputern nach wie vor in der Minderheit (ca. 4 %), dominiert aber dank seiner Stabilität und Leistung auf Servern (ca. 63 %) und Supercomputern (100 %).
 
-
+---
 
 ![Image](assets/fr/002.webp)
 
