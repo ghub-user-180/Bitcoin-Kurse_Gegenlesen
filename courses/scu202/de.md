@@ -346,7 +346,7 @@ macOS hingegen hat einen Marktanteil von etwa 16 % und wird im Allgemeinen wegen
 
 Linux ist auf Personalcomputern nach wie vor in der Minderheit (ca. 4 %), dominiert aber dank seiner Stabilität und Leistung auf Servern (ca. 63 %) und Supercomputern (100 %).
 
----
+
 
 ![Image](assets/fr/002.webp)
 
@@ -389,7 +389,7 @@ Diese Zugänglichkeit hat jedoch ihren Preis. Windows ist ein proprietäres, zen
 
 
 
-Im Hinblick auf die Sicherheit ist Windows ein bevorzugtes Ziel für Malware. Seine Popularität und bestimmte strukturelle Fehler in der Vergangenheit erklären diese Situation teilweise. In den letzten Jahren wurden zwar Anstrengungen unternommen (insbesondere mit Windows Defender und der Benutzerkontensteuerung), doch insgesamt ist Windows nach wie vor eher auf Benutzerfreundlichkeit als auf Widerstandsfähigkeit und Benutzerkontrolle ausgelegt.
+Im Hinblick auf die Sicherheit ist Windows ein bevorzugtes Ziel für Malware. Seine Popularität und bestimmte strukturelle Fehler in der Vergangenheit erklären diese Situation teilweise. In den letzten Jahren wurden zwar Anstrengungen unternommen (insbesondere mit Windows Defender und der Benutzerkontensteuerung). Doch insgesamt ist Windows nach wie vor eher auf Benutzerfreundlichkeit als auf Widerstandsfähigkeit und Benutzerkontrolle ausgelegt.
 
 
 
@@ -397,7 +397,7 @@ Im Hinblick auf die Sicherheit ist Windows ein bevorzugtes Ziel für Malware. Se
 
 
 
-Meiner Meinung nach nimmt Windows eine unangefochtene Mittelposition ein: Es kann sicher sein, aber weniger als Linux und macOS; es erlaubt ein gewisses Mass an Kontrolle, aber viel weniger als Linux; es ist weder so leistungsfähig wie macOS, noch so einfach wie Chrome OS oder einige einsteigerfreundliche Linux-Systeme. Es ist in allen Aspekten durchschnittlich, ohne in irgendeinem Bereich wirklich schlecht zu sein (ausser bei der Privatsphäre, standardmässig).
+Meiner Meinung nach nimmt Windows eine unangefochtene Mittelposition ein: Es kann sicher sein, aber weniger sicher als Linux und macOS; es erlaubt ein gewisses Mass an Kontrolle, aber viel weniger als Linux; es ist weder so leistungsfähig wie macOS, noch so einfach wie Chrome OS oder einige einsteigerfreundliche Linux-Systeme. Es ist in allen Aspekten durchschnittlich, ohne in irgendeinem Bereich wirklich schlecht zu sein (ausser standardmässig bei der Privatsphäre).
 
 
 
@@ -405,7 +405,7 @@ Meiner Meinung nach nimmt Windows eine unangefochtene Mittelposition ein: Es kan
 
 
 
-Wenn es um digitale Souveränität und technische Beherrschung geht, zeigt Windows schnell seine Grenzen auf. Sein Modell basiert auf einer unausgewogenen Beziehung zwischen dem Benutzer und dem Herausgeber, die letzterem zugute kommt. Für diejenigen, die ihren Computer wirklich verstehen, personalisieren und sichern wollen, ist es kein besonders geeignetes Betriebssystem, weshalb wir in SCU202 nicht weiter auf Windows eingehen werden.
+Wenn es um digitale Souveränität und technische Beherrschung geht, zeigt Windows schnell seine Grenzen auf. Sein Modell basiert auf einer unausgewogenen Beziehung zwischen dem Benutzer und dem Herausgeber, die letzterem zugute kommt. Für diejenigen, die ihren Computer wirklich verstehen, personalisieren und sichern wollen, ist es kein besonders geeignetes Betriebssystem. Deshalb gehen wir in SCU202 nicht weiter auf Windows ein.
 
 
 
@@ -445,7 +445,7 @@ In Bezug auf den Datenschutz ist macOS zwar weniger aufdringlich als Windows, ab
 
 
 
-macOS mag für Nutzer geeignet sein, die die Leistung, die Stabilität und den Komfort eines gut integrierten Systems schätzen, ohne sich mit den technischen Details auseinandersetzen zu müssen. Andererseits ist es, wenn es um digitale Souveränität und Kontrolle über Ihre IT-Umgebung geht, zu geschlossen, zu abhängig von einem einzigen Unternehmen und nicht förderlich für fein abgestimmte Anpassungen. Aus diesem Grund werden wir in diesem SCU202-Kurs nicht weiter darauf eingehen.
+macOS mag für Nutzer geeignet sein, die die Leistung, die Stabilität und den Komfort eines gut integrierten Systems schätzen, ohne sich mit den technischen Details auseinandersetzen zu müssen. Andererseits ist es, wenn es um digitale Souveränität und Kontrolle über deine IT-Umgebung geht, zu geschlossen, zu abhängig von einem einzigen Unternehmen und nicht förderlich für fein abgestimmte Anpassungen. Aus diesem Grund werden wir in diesem SCU202-Kurs nicht weiter darauf eingehen.
 
 
 
@@ -465,26 +465,24 @@ Die wichtigsten Vorteile von Linux sind seine Robustheit, Stabilität und sein h
 
 
 
-Allerdings stellt Linux für Anfänger auch eine gewisse Komplexität dar. Die grosse Anzahl der verfügbaren Linux-Distributionen kann für Uneingeweihte verwirrend sein. Ebenso kann die anfängliche Handhabung des Systems, auch wenn sie durch einige Distributionen vereinfacht wird, einige Vorkenntnisse erfordern, um es richtig zu beherrschen, insbesondere im Hinblick auf die regelmässige Verwendung des Terminals (Kommandozeile). Und genau darum geht es in diesem ersten Teil des SCU202-Kurses!
+Allerdings stellt Linux für Anfänger auch eine gewisse Komplexität dar. Die grosse Anzahl der verfügbaren Linux-Distributionen kann für Uneingeweihte verwirrend sein. Ebenso kann die anfängliche Handhabung des Systems einige Vorkenntnisse erfordern, um es richtig zu beherrschen, auch wenn sie durch einige Distributionen vereinfacht wird. Dies gilt insbesondere im Hinblick auf die regelmässige Verwendung des Terminals (Kommandozeile). Und genau darum geht es in diesem ersten Teil des SCU202-Kurses!
 
 
 
-### Welches Betriebssystem sollten Sie wählen?
+### Welches Betriebssystem solltest du wählen?
 
 
 
-Ihre Wahl wird in erster Linie von Ihren Bedürfnissen und Erwartungen abhängen:
+Deine Wahl wird in erster Linie von deinen Bedürfnissen und Erwartungen abhängen:
 
 
 
 
-- Wenn Sie auf der Suche nach Einfachheit, umfassender Hardware- und Softwarekompatibilität (insbesondere für Videospiele) sowie allgemeiner Nutzung sind, kann Windows eine gute Wahl sein. Sie müssen sich jedoch der Einschränkungen in Bezug auf Leistung, Sicherheit und Datenschutz bewusst sein;
-- Wenn Sie eine optimale Integration zwischen Ihrer Hardware und Ihrem System, ein ausgefeiltes und benutzerfreundliches Interface und eine relativ gute Sicherheit suchen, ohne dass eine fortgeschrittene Konfiguration erforderlich ist, und wenn Sie das Apple-Ökosystem bereits besitzen oder übernehmen möchten, ist macOS eine natürliche Wahl;
-- Wenn Sie vor allem auf Sicherheit, Stabilität und Leistung Wert legen und ausserdem eine umfassende Kontrolle über Ihre digitale Umgebung wünschen und bereit sind, Zeit in das Erlernen der Bedienung Ihres Betriebssystems zu investieren, ist Linux eine ausgezeichnete Wahl, insbesondere in einem Kontext, in dem technische Autonomie und digitale Souveränität Priorität haben.
+- Wenn du auf der Suche nach Einfachheit, umfassender Hardware- und Softwarekompatibilität (insbesondere für Videospiele) sowie allgemeiner Nutzung bist, kann Windows eine gute Wahl sein. Du solltest dir jedoch der Einschränkungen in Bezug auf Leistung, Sicherheit und Datenschutz bewusst sein;
+- Wenn du eine optimale Integration zwischen deiner Hardware und deinem System, ein ausgefeiltes und benutzerfreundliches Interface und eine relativ gute Sicherheit suchst, ohne dass eine fortgeschrittene Konfiguration erforderlich ist, und wenn du bereits im Apple-Ökosystem bist oder einsteigen möchtest, ist macOS eine natürliche Wahl;
+- Wenn du vor allem auf Sicherheit, Stabilität und Leistung Wert legst und außerdem eine umfassende Kontrolle über deine digitale Umgebung wünschst und bereit bist, Zeit in das Erlernen der Bedienung deines Betriebssystems zu investieren, ist Linux eine ausgezeichnete Wahl – insbesondere in einem Kontext, in dem technische Autonomie und digitale Souveränität Priorität haben.
 
-
-
-In den nächsten Kapiteln dieses Abschnitts über Betriebssysteme werde ich mich näher mit Linux befassen, gerade weil es diese bessere Kontrolle über Ihre persönliche digitale Umgebung ermöglicht.
+In den nächsten Kapiteln dieses Abschnitts über Betriebssysteme werde ich mich näher mit Linux beschäftigen, gerade weil es dir diese bessere Kontrolle über deine persönliche digitale Umgebung ermöglicht.
 
 
 
@@ -495,7 +493,7 @@ In den nächsten Kapiteln dieses Abschnitts über Betriebssysteme werde ich mich
 
 
 
-Bevor wir uns mit den GNU/Linux-Distributionen und dem Platz, den dieses System in der heutigen Computerwelt einnimmt, beschäftigen, ist es wichtig, seine Ursprünge zurückzuverfolgen, um zu verstehen, wofür es steht. In diesem Kapitel werfen wir einen Blick zurück auf die historischen, philosophischen und technischen Wurzeln von GNU/Linux, auf das Erbe von Unix, das Genesis des GNU-Projekts, die Entwicklung des Linux-Kernels und die Entstehung der Bewegung für freie Software.
+Bevor wir uns mit den GNU/Linux-Distributionen und dem Platz, den dieses System in der heutigen Computerwelt einnimmt, beschäftigen, ist es wichtig, seine Ursprünge zurückzuverfolgen, um zu verstehen, wofür es steht. In diesem Kapitel werfen wir einen Blick zurück auf die historischen, philosophischen und technischen Wurzeln von GNU/Linux, auf das Erbe von Unix, der Ursprung des GNU-Projekts, die Entwicklung des Linux-Kernels und die Entstehung der Bewegung für freie Software.
 
 
 
@@ -515,7 +513,7 @@ Dieser Ansatz spiegelt sich in dem von Doug McIlroy formulierten Gründungsprinz
 
 
 
-> Tun Sie eine Sache und tun Sie sie gut.
+> Tue eine Sache und tue sie gut.
 
 Unix kann als Weiterentwicklung und Reaktion auf das Multics-Betriebssystem gesehen werden, dessen Architektur es übernommen hat. Multics war ein 1964 initiiertes Projekt, das aus der Zusammenarbeit zwischen dem MIT, General Electric und AT&T Bell Laboratories hervorging. Ken Thompson und Dennis Ritchie (die Schöpfer von UNIX) verfolgten das Multics-Projekt bis 1969, als sich ihr Unternehmen aus der Entwicklung zurückzog.
 
@@ -545,7 +543,7 @@ Die zunehmende Fragmentierung zwischen diesen Zweigen (BSD auf der akademischen 
 
 
 
-Das GNU-Projekt (ein rekursives Akronym für "*GNU's Not Unix*") wurde offiziell von Richard Stallman am 27. September 1983 in speziellen Newsgroups angekündigt. Zu dieser Zeit arbeitete Stallman noch am Artificial Intelligence Laboratory des MIT. Am 5. Januar 1984 trat er freiwillig von seiner Stelle zurück, um sicherzustellen, dass der Code, den er schreiben wollte, nicht von seinem Arbeitgeber beansprucht werden konnte. Daraufhin begann er mit der Entwicklung von GNU, mit dem Ziel, ein völlig freies Betriebssystem zu schaffen, d.h. eines, das die vier Grundfreiheiten respektiert: freie Ausführung, freies Studium, freie Modifikation und freie Weiterverbreitung.
+Das GNU-Projekt (ein rekursives Akronym für "*GNU's Not Unix*") wurde offiziell von Richard Stallman am 27. September 1983 in speziellen Newsgroups angekündigt. Zu dieser Zeit arbeitete Stallman noch am Artificial Intelligence Laboratory des MIT. Am 5. Januar 1984 trat er freiwillig von seiner Stelle zurück. Er wollte damit sicherstellen, dass der Code, den er schreiben wollte, nicht von seinem Arbeitgeber beansprucht werden konnte. Daraufhin begann er mit der Entwicklung von GNU, mit dem Ziel, ein völlig freies Betriebssystem zu schaffen, d.h. eines, das die vier Grundfreiheiten respektiert: freie Ausführung, freies Studium, freie Modifikation und freie Weiterverbreitung.
 
 
 
@@ -629,7 +627,7 @@ Dieser Kernel, der zunächst den Namen Freax trug und später in Linux umbenannt
 
 Als Linux in den 1990er Jahren an Popularität gewann, entstand eine ideologische Debatte um die Begriffe "freie Software" und "Open Source", nicht zuletzt wegen der doppelten Bedeutung des Begriffs "*frei*".
 
-
+xxx
 
 Während Richard Stallman und die FSF die Idee der freien Software auf der Grundlage ethischer Prinzipien ("*frei wie die Freiheit*") nachdrücklich vertreten, bevorzugen andere Akteure einen pragmatischeren, technisch orientierten Ansatz, der sich auf die Transparenz und technische Effizienz des offenen Modells konzentriert. Im Jahr 1998 wurde die Open Source Initiative (OSI) gegründet, die den Begriff "Open Source" einführte, um den Unternehmenssektor stärker anzusprechen und die wirtschaftlichen und technischen Vorteile gegenüber ideologischen Erwägungen zu betonen.
 
