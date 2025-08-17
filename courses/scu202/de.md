@@ -627,7 +627,7 @@ Dieser Kernel, der zunächst den Namen Freax trug und später in Linux umbenannt
 
 Als Linux in den 1990er Jahren an Popularität gewann, entstand eine ideologische Debatte um die Begriffe "freie Software" und "Open Source", nicht zuletzt wegen der doppelten Bedeutung des Begriffs "*frei*".
 
-xxx
+
 
 Während Richard Stallman und die FSF die Idee der freien Software auf der Grundlage ethischer Prinzipien ("*frei wie die Freiheit*") nachdrücklich vertreten, bevorzugen andere Akteure einen pragmatischeren, technisch orientierten Ansatz, der sich auf die Transparenz und technische Effizienz des offenen Modells konzentriert. Im Jahr 1998 wurde die Open Source Initiative (OSI) gegründet, die den Begriff "Open Source" einführte, um den Unternehmenssektor stärker anzusprechen und die wirtschaftlichen und technischen Vorteile gegenüber ideologischen Erwägungen zu betonen.
 
@@ -649,7 +649,7 @@ Der Unterschied zwischen den beiden Begriffen liegt also in der zugrundeliegende
 
 
 
-Trotz ihrer philosophischen Unterschiede teilen diese beiden Strömungen gemeinsame Werte wie Transparenz, Überprüfbarkeit des Quellcodes, Herstellerunabhängigkeit und die Fähigkeit der Endnutzer, ihre Softwaretools zu verstehen, zu ändern und zu verbessern. Auch heute noch geben diese Unterschiede regelmässig Anlass zu Diskussionen und Überlegungen innerhalb der technischen Gemeinschaften, insbesondere der Bitcoin.
+Trotz ihrer philosophischen Unterschiede teilen diese beiden Strömungen gemeinsame Werte wie Transparenz, Überprüfbarkeit des Quellcodes, Herstellerunabhängigkeit und die Fähigkeit der Endnutzer, ihre Softwaretools zu verstehen, zu ändern und zu verbessern. Auch heute noch geben diese Unterschiede regelmässig Anlass zu Diskussionen und Überlegungen innerhalb der technischen Gemeinschaften, insbesondere unter den Bitcoinern.
 
 
 
@@ -673,7 +673,7 @@ GNU/Linux ist viel mehr als nur ein Betriebssystem: Es ist eine Philosophie, ein
 
 
 
-Vor dem Hintergrund dieses technischen Erbes ist es nun möglich, konkret zu untersuchen, wie sich diese Prinzipien im heutigen Ökosystem der Personal Computer materialisieren. Zu diesem Zweck werden wir die riesige Landschaft der Linux- (oder GNU/Linux-) Distributionen erkunden, um ihre Entwicklung und Anwendungsfälle zu verstehen und Ihnen bei der Auswahl der für Ihre Bedürfnisse am besten geeigneten Distribution zu helfen.
+Vor dem Hintergrund dieses technischen Erbes ist es nun möglich, konkret zu untersuchen, wie sich diese Prinzipien im heutigen Ökosystem der Personal Computer materialisieren. Zu diesem Zweck werden wir die riesige Landschaft der Linux- (oder GNU/Linux-) Distributionen erkunden, um ihre Entwicklung und Anwendungsfälle zu verstehen und dir bei der Auswahl der für deine Bedürfnisse am besten geeigneten Distribution zu helfen.
 
 
 
@@ -684,7 +684,7 @@ Vor dem Hintergrund dieses technischen Erbes ist es nun möglich, konkret zu unt
 
 
 
-Eine Linux-Distribution (oft mit "*distro*" abgekürzt) ist ein komplettes Betriebssystem, das aus dem Linux-Kernel (und oft mit Elements von GNU) sowie einem kohärenten Satz von Software, Bibliotheken, Initialisierungsskripten und Verwaltungswerkzeugen besteht, um eine gebrauchsfertige Umgebung zu bilden. Eine Linux-Distribution ist daher nicht auf den Kernel beschränkt, sondern stellt eine umfassende Integration der Softwarekomponenten dar, die zum Betrieb und zur Nutzung eines Computers (oder eines anderen Computergeräts) erforderlich sind.
+Eine Linux-Distribution (oft mit "*distro*" abgekürzt) ist ein komplettes Betriebssystem, das aus dem Linux-Kernel (und oft mit Elementen von GNU) sowie einem kohärenten Satz von Software, Bibliotheken, Initialisierungsskripten und Verwaltungswerkzeugen besteht, um eine gebrauchsfertige Umgebung zu bilden. Eine Linux-Distribution ist daher nicht auf den Kernel beschränkt, sondern stellt eine umfassende Integration der Softwarekomponenten dar, die zum Betrieb und zur Nutzung eines Computers (oder eines anderen Computergeräts) erforderlich sind.
 
 
 
@@ -693,13 +693,13 @@ Jede Linux-Distribution enthält :
 
 
 
-- der **Linux-Kernel**, der mit der Hardware kommuniziert und die Systemressourcen verwaltet (CPU, Speicher, Festplatten usw.)
+- den **Linux-Kernel**, der mit der Hardware kommuniziert und die Systemressourcen verwaltet (CPU, Speicher, Festplatten usw.)
 - einen **Bootloader**, wie z. B. *GRUB*, um das System zu starten
 - ein **Initialisierungssystem**, mit dem Dienste beim Booten gestartet werden können: *systemd*, *OpenRC*, *SysV init* oder *runit*, je nach den philosophischen Entscheidungen der Distribution
-- ein **Paketverwaltungssystem**, mit dem Sie Software installieren, aktualisieren und entfernen können. Die gängigsten sind *APT* (Debian, Ubuntu), *RPM/DNF* (Fedora, RHEL), *Pacman* (Arch), *Zypper* (openSUSE) oder *APK* (Alpine)
+- ein **Paketverwaltungssystem**, mit dem du Software installieren, aktualisieren und entfernen kannst. Die gängigsten sind *APT* (Debian, Ubuntu), *RPM/DNF* (Fedora, RHEL), *Pacman* (Arch), *Zypper* (openSUSE) oder *APK* (Alpine)
 - online **Software-Repositories**, die geprüfte Versionen verfügbarer Anwendungen zentral speichern
 - einen **Satz von Systemwerkzeugen** (Shell, Editoren, Compiler, Netzwerkschnittstellen usw.) und häufig eine vorkonfigurierte Desktop-Umgebung (*GNOME*, *KDE Plasma*, *XFCE* usw.)
-- konfigurationsskripte, Dokumentation und, in einigen Fällen, Unterstützungsdienste
+- Konfigurationsskripte, Dokumentation und, in einigen Fällen, Unterstützungsdienste
 
 
 
@@ -715,11 +715,11 @@ Diese Zusammenstellungsarbeit ist spezifisch für jede Distribution, die ihre Ko
 
 
 
-Die Existenz von Distributionen ermöglicht es den Benutzern, von einem gebrauchsfertigen Linux-System zu profitieren, ohne jede Softwarekomponente manuell neu erstellen zu müssen. Dies ist ein enormer Gewinn an Zeit, Konsistenz und Sicherheit. Was die Architektur betrifft, so nutzen die Distributionen die Vorteile der Hardware-Abstraktion Layer, die der Linux-Kernel bietet. Diese Layer ermöglicht es dem Betriebssystem, mit einer breiten Palette unterschiedlicher Hardware kompatibel zu sein, ohne dass die Software an jede einzelne Komponente angepasst werden muss. Diese Modularität macht es auch einfach, Systemkomponenten zu ändern oder zu ersetzen, ohne das gesamte System neu aufbauen zu müssen.
+Die Existenz von Distributionen ermöglicht es den Benutzern, von einem gebrauchsfertigen Linux-System zu profitieren, ohne jede Softwarekomponente manuell neu erstellen zu müssen. Dies ist ein enormer Gewinn an Zeit, Konsistenz und Sicherheit. Was die Architektur betrifft, so nutzen die Distributionen die Vorteile der Hardware-Abstraktions-Schicht, die der Linux-Kernel bietet. Diese Schicht ermöglicht es dem Betriebssystem, mit einer breiten Palette unterschiedlicher Hardware kompatibel zu sein, ohne dass die Software an jede einzelne Komponente angepasst werden muss. Diese Modularität macht es auch einfach, Systemkomponenten zu ändern oder zu ersetzen, ohne das gesamte System neu aufbauen zu müssen.
 
 
 
-Das Verständnis der Unterschiede zwischen den Linux-Distributionen ist daher ein wichtiger Schritt bei der Auswahl der richtigen Distribution für Ihre Bedürfnisse, Fähigkeiten und Anforderungen. Damit werden wir uns in diesem Kapitel befassen.
+Das Verständnis der Unterschiede zwischen den Linux-Distributionen ist daher ein wichtiger Schritt bei der Auswahl der richtigen Distribution für deine Bedürfnisse, Fähigkeiten und Anforderungen. Damit werden wir uns in diesem Kapitel befassen.
 
 
 
@@ -731,7 +731,7 @@ Die ersten Linux-Distributionen erschienen unmittelbar nach der Veröffentlichun
 
 
 
-Um Linux zugänglicher zu machen, entstehen rasch mehrere Projekte mit der Idee, aus dem Linux-Kernel und einem kohärenten Satz von Software-Tools ein einsatzbereites System zusammenzustellen.
+Um Linux zugänglicher zu machen, entstanden rasch mehrere Projekte mit der Idee, aus dem Linux-Kernel und einem kohärenten Satz von Software-Tools ein einsatzbereites System zusammenzustellen.
 
 
 
@@ -777,7 +777,7 @@ SLS existiert nicht mehr. Seine letzte bekannte Version stammt von Ende 1994.
 
 
 
-Patrick Volkerding rief Slackware eher zufällig ins Leben, indem er im Rahmen eines Schulprojekts an der Minnesota State University Fehler in SLS beseitigte und verbesserte. Durch zahlreiche Änderungen und Optimierungen wurde seine modifizierte Version von SLS schliesslich zu einer wirklich unabhängigen Linux-Distribution, die die von den Einschränkungen von SLS enttäuschte Öffentlichkeit ansprechen sollte. Nachdem er die Zustimmung seiner Universität erhalten hatte, veröffentlichte er am 17. Juli 1993 die erste Version seiner Distribution unter dem Namen Slackware.
+Patrick Volkerding rief Slackware eher zufällig ins Leben, indem er im Rahmen eines Schulprojekts an der Minnesota State University Fehler in SLS beseitigte und verbesserte. Durch zahlreiche Änderungen und Optimierungen wurde seine modifizierte Version von SLS schliesslich zu einer wirklich unabhängigen Linux-Distribution. Sie sollte die von den Einschränkungen von SLS enttäuschte Öffentlichkeit ansprechen. Nachdem er die Zustimmung seiner Universität erhalten hatte, veröffentlichte er am 17. Juli 1993 die erste Version seiner Distribution unter dem Namen Slackware.
 
 
 
@@ -799,7 +799,7 @@ Slackware wird auch heute noch gepflegt und ist damit die älteste noch im Einsa
 
 
 
-Etwa zur gleichen Zeit brachte Ian Murdock die Debian-Distribution auf den Markt, die sich stark von den damaligen Praktiken unterschied, vor allem von denen, die von Distributionen wie SLS verkörpert wurden, die oft von einer einzigen Person betreut wurden. Murdock konzipierte Debian als ein strukturiertes Gemeinschaftsprojekt, das im Geiste der freien Software und des GNU-Projekts offen entwickelt wurde. Im Gegensatz zu vielen anderen Linux-Distributionen ist Debian eine nicht-kommerzielle Distribution.
+Etwa zur gleichen Zeit brachte Ian Murdock die Debian-Distribution auf den Markt, die sich stark von den damaligen Praktiken unterschied. Vor allem von denen, die von Distributionen wie SLS verkörpert wurden, die oft von einer einzigen Person betreut wurden. Murdock konzipierte Debian als ein strukturiertes Gemeinschaftsprojekt, das im Geiste der freien Software und des GNU-Projekts offen entwickelt wurde. Im Gegensatz zu vielen anderen Linux-Distributionen ist Debian eine nicht-kommerzielle Distribution.
 
 
 
@@ -811,7 +811,7 @@ Etwa zur gleichen Zeit brachte Ian Murdock die Debian-Distribution auf den Markt
 
 
 
-Aus technischer Sicht zeichnete sich Debian von Anfang an durch die Qualität seines Paketsystems, die Nachvollziehbarkeit von Aktualisierungen und vor allem durch die Einführung eines leistungsfähigen Paketmanagers *dpkg* aus, der 1998 schnell durch *APT* ergänzt wurde und eine automatisierte und zuverlässige Verwaltung von Software-Abhängigkeiten ermöglicht.
+Aus technischer Sicht zeichnete sich Debian von Anfang an durch die Qualität seines Paketsystems, die Nachvollziehbarkeit von Aktualisierungen und vor allem durch die Einführung eines leistungsfähigen Paketmanagers *dpkg* aus. Letzterer wurde 1998 durch *APT* ergänzt und ermöglichte eine automatisierte und zuverlässige Verwaltung von Software-Abhängigkeiten.
 
 
 
@@ -823,7 +823,7 @@ Aus technischer Sicht zeichnete sich Debian von Anfang an durch die Qualität se
 
 
 
-Schon früh formalisierte das Projekt seine ethischen Verpflichtungen mit der Veröffentlichung der *Debian Social Contract* und der Debian Free Software Guidelines (DFSG), um eine klare Charta für Codefreiheit und Transparenz zu schaffen. Eine Zeit lang von der Free Software Foundation unterstützt, wurde Debian dann 1997 durch die Gründung der gemeinnützigen Organisation Software in the Public Interest (SPI) rechtlich unabhängig.
+Schon früh formalisierte das Projekt seine ethischen Verpflichtungen mit der Veröffentlichung der *Debian Social Contract* und der Debian Free Software Guidelines (DFSG), um eine klare Charta für Codefreiheit und Transparenz zu schaffen. Eine Zeit lang von der Free Software Foundation unterstützt, wurde Debian dann 1997 durch die Gründung der gemeinnützigen Organisation 'Software in the Public Interest' (SPI) rechtlich unabhängig.
 
 
 
@@ -837,7 +837,7 @@ Debian wurde so zu einer der technischen und ideologischen Säulen der GNU/Linux
 
 
 
-Marc Ewing veröffentlichte die erste Version von Red Hat Linux im Jahr 1994. Dies war die Geburtsstunde einer Distribution, die eine zentrale Rolle bei der Professionalisierung von Linux spielen sollte. Fasziniert vom Unix-Universum schuf Ewing eine strukturierte, leicht zugängliche Version von Linux, die ein wichtiges Werkzeug enthielt: den *Red Hat Package Manager* (RPM), der das Format von Softwarepaketen standardisierte und ihre Installation, Aktualisierung und Entfernung erleichterte, insbesondere in professionellen Umgebungen. Dieses Format sollte sich zu einem weit verbreiteten Standard entwickeln.
+Marc Ewing veröffentlichte die erste Version von Red Hat Linux im Jahr 1994. Dies war die Geburtsstunde einer Distribution, die eine zentrale Rolle bei der Professionalisierung von Linux spielen sollte. Fasziniert vom Unix-Universum schuf Ewing eine strukturierte, leicht zugängliche Version von Linux, die ein wichtiges Werkzeug enthielt: den *Red Hat Package Manager* (RPM). Dieser standardisierte das Format von Softwarepaketen und erleichterte ihre Installation, Aktualisierung und Entfernung, insbesondere in professionellen Umgebungen. Dieses Format sollte sich zu einem weit verbreiteten Standard entwickeln.
 
 
 
@@ -889,7 +889,7 @@ Auf diese Familie werden wir uns im Folgenden konzentrieren, da sie einige der b
 
 
 
-Diese Familie basiert auf dem RPM-Format (*Red Hat Package Manager*) und umfasst daher Fedora, die innovative Community-Distribution, die als technische Grundlage für Red Hat Enterprise Linux (RHEL) dient, eine kommerzielle Distribution für Unternehmen, die für ihre langfristige Stabilität bekannt ist.
+Diese Familie basiert auf dem RPM-Format (*Red Hat Package Manager*). Sie umfasst daher Fedora, die innovative Community-Distribution, die als technische Grundlage für Red Hat Enterprise Linux (RHEL) dient. Letzteres ist eine kommerzielle Distribution für Unternehmen, die für ihre langfristige Stabilität bekannt ist.
 
 
 
@@ -917,7 +917,7 @@ Die Arch-Linux-Familie zeichnet sich durch eine Philosophie aus, die sich radika
 
 
 
-Dieser Ansatz basiert auf einem *Rolling-Release*-Modell, bei dem Pakete kontinuierlich aktualisiert werden, ohne dass das System bei jeder grösseren Veröffentlichung neu installiert werden muss. Der Pacman-Paketmanager ist schnell und leichtgewichtig, was die Installation und Aktualisierung von Software vereinfacht, und das AUR (*Arch User Repository*), ein Community-Repository, bietet Zugang zu einer grossen Anzahl inoffizieller und Entwicklungspakete.
+Dieser Ansatz basiert auf einem *Rolling-Release*-Modell, bei dem Pakete kontinuierlich aktualisiert werden, ohne dass das System bei jeder grösseren Veröffentlichung neu installiert werden muss. Der Pacman-Paketmanager ist schnell und leichtgewichtig, was die Installation und Aktualisierung von Software vereinfacht. Das AUR (*Arch User Repository*), ein Community-Repository, bietet Zugang zu einer grossen Anzahl inoffizieller und Entwicklungspakete.
 
 Arch Linux richtet sich vor allem an fortgeschrittene Benutzer, die eine vollständige Kontrolle über ihre Umgebung wünschen und dabei eine gewisse Komplexität bei der Installation und Wartung in Kauf nehmen. Diese technische Anforderung hat zur Entstehung mehrerer abgeleiteter Distributionen geführt, die darauf abzielen, seine Nutzung zu demokratisieren.
 
@@ -935,11 +935,11 @@ Am bekanntesten ist Manjaro, das die technische Basis von Arch beibehält, aber 
 
 
 
-Slackware bleibt den historischen Unix-Prinzipien treu, wobei der Schwerpunkt auf Einfachheit, Transparenz und Stabilität liegt. Im Gegensatz zu modernen Distributionen, die die Softwareverwaltung automatisieren, verlässt sich Slackware auf ein `.tgz`-Paketsystem ohne automatische Auflösung von Abhängigkeiten, was eine gute Kenntnis der Umgebung und der Softwarekomponenten erfordert.
+Slackware bleibt den historischen Unix-Prinzipien treu, wobei der Schwerpunkt auf Einfachheit, Transparenz und Stabilität liegt. Modernere Distributionen automatisieren die Softwareverwaltung. Im Gegensatz dazu verlässt sich Slackware auf ein `.tgz`-Paketsystem ohne automatische Auflösung von Abhängigkeiten, was eine gute Kenntnis der Umgebung und der Softwarekomponenten erfordert.
 
 
 
-Dieser minimalistische Ansatz, kombiniert mit hoher Stabilität, macht Slackware zu einer Distribution, die von erfahrenen Benutzern oder Unix-Puristen bevorzugt wird, insbesondere in Kontexten, in denen Vorhersagbarkeit und Kontrolle wichtig sind (Server, eingebettete Systeme, unternehmenskritische Umgebungen usw.).
+Dieser minimalistische Ansatz, kombiniert mit hoher Stabilität, macht Slackware zu einer Distribution, die von erfahrenen Benutzern oder Unix-Puristen bevorzugt wird. Dies insbesondere in Kontexten, in denen Vorhersagbarkeit und Kontrolle wichtig sind (Server, eingebettete Systeme, unternehmenskritische Umgebungen usw.).
 
 
 
@@ -959,7 +959,7 @@ Trotz einer kleineren Gemeinschaft als Debian oder Red Hat bleibt die Slackware-
 
 
 
-Gentoo ist ein Ableger des 1999 gegründeten Enoch Linux-Projekts und wurde von Daniel Robbins mit dem Ziel entwickelt, eine hochgradig anpassbare Distribution ohne vorkompilierte Binärdateien zu entwickeln, die für die Hardware des Benutzers optimiert ist. Umbenannt in Gentoo (nach dem Papua-Pinguin, einem der schnellsten Pinguine), basiert die Distribution auf der Kompilierung von Paketen aus dem Quellcode, was dank der Verwendung von *Portage*, einem von BSD-Ports inspirierten Paketverwaltungssystem, sehr fein abgestimmte Optimierungen ermöglicht. Gentoo richtet sich an erfahrene Benutzer, die Leistung, Kontrolle und Leichtigkeit suchen, allerdings um den Preis längerer Installations- und Wartungszeiten.
+Gentoo ist ein Ableger des 1999 gegründeten Enoch Linux-Projekts und wurde von Daniel Robbins mit dem Ziel entwickelt, eine hochgradig anpassbare Distribution ohne vorkompilierte Binärdateien zu entwickeln, die für die Hardware des Benutzers optimiert ist. Umbenannt in Gentoo (nach dem Papua-Pinguin, einem der schnellsten Pinguine), basiert die Distribution auf der Kompilierung von Paketen aus dem Quellcode. Dies ermöglicht dank der Verwendung von *Portage*, einem von BSD-Ports inspirierten Paketverwaltungssystem, sehr fein abgestimmte Optimierungen. Gentoo richtet sich an erfahrene Benutzer, die Leistung, Kontrolle und Leichtigkeit suchen, allerdings um den Preis längerer Installations- und Wartungszeiten.
 
 
 
@@ -971,7 +971,7 @@ Es wurden mehrere Derivate entwickelt, um seine Verwendung zu erweitern: Funtoo,
 
 
 
-ChromeOS schliesslich, das Betriebssystem, das Google für seine Chromebooks entwickelt hat, war ursprünglich von Gentoo abgeleitet, obwohl es sich inzwischen stark davon entfernt hat.
+ChromeOS schliesslich, das Betriebssystem, das Google für seine Chromebooks entwickelt hat, war ursprünglich von Gentoo abgeleitet. Mittlerweile hat es sich stark davon entfernt.
 
 
 
@@ -979,7 +979,7 @@ ChromeOS schliesslich, das Betriebssystem, das Google für seine Chromebooks ent
 
 
 
-Um mehr über die Linux-Distributionsfamilien zu erfahren und die einzelnen Zweige zu visualisieren, empfehle ich Ihnen dieses ausgezeichnete und sehr umfassende Diagramm auf Wikimedia: [*Zeitleiste der Linux-Distributionen*] (https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg).
+Um mehr über die Linux-Distributionsfamilien zu erfahren und die einzelnen Zweige zu visualisieren, empfehle ich dir dieses ausgezeichnete und sehr umfassende Diagramm auf Wikimedia: [*Zeitleiste der Linux-Distributionen*] (https://upload.wikimedia.org/wikipedia/commons/1/1b/Linux_Distribution_Timeline.svg).
 
 
 
@@ -987,7 +987,7 @@ Um mehr über die Linux-Distributionsfamilien zu erfahren und die einzelnen Zwei
 
 
 
-Die Wahl einer Linux-Distribution hängt von Ihren spezifischen Bedürfnissen, Ihrem technischen Niveau und Ihrem Verwendungszweck ab. Hier finden Sie eine praktische Auswahl der am weitesten verbreiteten oder spezialisierten Distributionen mit ihren wichtigsten Vor- und Nachteilen.
+Die Wahl einer Linux-Distribution hängt von deinen spezifischen Bedürfnissen, deinem technischen Niveau und deinem Verwendungszweck ab. Hier findest du eine praktische Auswahl der am weitesten verbreiteten oder spezialisierten Distributionen mit ihren wichtigsten Vor- und Nachteilen.
 
 
 
@@ -997,7 +997,7 @@ Die Wahl einer Linux-Distribution hängt von Ihren spezifischen Bedürfnissen, I
 
 
 
-- Ubuntu**:
+- Ubuntu:
 
 
 
@@ -1013,11 +1013,11 @@ https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be
 
 
 
-- Linux Mint**:
+- Linux Mint:
 
 
 
-Linux Mint wurde 2006 eingeführt und ist eine von Ubuntu abgeleitete Distribution, die eine intuitivere Alternative bieten soll, die der Ergonomie von Windows näher kommt. Sie bietet mehrere Desktop-Umgebungen, darunter Cinnamon, eine Fork von GNOME, die speziell vom Mint-Team entwickelt wurde und eine klare, klassische und sofort vertraute Interface bietet.
+Linux Mint wurde 2006 eingeführt und ist eine von Ubuntu abgeleitete Distribution, die eine intuitivere Alternative bieten soll. Sie soll der Ergonomie von Windows näher kommen. Sie bietet mehrere Desktop-Umgebungen, darunter Cinnamon, eine Fork von GNOME, die speziell vom Mint-Team entwickelt wurde und eine klare, klassische und sofort vertraute Benutzeroberfläche bietet.
 
 
 
@@ -1033,7 +1033,7 @@ Mint zeichnet sich durch seine Einfachheit, das standardmässige Vorhandensein v
 
 
 
-- Zorin OS**:
+- Zorin OS:
 
 
 
@@ -1041,7 +1041,7 @@ Zorin OS wurde 2008 von einem irischen Team entwickelt und richtet sich ausdrüc
 
 
 
-Die Installation verläuft reibungslos, wichtige Software ist vorinstalliert, und mit der "Lite"-Version können Sie das System auch auf älteren Rechnern einsetzen. Einige Editionen, wie z. B. "Pro", sind nicht kostenlos (etwa 50 €), aber die kostenlose Version ist immer noch voll funktionsfähig. Zorin OS ist eine gute Wahl für alle, die eine visuell vertraute, gut integrierte Umgebung ohne manuelle Konfiguration suchen.
+Die Installation verläuft reibungslos, wichtige Software ist vorinstalliert, und mit der "Lite"-Version kannst du das System auch auf älteren Rechnern einsetzen. Einige Editionen, wie z.B. "Pro", sind nicht kostenlos (etwa 50 €), aber die kostenlose Version ist immer noch voll funktionsfähig. Zorin OS ist eine gute Wahl für alle, die eine visuell vertraute, gut integrierte Umgebung ohne manuelle Konfiguration suchen.
 
 
 
@@ -1051,9 +1051,9 @@ Die Installation verläuft reibungslos, wichtige Software ist vorinstalliert, un
 
 
 
-- elementares OS**:
+- Elementary OS:
 
-Elementary OS wurde 2011 eingeführt und ist eine Ubuntu-basierte Distribution, die sich vor allem auf das Design und die Konsistenz von Interface konzentriert. Seine Pantheon-Desktop-Umgebung, inspiriert von macOS, ist minimalistisch, elegant und flüssig. Das System ist jedoch weniger anpassbar als andere Distributionen, und einige fortgeschrittene Benutzer könnten sich durch die Auswahlmöglichkeiten von Interface und seine absichtlich festgelegte Struktur eingeschränkt fühlen. Es ist gut geeignet für ästhetisch sensible Benutzer, die ein einfaches, kohärentes System für den täglichen Gebrauch suchen.
+Elementary OS wurde 2011 eingeführt und ist eine Ubuntu-basierte Distribution, die sich vor allem auf das Design und die Konsistenz der Benutzeroberfläche konzentriert. Seine Pantheon-Desktop-Umgebung, inspiriert von macOS, ist minimalistisch, elegant und flüssig. Das System ist jedoch weniger anpassbar als andere Distributionen, und einige fortgeschrittene Benutzer könnten sich durch die Auswahlmöglichkeiten der Benutzeroberfläche und seiner absichtlich festgelegten Struktur eingeschränkt fühlen. Es ist gut geeignet für ästhetisch sensible Benutzer, die ein einfaches, kohärentes System für den täglichen Gebrauch suchen.
 
 https://planb.network/tutorials/computer-security/operating-system/elementary-os-757a20be-22b5-484c-a032-2bdd909860ac
 
@@ -1065,11 +1065,11 @@ https://planb.network/tutorials/computer-security/operating-system/elementary-os
 
 
 
-- Pop!OS**:
+- Pop!OS:
 
 
 
-Pop!OS wurde von der amerikanischen Firma System76 entwickelt und basiert ebenfalls auf Ubuntu. Es richtet sich sowohl an Desktop-Benutzer als auch an Entwickler, mit einem modifizierten Interface GNOME (und neuerdings einer hauseigenen Umgebung namens COSMIC). Pop!OS integriert standardmässig Optimierungen für NVIDIA-GPUs und bietet einen Mosaik-Fensterverwaltungsmodus. Das System ist einfach zu bedienen, bietet aber auch fortgeschrittene, sofort einsetzbare Funktionalitäten. Es richtet sich an fortgeschrittene Benutzer, Studenten oder Profis, die ein effizientes System wünschen, ohne ihre Umgebung von Hand konfigurieren zu müssen.
+Pop!OS wurde von der amerikanischen Firma System76 entwickelt und basiert ebenfalls auf Ubuntu. Es richtet sich sowohl an Desktop-Benutzer als auch an Entwickler, mit einer modifizierten GNOME Benutzeroberfläche (und neuerdings einer hauseigenen Umgebung namens COSMIC). Pop!OS integriert standardmässig Optimierungen für NVIDIA-GPUs und bietet einen Mosaik-Fensterverwaltungsmodus. Das System ist einfach zu bedienen, bietet aber auch fortgeschrittene, sofort einsetzbare Funktionalitäten. Es richtet sich an fortgeschrittene Benutzer, Studenten oder Profis, die ein effizientes System wünschen, ohne ihre Umgebung von Hand konfigurieren zu müssen.
 
 
 
@@ -1087,11 +1087,11 @@ Pop!OS wurde von der amerikanischen Firma System76 entwickelt und basiert ebenfa
 
 
 
-- Fedora** (Workstation oder KDE Plasma):
+- Fedora (Workstation oder KDE Plasma):
 
 
 
-Fedora ist eine von Red Hat unterstützte Distribution, die sich an den neuesten Technologien orientiert (Wayland, PipeWire, Flatpak...). Sie verwendet das RPM-Format und den Paketmanager `dnf`. Ihr schneller Veröffentlichungszyklus bedeutet, dass Ihr System immer auf dem neuesten Stand ist, aber Sie müssen mit den regelmässigen Updates Schritt halten. Es ist eine ideale Distribution für Entwickler oder technische Benutzer, die ein modernes System suchen.
+Fedora ist eine von Red Hat unterstützte Distribution, die sich an den neuesten Technologien orientiert (Wayland, PipeWire, Flatpak...). Sie verwendet das RPM-Format und den Paketmanager `dnf`. Der schnelle Veröffentlichungszyklus bedeutet, dass dein System immer auf dem neuesten Stand ist, aber du musst mit den regelmässigen Updates Schritt halten. Es ist eine ideale Distribution für Entwickler oder technische Benutzer, die ein modernes System suchen.
 
 
 
@@ -1101,11 +1101,11 @@ Fedora ist eine von Red Hat unterstützte Distribution, die sich an den neuesten
 https://planb.network/tutorials/computer-security/operating-system/fedora-8c17b6ca-5acb-4825-a069-4474375534b0
 
 
-- openSUSE** (Tumbleweed oder Leap):
+- openSUSE (Tumbleweed oder Leap):
 
 
 
-openSUSE ist als Rolling Release oder stabile Distribution erhältlich. Sie verfügt über das YaST-Tool für die Systemkonfiguration und ermöglicht eine vielseitige Nutzung mit verschiedenen grafischen Umgebungen. Es erfordert ein wenig mehr Erfahrung, ist aber für den täglichen Gebrauch robust.
+openSUSE ist als Rolling Release oder stabile Distribution erhältlich. Es verfügt über das YaST-Tool für die Systemkonfiguration und ermöglicht eine vielseitige Nutzung mit verschiedenen grafischen Umgebungen. Es erfordert ein wenig mehr Erfahrung, ist aber für den täglichen Gebrauch robust.
 
 
 
@@ -1115,11 +1115,11 @@ openSUSE ist als Rolling Release oder stabile Distribution erhältlich. Sie verf
 
 
 
-- Debian**:
+- Debian:
 
 
 
-Debian existiert in mehreren Zweigen, darunter *Stable* (sehr zuverlässige, aber ältere Software) und *Testing* (aktueller, aber etwas weniger bewährt). Es verwendet `apt` und ist bekannt für seine Strenge, freie Philosophie und hohe Kompatibilität. Debian ist eine gute Wahl für Benutzer, die nach Stabilität suchen, Systemadministratoren...
+Debian existiert in mehreren Zweigen, darunter *Stable* (sehr zuverlässige, aber ältere Software) und *Testing* (aktueller, aber etwas weniger bewährt). Es verwendet `apt` und ist bekannt für seine Strenge, seine freie Philosophie und seine hohe Kompatibilität. Debian ist eine gute Wahl für Benutzer, die nach Stabilität suchen, z.B. Systemadministratoren.
 
 
 
@@ -1129,7 +1129,7 @@ Debian existiert in mehreren Zweigen, darunter *Stable* (sehr zuverlässige, abe
 https://planb.network/tutorials/computer-security/operating-system/debian-d09a57ec-8372-40ca-bcff-499415209e1f
 
 
-- Manjaro**:
+- Manjaro:
 
 
 
@@ -1143,11 +1143,11 @@ Manjaro basiert auf Arch und macht Arch Linux zugänglich. Diese Distribution bi
 
 
 
-- Arch Linux**:
+- Arch Linux:
 
 
 
-Arch Linux ist eine minimalistische, ständig aktualisierbare Distribution, die ohne Interface oder überflüssige Software ausgeliefert wird. Sie erfordert eine manuelle Installation, bietet aber volle Kontrolle und eine ausgezeichnete Dokumentation (Arch Wiki). Diese Distribution wird für fortgeschrittene Benutzer empfohlen, die alles beherrschen wollen.
+Arch Linux ist eine minimalistische, ständig aktualisierbare Distribution, die ohne Benutzeroberfläche oder überflüssige Software ausgeliefert wird. Sie erfordert eine manuelle Installation, bietet aber volle Kontrolle und eine ausgezeichnete Dokumentation (Arch Wiki). Diese Distribution wird für fortgeschrittene Benutzer empfohlen, die alles kontrollieren wollen.
 
 
 
@@ -1157,9 +1157,9 @@ Arch Linux ist eine minimalistische, ständig aktualisierbare Distribution, die 
 
 https://planb.network/tutorials/computer-security/operating-system/arch-linux-7a3dc8a8-629b-4971-bb0d-4eab94f93973
 
-#### Spezialisierter Vertrieb
+#### Spezialisierte Distribution
 
-- Kali Linux**:
+- Kali Linux:
 
 Kali Linux ist eine auf Debian basierende Distribution, die für Penetrationstests und Sicherheitsprüfungen entwickelt wurde. Sie enthält Hunderte von Pentest-Tools. Diese Distribution ist nicht wirklich als Hauptsystem für den täglichen Gebrauch geeignet.
 
@@ -1171,7 +1171,7 @@ Kali Linux ist eine auf Debian basierende Distribution, die für Penetrationstes
 
 
 
-- Parrot OS**:
+- Parrot OS:
 
 
 
@@ -1185,17 +1185,17 @@ Parrot OS ist ebenfalls von Debian abgeleitet. Es bietet eine Umgebung für Pent
 
 
 
-- Schwänze**:
+- Tails:
 
 
 
-Tails ist eine Debian-basierte Live-Distribution, bei der die Privatsphäre im Vordergrund steht. Alles läuft über das Tor-Netzwerk, und nichts wird zwischen den Benutzersitzungen gespeichert. Es ist eine ideale Distribution für sensible, einmalige Anwendungen (Journalismus, Aktivismus, seed Bitcoin Erzeugung...).
+Tails ist eine Debian-basierte Live-Distribution, bei der die Privatsphäre im Vordergrund steht. Alles läuft über das Tor-Netzwerk, und nichts wird zwischen den Benutzersitzungen gespeichert. Es ist eine ideale Distribution für sensible, einmalige Anwendungsfälle (Journalismus, Aktivismus, Erzeugung von Bitcoin Seeds...).
 
 
 
 https://planb.network/tutorials/computer-security/operating-system/tails-15108901-f15d-4f7f-a001-b02b1dcd60c8
 
-→ **Hinweis:** Eine Live-Distribution ist ein Linux-Betriebssystem, das direkt von einem USB-Stick oder einer CD verwendet werden kann, ohne dass eine Installation auf der Hard-Platte erforderlich ist.
+→ **Hinweis:** Eine Live-Distribution ist ein Linux-Betriebssystem, das direkt von einem USB-Stick oder einer CD verwendet werden kann, ohne dass eine Installation auf der Festplatte erforderlich ist.
 
 
 
@@ -1205,7 +1205,7 @@ https://planb.network/tutorials/computer-security/operating-system/tails-1510890
 
 
 
-- Qubes OS**:
+- Qubes OS:
 
 
 
@@ -1219,7 +1219,7 @@ Qubes OS basiert auf Fedora und verwendet das Xen-Virtualisierungssystem, um die
 
 
 
-- BlackArch**:
+- BlackArch:
 
 
 
@@ -1233,7 +1233,7 @@ BlackArch ist eine pentest-orientierte Erweiterung für Arch Linux (wie Kali auf
 
 
 
-- PureOS**:
+- PureOS:
 
 
 
@@ -1249,7 +1249,7 @@ PureOS ist eine von Debian abgeleitete Distribution, die von Purism entwickelt w
 
 https://planb.network/tutorials/computer-security/operating-system/pureos-2b6d5fe8-62f8-4a62-b898-4e0530ed408a
 
-- Raspberry Pi OS**:
+- Raspberry Pi OS:
 
 Raspberry Pi OS (früher Raspbian) ist eine für Raspberry Pi-Mikrocomputer optimierte Distribution. Sie basiert auf Debian, wobei die Pakete für die ARM-Architektur neu kompiliert wurden. Es kann für Bildungsprojekte, elektronische Tests oder kleine persönliche Server verwendet werden.
 
@@ -1261,7 +1261,7 @@ Raspberry Pi OS (früher Raspbian) ist eine für Raspberry Pi-Mikrocomputer opti
 
 
 
-- Whonix**:
+- Whonix:
 
 
 
@@ -1275,10 +1275,10 @@ Whonix kombiniert Debian mit dem Tor-Netzwerk in einer Zwei-VM-Architektur (Gate
 
 https://planb.network/tutorials/computer-security/operating-system/whonix-06f9172c-2962-412e-9487-b665d8ca9f59
 
-Dieses Panorama gibt Ihnen einen Überblick über das aktuelle Ökosystem der Linux-Distributionen und ermöglicht es Ihnen, die für Ihr technisches Profil und Ihre Ziele am besten geeignete Distribution auszuwählen.
+Dieses Panorama gibt dir einen Überblick über das aktuelle Ökosystem der Linux-Distributionen und ermöglicht es dir, die für dein technisches Profil und deine Ziele am besten geeignete Distribution auszuwählen.
 
-Im nächsten Kapitel von SCU202 werden wir einen genaueren Blick auf die praktische Linux-Umgebung werfen, beginnend mit den grafischen Umgebungen, die die Grundlage für Ihre täglichen Interaktionen mit dem System bilden.
-
+Im nächsten Kapitel von SCU202 werden wir einen genaueren Blick auf die praktische Linux-Umgebung werfen, beginnend mit den grafischen Umgebungen, die die Grundlage für deine täglichen Interaktionen mit dem System bilden.
+xxx
 ## Linux-Desktop-Umgebungen
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
