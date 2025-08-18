@@ -1278,20 +1278,20 @@ https://planb.network/tutorials/computer-security/operating-system/whonix-06f917
 Dieses Panorama gibt dir einen Überblick über das aktuelle Ökosystem der Linux-Distributionen und ermöglicht es dir, die für dein technisches Profil und deine Ziele am besten geeignete Distribution auszuwählen.
 
 Im nächsten Kapitel von SCU202 werden wir einen genaueren Blick auf die praktische Linux-Umgebung werfen, beginnend mit den grafischen Umgebungen, die die Grundlage für deine täglichen Interaktionen mit dem System bilden.
-xxx
+
 ## Linux-Desktop-Umgebungen
 
 <chapterId>ecfac353-a31b-48fb-b2af-2abbeeac5f2b</chapterId>
 
-In einem GNU/Linux-System spielt die Desktop-Umgebung eine der wichtigsten Rollen in Ihrem Benutzererlebnis. Sie ist die grafische Layer, die die Interaktion mit dem System auf der Grundlage vertrauter visueller Darstellungen ermöglicht: Fenster, Menüs, Symbole, Bedienfelder und vorinstallierte Anwendungen.
+In einem GNU/Linux-System spielt die Desktop-Umgebung eine der wichtigsten Rollen in deinem Benutzererlebnis. Sie ist die grafische Schicht. Sie ermöglicht die Interaktion mit dem System auf der Grundlage vertrauter visueller Darstellungen: Fenster, Menüs, Symbole, Bedienfelder und vorinstallierte Anwendungen.
 
 In diesem Kapitel werde ich den Aufbau und die Rolle einer Desktop-Umgebung, ihre typischen Komponenten, die wichtigsten verfügbaren Familien, Auswahlkriterien und ihre Integration in die beliebtesten Linux-Distributionen untersuchen.
 
 ### Was ist eine Büroumgebung?
 
-Eine Desktop-Umgebung (oder "*DE*" für *Desktop Environment*) bezieht sich auf den Satz von Programmen, die die vollständige grafische Interface eines Betriebssystems bilden. Unter Windows und macOS wird standardmässig eine einzige Desktop-Umgebung angeboten, die in das System integriert ist und nicht vollständig verändert werden kann (es gibt nur bestimmte Shells, um den Interface teilweise zu verändern). Linux-Systeme hingegen sind weitaus modularer und behandeln die Desktop-Umgebung als unabhängige Komponente, die frei ersetzt werden kann.
+Eine Desktop-Umgebung (oder "*DE*" für *Desktop Environment*) bezieht sich auf einen Satz von Programmen. Diese bilden die vollständige grafische Interface eines Betriebssystems. Unter Windows und macOS wird standardmässig eine einzige Desktop-Umgebung angeboten, die in das System integriert ist und nicht vollständig verändert werden kann (es gibt nur bestimmte Shells, um das Benutzer-Interface teilweise zu verändern). Linux-Systeme hingegen sind weitaus modularer und behandeln die Desktop-Umgebung als unabhängige Komponente, die frei ersetzt werden kann.
 
-Bei Linux ist es wichtig, klar zwischen allen Schichten zu unterscheiden: dem Kernel (der die Interaktion mit der Hardware verwaltet), dem Anzeigeserver (der über den Kernel als Vermittler zwischen Anwendungen, Grafiktreibern und Hardware fungiert) und schliesslich der Desktop-Umgebung selbst, die sich auf diese Infrastruktur stützt, um dem Benutzer eine kohärente grafische Interface zu liefern. Diese Unterscheidung kann manchmal weniger klar sein, da viele Linux-Distributionen mit einer vorinstallierten Desktop-Umgebung geliefert werden, die manchmal ihren eigenen Wayland-Compositor enthält, der dann als Display-Server fungiert.
+Bei Linux ist es wichtig, klar zwischen allen Schichten zu unterscheiden: dem Kernel (der die Interaktion mit der Hardware verwaltet), dem Anzeigeserver (der über den Kernel als Vermittler zwischen Anwendungen, Grafiktreibern und Hardware fungiert) und schliesslich der Desktop-Umgebung selbst. Sie stützt sich auf diese Infrastruktur, um dem Benutzer eine kohärente grafische Oberfläche zu bieten. Diese Unterscheidung kann manchmal weniger klar sein, da viele Linux-Distributionen mit einer vorinstallierten Desktop-Umgebung geliefert werden. Sie enhält manchmal den eigenen Wayland-Compositor, der dann als Display-Server fungiert.
 
 
 
@@ -1303,65 +1303,65 @@ Bei Linux ist es wichtig, klar zwischen allen Schichten zu unterscheiden: dem Ke
 
 
 
-Eine Desktop-Umgebung in einer Linux-Distribution ist keine einzelne Anwendung, sondern ein kohärenter Satz von Softwarekomponenten, die eine vollständige grafische Interface für die Interaktion mit dem Betriebssystem bieten. Diese Komponenten basieren auf mehreren Softwareschichten, die wie folgt strukturiert sind:
+Eine Desktop-Umgebung in einer Linux-Distribution ist keine einzelne Anwendung. Es handelt sich vielmehr um einen kohärenten Satz von Softwarekomponenten, die eine vollständige grafische Benutzeroberfläche für die Interaktion mit dem Betriebssystem bieten. Diese Komponenten basieren auf mehreren Softwareschichten, die wie folgt strukturiert sind:
 
 
 
 
 
-- Ein Fenstermanager**: zeichnet Fensterränder, verwaltet deren Platzierung, Grössenänderung und Übergangseffekte... Zum Beispiel: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
+- **Ein Fenstermanager**: zeichnet Fensterränder, verwaltet deren Platzierung, Grössenänderung und Übergangseffekte... Zum Beispiel: Mutter (GNOME), KWin (KDE Plasma), Xfwm (Xfce).
 
 
 
 
 
-- Ein Dateimanager**: Ermöglicht es Ihnen, durch den Verzeichnisbaum zu navigieren und Dateien visuell zu kopieren, zu verschieben oder zu löschen. Beispiele: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
+- **Ein Dateimanager**: Ermöglicht es dir, durch den Verzeichnisbaum zu navigieren und Dateien visuell zu kopieren, zu verschieben oder zu löschen. Beispiele: Nautilus (GNOME), Dolphin (KDE), Thunar (Xfce).
 
 
 
 
 
-- Ein Konfigurationszentrum**: Dies ist eine Reihe von Tools, die es dem Benutzer ermöglichen, Systemparameter zu ändern, ohne die Kommandozeile zu benutzen: Aussehen, Hintergrundbild, Benutzerverwaltung, Netzwerk, Peripheriegeräte...
+- **Ein Konfigurationszentrum**: Dieses beinhaltet eine Reihe von Tools, die es dem Benutzer ermöglichen, Systemparameter zu ändern, ohne die Kommandozeile zu benutzen: Aussehen, Hintergrundbild, Benutzerverwaltung, Netzwerk, Peripheriegeräte...
 
 
 
 
 
-- System-Applets**: das sind die kleinen Symbole und interaktiven Module in der Taskleiste (oder "Panel"), wie z.B. Tonsteuerung, Batteriestand, Netzwerkverbindung, Uhr...
+- **System-Applets**: das sind die kleinen Symbole und interaktiven Module in der Taskleiste (oder "Panel"), wie z.B. Tonsteuerung, Batteriestand, Netzwerkverbindung, Uhr...
 
 
 
 
 
-- Ein Panel oder Dashboard**: eine sichtbare Leiste, oft am oberen oder unteren Rand des Bildschirms, die das Hauptmenü, System-Applets, Verknüpfungen, den Benachrichtigungsbereich usw. enthält.
+- **Ein Panel oder Dashboard**: eine sichtbare Leiste, oft am oberen oder unteren Rand des Bildschirms, die das Hauptmenü, System-Applets, Verknüpfungen, den Benachrichtigungsbereich usw. enthält.
 
 
 
 
 
-- Ein Sitzungsmanager**: wird beim Start ausgeführt, zeigt den Anmeldebildschirm an und startet die ausgewählte grafische Sitzung. Zum Beispiel: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
+- **Ein Sitzungsmanager**: wird beim Start ausgeführt, zeigt den Anmeldebildschirm an und startet die ausgewählte grafische Sitzung. Zum Beispiel: GDM (GNOME), SDDM (KDE), LightDM (Xfce).
 
 
 
 
 
-- Benachrichtigungsmanager**: verwaltet die Anzeige von Systembenachrichtigungen (Nachrichten, Warnungen, Updates usw.). Zum Beispiel: dunst, Plasma-notifier, xfce4-notifyd.
+- **Benachrichtigungsmanager**: verwaltet die Anzeige von Systembenachrichtigungen (Nachrichten, Warnungen, Updates usw.). Zum Beispiel: dunst, Plasma-notifier, xfce4-notifyd.
 
 
 
 
 
-- X11 Compositor (optional)**: fügt visuelle Effekte (Schatten, Transparenz, Animationen) in Umgebungen hinzu, in denen der Fenstermanager kein Compositing unterstützt. Zum Beispiel: compton, picom.
+- **X11 Compositor (optional)**: fügt visuelle Effekte (Schatten, Transparenz, Animationen) in Umgebungen hinzu, in denen der Fenstermanager kein Compositing unterstützt. Zum Beispiel: compton, picom.
 
 
 
 
 
-- Ein Display-Server**: Dies ist die Software, die die Kommunikation zwischen dem System (über den Kernel und die Grafiktreiber) und den Grafikanwendungen abwickelt. Er zeigt Fenster auf dem Bildschirm an und verwaltet Tastatur- und Mauseingaben. Der Anzeigeserver ist oft eine andere Komponente der Desktop-Umgebung, aber immer mehr Systeme übernehmen Wayland, ein modernes Protokoll, bei dem die Rolle des Anzeigeservers direkt vom Fenstermanager übernommen werden kann (z. B. Mutter unter GNOME oder KWin unter KDE). Dies wird dann als "Wayland Compositing" bezeichnet.
+- **Ein Display-Server**: Diese Software wickelt die Kommunikation zwischen dem System (über den Kernel und die Grafiktreiber) und den Grafikanwendungen ab. Er zeigt Fenster auf dem Bildschirm an und verwaltet Tastatur- und Mauseingaben. Der Anzeigeserver ist oft eine andere Komponente der Desktop-Umgebung. Aber immer mehr Systeme übernehmen Wayland, ein modernes Protokoll, bei dem die Rolle des Anzeigeservers direkt vom Fenstermanager übernommen werden kann (z. B. Mutter unter GNOME oder KWin unter KDE). Dies wird dann als "Wayland Compositing" bezeichnet.
 
 
 
-Alle diese Elements basieren auf einem grafischen Toolkit, d. h. einer Softwarebibliothek, die die grundlegenden Komponenten für die Erstellung grafischer Oberflächen bereitstellt: Schaltflächen, Menüs, Textfelder usw. Die beiden wichtigsten Linux-Toolkits sind:
+Alle diese Elements basieren auf einem grafischen Toolkit, d.h. einer Softwarebibliothek. Diese stellt die grundlegenden Komponenten für die Erstellung grafischer Oberflächen bereit: Schaltflächen, Menüs, Textfelder usw. Die beiden wichtigsten Linux-Toolkits sind:
 
 
 
@@ -1387,7 +1387,7 @@ Alle diese Elements basieren auf einem grafischen Toolkit, d. h. einer Softwareb
 
 
 
-GNOME ("*GNU Network Object Model Environment*") wurde 1997 eingeführt und 1999 erstmals veröffentlicht. Es basiert auf der GTK-Bibliothek und zielt darauf ab, die Reibung zwischen dem Benutzer und Interface durch eine sehr einfache Organisation zu minimieren. Seit GNOME 3 hat sein Kern, die GNOME-Shell, die traditionelle Metapher des mit Symbolen bedeckten Desktops aufgegeben: Anstatt mit mehreren gleichzeitig sichtbaren Arbeitsbereichen zu jonglieren, wechseln die Benutzer zu einem einzigen Aktivitätsselektor, in dem sie Fenster, virtuelle Desktops und Anwendungsstarter verwalten.
+GNOME ("*GNU Network Object Model Environment*") wurde 1997 eingeführt und 1999 erstmals veröffentlicht. Es basiert auf der GTK-Bibliothek und zielt darauf ab, dem Benutzer das Arbeiten mit der grafischen Benutzer-Oberfläche durch eine sehr einfache Organisation zu vereinfachen. Seit GNOME 3 hat sein Kern, die GNOME-Shell, die traditionelle Metapher des mit Symbolen bedeckten Desktops aufgegeben: Anstatt mit mehreren gleichzeitig sichtbaren Arbeitsbereichen zu jonglieren, wechseln die Benutzer zu einem einzigen Aktivitätsselektor, in dem sie Fenster, virtuelle Desktops und Anwendungsstarter verwalten.
 
 
 
@@ -1411,7 +1411,7 @@ Das KDE-Projekt wurde 1996 ins Leben gerufen und die erste Version der Desktop-U
 
 
 
-KDE Plasma basiert auf Qt 6, einem plattformübergreifenden C++-Framework, und auf KDE Frameworks, einer modularen Sammlung von Bibliotheken, die die Entwicklung von integrierten Anwendungen erleichtern. Sein Fenstermanager KWin fungiert auch als kompletter Wayland-Compositor: Er handhabt visuelle Effekte (Unschärfe, Transparenz, Übergänge), Bildschirmaufteilung mit GPU-Beschleunigung und Multi-Touch-Gesten über libinput.
+KDE Plasma basiert auf Qt 6, einem plattformübergreifenden C++-Framework, und auf KDE Frameworks, einer modularen Sammlung von Bibliotheken. Sie erleichtern die Entwicklung von integrierten Anwendungen. Sein Fenstermanager KWin fungiert auch als kompletter Wayland-Compositor: Er handhabt visuelle Effekte (Unschärfe, Transparenz, Übergänge), Bildschirmaufteilung mit GPU-Beschleunigung und Multi-Touch-Gesten über libinput.
 
 
 
@@ -1419,7 +1419,7 @@ KDE Plasma basiert auf Qt 6, einem plattformübergreifenden C++-Framework, und a
 
 
 
-Einer der herausragenden Punkte von KDE Plasma ist sein einheitliches Konfigurationszentrum, das einen grafischen Interface für praktisch alle Einstellungen bereitstellt: Verhalten des virtuellen Desktops, globale Verknüpfungen, flüssige Animationen, Energieverwaltung, Netzwerkkonfiguration, Aussehen der Fensterränder... Es müssen keine Textkonfigurationsdateien manuell bearbeitet werden, wodurch die Desktop-Umgebung leicht angepasst werden kann.
+Einer der herausragenden Punkte von KDE Plasma ist sein einheitliches Konfigurationszentrum, das eine grafische Benutzeroberfläche für praktisch alle Einstellungen bereitstellt: Verhalten des virtuellen Desktops, globale Verknüpfungen, flüssige Animationen, Energieverwaltung, Netzwerkkonfiguration, Aussehen der Fensterränder... Es müssen keine Textkonfigurationsdateien manuell bearbeitet werden, wodurch die Desktop-Umgebung leicht angepasst werden kann.
 
 
 
@@ -1431,11 +1431,11 @@ KDE Plasma wird in vielen Distributionen verwendet, darunter Kubuntu, openSUSE T
 
 
 
-Xfce ist eine freie, quelloffene Desktop-Umgebung, die 1996 von Olivier Fourdan entwickelt wurde. Ihr ursprüngliches Ziel, das auch heute noch gültig ist, war es, eine einfache, leichte und schnelle Alternative zu schwereren Desktop-Umgebungen wie GNOME oder KDE zu bieten. Technisch basiert Xfce auf dem GTK-Toolkit, was es in gewisser Hinsicht näher an GNOME heranbringt, aber auch in seiner Philosophie unterscheidet.
+Xfce ist eine freie, quelloffene Desktop-Umgebung, die 1996 von Olivier Fourdan entwickelt wurde. Ihr ursprüngliches Ziel ist auch heute noch gültig. So soll es eine einfache, leichte und schnelle Alternative zu schwereren Desktop-Umgebungen wie GNOME oder KDE bieten. Technisch basiert Xfce auf dem GTK-Toolkit, was es in gewisser Hinsicht näher an GNOME heranbringt, aber auch in seiner Philosophie unterscheidet.
 
 
 
-Xfce verfolgt einen traditionellen grafischen Interface-Ansatz, der einen symbolgesteuerten Desktop, ein Anwendungsmenü, eine Taskleiste und konfigurierbare Bedienfelder umfasst. Das gesamte Paket ist so konzipiert, dass es ressourceneffizient ist, sowohl in Bezug auf den Arbeitsspeicher als auch auf die Prozessorleistung. Das macht es zu einer idealen Lösung für ältere, weniger leistungsfähige Computer oder einfach für Benutzer, die ein flüssiges, stabiles und reaktionsschnelles System suchen.
+Xfce verfolgt einen traditionellen grafischen Ansatz für die Benutzeroberfläche. Es umfasst einen symbolgesteuerten Desktop, ein Anwendungsmenü, eine Taskleiste und konfigurierbare Bedienfelder. Das gesamte Paket ist so konzipiert, dass es ressourceneffizient ist, sowohl in Bezug auf den Arbeitsspeicher als auch auf die Prozessorleistung. Das macht es zu einer idealen Lösung für ältere, weniger leistungsfähige Computer oder einfach für Benutzer, die ein flüssiges, stabiles und reaktionsschnelles System suchen.
 
 
 
@@ -1459,7 +1459,7 @@ LXQt ist das Ergebnis des 2013 erfolgten Zusammenschlusses von zwei separaten Pr
 
 
 
-#### Zimt
+#### Cinnamon
 
 
 
@@ -1491,7 +1491,7 @@ Technisch gesehen basiert MATE auf den GTK 3-Bibliotheken (nachdem es lange Zeit
 
 
 
-Der Interface basiert auf der traditionellen Desktop-Logik: ein oder zwei Panels (Menü, Schnellstartbereiche, Uhr, Benachrichtigungsbereiche), ein Desktop mit Symbolen und eine schwebende Fensterorganisation.
+Die Oberfläche basiert auf der traditionellen Desktop-Logik: ein oder zwei Panels (Menü, Schnellstartbereiche, Uhr, Benachrichtigungsbereiche), ein Desktop mit Symbolen und eine schwebende Fensterorganisation.
 
 
 
@@ -1503,7 +1503,7 @@ Der Interface basiert auf der traditionellen Desktop-Logik: ein oder zwei Panels
 
 
 
-Die Wahl Ihrer GNU/Linux-Desktop-Umgebung ist keine triviale Angelegenheit: Sie bestimmt das Benutzererlebnis, die Systemleistung und die Softwarekompatibilität. Jede DE basiert auf technischen Entscheidungen (Bibliotheken, Architektur, Fenstermanager...), die das Aussehen, das Verhalten, die Leistung und sogar die Hardwareanforderungen beeinflussen. Hier sind die wichtigsten Kriterien, die bei einer fundierten Auswahl zu berücksichtigen sind.
+Die Wahl deiner GNU/Linux-Desktop-Umgebung ist keine triviale Angelegenheit: Sie bestimmt das Benutzererlebnis, die Systemleistung und die Softwarekompatibilität. Jede DE basiert auf technischen Entscheidungen (Bibliotheken, Architektur, Fenstermanager...), die das Aussehen, das Verhalten, die Leistung und sogar die Hardwareanforderungen beeinflussen. Hier sind die wichtigsten Kriterien, die bei einer fundierten Auswahl zu berücksichtigen sind.
 
 
 
@@ -1516,7 +1516,7 @@ Jede Desktop-Umgebung hat einen anderen Ressourcenverbrauch. Dieser wird in Form
 
 
 
-- Auf älteren oder weniger leistungsfähigen Rechnern (Single-Core-CPU, weniger als 2 GB RAM...) empfehle ich sehr leichtgewichtige Umgebungen wie LXQt, LXDE oder Xfce. Sie bieten einen vollständigen grafischen Interface, aber ohne visuelle Effekte oder schwere Abhängigkeiten;
+- Auf älteren oder weniger leistungsfähigen Rechnern (Single-Core-CPU, weniger als 2 GB RAM...) empfehle ich sehr leichtgewichtige Umgebungen wie LXQt, LXDE oder Xfce. Sie bieten eine vollständige grafischen Benutzeroberfläche, aber ohne visuelle Effekte oder starke Abhängigkeiten;
 - Zwischenumgebungen wie MATE oder Cinnamon erfordern etwas aktuellere Hardware (4 bis 6 GB RAM empfohlen), sind aber immer noch akzeptabel;
 - Moderne, reichhaltige Umgebungen wie GNOME oder KDE Plasma sind sehr vollständig, benötigen aber mehr Ressourcen, insbesondere wenn grafische Effekte aktiviert sind. Sie sind für neuere Rechner geeignet.
 
@@ -1526,13 +1526,13 @@ Jede Desktop-Umgebung hat einen anderen Ressourcenverbrauch. Dieser wird in Form
 
 
 
-Jedes DE bietet eine eigene Interface-Philosophie:
+Jedes DE bietet eine eigene Oberflächen-Philosophie:
 
 
 
 
-- GNOME bevorzugt die Einfachheit der Benutzung, mit einem optimierten Interface, ohne klassischen Desktop oder Icons, und einem produktivitätsorientierten Arbeitsablauf, der für Anfänger verwirrend sein kann
-- KDE Plasma ist extrem anpassbar, bis ins kleinste Detail. Es verfügt über ein modernes Aussehen, Animationen und eine Standard-Interface, die näher an Windows ist
+- GNOME bevorzugt die Einfachheit der Nutzung, mit einer optimierten Benutzerschnittstelle, ohne klassischen Desktop oder Icons, und einem produktivitätsorientierten Arbeitsablauf, der für Anfänger verwirrend sein kann
+- KDE Plasma ist extrem anpassbar, bis ins kleinste Detail. Es verfügt über ein modernes Aussehen, Animationen und eine Standard-Oberfläche, die näher an Windows ist
 - Cinnamon und MATE bieten ein klassisches Erlebnis: Menü unten links, Taskleiste, Desktop-Symbole. Cinnamon ist visuell moderner, MATE heller
 - Xfce und LXQt zielen auf Einfachheit und Leistung ab, mit einer zurückhaltenden, aber konfigurierbaren Ästhetik
 
@@ -1542,7 +1542,7 @@ Jedes DE bietet eine eigene Interface-Philosophie:
 
 
 
-Auch die Hauptverwendung des Computers wird Ihre Wahl beeinflussen:
+Auch die Hauptverwendung des Computers wird deine Wahl beeinflussen:
 
 
 
@@ -1555,7 +1555,7 @@ Auch die Hauptverwendung des Computers wird Ihre Wahl beeinflussen:
 
 #### Kompatibilität mit der gewählten Distribution
 
-
+xxx
 
 Jede GNU/Linux-Distribution bevorzugt eine Standard-Desktop-Umgebung, die oft besser integriert, besser getestet, mit speziellen Tools ausgestattet und standardmässig installiert ist. Es ist immer möglich, eine andere Desktop-Umgebung zu installieren, aber das kann zu Software-Duplizierung, Konfigurationskonflikten oder einer weniger konsistenten Benutzererfahrung führen. Ihre Wahl der Desktop-Umgebung kann daher von der Ihrer Linux-Distribution beeinflusst werden, oder umgekehrt kann Ihre Vorliebe für eine bestimmte Desktop-Umgebung Ihre Wahl der Distribution bestimmen.
 
