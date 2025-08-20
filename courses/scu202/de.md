@@ -2645,13 +2645,13 @@ Dein System und deine Software auf dem neuesten Stand zu halten, ist ein wesentl
 
 ### Firewall und Netzwerkhärtung
 
-xxx
-
-Eine Firewall ist ein Sicherheitswerkzeug, das die ein- und ausgehenden Netzwerkverbindungen eines Computers kontrolliert. Unter Ubuntu verwenden Sie es, um den Datenverkehr zu filtern und nur legitime Kommunikationen zuzulassen und potenziell bösartige zu blockieren. Dies verhindert zum Beispiel unerwünschte Eindringlinge von aussen, um Ihre Daten und Ihr System weiter zu schützen.
 
 
+Eine Firewall ist ein Sicherheitswerkzeug, das die ein- und ausgehenden Netzwerkverbindungen eines Computers kontrolliert. Unter Ubuntu verwendest du es, um den Datenverkehr zu filtern und nur legitime Kommunikationen zuzulassen und potenziell bösartige zu blockieren. Dies verhindert zum Beispiel unerwünschte Eindringlinge von aussen, um deine Daten und dein System weiter zu schützen.
 
-Sobald Sie Ubuntu installiert haben, ist die Absicherung der Netzwerkkommunikation Ihres Rechners ein wichtiger Schritt. Ubuntu enthält eine Standard-Firewall: UFW (*Uncomplicated Firewall*). Sie ermöglicht es Ihnen, ein- und ausgehende Verbindungen mit fein abgestufter Kontrolle zu verwalten, ohne dass Sie manuell komplexe Regeln schreiben müssen.
+
+
+Sobald du Ubuntu installiert hast, ist die Absicherung der Netzwerkkommunikation deines Rechners ein wichtiger Schritt. Ubuntu enthält eine Standard-Firewall: UFW (*Uncomplicated Firewall*). Sie ermöglicht es dir, ein- und ausgehende Verbindungen mit fein abgestufter Kontrolle zu verwalten, ohne dass du manuell komplexe Regeln schreiben musst.
 
 
 
@@ -2659,7 +2659,7 @@ Sobald Sie Ubuntu installiert haben, ist die Absicherung der Netzwerkkommunikati
 
 
 
-Standardmässig ist UFW installiert, aber nicht aktiv. So aktivieren Sie es:
+Standardmässig ist UFW installiert, aber nicht aktiv. So aktivierst du es:
 
 
 
@@ -2673,7 +2673,7 @@ sudo ufw enable
 
 
 
-Nach der Aktivierung können Sie den Status und die aktuellen Regeln mit überprüfen:
+Nach der Aktivierung kannst du den Status und die aktuellen Regeln mit überprüfen:
 
 
 
@@ -2695,8 +2695,7 @@ Die UFW verfolgt standardmässig die Strategie, unaufgefordert eingehende Verbin
 
 
 
-Wenn Sie einen Dienst aus der Ferne zugänglich machen müssen (z.B. einen SSH-Server), müssen Sie ihn ausdrücklich autorisieren:
-
+Wenn du einen Dienst aus der Ferne zugänglich machen musst (z.B. einen SSH-Server), musst du ihn ausdrücklich autorisieren:
 
 
 ```bash
@@ -2709,11 +2708,11 @@ sudo ufw allow 22/tcp comment 'SSH'
 
 - 22" ist der Standardanschluss für den SSH-Dienst
 - tcp" ist das verwendete Protokoll
-- Mit der Option "Kommentar" können Sie eine lesbare Anmerkung hinzufügen, um die Interpretation der Regeln später zu erleichtern
+- Mit der Option "Kommentar" kannst du eine lesbare Anmerkung hinzufügen, um die Interpretation der Regeln später zu erleichtern
 
 
 
-Sie können die Regel mit überprüfen:
+Du kannst die Regel so überprüfen:
 
 
 
@@ -2727,7 +2726,7 @@ sudo ufw status numbered
 
 
 
-#### Definieren Sie Regeln nach IP-Bereich (lokale Verwendung)
+#### Definiere Regeln nach IP-Bereich (lokale Verwendung)
 
 
 
@@ -2741,15 +2740,15 @@ sudo ufw allow from 192.168.1.0/24 to any port 6881 proto tcp
 
 
 
-Dies erlaubt TCP-Verbindungen an Port 6881 nur aus dem Subnetz 192.168.1.0/24 (typischerweise Ihr Wi-Fi-Heimnetzwerk).
+Dies erlaubt TCP-Verbindungen an Port 6881 nur aus dem Subnetz 192.168.1.0/24 (typischerweise dein Wi-Fi-Heimnetzwerk).
 
 
 
-#### Grafischer Interface: GUFW
+#### Grafisches Interface: GUFW
 
 
 
-Wenn Sie sich mit dem Terminal nicht so gut auskennen, gibt es ein grafisches Interface namens GUFW, das die Verwaltung von Firewall-Regeln mit Schaltflächen, Dropdown-Listen und Dialogfeldern erleichtert. Zum Installieren:
+Wenn du dich mit dem Terminal nicht so gut auskennst, gibt es ein grafisches Interface namens GUFW, das die Verwaltung von Firewall-Regeln mit Schaltflächen, Dropdown-Listen und Dialogfeldern erleichtert. Zum Installieren:
 
 
 
@@ -2759,7 +2758,7 @@ sudo apt install gufw
 
 
 
-Nach der Installation starten Sie es über das Anwendungsmenü. Sie können die Firewall aktivieren, Dienste zulassen oder blockieren und gefilterte Verbindungen in Echtzeit anzeigen.
+Nach der Installation startest du es über das Anwendungsmenü. Du kannst die Firewall aktivieren, Dienste zulassen oder blockieren und gefilterte Verbindungen in Echtzeit anzeigen.
 
 
 
@@ -2767,7 +2766,7 @@ Nach der Installation starten Sie es über das Anwendungsmenü. Sie können die 
 
 
 
-→ **Gute Praktiken:** Auch wenn Sie keine Netzwerkdienste nach aussen freigeben, ist eine Firewall dennoch nützlich, um bestimmte Arten von Scans oder Zugriffen zu blockieren. Denken Sie auch daran, unnötige Dienste zu deaktivieren und Ihre Netzwerksoftware immer auf dem neuesten Stand zu halten. Diese Absicherung des lokalen Netzwerks ist eine erste Verteidigungslinie im Rahmen einer umfassenderen Sicherheitsstrategie, auf die wir später im Kurs noch zurückkommen werden.
+→ **Gute Praktiken:** Auch wenn du keine Netzwerkdienste nach außen freigibst, ist eine Firewall dennoch nützlich, um bestimmte Arten von Scans oder Zugriffen zu blockieren. Denke auch daran, unnötige Dienste zu deaktivieren und deine Netzwerksoftware immer auf dem neuesten Stand zu halten. Diese Absicherung des lokalen Netzwerks ist eine erste Verteidigungslinie im Rahmen einer umfassenderen Sicherheitsstrategie, auf die wir später im Kurs noch zurückkommen werden.
 
 
 
@@ -2779,16 +2778,16 @@ Unter Ubuntu wird die Netzwerkverwaltung von *NetworkManager* übernommen, einem
 
 
 
-#### Verwaltung über grafische Interface
+#### Verwaltung über das grafische Interface
 
 
 
-Für die meisten Benutzer ist das in GNOME integrierte grafische Interface (Systemeinstellungen → Netzwerk/Wi-Fi) mehr als ausreichend. Es erlaubt Ihnen zu:
+Für die meisten Benutzer ist das in GNOME integrierte grafische Interface (Systemeinstellungen → Netzwerk/Wi-Fi) mehr als ausreichend. Es erlaubt dir folgendes:
 
 
 
 
-- Verbinden Sie sich mit einem verfügbaren Wi-Fi-Netzwerk
+- Dich mit einem verfügbaren Wi-Fi-Netzwerk zu verbinden
 - Verwalten von kabelgebundenen Verbindungen, Proxys oder VPNs
 - Anzeigen des aktuellen Status der einzelnen Netzwerke Interface
 
@@ -2806,13 +2805,13 @@ Dieser intuitive Verwaltungsmodus deckt die meisten klassischen Anforderungen an
 
 
 
-Für die Fehlersuche oder den Fernzugriff können Sie mit dem Befehl `nmcli` den *NetworkManager* über die Befehlszeile bearbeiten.
+Für die Fehlersuche oder den Fernzugriff kannst du mit dem Befehl `nmcli` den *NetworkManager* über die Befehlszeile bearbeiten.
 
 
 
 
 
-- So zeigen Sie erkannte Netzwerkschnittstellen an:
+- So zeigst du erkannte Netzwerkschnittstellen an:
 
 
 
@@ -2824,7 +2823,7 @@ nmcli device status
 
 
 
-- So scannen Sie nahe gelegene Wi-Fi-Netzwerke
+- So scannst du nahe gelegene Wi-Fi-Netzwerke
 
 
 
@@ -2836,7 +2835,7 @@ nmcli device wifi list
 
 
 
-- So stellen Sie eine Verbindung zu einem Wi-Fi-Netzwerk her
+- So stellst du eine Verbindung zu einem Wi-Fi-Netzwerk her
 
 
 
@@ -2850,7 +2849,7 @@ nmcli device wifi connect "wifi_name" password "password"
 
 
 
-Sobald Ihr Basissystem einsatzbereit ist, besteht der nächste Schritt darin, die benötigte Software zu installieren. Ubuntu bietet mehrere Installationsmethoden an (APT, Snap, Flatpak), die wir oben ausführlich beschrieben haben. Hier verwenden wir, wann immer möglich, APT, um die native Integration mit dem System zu erhalten.
+Sobald dein Basissystem einsatzbereit ist, besteht der nächste Schritt darin, die benötigte Software zu installieren. Ubuntu bietet mehrere Installationsmethoden an (APT, Snap, Flatpak), die wir oben ausführlich beschrieben haben. Hier verwenden wir, wann immer möglich, APT, um die native Integration mit dem System zu erhalten.
 
 
 
@@ -2862,7 +2861,7 @@ Ubuntu enthält standardmässig die Snap-Version von Firefox. Dieses Format biet
 
 
 
-Wenn Sie die native `.deb`-Version bevorzugen, können Sie sie aus dem offiziellen Mozilla-PPA installieren:
+Wenn du die native `.deb`-Version bevorzugst, kannst du sie aus dem offiziellen Mozilla-PPA installieren:
 
 
 
@@ -2892,7 +2891,7 @@ Dies friert die aktuell installierte `.deb`-Version ein. Sie wird weiterhin aktu
 
 
 
-Wir werden uns in einem späteren Kapitel näher mit Browsern befassen, um Ihnen bei der Auswahl des für Ihre Bedürfnisse am besten geeigneten Browsers zu helfen und ihn optimal zu konfigurieren.
+Wir werden uns in einem späteren Kapitel näher mit Browsern befassen, um dir bei der Auswahl des für deine Bedürfnisse am besten geeigneten Browsers zu helfen und ihn optimal zu konfigurieren.
 
 
 
@@ -2924,7 +2923,7 @@ sudo apt install libreoffice
 
 
 
-Wenn Sie eine gezieltere Installation wünschen:
+Wenn du eine gezieltere Installation wünschst:
 
 
 
@@ -2960,7 +2959,7 @@ sudo apt install vlc
 
 
 
-Ubuntu stellt bestimmte proprietäre Codecs (MP3, H.264...) aus rechtlichen Gründen standardmässig nicht zur Verfügung. Das folgende Paket fügt diese wesentlichen Elements:
+Ubuntu stellt bestimmte proprietäre Codecs (MP3, H.264...) aus rechtlichen Gründen standardmässig nicht zur Verfügung. Das folgende Paket fügt diese wesentlichen Elemente hinzu:
 
 
 
@@ -2988,7 +2987,7 @@ GIMP ist ein fortschrittliches Fotobearbeitungsprogramm, vergleichbar mit Adobe 
 
 
 
-Für die Videobearbeitung können Sie Kdenlive installieren, das umfassend und intuitiv ist und sich für Anfänger und Fortgeschrittene gleichermassen eignet:
+Für die Videobearbeitung kannst du Kdenlive installieren, das umfassend und intuitiv ist und sich für Anfänger und Fortgeschrittene gleichermassen eignet:
 
 
 
@@ -3022,7 +3021,7 @@ sudo apt install obs-studio
 
 
 
-Wenn Sie ein Entwickler sind, können Sie mit diesem Befehl eine grundlegende C/C++-Entwicklungsumgebung, Git und andere Dienstprogramme installieren:
+Wenn du ein Entwickler bist, kannst du mit diesem Befehl eine grundlegende C/C++-Entwicklungsumgebung, Git und andere Dienstprogramme installieren:
 
 
 
@@ -3032,7 +3031,7 @@ sudo apt install build-essential git curl
 
 
 
-So installieren Sie VSCode
+So installierst du VSCode
 
 
 
@@ -3042,7 +3041,7 @@ sudo snap install code --classic
 
 
 
-Zusätzlich zu diesen wenigen grundlegenden Tools empfehle ich Ihnen die Installation wesentlicher, auf Ihren Anwendungsfall abgestimmter Sicherheitstools, insbesondere einen Passwortmanager und ein VPN:
+Zusätzlich zu diesen wenigen grundlegenden Tools empfehle ich dir die Installation wesentlicher, auf deinen Anwendungsfall abgestimmter Sicherheitstools, insbesondere einen Passwortmanager und ein VPN:
 
 
 
@@ -3054,19 +3053,17 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-Zum Abschluss dieses Kapitels finden Sie hier einige bewährte Praktiken, die Sie täglich anwenden sollten:
+Zum Abschluss dieses Kapitels findest du hier einige bewährte Praktiken, die du täglich anwenden solltest:
 
 
 
 
 
-- Verwenden Sie den Befehl `sudo` nur, wenn es unbedingt notwendig ist. Dieser Befehl erhöht vorübergehend Ihre Rechte, um eine Aktion als Administrator durchzuführen. Ein `sudo`-Fehler (z.B. ein `rm -rf`) kann das gesamte System betreffen. Sie sollten es auch vermeiden, für längere Sitzungen in den Root-Modus (`sudo -i`) zu wechseln, es sei denn, dies ist ausnahmsweise notwendig;
+- Verwende den Befehl `sudo` nur, wenn es unbedingt notwendig ist. Dieser Befehl erhöht vorübergehend deine Rechte, um eine Aktion als Administrator durchzuführen. Ein `sudo`-Fehler (z.B. ein `rm -rf`) kann das gesamte System betreffen. Du solltest es auch vermeiden, für längere Sitzungen in den Root-Modus (`sudo -i`) zu wechseln, es sei denn, dies ist ausnahmsweise notwendig;
 
 
 
-
-
-- Obwohl Ubuntu bestimmte Sicherheitspatches automatisch über den Dienst `unattended-upgrades` aufspielt, deckt dies nicht alle Software ab. Sie sollten regelmässig eine vollständige manuelle Aktualisierung durchführen:
+- Obwohl Ubuntu bestimmte Sicherheitspatches automatisch über den Dienst `unattended-upgrades` aufspielt, deckt dies nicht alle Software ab. Du solltest regelmässig eine vollständige manuelle Aktualisierung durchführen:
 
 
 
@@ -3076,18 +3073,16 @@ sudo apt update && sudo apt upgrade
 
 
 
-Mit diesem Kapitel über die Grundlagen von Ubuntu verfügen Sie nun über eine funktionale, konsistente und alltagstaugliche Linux-Umgebung. Sie wissen, wie Sie Software installieren, Ihr Netzwerk konfigurieren, Ihr System auf dem neuesten Stand halten und über das Kommandozeilenterminal intervenieren können.
+Mit diesem Kapitel über die Grundlagen von Ubuntu verfügst du nun über eine funktionale, konsistente und alltagstaugliche Linux-Umgebung. Du weißt, wie du Software installieren, dein Netzwerk konfigurieren, dein System auf dem neuesten Stand halten und über das Kommandozeilenterminal intervenieren kannst.
 
 
-
-Diese technische Autonomie ist die wesentliche Grundlage, um den Rest dieses Kurses zuversichtlich anzugehen. Im nächsten Abschnitt werden wir die Sicherheitsmechanismen Ihres Arbeitsplatzes genauer unter die Lupe nehmen und die ersten konkreten Massnahmen zur Stärkung seiner Widerstandsfähigkeit umsetzen.
-
-
+Diese technische Autonomie ist die wesentliche Grundlage, um den Rest dieses Kurses zuversichtlich anzugehen. Im nächsten Abschnitt werden wir die Sicherheitsmechanismen deines Arbeitsplatzes genauer unter die Lupe nehmen und die ersten konkreten Maßnahmen zur Stärkung seiner Widerstandsfähigkeit umsetzen.
 
 
 
 
-# Sichern Sie Ihren Computer
+
+# Sichere deinen Computer
 
 
 <partId>7fda3e41-ff0e-4fa0-8bd5-350d9ad5bbec</partId>
@@ -3101,15 +3096,14 @@ Diese technische Autonomie ist die wesentliche Grundlage, um den Rest dieses Kur
 
 
 
-Die Sicherheit Ihres Computers beginnt mit zwei wichtigen Konzepten der Cybersicherheit: Authentifizierung und Partitionierung. Diese beiden Konzepte bilden die Grundlage für den wirksamen Schutz Ihres Computers, die Wahrung Ihrer Privatsphäre und die Gewährleistung Ihrer digitalen Souveränität. In diesem Kapitel werden wir uns eingehend damit beschäftigen, wie Sie diese Aspekte auf Ihrem Computer verwalten können.
+Die Sicherheit deines Computers beginnt mit zwei wichtigen Konzepten der Cybersicherheit: Authentifizierung und Partitionierung. Diese beiden Konzepte bilden die Grundlage für den wirksamen Schutz deines Computers, die Wahrung deiner Privatsphäre und die Gewährleistung deiner digitalen Souveränität. In diesem Kapitel werden wir uns eingehend damit beschäftigen, wie du diese Aspekte auf deinem Computer verwalten kannst.
+
+
+### Schütze den Zugang zu deinem Computer
 
 
 
-### Schützen Sie den Zugang zu Ihrem Computer
-
-
-
-Der Schutz des physischen und softwaremässigen Zugangs zu Ihrem Computer ist die Grundlage für dessen Sicherheit. Ein ungesicherter Rechner kann leicht zu einem Einstiegspunkt für einen Angreifer werden oder sensible Daten nach aussen dringen lassen, auch ohne Internetverbindung. Unabhängig davon, ob Sie Windows, macOS oder Linux verwenden, gibt es einige grundlegende Massnahmen, die Sie ergreifen müssen, um das Risiko eines unbefugten Zugriffs zu begrenzen.
+Der Schutz des physischen und softwaremässigen Zugangs zu deinem Computer ist die Grundlage für dessen Sicherheit. Ein ungesicherter Rechner kann leicht zu einem Einstiegspunkt für einen Angreifer werden oder sensible Daten nach aussen dringen lassen, auch ohne Internetverbindung. Unabhängig davon, ob du Windows, macOS oder Linux verwendest, gibt es einige grundlegende Massnahmen, die du ergreifen musst, um das Risiko eines unbefugten Zugriffs zu begrenzen.
 
 
 
@@ -3117,7 +3111,7 @@ Der Schutz des physischen und softwaremässigen Zugangs zu Ihrem Computer ist di
 
 
 
-Das Sitzungskennwort (dasjenige, nach dem Sie beim Start oder beim Aufwachen aus dem Ruhezustand gefragt werden) ist die erste Barriere gegen Einbruchsversuche. Es verhindert, dass ein Dritter auf Ihre Daten zugreift oder Ihr System manipuliert, wenn Ihr Rechner gestohlen oder unbeaufsichtigt gelassen wird.
+Das Sitzungskennwort (dasjenige, nach dem du beim Start oder beim Aufwachen aus dem Ruhezustand gefragt wirst) ist die erste Barriere gegen Einbruchsversuche. Es verhindert, dass ein Dritter auf deine Daten zugreift oder dein System manipuliert, wenn dein Rechner gestohlen oder unbeaufsichtigt gelassen wird.
 
 
 
@@ -3126,9 +3120,9 @@ Dieses Passwort muss sicher sein:
 
 
 
-- Er muss lang genug sein. Gegenwärtig (Juni 2025) empfehle ich ein Minimum von 20 Zeichen;
-- Er muss Gross- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten;
-- Sie sollte so zufällig wie möglich sein und keine Verbindungen zu Elements aus Ihrem direkten oder indirekten Umfeld enthalten, wie z.B. einen Namen, ein Datum oder einen Ort.
+- Es muss lang genug sein. Gegenwärtig (Juni 2025) empfehle ich ein Minimum von 20 Zeichen;
+- Es muss Gross- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten;
+- Es sollte so zufällig wie möglich sein und keine Verbindungen zu Elementen aus deinem direkten oder indirekten Umfeld enthalten, wie z.B. einen Namen, ein Datum oder einen Ort.
 
 
 
@@ -3148,46 +3142,44 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-Ändern Sie dieses Kennwort regelmässig - alle 3 bis 6 Monate -, vor allem, wenn Ihr Computer in gemeinsam genutzten oder mobilen Umgebungen verwendet wird.
-
+Ändere dieses Kennwort regelmäßig - alle 3 bis 6 Monate -, vor allem, wenn dein Computer in gemeinsam genutzten oder mobilen Umgebungen verwendet wird.
 
 
 #### Absicherung des BIOS/UEFI-Zugriffs
 
 
 
-Die Sicherheit Ihres Computers beginnt nicht erst mit dem Start des Betriebssystems, sondern schon von Anfang an. Bevor Windows, Linux oder macOS überhaupt läuft, übernimmt ein in die Hauptplatine integriertes Programm, das je nach Generation Ihres Rechners BIOS oder UEFI genannt wird, die Kontrolle über den Rechner, um die Hardware zu initialisieren und den Boot-Prozess zu starten.
-
+Die Sicherheit deines Computers beginnt nicht erst mit dem Start des Betriebssystems, sondern schon von Anfang an. Bevor Windows, Linux oder macOS überhaupt läuft, übernimmt ein in die Hauptplatine integriertes Programm, das je nach Generation deines Rechners BIOS oder UEFI genannt wird, die Kontrolle über den Rechner, um die Hardware zu initialisieren und den Boot-Prozess zu starten.
 
 
 BIOS (*Basic Input/Output System*) ist der Vorgänger von UEFI (*Unified Extensible Firmware Interface*). Heute ist UEFI der Standard auf allen modernen Computern.
 
 
 
-Standardmässig ist der Zugriff auf diese Einstellungen ungeschützt. Ein Angreifer mit physischem Zugang zu Ihrem Rechner (in einem gemeinsam genutzten Raum, im Falle eines Diebstahls oder sogar vorübergehend ohne Ihr Wissen) könnte in Interface UEFI eindringen und kritische Einstellungen ändern. Das könnte er zum Beispiel:
+Standardmässig ist der Zugriff auf diese Einstellungen ungeschützt. Ein Angreifer mit physischem Zugang zu deinem Rechner (in einem gemeinsam genutzten Raum, im Falle eines Diebstahls oder sogar vorübergehend ohne dein Wissen) könnte ins UEFI eindringen und kritische Einstellungen ändern. Folgendes könnte er zum Beispiel anstellen:
 
 
 
 
 - Ändern der Bootreihenfolge, um den Start eines externen Systems von einem USB-Stick zu erzwingen
-- Deaktivieren Sie Sicherheitsmechanismen wie Secure Boot
-- Installation von Malware in der Firmware Ihres Computers...
+- Deaktivieren der Sicherheitsmechanismen wie Secure Boot
+- Installation von Malware in der Firmware des Computers...
 
 
 
-Um sich vor diesen Offline-Angriffen zu schützen, ist es wichtig, den Zugriff auf das BIOS/UEFI mit einem Passwort zu sperren. Dieses Kennwort ist von Ihrem Betriebssystemkennwort getrennt und verhindert den unbefugten Zugriff auf BIOS/UEFI.
+Um sich vor diesen Offline-Angriffen zu schützen, ist es wichtig, den Zugriff auf das BIOS/UEFI mit einem Passwort zu sperren. Dieses Kennwort ist von deinem Betriebssystemkennwort getrennt und verhindert den unbefugten Zugriff auf das BIOS/UEFI.
 
 
 
-Um es zu aktivieren, hängt es von Ihrem Motherboard-Modell ab, aber im Allgemeinen benötigen Sie es:
+Wie du es aktivierst, hängt von deinem Motherboard-Modell ab. Aber im Allgemeinen funktioniert es so:
 
 
 
 
-- Starten Sie Ihren Computer neu
-- Drücken Sie unmittelbar nach dem Einschalten schnell die BIOS/UEFI-Zugangstaste für Ihr Gerät (`Entf`, `F2`, `F10`, `Esc`...)
-- Suchen Sie in der angezeigten Interface die Optionen für das Sicherheits- oder Administratorkennwort
-- Legen Sie ein langes, eindeutiges und zufälliges Passwort fest und speichern Sie es
+- Starte deinen Computer neu
+- Drücke unmittelbar nach dem Einschalten schnell die BIOS/UEFI-Zugangstaste für dein Gerät (`Entf`, `F2`, `F10`, `Esc`...)
+- Suche im angezeigten Interface die Optionen für das Sicherheits- oder Administratorkennwort
+- Lege ein langes, eindeutiges und zufälliges Passwort fest und speichere es
 - Änderungen speichern und Computer neu starten
 
 
@@ -3196,21 +3188,20 @@ Um es zu aktivieren, hängt es von Ihrem Motherboard-Modell ab, aber im Allgemei
 
 
 
-**Warnung:** Wenn Sie dieses Passwort verlieren, werden Sie gesperrt und müssen die Hauptplatine zurücksetzen. Bewahren Sie dieses Passwort daher in einem Passwort-Manager oder an einem sicheren Ort auf.
+**Warnung:** Wenn du dieses Passwort verlierst, wirst du gesperrt und musst die Hauptplatine zurücksetzen. Bewahre dieses Passwort daher in einem Passwort-Manager oder an einem sicheren Ort auf.
+
+
+Aktiviere außerdem die Funktion "Secure Boot", falls sie verfügbar und noch nicht aktiviert ist. Dieser Mechanismus verhindert, dass unsignierter oder veränderter Code beim Booten ausgeführt wird. Er wurde entwickelt, um Bootkits und Rootkits zu blockieren, Arten von Malware, die den Computer beim Booten infizieren, noch bevor das Betriebssystem startet.
 
 
 
-Aktivieren Sie ausserdem die Funktion "Secure Boot", falls sie verfügbar und noch nicht aktiviert ist. Dieser Mechanismus verhindert, dass unsignierter oder veränderter Code beim Booten ausgeführt wird. Er wurde entwickelt, um Bootkits und Rootkits zu blockieren, Arten von Malware, die den Computer beim Booten infizieren, noch bevor das Betriebssystem startet.
-
-
-
-Die Absicherung des UEFI ist eine oft übersehene, aber absolut entscheidende Massnahme zum Schutz Ihres Rechners vor fortgeschrittenen Angriffen. Es ist eines der wenigen Bollwerke gegen physisches Eindringen oder Manipulationen vor dem System.
+Die Absicherung des UEFI ist eine oft übersehene, aber absolut entscheidende Massnahme zum Schutz deines Rechners vor fortgeschrittenen Angriffen. Es ist eines der wenigen Bollwerke gegen physisches Eindringen oder Manipulationen vor dem System.
 
 
 
 #### Sicherung des physischen Zugangs zum Computer
 
-
+xxx
 
 Die Sicherung eines Arbeitsplatzes beschränkt sich nicht nur auf den Softwareschutz: Wenn eine böswillige Person physischen Zugang zu Ihrem Rechner erhält, kann sie viele Barrieren umgehen oder das System ohne Ihr Wissen kompromittieren. Dies gilt insbesondere für Laptops, die leicht zu transportieren sind, aber auch für jedes Gerät, das in einem gemeinsam genutzten Raum steht, der Öffentlichkeit zugänglich ist oder einfach nur für andere Personen zugänglich ist.
 
