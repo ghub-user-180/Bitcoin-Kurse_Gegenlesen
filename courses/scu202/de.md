@@ -523,7 +523,7 @@ An diesem Punkt entstand Unix, das zunächst "*UNICS*" für "*UNiplexed Informat
 
 
 
-Ab den 1970er Jahren entwickelte sich Unix in einem Forschungskontext, bevor es ab 1975 nicht zuletzt aufgrund der AT&T auferlegten kartellrechtlichen Beschränkungen in den Universitäten weit verbreitet wurde. Dies begünstigte seine Einführung in vielen Labors, wie z. B. in Berkeley, wo der BSD-Zweig (*Berkeley Software Distribution*) entstand. Gleichzeitig begann AT&T in den 1980er Jahren mit der Vermarktung von Unix, was zu einer Vielzahl inkompatibler proprietärer Versionen führte (System V, Xenix, SunOS, AIX, Solaris, HP-UX usw.).
+Ab den 1970er Jahren entwickelte sich Unix in einem Forschungskontext, bevor es ab 1975 nicht zuletzt aufgrund der AT&T auferlegten kartellrechtlichen Beschränkungen in den Universitäten weit verbreitet wurde. Dies begünstigte seine Einführung in vielen Labors, wie z.B. in Berkeley, wo der BSD-Zweig (*Berkeley Software Distribution*) entstand. Gleichzeitig begann AT&T in den 1980er Jahren mit der Vermarktung von Unix, was zu einer Vielzahl inkompatibler proprietärer Versionen führte (System V, Xenix, SunOS, AIX, Solaris, HP-UX usw.).
 
 
 
@@ -694,7 +694,7 @@ Jede Linux-Distribution enthält :
 
 
 - den **Linux-Kernel**, der mit der Hardware kommuniziert und die Systemressourcen verwaltet (CPU, Speicher, Festplatten usw.)
-- einen **Bootloader**, wie z. B. *GRUB*, um das System zu starten
+- einen **Bootloader**, wie z.B. *GRUB*, um das System zu starten
 - ein **Initialisierungssystem**, mit dem Dienste beim Booten gestartet werden können: *systemd*, *OpenRC*, *SysV init* oder *runit*, je nach den philosophischen Entscheidungen der Distribution
 - ein **Paketverwaltungssystem**, mit dem du Software installieren, aktualisieren und entfernen kannst. Die gängigsten sind *APT* (Debian, Ubuntu), *RPM/DNF* (Fedora, RHEL), *Pacman* (Arch), *Zypper* (openSUSE) oder *APK* (Alpine)
 - online **Software-Repositories**, die geprüfte Versionen verfügbarer Anwendungen zentral speichern
@@ -1357,7 +1357,7 @@ Eine Desktop-Umgebung in einer Linux-Distribution ist keine einzelne Anwendung. 
 
 
 
-- **Ein Display-Server**: Diese Software wickelt die Kommunikation zwischen dem System (über den Kernel und die Grafiktreiber) und den Grafikanwendungen ab. Er zeigt Fenster auf dem Bildschirm an und verwaltet Tastatur- und Mauseingaben. Der Anzeigeserver ist oft eine andere Komponente der Desktop-Umgebung. Aber immer mehr Systeme übernehmen Wayland, ein modernes Protokoll, bei dem die Rolle des Anzeigeservers direkt vom Fenstermanager übernommen werden kann (z. B. Mutter unter GNOME oder KWin unter KDE). Dies wird dann als "Wayland Compositing" bezeichnet.
+- **Ein Display-Server**: Diese Software wickelt die Kommunikation zwischen dem System (über den Kernel und die Grafiktreiber) und den Grafikanwendungen ab. Er zeigt Fenster auf dem Bildschirm an und verwaltet Tastatur- und Mauseingaben. Der Anzeigeserver ist oft eine andere Komponente der Desktop-Umgebung. Aber immer mehr Systeme übernehmen Wayland, ein modernes Protokoll, bei dem die Rolle des Anzeigeservers direkt vom Fenstermanager übernommen werden kann (z.B. Mutter unter GNOME oder KWin unter KDE). Dies wird dann als "Wayland Compositing" bezeichnet.
 
 
 
@@ -1555,13 +1555,13 @@ Auch die Hauptverwendung des Computers wird deine Wahl beeinflussen:
 
 #### Kompatibilität mit der gewählten Distribution
 
-xxx
-
-Jede GNU/Linux-Distribution bevorzugt eine Standard-Desktop-Umgebung, die oft besser integriert, besser getestet, mit speziellen Tools ausgestattet und standardmässig installiert ist. Es ist immer möglich, eine andere Desktop-Umgebung zu installieren, aber das kann zu Software-Duplizierung, Konfigurationskonflikten oder einer weniger konsistenten Benutzererfahrung führen. Ihre Wahl der Desktop-Umgebung kann daher von der Ihrer Linux-Distribution beeinflusst werden, oder umgekehrt kann Ihre Vorliebe für eine bestimmte Desktop-Umgebung Ihre Wahl der Distribution bestimmen.
 
 
+Jede GNU/Linux-Distribution bevorzugt eine Standard-Desktop-Umgebung, die oft besser integriert, besser getestet, mit speziellen Tools ausgestattet und standardmässig installiert ist. Es ist immer möglich, eine andere Desktop-Umgebung zu installieren, aber das kann zu Software-Duplizierung, Konfigurationskonflikten oder einer weniger konsistenten Benutzererfahrung führen. Deine Wahl der Desktop-Umgebung kann daher von der deiner Linux-Distribution beeinflusst werden, oder umgekehrt kann deine Vorliebe für eine bestimmte Desktop-Umgebung deine Wahl der Distribution bestimmen.
 
-Bitte beachten Sie, dass einige Distributionen, egal ob sie vom Projektteam oder von externen Mitwirkenden gepflegt werden, eine andere Desktop-Umgebung als die Standardumgebung enthalten (z.B. Kubuntu, Lubuntu, Xubuntu...).
+
+
+Bitte beachte, dass einige Distributionen, egal ob sie vom Projektteam oder von externen Mitwirkenden gepflegt werden, eine andere Desktop-Umgebung als die Standardumgebung enthalten (z.B. Kubuntu, Lubuntu, Xubuntu...).
 
 
 
@@ -1643,13 +1643,13 @@ Hier sind die Desktop-Umgebungen der wichtigsten Distributionen:
 
 
 
-- openSUSE → wählen Sie bei der Installation zwischen KDE Plasma (am meisten integrierte Ausgabe), GNOME, Xfce, MATE usw.
+- openSUSE → wähle bei der Installation zwischen KDE Plasma (am meisten integrierte Ausgabe), GNOME, Xfce, MATE usw.
 
 
 
 
 
-- Arch Linux → bietet keine Standardumgebung, daher müssen Sie eine Umgebung Ihrer Wahl installieren
+- Arch Linux → bietet keine Standardumgebung, daher musst du eine Umgebung deiner Wahl installieren
 
 
 
@@ -1667,7 +1667,7 @@ Hier sind die Desktop-Umgebungen der wichtigsten Distributionen:
 
 
 
-- Schwänze → GNOME
+- Tails → GNOME
 
 
 
@@ -1695,26 +1695,26 @@ Hier sind die Desktop-Umgebungen der wichtigsten Distributionen:
 
 
 
-Zusammenfassend lässt sich sagen, dass es nicht die eine beste Desktop-Umgebung gibt, sondern nur diejenige, die am besten zu Ihrer Ausrüstung, Ihren Anwendungen und Vorlieben passt. Es ist sogar üblich, mehrere DEs zu testen, bevor man diejenige findet, die den richtigen Kompromiss zwischen Ästhetik, Ergonomie und Leistung bietet.
+Zusammenfassend lässt sich sagen, dass es nicht die eine beste Desktop-Umgebung gibt, sondern nur diejenige, die am besten zu deiner Ausrüstung, deinen Anwendungen und Vorlieben passt. Es ist sogar üblich, mehrere DEs zu testen, bevor man diejenige findet, die den richtigen Kompromiss zwischen Ästhetik, Ergonomie und Leistung bietet.
 
 
 
-Dieses Kapitel hat Ihnen ein besseres Verständnis dafür vermittelt, was eine Desktop-Umgebung ist, ihre wichtigsten Komponenten, die Unterschiede zwischen den wichtigsten verfügbaren Lösungen und die wichtigen Kriterien für Ihre Wahl. Im nächsten Kapitel werden Sie Ihre ersten Schritte mit Ubuntu, einer vielseitigen Distribution für die Allgemeinheit, machen können.
+Dieses Kapitel hat dir ein besseres Verständnis dafür vermittelt, was eine Desktop-Umgebung ist, ihre wichtigsten Komponenten, die Unterschiede zwischen den wichtigsten verfügbaren Lösungen und die wichtigen Kriterien für deine Wahl. Im nächsten Kapitel wirst du deine ersten Schritte mit Ubuntu, einer vielseitigen Distribution für die Allgemeinheit, machen können.
 
 
 
-## Erste Schritte mit Ubuntu: Alles, was Sie wissen müssen
+## Erste Schritte mit Ubuntu: Alles, was du wissen musst
 
 
 <chapterId>7cea476d-f759-4c7e-8ca5-8b35bc79c682</chapterId>
 
 
 
-Heute ist Ubuntu einer der zugänglichsten Zugänge zu GNU/Linux: eine ausgefeilte GNOME-Umgebung, umfangreiche Repositories, reaktionsschnelle Sicherheitsupdates und eine grosse Community. Deshalb habe ich mich entschieden, diese Distribution vorzustellen.
+Heute ist Ubuntu einer der zugänglichsten Wege zu GNU/Linux: eine ausgefeilte GNOME-Umgebung, umfangreiche Repositories, reaktionsschnelle Sicherheitsupdates und eine grosse Community. Deshalb habe ich mich entschieden, diese Distribution vorzustellen.
 
 
 
-Um die Installation Ihres Desktops zu meistern, müssen Sie jedoch die grundlegenden Mechanismen des Systems verstehen: Paketverwaltung, Befehlszeile, grundlegende Sicherheitsvorkehrungen und alltägliche Best Practices. In diesem Kapitel führe ich Sie Schritt für Schritt von der anfänglichen Konfiguration bis zur Installation von Produktivitäts- und Entwicklungstools, um sicherzustellen, dass Sie einen vollständigen, sicheren und effizienten Desktop haben.
+Um die Installation deines Desktops zu meistern, musst du jedoch die grundlegenden Mechanismen des Systems verstehen: Paketverwaltung, Befehlszeile, grundlegende Sicherheitsvorkehrungen und alltägliche Best Practices. In diesem Kapitel führe ich dich Schritt für Schritt von der anfänglichen Konfiguration bis zur Installation von Produktivitäts- und Entwicklungstools, um sicherzustellen, dass du einen vollständigen, sicheren und effizienten Desktop hast.
 
 
 
@@ -1722,17 +1722,18 @@ Um die Installation Ihres Desktops zu meistern, müssen Sie jedoch die grundlege
 
 
 
-Bevor Sie Ubuntu verwenden können, müssen Sie es auf Ihrem Rechner installieren. Dieser Schritt mag entmutigend erscheinen, wenn Sie ihn noch nie gemacht haben, aber heutzutage ist er sehr einfach zu bewerkstelligen.
+Bevor du Ubuntu verwenden kannst, musst du es auf deinem Rechner installieren. Dieser Schritt mag entmutigend erscheinen, wenn du ihn noch nie gemacht hast. Aber heutzutage ist er sehr einfach zu bewerkstelligen.
 
 
 
-Je nach dem Zustand Ihres aktuellen Computers sind mehrere Szenarien möglich:
+Je nach dem Zustand deines aktuellen Computers sind mehrere Szenarien möglich:
 
 
 
 
-- Wenn Sie einen Computer mit vorinstalliertem Windows haben, können Sie entweder Ubuntu neben Windows installieren (*"dual boot "*) oder Ihr aktuelles System komplett ersetzen. Wenn Sie sich für *dual boot* entscheiden, können Sie auswählen, welches Betriebssystem bei jedem Startvorgang gestartet werden soll. Dies ist die Lösung der Wahl, wenn Sie Ubuntu einfach nur testen und gleichzeitig Zugriff auf Windows haben möchten
-- Wenn Sie einen neuen Rechner ohne Betriebssystem haben, können Sie Ubuntu direkt als Hauptsystem installieren
+- Wenn du einen Computer mit vorinstalliertem Windows hast, kannst du entweder Ubuntu neben Windows installieren ("dual boot") oder dein aktuelles System komplett ersetzen. Wenn du dich für dual boot entscheidest, kannst du auswählen, welches Betriebssystem bei jedem Startvorgang gestartet werden soll. Dies ist die Lösung der Wahl, wenn du Ubuntu einfach nur testen und gleichzeitig Zugriff auf Windows haben möchtest.
+- Wenn du einen neuen Rechner ohne Betriebssystem hast, kannst du Ubuntu direkt als Hauptsystem installieren.
+
 
 
 
@@ -1744,7 +1745,7 @@ In allen Fällen folgt der Installationsprozess denselben technischen Prinzipien
 
 
 
-Die Ubuntu-Installationsdatei wird in Form eines ISO-Images geliefert, einer Datei, die alles enthält, was Sie zum Booten und Installieren des Systems benötigen. Um es zu erhalten, [besuchen Sie die offizielle Website](https://ubuntu.com/download/desktop).
+Die Ubuntu-Installationsdatei wird in Form eines ISO-Images geliefert, einer Datei, die alles enthält, was du zum Booten und Installieren des Systems benötigst. Um es zu erhalten, [besuche die offizielle Website](https://ubuntu.com/download/desktop).
 
 
 
@@ -1752,7 +1753,7 @@ Die Ubuntu-Installationsdatei wird in Form eines ISO-Images geliefert, einer Dat
 
 
 
-Es gibt 2 Versionen von Ubuntu Desktop:
+Es gibt zwei Versionen von Ubuntu Desktop:
 
 
 
@@ -1762,11 +1763,11 @@ Es gibt 2 Versionen von Ubuntu Desktop:
 
 
 
-Der Hauptunterschied zwischen einer LTS-Version und einer Nicht-LTS-Version von Ubuntu ist die Dauer des Supports und der Stabilität. Eine LTS-Version wird für 5 Jahre unterstützt. Umgekehrt wird eine Nicht-LTS-Version nur 9 Monate lang unterstützt, sodass Sie Ihr System regelmässig aktualisieren müssen. Andererseits enthält die neueste Nicht-LTS-Version alle neuen Funktionen. Ich empfehle die LTS-Version, wenn Sie gerade erst anfangen, da sie stabiler ist und weniger grosse Updates erfordert. Sie können sich aber auch für die neueste Nicht-LTS-Version entscheiden, wenn Sie das möchten: Das hat keine Auswirkungen auf den Rest des Programms.
+Der Hauptunterschied zwischen einer LTS-Version und einer Nicht-LTS-Version von Ubuntu ist die Dauer des Supports und der Stabilität. Eine LTS-Version wird für fünf Jahre unterstützt. Umgekehrt wird eine Nicht-LTS-Version nur neun Monate lang unterstützt, sodass du dein System regelmässig aktualisieren musst. Andererseits enthält die neueste Nicht-LTS-Version alle neuen Funktionen. Ich empfehle die LTS-Version, wenn du gerade erst anfängst, da sie stabiler ist und weniger grosse Updates erfordert. Du kannst dich aber auch für die neueste Nicht-LTS-Version entscheiden, wenn du das möchtest: Das hat keine Auswirkungen auf den Rest des Programms.
 
 
 
-Klicken Sie einfach auf die Schaltfläche "*Download*", um das Ubuntu-ISO-Image herunterzuladen.
+Klicke einfach auf die Schaltfläche "*Download*", um das Ubuntu-ISO-Image herunterzuladen.
 
 
 
@@ -1774,12 +1775,10 @@ Klicken Sie einfach auf die Schaltfläche "*Download*", um das Ubuntu-ISO-Image 
 
 
 
-Um Ubuntu auf Ihrem Computer zu installieren, müssen Sie das ISO-Image von einem USB-Stick bootfähig machen. Dieser Schlüssel wird als Installationsmedium dienen.
+Um Ubuntu auf deinem Computer zu installieren, musst du das ISO-Image von einem USB-Stick bootfähig machen. Dieser Stick wird als Installationsmedium dienen.
 
 
-
-Stecken Sie ein USB-Flash-Laufwerk mit mindestens 8 GB ein (Vorsicht, der Inhalt wird gelöscht) und verwenden Sie dann ein Tool wie [BalenaEtcher] (https://www.balena.io/etcher), um aus dem ISO-Image ein bootfähiges Medium zu erstellen. Wählen Sie einfach die ISO-Datei und den USB-Stick aus und klicken Sie auf "*Flash*".
-
+Stecke ein USB-Flash-Laufwerk mit mindestens 8 GB ein (Vorsicht, der Inhalt wird gelöscht) und verwende dann ein Tool wie [BalenaEtcher] (https://www.balena.io/etcher), um aus dem ISO-Image ein bootfähiges Medium zu erstellen. Wähle einfach die ISO-Datei und den USB-Stick aus und klicke auf "Flash".
 
 
 ![Image](assets/fr/061.webp)
@@ -1790,11 +1789,10 @@ Stecken Sie ein USB-Flash-Laufwerk mit mindestens 8 GB ein (Vorsicht, der Inhalt
 
 
 
-Sie müssen Ihren Computer jetzt nicht von der Hard-Diskette, sondern vom USB-Stick booten. Starten Sie Ihren Computer neu und rufen Sie das Boot-Menü oder BIOS/UEFI auf. Dies geschieht in der Regel durch Drücken einer Taste direkt nach dem Booten Ihres Computers (oft `F2`, `F10`, `F12`, `DEL`, `ESC`). Prüfen Sie, wie Sie dieses Menü auf Ihrem Computer aufrufen können.
+Du musst deinen Computer jetzt nicht von der Festplatte, sondern vom USB-Stick booten. Starte deinen Computer neu und rufe das Boot-Menü oder BIOS/UEFI auf. Dies geschieht in der Regel durch Drücken einer Taste direkt nach dem Booten deines Computers (oft F2, F10, F12, DEL, ESC). Prüfe, wie du dieses Menü auf deinem Computer aufrufen kannst.
 
 
-
-Wählen Sie im Boot-Menü den USB-Stick aus (er kann unter dem Namen des Stickherstellers oder als "USB" erscheinen). Wählen Sie dann "*Ubuntu ausprobieren oder installieren*". Der Computer bootet dann im "Live"-Modus von Ubuntu: So können Sie das System testen, ohne etwas zu verändern, oder direkt das Installationsprogramm starten.
+Wähle im Boot-Menü den USB-Stick aus (er kann unter dem Namen des Stickherstellers oder als "USB" erscheinen). Wähle dann "Ubuntu ausprobieren oder installieren". Dein Computer bootet dann im "Live"-Modus von Ubuntu: So kannst du das System testen, ohne etwas zu verändern, oder direkt das Installationsprogramm starten.
 
 
 
@@ -1807,18 +1805,15 @@ Das Installationsprogramm wird dies vorschlagen:
 
 
 
-- wählen Sie Ihre Sprache und Zeitzone
-- verbindung zu einem Wi-Fi-Netzwerk
-- wählen Sie die Art der Installation (Standard oder erweitert), je nachdem, ob Sie ein minimales System oder eines mit vielen vorinstallierten Anwendungen wünschen
-- ob Software von Drittanbietern (Grafiktreiber, Codecs usw.) installiert werden soll oder nicht
+- wähle deine Sprache und Zeitzone
+- verbinde dich mit einem WLAN-Netzwerk
+- wähle die Art der Installation (Standard oder erweitert), je nachdem, ob du ein minimales System oder eines mit vielen vorinstallierten Anwendungen wünschst
+- entscheide, ob Software von Drittanbietern (Grafiktreiber, Codecs usw.) installiert werden soll oder nicht
+
+#### Wähle eine Installationsart
 
 
-
-#### Wählen Sie eine Installationsart
-
-
-
-Sobald Sie Ubuntu gestartet haben, führt Sie der Installationsassistent Schritt für Schritt. Folgen Sie jedem Schritt und wählen Sie die Optionen, die Ihnen am besten gefallen. Der wichtigste Schritt betrifft die Art der Installation. Je nach Ihrer Situation gibt es drei Möglichkeiten:
+Sobald du Ubuntu gestartet hast, führt dich der Installationsassistent Schritt für Schritt durch den Prozess. Folge jedem Schritt und wähle die Optionen, die dir am besten gefallen. Der wichtigste Schritt betrifft die Art der Installation. Je nach deiner Situation gibt es drei Möglichkeiten:
 
 
 
@@ -1828,32 +1823,31 @@ Sobald Sie Ubuntu gestartet haben, führt Sie der Installationsassistent Schritt
 
 
 
-Wenn auf Ihrem Computer bereits Windows installiert ist, erkennt Ubuntu diese Installation automatisch und schlägt ein Dual-Boot-Setup für die beiden Betriebssysteme vor:
+Wenn auf deinem Computer bereits Windows installiert ist, erkennt Ubuntu diese Installation automatisch und schlägt ein Dual-Boot-Setup für die beiden Betriebssysteme vor:
 
 
 
 
 - Das Installationsprogramm verkleinert die Windows-Partition, um Speicherplatz freizugeben
 - Ubuntu wird in diesem freien Bereich mit eigenen Partitionen installiert
-- Es wird ein Bootmanager (GRUB) installiert, mit dem Sie bei jedem Start des Computers zwischen Windows und Ubuntu wählen können
+- Es wird ein Bootmanager (GRUB) installiert, mit dem du bei jedem Start des Computers zwischen Windows und Ubuntu wählen kannst
 
 
 
-Wählen Sie diese Option, wenn Sie Windows für bestimmte Softwareanwendungen (z. B. Videospiele) beibehalten möchten, während Sie Linux entdecken.
+Wähle diese Option, wenn du Windows für bestimmte Softwareanwendungen (z.B. Videospiele) beibehalten möchtest, während du Linux entdeckst.
+
+
+Um dies richtig zu machen, empfehle ich dir, zunächst eine nicht zugewiesene Partition auf der Festplatte deiner Wahl in Windows zu erstellen und diese Partition dann bei der Installation von Ubuntu manuell auszuwählen. Öffne dazu in Windows die Datenträgerverwaltung, klicke mit der rechten Maustaste auf den betreffenden Datenträger und wähle "*Volume verkleinern*". Gib dann die Größe an, die du für Ubuntu reservieren möchtest (ich empfehle ein Minimum von 80 GB für eine komfortable Nutzung).
 
 
 
-Um dies richtig zu tun, empfehle ich Ihnen, zunächst eine nicht zugewiesene Partition auf der Festplatte Ihrer Wahl in Windows zu erstellen und diese Partition dann bei der Installation von Ubuntu manuell auszuwählen. Öffnen Sie dazu in Windows den Datenträger-Manager, klicken Sie mit der rechten Maustaste auf den betreffenden Datenträger und wählen Sie "*Volumen verkleinern*". Geben Sie dann die Grösse an, die Sie für Ubuntu reservieren möchten (ich empfehle ein Minimum von 80 GB für eine komfortable Nutzung).
+
+
+- **Vollständiger Austausch von Fenstern**
 
 
 
-
-
-- Vollständiger Austausch von Fenstern**
-
-
-
-Wenn Sie nur Ubuntu verwenden möchten, können Sie die Festplatte komplett löschen:
+Wenn du nur Ubuntu verwenden möchtest, kannst du die Festplatte komplett löschen:
 
 
 
@@ -1863,8 +1857,7 @@ Wenn Sie nur Ubuntu verwenden möchten, können Sie die Festplatte komplett lös
 
 
 
-Wählen Sie diese Option nur, wenn Sie zu 100% auf GNU/Linux umsteigen wollen. Denken Sie daran, Ihre Windows-Daten zu sichern, bevor Sie sie vollständig löschen.
-
+Wähle diese Option nur, wenn du zu 100% auf GNU/Linux umsteigen willst. Denke daran, deine Windows-Daten zu sichern, bevor du sie vollständig löschst.
 
 
 
@@ -1873,25 +1866,23 @@ Wählen Sie diese Option nur, wenn Sie zu 100% auf GNU/Linux umsteigen wollen. D
 
 
 
-Wenn Ihr Rechner überhaupt kein System enthält oder wenn Sie die Festplatte vorher gelöscht haben, verläuft die Installation wie im vorherigen Fall. Ubuntu installiert sich selbst als Hauptsystem und konfiguriert automatisch die erforderlichen Partitionen.
+Wenn dein Rechner überhaupt kein System enthält oder wenn du die Festplatte vorher gelöscht hast, verläuft die Installation wie im vorherigen Fall. Ubuntu installiert sich selbst als Hauptsystem und konfiguriert automatisch die erforderlichen Partitionen.
 
 
-
-Sie werden dann aufgefordert, ein Benutzerkonto einzurichten (Name, Passwort, Rechnername). Wählen Sie ein sicheres Kennwort: Es ermöglicht Ihnen, sich am System anzumelden, Software zu installieren oder wichtige Einstellungen zu ändern
-
+Du wirst dann aufgefordert, ein Benutzerkonto einzurichten (Name, Passwort, Rechnername). Wähle ein sicheres Passwort: Es ermöglicht dir, dich am System anzumelden, Software zu installieren oder wichtige Einstellungen zu ändern
 
 
-Weitere Informationen über das Ubuntu-Installationsprogramm finden Sie auch in dieser Anleitung:
+Weitere Informationen über das Ubuntu-Installationsprogramm findest du auch in dieser Anleitung:
 
 
 
 https://planb.network/tutorials/computer-security/operating-system/ubuntu-78a3be56-5d51-4ec3-8629-0dd27c352ab5
 
-Sobald die Installation abgeschlossen ist, entfernen Sie den USB-Stick, wenn Sie dazu aufgefordert werden, und starten Sie neu. Ubuntu ist nun auf Ihrem Rechner installiert und einsatzbereit.
+Sobald die Installation abgeschlossen ist, entferne den USB-Stick, wenn du dazu aufgefordert wirst, und starte neu. Ubuntu ist nun auf deinem Rechner installiert und einsatzbereit.
 
 
 
-Herzlichen Glückwunsch, Sie haben jetzt ein vollständiges GNU/Linux-System!
+Herzlichen Glückwunsch, du hast jetzt ein vollständiges GNU/Linux-System!
 
 
 
@@ -1903,7 +1894,7 @@ Herzlichen Glückwunsch, Sie haben jetzt ein vollständiges GNU/Linux-System!
 
 
 
-Sobald der Installationsassistent beendet ist, melden Sie sich mit dem neuen Benutzer an und öffnen ein Terminal:
+Sobald der Installationsassistent beendet ist, melde dich mit dem neuen Benutzer an und öffne ein Terminal:
 
 
 
@@ -1921,7 +1912,7 @@ Ctrl+Alt+T
 
 
 
-ISO-Images enthalten eingefrorene Pakete mehrere Wochen vor der Freigabe, daher sollten Sie immer zuerst die Indizes synchronisieren und Patches anwenden:
+ISO-Images enthalten eingefrorene Pakete mehrere Wochen vor der Freigabe, daher solltest du immer zuerst die Indizes synchronisieren und Patches anwenden:
 
 
 
@@ -1936,7 +1927,7 @@ Der erste Befehl aktualisiert die lokale Liste der Pakete, lädt neue Versionen 
 
 
 
-→ Der Befehl `sudo` führt eine Aktion mit Administratorrechten aus und fragt zur Bestätigung nach Ihrem Passwort.
+→ Der Befehl `sudo` führt eine Aktion mit Administratorrechten aus und fragt zur Bestätigung nach deinem Passwort.
 
 
 
@@ -1944,7 +1935,7 @@ Der erste Befehl aktualisiert die lokale Liste der Pakete, lädt neue Versionen 
 
 
 
-Anschliessend können Sie Ihren Computer neu starten:
+Anschliessend kannst du deinen Computer neu starten:
 
 
 
@@ -1967,10 +1958,10 @@ Jedes Repository ist in Abschnitte unterteilt. Standardmässig aktiviert Ubuntu 
 
 
 
-- main**: Freie Software, die offiziell von Canonical gepflegt wird. Beispiele: Firefox, LibreOffice, bash
-- eingeschränkt**: unfreie Software, die für das ordnungsgemässe Funktionieren der Hardware unerlässlich ist. Beispiele: NVIDIA-Treiber, Wi-Fi-Firmware, proprietäre Codecs
-- universum**: Freie Software, die von der Gemeinschaft gepflegt wird. Beispiele: GIMP, Inkscape, Audacity
-- multiverse**: Die Software unterliegt rechtlichen Einschränkungen (Patente, unfreie Lizenzen). Die Verfügbarkeit kann je nach Land variieren. Beispiele: bestimmte Audio-/Video-Codecs, Steam
+- **main**: Freie Software, die offiziell von Canonical gepflegt wird. Beispiele: Firefox, LibreOffice, bash
+- **eingeschränkt**: unfreie Software, die für das ordnungsgemässe Funktionieren der Hardware unerlässlich ist. Beispiele: NVIDIA-Treiber, Wi-Fi-Firmware, proprietäre Codecs
+- **universum**: Freie Software, die von der Gemeinschaft gepflegt wird. Beispiele: GIMP, Inkscape, Audacity
+- **multiverse**: Die Software unterliegt rechtlichen Einschränkungen (Patente, unfreie Lizenzen). Die Verfügbarkeit kann je nach Land variieren. Beispiele: bestimmte Audio-/Video-Codecs, Steam
 
 
 
@@ -1982,13 +1973,11 @@ Jede Komponente kann dann in mehrere Kanäle oder Zweige aufgeteilt werden: `Rel
 
 
 
-Der grafische Interface macht die Benutzung von Ubuntu intuitiv, aber für bestimmte Verwaltungsaufgaben bleibt das Terminal das effizienteste und leistungsfähigste Werkzeug. Unter Ubuntu ist die Standard-Shell **Bash** (*Bourne Again SHell*), eine freie Shell aus der Unix-Tradition.
+Die grafische Benutzeroberfläche macht die Benutzung von Ubuntu intuitiv, aber für bestimmte Verwaltungsaufgaben bleibt das Terminal das effizienteste und leistungsfähigste Werkzeug. Unter Ubuntu ist die Standard-Shell **Bash** (*Bourne Again SHell*), eine freie Shell aus der Unix-Tradition.
 
 
 
-Mit dem Terminal können Sie Dateien direkt manipulieren, das System präzise konfigurieren, Pakete verwalten, Aufgaben automatisieren oder Probleme diagnostizieren. Hier finden Sie eine Auswahl der wichtigsten Befehle, die Sie für den Einstieg benötigen.
-
-
+Mit dem Terminal kannst du Dateien direkt manipulieren, das System präzise konfigurieren, Pakete verwalten, Aufgaben automatisieren oder Probleme diagnostizieren. Hier findest du eine Auswahl der wichtigsten Befehle, die du für den Einstieg benötigst.
 
 
 
@@ -2002,7 +1991,7 @@ pwd
 
 
 
-Dieser Befehl zeigt den absoluten Pfad des Verzeichnisses an, in dem Sie sich gerade befinden. Sehr nützlich, wenn Sie Ihre Position im Verzeichnisbaum im Auge behalten wollen.
+Dieser Befehl zeigt den absoluten Pfad des Verzeichnisses an, in dem du dich gerade befindest. Sehr nützlich, wenn du deine Position im Verzeichnisbaum im Auge behalten willst.
 
 
 
@@ -2047,7 +2036,7 @@ lsblk
 
 
 
-Zeigt die Baumstruktur der an Ihr System angeschlossenen Festplatten und Partitionen an. Dies ist sehr nützlich, um z. B. ein USB-Laufwerk zu identifizieren.
+Zeigt die Baumstruktur der an dein System angeschlossenen Festplatten und Partitionen an. Dies ist sehr nützlich, um z.B. ein USB-Laufwerk zu identifizieren.
 
 
 
@@ -2063,8 +2052,8 @@ cd /path/to/directory
 
 
 
-cd" steht für "*Verzeichnis wechseln*". Damit können Sie sich im Dateibaum bewegen. Mit dem Befehl `cd Music` befinden Sie sich zum Beispiel im Verzeichnis `/Music`.
-
+"cd" steht für "*Verzeichnis wechseln*". Damit können Sie sich im Dateibaum bewegen. Mit dem Befehl `cd Music` befinden Sie sich zum Beispiel im Verzeichnis `/Music`.
+Damit kannst du dich im Dateibaum bewegen. Mit dem Befehl `cd Music` befindest du dich zum Beispiel im Verzeichnis `/Music`.
 
 
 ![Image](assets/fr/067.webp)
@@ -2084,7 +2073,7 @@ cd" steht für "*Verzeichnis wechseln*". Damit können Sie sich im Dateibaum bew
 
 
 
-Um ein neues Verzeichnis innerhalb des aktuellen Verzeichnisses zu erstellen, verwenden Sie den Befehl:
+Um ein neues Verzeichnis innerhalb des aktuellen Verzeichnisses zu erstellen, verwende den Befehl:
 
 
 
@@ -2094,7 +2083,7 @@ mkdir name
 
 
 
-Ändern Sie einfach "name" in den Namen Ihres neuen Verzeichnisses.
+Ändere einfach "name" in den Namen deines neuen Verzeichnisses.
 
 
 
@@ -2104,11 +2093,11 @@ mkdir name
 
 
 
-- Kopieren Sie eine Datei:
+- Kopiere eine Datei:
 
 
 
-Um eine Datei zu kopieren, verwenden Sie den Befehl `cp`, gefolgt von dem Dateinamen (Sie müssen sich in dem Verzeichnis befinden, in dem sich die Datei befindet), dann den Pfad zum Zielverzeichnis.
+Um eine Datei zu kopieren, verwende den Befehl `cp`, gefolgt von dem Dateinamen (Du musst dich in dem Verzeichnis befinden, in dem sich die Datei befindet), dann den Pfad zum Zielverzeichnis.
 
 
 
@@ -2134,7 +2123,7 @@ mv file.txt /new/directory/
 
 
 
-Mit dem Befehl `mv` können Sie eine Datei oder ein Verzeichnis verschieben oder umbenennen. Wenn Sie hinter dem Dateinamen einen Pfad zu einem anderen Verzeichnis angeben, wird die Datei verschoben. Wenn Sie einen neuen Namen im selben Verzeichnis angeben, wird die Datei umbenannt.
+Mit dem Befehl `mv` kannst du eine Datei oder ein Verzeichnis verschieben oder umbenennen. Wenn du hinter dem Dateinamen einen Pfad zu einem anderen Verzeichnis angibst, wird die Datei verschoben. Wenn du einen neuen Namen im selben Verzeichnis angibst, wird die Datei umbenannt.
 
 
 
@@ -2169,7 +2158,7 @@ Warnung: Dieser Befehl verschiebt keine Dateien in einen Papierkorb.
 
 
 
-Um Fehler mit diesem Befehl zu vermeiden, empfehle ich, standardmässig eine Sicherheitsabfrage einzufügen. Führen Sie ihn einfach in Ihrem Terminal aus:
+Um Fehler mit diesem Befehl zu vermeiden, empfehle ich, standardmässig eine Sicherheitsabfrage einzufügen. Führe ihn einfach in deinem Terminal aus:
 
 
 
@@ -2180,7 +2169,7 @@ source ~/.bashrc
 
 
 
-Vor jeder Löschung werden Sie um eine Bestätigung gebeten.
+Vor jeder Löschung wirst du um eine Bestätigung gebeten.
 
 
 
@@ -2190,7 +2179,7 @@ Vor jeder Löschung werden Sie um eine Bestätigung gebeten.
 
 
 
-Um das Terminal zu löschen und mit einem leeren Bildschirm zu beginnen, geben Sie ein:
+Um das Terminal zu löschen und mit einem leeren Bildschirm zu beginnen, gib ein:
 
 
 
@@ -2202,7 +2191,7 @@ clear
 
 
 
-- Führen Sie einen Befehl als Administrator aus:
+- Führe einen Befehl als Administrator aus:
 
 
 
@@ -2212,11 +2201,11 @@ sudo command
 
 
 
-Mit dem Schlüsselwort "sudo" (*superuser do*) können Sie einen Befehl vorübergehend mit den Rechten eines *root* (Systemadministrators) ausführen. Sie werden nach Ihrem Passwort gefragt, um diese Aktion zu bestätigen. Seien Sie vorsichtig: Verwenden Sie niemals `sudo`, ohne zu wissen, was der Befehl bewirkt.
+Mit dem Schlüsselwort "sudo" (*superuser do*) kannst du einen Befehl vorübergehend mit den Rechten eines *root* (Systemadministrators) ausführen. Du wirst nach deinem Passwort gefragt, um diese Aktion zu bestätigen. Sei vorsichtig: Verwende niemals `sudo`, ohne zu wissen, was der Befehl bewirkt.
 
 
 
-Tipp: Um zu einer Root-Shell (Administrator-Sitzung) zu wechseln, geben Sie ein:
+Tipp: Um zu einer Root-Shell (Administrator-Sitzung) zu wechseln, gib ein:
 
 
 
@@ -2226,7 +2215,7 @@ sudo -i
 
 
 
-Dies öffnet ein vollständiges Terminal mit Root-Rechten. Verwenden Sie diese Funktion mit Vorsicht und niemals über längere Zeiträume.
+Dies öffnet ein vollständiges Terminal mit Root-Rechten. Verwende diese Funktion mit Vorsicht und niemals über längere Zeiträume.
 
 
 
@@ -2242,7 +2231,7 @@ man command_name
 
 
 
-Der Befehl `man` (*manual*) öffnet die vollständige Dokumentation eines Befehls. Navigieren Sie mit den Pfeiltasten und verlassen Sie den Befehl mit `q`.
+Der Befehl `man` (*manual*) öffnet die vollständige Dokumentation eines Befehls. Navigiere mit den Pfeiltasten und verlass den Befehl mit `q`.
 
 
 
@@ -2256,7 +2245,7 @@ man cp
 
 
 
-Eine schnelle Zusammenfassung finden Sie hier:
+Eine schnelle Zusammenfassung findest du hier:
 
 
 
@@ -2265,12 +2254,10 @@ cp --help
 ```
 
 
-
-Diese anfänglichen Befehle sind alles, was Sie brauchen, um die meisten grundlegenden Operationen in Ihrem Terminal durchzuführen. Mit etwas Übung gewinnen Sie an Selbstständigkeit und Geschwindigkeit.
-
+Diese anfänglichen Befehle sind alles, was du brauchst, um die meisten grundlegenden Operationen in deinem Terminal durchzuführen. Mit etwas Übung gewinnst du an Selbstständigkeit und Geschwindigkeit.
 
 
-In den folgenden Abschnitten sehen wir uns genauer an, wie man das Terminal zur Verwaltung des Systems, der Pakete und der Sicherheitstools verwendet.
+In den folgenden Abschnitten schauen wir uns genauer an, wie du das Terminal zur Verwaltung des Systems, der Pakete und der Sicherheitstools verwendest.
 
 
 
@@ -2278,7 +2265,7 @@ In den folgenden Abschnitten sehen wir uns genauer an, wie man das Terminal zur 
 
 
 
-Auf einem GNU/Linux-System wie Ubuntu werden die Installation, Aktualisierung und Entfernung von Software durch Paketverwaltungssysteme zentralisiert. Im Gegensatz zu Windows, wo Sie "exe"- oder "msi"-Dateien herunterladen, verwendet Ubuntu Werkzeuge wie APT, Snap oder Flatpak, um diese Vorgänge zu automatisieren und die Konsistenz des Systems zu gewährleisten.
+Auf einem GNU/Linux-System wie Ubuntu werden die Installation, Aktualisierung und Entfernung von Software durch Paketverwaltungssysteme zentralisiert. Im Gegensatz zu Windows, wo du "exe"- oder "msi"-Dateien herunterlädst, verwendet Ubuntu Werkzeuge wie APT, Snap oder Flatpak, um diese Vorgänge zu automatisieren und die Konsistenz des Systems zu gewährleisten.
 
 
 
@@ -2290,7 +2277,7 @@ APT (*Advanced Package Tool*) ist der wichtigste Paketmanager von Ubuntu. Er ver
 
 
 
-So suchen Sie in den Repositories nach einem verfügbaren Paket (Sie müssen natürlich "gimp" durch den Namen der gewünschten Software ersetzen):
+So suchst du in den Repositories nach einem verfügbaren Paket (Du müssen natürlich "gimp" durch den Namen der gewünschten Software ersetzen):
 
 
 
@@ -2318,7 +2305,7 @@ sudo apt install gimp
 
 
 
-Sobald die Installation abgeschlossen ist, finden Sie die ausführbare Datei im Anwendungsmenü von Ubuntu, das sich unten links auf dem Interface befindet.
+Sobald die Installation abgeschlossen ist, findest du die ausführbare Datei im Anwendungsmenü von Ubuntu, das sich unten links auf dem Interface befindet.
 
 
 
@@ -2326,7 +2313,7 @@ Sobald die Installation abgeschlossen ist, finden Sie die ausführbare Datei im 
 
 
 
-Noch einfacher: Sie können auch den Namen der Software direkt in das Terminal eingeben (in diesem Fall "gimp"), um sie zu öffnen.
+Noch einfacher: Du kannst auch den Namen der Software direkt in das Terminal eingeben (in diesem Fall "gimp"), um sie zu öffnen.
 
 
 
@@ -2334,7 +2321,7 @@ Noch einfacher: Sie können auch den Namen der Software direkt in das Terminal e
 
 
 
-Um Software zu entfernen, können Sie den folgenden Befehl verwenden (ersetzen Sie "gimp" durch den Namen der Software, die Sie deinstallieren möchten):
+Um Software zu entfernen, kannst du den folgenden Befehl verwenden (ersetzen Sie "gimp" durch den Namen der Software, die du deinstallieren möchtest):
 
 
 
@@ -2344,7 +2331,7 @@ sudo apt remove gimp
 
 
 
-Sie können auch `--purge` zu Ihrem Befehl hinzufügen, um die mit der Software verbundenen Konfigurationsdateien zu löschen:
+Du kannst auch `--purge` zu deinem Befehl hinzufügen, um die mit der Software verbundenen Konfigurationsdateien zu löschen:
 
 
 
@@ -2358,7 +2345,7 @@ sudo apt remove --purge gimp
 
 
 
-Um die Datenbank der verfügbaren Pakete zu aktualisieren (`update`) und die neuesten Versionen zu installieren (`upgrade`), können Sie die folgenden beiden Befehle ausführen:
+Um die Datenbank der verfügbaren Pakete zu aktualisieren (`update`) und die neuesten Versionen zu installieren (`upgrade`), kannst du die folgenden beiden Befehle ausführen:
 
 
 
@@ -2389,7 +2376,7 @@ Dies ermöglicht es, Software unabhängig vom System auf dem neuesten Stand zu h
 
 
 
-So suchen Sie nach einem Snap-Paket im Snap Store (hier für Spotify-Software):
+So suchst du nach einem Snap-Paket im Snap Store (hier für Spotify-Software):
 
 
 
@@ -2403,7 +2390,7 @@ snap find spotify
 
 
 
-So installieren Sie das Paket:
+So installierst du das Paket:
 
 
 
@@ -2413,7 +2400,7 @@ sudo snap install spotify
 
 
 
-Nach Abschluss der Installation finden Sie die ausführbare Datei im Anwendungsmenü von Ubuntu, das sich unten links im Interface befindet. Oder, noch einfacher: Sie können den Namen der Software direkt in das Terminal eingeben (in diesem Fall "spotify"), um sie zu öffnen.
+Nach Abschluss der Installation findest du die ausführbare Datei im Anwendungsmenü von Ubuntu, das sich unten links auf der Oberfläche befindet. Oder, noch einfacher: Du kannst den Namen der Software direkt in das Terminal eingeben (in diesem Fall "spotify"), um sie zu öffnen.
 
 
 
@@ -2431,7 +2418,7 @@ sudo snap refresh
 
 
 
-So löschen Sie eine Anwendung:
+So löschst du eine Anwendung:
 
 
 
@@ -2467,7 +2454,7 @@ sudo apt install flatpak gnome-software-plugin-flatpak
 
 
 
-So fügen Sie das Haupt-Community-Repository (Flathub) hinzu:
+So fügst du das Haupt-Community-Repository (Flathub) hinzu:
 
 
 
@@ -2477,7 +2464,7 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 
 
 
-Um eine Anwendung über Flatpak zu installieren, verwenden Sie den folgenden Befehl (in diesem Beispiel, um die VLC-Software zu installieren):
+Um eine Anwendung über Flatpak zu installieren, verwende den folgenden Befehl (in diesem Beispiel, um die VLC-Software zu installieren):
 
 
 
@@ -2505,17 +2492,17 @@ Kurz und bündig:
 
 
 
-Ubuntu enthält eine Anwendung namens *App Center*, die als grafischer Interface zum einfachen Suchen, Installieren und Deinstallieren von Anwendungen dient, ohne die Befehlszeilen zu verwenden, wie wir gerade gesehen haben. Technisch gesehen fungiert das App Center als Overlay für den Paketmanager. Es kann daher:
+Ubuntu enthält eine Anwendung namens *App Center*, die als grafische Oberfläche zum einfachen Suchen, Installieren und Deinstallieren von Anwendungen dient, ohne die Befehlszeilen zu verwenden, wie wir gerade gesehen haben. Technisch gesehen fungiert das App Center als Overlay für den Paketmanager. Es kann daher:
 
 
 
 
 - .deb-Pakete mit APT installieren
-- Installieren Sie Snap-Pakete aus dem Snap Store
+- Installiere Snap-Pakete aus dem Snap Store
 
 
 
-Der App Center Store ist also kein eigenständiges Installationssystem, sondern ein Interface, das verschiedene Softwarequellen zusammenführt und vereinheitlicht, mit einer Suchmaschine, beschreibenden Informationen und einsteigerfreundlichen Installationsschaltflächen.
+Der App Center Store ist also kein eigenständiges Installationssystem, sondern eine Interface, das verschiedene Softwarequellen zusammenführt und vereinheitlicht, mit einer Suchmaschine, beschreibenden Informationen und einsteigerfreundlichen Installationsschaltflächen.
 
 
 
@@ -2527,7 +2514,7 @@ Der App Center Store ist also kein eigenständiges Installationssystem, sondern 
 
 
 
-Um die Stabilität und Sicherheit Ihres Systems zu gewährleisten, wendet Ubuntu automatisch kritische Updates über einen Dienst namens `unattended-upgrades` an. Dieser Dienst läuft im Hintergrund und installiert die von der Distribution veröffentlichten Sicherheitspatches, ohne dass Sie eingreifen müssen.
+Um die Stabilität und Sicherheit deines Systems zu gewährleisten, wendet Ubuntu automatisch kritische Updates über einen Dienst namens `unattended-upgrades` an. Dieser Dienst läuft im Hintergrund und installiert die von der Distribution veröffentlichten Sicherheitspatches, ohne dass du eingreifen musst.
 
 
 
@@ -2545,7 +2532,7 @@ sudo systemctl status unattended-upgrades
 
 
 
-Sie sollten eine Ausgabe sehen, die anzeigt, dass der Dienst "aktiv (läuft)" ist.
+Du solltest eine Ausgabe sehen, die anzeigt, dass der Dienst "aktiv (läuft)" ist.
 
 
 
@@ -2553,7 +2540,7 @@ Sie sollten eine Ausgabe sehen, die anzeigt, dass der Dienst "aktiv (läuft)" is
 
 
 
-Sollte dies nicht der Fall sein, können Sie sie manuell aktivieren:
+Sollte dies nicht der Fall sein, kannst du sie manuell aktivieren:
 
 
 
@@ -2563,11 +2550,11 @@ sudo systemctl enable --now unattended-upgrades
 
 
 
-Dieser Dienst schützt Ihr System vor neu entdeckten Sicherheitslücken, ohne dass Sie jeden Tag manuell nach Updates suchen müssen. Er ist besonders nützlich für Arbeitsstationen, die nicht genau überwacht werden, wie z. B. PCs, da er einen Grundstock an Sicherheitsupdates garantiert.
+Dieser Dienst schützt dein System vor neu entdeckten Sicherheitslücken, ohne dass du jeden Tag manuell nach Updates suchen musst. Er ist besonders nützlich für Arbeitsstationen, die nicht genau überwacht werden, wie z.B. PCs, da er einen Grundstock an Sicherheitsupdates garantiert.
 
 
 
-→ **Bitte beachten Sie:** `unattended-upgrades` ist auf Sicherheitspakete aus dem `security`-Repository beschränkt. Es wendet daher keine Standard-Software-Updates an, die Sie manuell durchführen müssen.
+→ **Bitte beachte:** `unattended-upgrades` ist auf Sicherheitspakete aus dem `security`-Repository beschränkt. Es wendet daher keine Standard-Software-Updates an. Diese musst du manuell durchführen.
 
 
 
@@ -2575,7 +2562,7 @@ Dieser Dienst schützt Ihr System vor neu entdeckten Sicherheitslücken, ohne da
 
 
 
-Auch wenn kritische Patches automatisch installiert werden, ist es wichtig, regelmässig ein vollständiges manuelles Update durchzuführen, um von den neuesten Versionen von Software und Komponenten zu profitieren, die nicht von "unattended-upgrades" abgedeckt werden. Führen Sie dazu den Befehl aus:
+Auch wenn kritische Patches automatisch installiert werden, ist es wichtig, regelmässig ein vollständiges manuelles Update durchzuführen. So kannst du von den neuesten Versionen von Software und Komponenten zu profitieren, die nicht von "unattended-upgrades" abgedeckt werden. Führe dazu den Befehl aus:
 
 
 
@@ -2596,7 +2583,7 @@ sudo apt update && sudo apt full-upgrade
 
 
 
-Nach der Aktualisierung können Sie unnötige Dateien mit bereinigen:
+Nach der Aktualisierung kannst du unnötige Dateien mit bereinigen:
 
 
 
@@ -2610,8 +2597,7 @@ Mit diesem Befehl werden veraltete Pakete und zugehörige Konfigurationsdateien 
 
 
 
-Wenn Sie Software über Snap- oder Flatpak-Paketmanager installiert haben, können Sie diese beiden Befehle auch zur Aktualisierung verwenden:
-
+Wenn du Software über Snap- oder Flatpak-Paketmanager installiert hast, kannst du diese beiden Befehle auch zur Aktualisierung verwenden:
 
 
 ```bash
@@ -2625,7 +2611,7 @@ flatpak update
 
 
 
-Einige wichtige Aktualisierungen, z. B. für den Linux-Kernel oder libc (die von den meisten Programmen verwendete Standard-C-Sprachbibliothek), werden erst nach einem Neustart Ihres Computers wirksam. Um herauszufinden, ob ein Neustart ratsam ist, installieren Sie das Werkzeug `needrestart`:
+Einige wichtige Aktualisierungen, z.B. für den Linux-Kernel oder libc (die von den meisten Programmen verwendete Standard-C-Sprachbibliothek), werden erst nach einem Neustart deines Computers wirksam. Um herauszufinden, ob ein Neustart ratsam ist, installiere das Werkzeug `needrestart`:
 
 
 
@@ -2635,7 +2621,7 @@ sudo apt install needrestart
 
 
 
-Dann laufen Sie:
+Dann führe folgendes aus:
 
 
 
@@ -2645,7 +2631,7 @@ sudo needrestart
 
 
 
-Dieses Programm analysiert alle Dienste oder Prozesse, auf denen noch ältere Versionen von Bibliotheken oder Kerneln laufen, und teilt Ihnen mit, ob ein Neustart erforderlich ist, um die Aktualisierungen anzuwenden.
+Dieses Programm analysiert alle Dienste oder Prozesse, auf denen noch ältere Versionen von Bibliotheken oder Kerneln laufen, und teilt dir mit, ob ein Neustart erforderlich ist, um die Aktualisierungen anzuwenden.
 
 
 
@@ -2653,13 +2639,13 @@ Dieses Programm analysiert alle Dienste oder Prozesse, auf denen noch ältere Ve
 
 
 
-Ihr System und Ihre Software auf dem neuesten Stand zu halten, ist ein wesentlicher Reflex, wenn es um die Sicherheit Ihres Computers geht. Ein aktuelles Linux-System ist eine Garantie für Stabilität, Sicherheit und Leistung.
+Dein System und deine Software auf dem neuesten Stand zu halten, ist ein wesentlicher Punkt, wenn es um die Sicherheit deines Computers geht. Ein aktuelles Linux-System ist eine Garantie für Stabilität, Sicherheit und Leistung.
 
 
 
 ### Firewall und Netzwerkhärtung
 
-
+xxx
 
 Eine Firewall ist ein Sicherheitswerkzeug, das die ein- und ausgehenden Netzwerkverbindungen eines Computers kontrolliert. Unter Ubuntu verwenden Sie es, um den Datenverkehr zu filtern und nur legitime Kommunikationen zuzulassen und potenziell bösartige zu blockieren. Dies verhindert zum Beispiel unerwünschte Eindringlinge von aussen, um Ihre Daten und Ihr System weiter zu schützen.
 
@@ -2709,7 +2695,7 @@ Die UFW verfolgt standardmässig die Strategie, unaufgefordert eingehende Verbin
 
 
 
-Wenn Sie einen Dienst aus der Ferne zugänglich machen müssen (z. B. einen SSH-Server), müssen Sie ihn ausdrücklich autorisieren:
+Wenn Sie einen Dienst aus der Ferne zugänglich machen müssen (z.B. einen SSH-Server), müssen Sie ihn ausdrücklich autorisieren:
 
 
 
@@ -3142,7 +3128,7 @@ Dieses Passwort muss sicher sein:
 
 - Er muss lang genug sein. Gegenwärtig (Juni 2025) empfehle ich ein Minimum von 20 Zeichen;
 - Er muss Gross- und Kleinbuchstaben, Zahlen und Sonderzeichen enthalten;
-- Sie sollte so zufällig wie möglich sein und keine Verbindungen zu Elements aus Ihrem direkten oder indirekten Umfeld enthalten, wie z. B. einen Namen, ein Datum oder einen Ort.
+- Sie sollte so zufällig wie möglich sein und keine Verbindungen zu Elements aus Ihrem direkten oder indirekten Umfeld enthalten, wie z.B. einen Namen, ein Datum oder einen Ort.
 
 
 
@@ -3323,12 +3309,12 @@ Sie könnten Ihre Sitzungen zum Beispiel wie folgt strukturieren:
 
 - Ein Konto für Ihre berufliche Tätigkeit, auf dem Sie nur die Software installieren, die Sie unbedingt benötigen (Office-Suiten, Tools für die Zusammenarbeit, professionelles Messaging...). Diese Sitzung darf nicht zum freien Surfen im Internet oder zum Testen von Software verwendet werden;
 - Ein Konto für den persönlichen Gebrauch, das für das tägliche Surfen im Internet, soziale Netzwerke, Streaming oder die Installation von Verbraucheranwendungen verwendet wird. Dies ist in der Regel die Sitzung, die am meisten für Browserangriffe oder verdächtige Downloads anfällig ist;
-- Ein Konto, das für sensible Aktivitäten reserviert ist, wie z. B. die Abfrage von Bankkonten, die Verwaltung Ihrer Bitcoin-Portfolios oder jede andere Verwendung, die ein hohes Mass an Sicherheit erfordert. Dieses Konto sollte ausschliesslich für diese Aufgaben verwendet werden, wobei die installierte Software auf das Nötigste beschränkt und die Netzwerkkonfiguration strenger sein sollte;
-- Ein Gastkonto oder ein stark eingeschränktes Konto, das ausschliesslich für die gelegentliche Nutzung z. B. durch Familienmitglieder gedacht ist. Dieses Konto darf natürlich keine Administratorrechte und nur einen eingeschränkten Zugang haben.
+- Ein Konto, das für sensible Aktivitäten reserviert ist, wie z.B. die Abfrage von Bankkonten, die Verwaltung Ihrer Bitcoin-Portfolios oder jede andere Verwendung, die ein hohes Mass an Sicherheit erfordert. Dieses Konto sollte ausschliesslich für diese Aufgaben verwendet werden, wobei die installierte Software auf das Nötigste beschränkt und die Netzwerkkonfiguration strenger sein sollte;
+- Ein Gastkonto oder ein stark eingeschränktes Konto, das ausschliesslich für die gelegentliche Nutzung z.B. durch Familienmitglieder gedacht ist. Dieses Konto darf natürlich keine Administratorrechte und nur einen eingeschränkten Zugang haben.
 
 
 
-Dieser Ansatz hat mehrere Vorteile. Erstens können die in einer Sitzung installierten Anwendungen nicht die Anwendungen anderer Benutzer beeinträchtigen (ausser im Falle einer Erhöhung der Berechtigungen). Zweitens: Wenn eine Sitzung kompromittiert wird, z. B. durch heruntergeladene Schadsoftware, bleiben die Auswirkungen in der Regel auf das betreffende Konto beschränkt. Dies bedeutet, dass Ihre Geschäftsdokumente oder Bitcoin-Portfolios für Malware unzugänglich bleiben, wenn sie in einer anderen, ordnungsgemäss isolierten Sitzung aufbewahrt werden.
+Dieser Ansatz hat mehrere Vorteile. Erstens können die in einer Sitzung installierten Anwendungen nicht die Anwendungen anderer Benutzer beeinträchtigen (ausser im Falle einer Erhöhung der Berechtigungen). Zweitens: Wenn eine Sitzung kompromittiert wird, z.B. durch heruntergeladene Schadsoftware, bleiben die Auswirkungen in der Regel auf das betreffende Konto beschränkt. Dies bedeutet, dass Ihre Geschäftsdokumente oder Bitcoin-Portfolios für Malware unzugänglich bleiben, wenn sie in einer anderen, ordnungsgemäss isolierten Sitzung aufbewahrt werden.
 
 
 
@@ -3344,7 +3330,7 @@ Es ist wichtig, darauf hinzuweisen, dass Multisession weder die Verwendung eines
 
 
 
-Ein anderer, radikalerer, aber besonders wirksamer Ansatz besteht darin, für jeden Zweck einen eigenen Computer zu verwenden, z. B. einen Laptop, der ausschliesslich für die berufliche Tätigkeit bestimmt ist, einen anderen für den privaten Gebrauch und einen dritten, einfachen und gut gesicherten Computer für sensible Tätigkeiten.
+Ein anderer, radikalerer, aber besonders wirksamer Ansatz besteht darin, für jeden Zweck einen eigenen Computer zu verwenden, z.B. einen Laptop, der ausschliesslich für die berufliche Tätigkeit bestimmt ist, einen anderen für den privaten Gebrauch und einen dritten, einfachen und gut gesicherten Computer für sensible Tätigkeiten.
 
 
 
@@ -3385,7 +3371,7 @@ Sandboxing ist eine Methode der Computersicherheit, bei der eine Anwendung oder 
 
 
 
-Im Gegensatz zu virtuellen Maschinen, die ein komplettes Betriebssystem mit eigenen Ressourcen simulieren, ist Sandboxing leichter, schneller zu implementieren und weniger ressourcenintensiv. Sie beruht auf Mechanismen zur Begrenzung der Zugriffsrechte: auf Speicher, Dateien, Netzwerk, Peripheriegeräte... Eine Sandbox-Anwendung kann z. B. eine temporäre Datei lesen, aber niemals auf Ihr persönliches Verzeichnis oder Dateisystem zugreifen.
+Im Gegensatz zu virtuellen Maschinen, die ein komplettes Betriebssystem mit eigenen Ressourcen simulieren, ist Sandboxing leichter, schneller zu implementieren und weniger ressourcenintensiv. Sie beruht auf Mechanismen zur Begrenzung der Zugriffsrechte: auf Speicher, Dateien, Netzwerk, Peripheriegeräte... Eine Sandbox-Anwendung kann z.B. eine temporäre Datei lesen, aber niemals auf Ihr persönliches Verzeichnis oder Dateisystem zugreifen.
 
 
 
@@ -3469,7 +3455,7 @@ Es geht nicht nur darum, sichtbare Fehler zu beheben, sondern auch darum, die An
 
 
 
-Insbesondere empfehle ich Ihnen, automatische Updates zu aktivieren. Diese Funktion ist von Haus aus auf allen modernen Systemen verfügbar. Windows Update z. B. übernimmt dies standardmässig auf Windows 10 und 11. Unter macOS sind die Sicherheitsupdates in das Systemaktualisierungssystem integriert. Unter Linux können Sie je nach Distribution mit Tools wie `unattended-upgrades` (Debian/Ubuntu) oder `dnf-automatic` (Fedora) Aktualisierungen planen.
+Insbesondere empfehle ich Ihnen, automatische Updates zu aktivieren. Diese Funktion ist von Haus aus auf allen modernen Systemen verfügbar. Windows Update z.B. übernimmt dies standardmässig auf Windows 10 und 11. Unter macOS sind die Sicherheitsupdates in das Systemaktualisierungssystem integriert. Unter Linux können Sie je nach Distribution mit Tools wie `unattended-upgrades` (Debian/Ubuntu) oder `dnf-automatic` (Fedora) Aktualisierungen planen.
 
 
 
@@ -3648,7 +3634,7 @@ Dieser Befehl sucht in öffentlichen Repositories nach den neuesten Versionen Ih
 
 
 
-Leider funktioniert dieser Befehl nicht bei jeder Software. Deshalb empfehle ich Ihnen, eine Liste all Ihrer Software zu führen und regelmässig manuell nach Updates zu suchen, insbesondere bei sensiblen Anwendungen. Für die kritischste Software, wie z. B. Ihr Antivirusprogramm oder Ihren Webbrowser, empfehle ich Ihnen, diese Prüfung täglich durchzuführen.
+Leider funktioniert dieser Befehl nicht bei jeder Software. Deshalb empfehle ich Ihnen, eine Liste all Ihrer Software zu führen und regelmässig manuell nach Updates zu suchen, insbesondere bei sensiblen Anwendungen. Für die kritischste Software, wie z.B. Ihr Antivirusprogramm oder Ihren Webbrowser, empfehle ich Ihnen, diese Prüfung täglich durchzuführen.
 
 
 
@@ -3882,7 +3868,7 @@ Auf einem gut gewarteten Linux-Rechner, der für persönliche Zwecke genutzt wir
 
 
 
-- Fail2ban*: überwacht die Systemprotokolle auf erfolglose Zugriffsversuche (z. B. SSH-Anmeldeversuche mit roher Gewalt). Wenn ein verdächtiges Verhalten festgestellt wird, wird die angreifende IP Address über `iptables` vorübergehend gebannt;
+- Fail2ban*: überwacht die Systemprotokolle auf erfolglose Zugriffsversuche (z.B. SSH-Anmeldeversuche mit roher Gewalt). Wenn ein verdächtiges Verhalten festgestellt wird, wird die angreifende IP Address über `iptables` vorübergehend gebannt;
 
 
 
@@ -4407,7 +4393,7 @@ Nehmen wir das Beispiel eines Standardbenutzers, Alice, der seine persönlichen 
 
 
 
-Alice bewahrt eine Version ihrer Dateien auf ihrem Laptop auf, wo sie sie täglich benutzt. Um zumindest zwei getrennte Medien zu haben, kopiert sie regelmässig (z. B. jeden Montag) alle ihre Daten auf einen USB-Stick, den sie zu Hause aufbewahrt. Um sich gegen den Diebstahl ihrer Dateien im Falle eines physischen Verlusts oder Diebstahls zu schützen, verschlüsselt Alice diesen USB-Stick mit einer geeigneten Software (wir werden später in diesem Kapitel sehen, wie man das macht).
+Alice bewahrt eine Version ihrer Dateien auf ihrem Laptop auf, wo sie sie täglich benutzt. Um zumindest zwei getrennte Medien zu haben, kopiert sie regelmässig (z.B. jeden Montag) alle ihre Daten auf einen USB-Stick, den sie zu Hause aufbewahrt. Um sich gegen den Diebstahl ihrer Dateien im Falle eines physischen Verlusts oder Diebstahls zu schützen, verschlüsselt Alice diesen USB-Stick mit einer geeigneten Software (wir werden später in diesem Kapitel sehen, wie man das macht).
 
 
 
@@ -4437,7 +4423,7 @@ Eine der besten Methoden zur Gewährleistung einer guten Backup-Hygiene ist die 
 
 
 
-In der Praxis gibt es mehrere Möglichkeiten, Ihre Backups zu automatisieren. Sie können z. B. ein Python-Skript erstellen, das automatisch ausgeführt wird, um Ihre Daten auf ein externes Medium zu kopieren. Das ist eine einfache, anpassbare Lösung.
+In der Praxis gibt es mehrere Möglichkeiten, Ihre Backups zu automatisieren. Sie können z.B. ein Python-Skript erstellen, das automatisch ausgeführt wird, um Ihre Daten auf ein externes Medium zu kopieren. Das ist eine einfache, anpassbare Lösung.
 
 
 
@@ -4690,7 +4676,7 @@ In der:
 
 
 
-- Geben Sie unter "Volume name" einen Namen ein (z. B. `usb`);
+- Geben Sie unter "Volume name" einen Namen ein (z.B. `usb`);
 - Wählen Sie das Format "Internal disk for use with Linux systems only (Ext4)";
 - Aktivieren Sie das Kontrollkästchen "Passwortgeschütztes Volume (LUKS)".
 
@@ -4978,7 +4964,7 @@ Wenn wir uns die Metadaten unserer Datei noch einmal ansehen, können wir festst
 
 
 
-Wenn Sie mehrere Dateien im selben Verzeichnis zu verarbeiten haben, können Sie einen allgemeinen Befehl wie z. B. verwenden:
+Wenn Sie mehrere Dateien im selben Verzeichnis zu verarbeiten haben, können Sie einen allgemeinen Befehl wie z.B. verwenden:
 
 
 
@@ -5042,7 +5028,7 @@ Standardmässig ändert MAT2 die ursprüngliche Datei nicht: es wird eine berein
 
 
 
-Um ein ganzes Verzeichnis zu säubern, z. B. das Verzeichnis `/Downloads`:
+Um ein ganzes Verzeichnis zu säubern, z.B. das Verzeichnis `/Downloads`:
 
 
 
@@ -5728,11 +5714,11 @@ Mullvad Browser ist eine ausgezeichnete Lösung, wenn Sie sich um Ihre Privatsph
 
 
 
-[LibreWolf] (https://librewolf.net/) ist ein auf Firefox basierender Browser, der ein noch höheres Mass an Privatsphäre bieten soll. Er entfernt alle Funktionen, die die Privatsphäre gefährden könnten, wie z. B. die Telemetrie, die Integration der Mozilla-Dienste und den Pocket-Dienst.
+[LibreWolf] (https://librewolf.net/) ist ein auf Firefox basierender Browser, der ein noch höheres Mass an Privatsphäre bieten soll. Er entfernt alle Funktionen, die die Privatsphäre gefährden könnten, wie z.B. die Telemetrie, die Integration der Mozilla-Dienste und den Pocket-Dienst.
 
 
 
-Standardmässig aktiviert LibreWolf die erweiterten Sicherheitseinstellungen von Firefox (z. B. den strengen Tracking-Schutzmodus) und deaktiviert die DRM-Unterstützung. Das Projekt ist vollständig quelloffen und gemeinschaftsbasiert und ist nicht auf die Finanzierung durch private Unternehmen angewiesen. Ich empfehle es, wenn Sie einen "abgehärteten" Firefox suchen, mit maximaler Kontrolle über Ihre Daten.
+Standardmässig aktiviert LibreWolf die erweiterten Sicherheitseinstellungen von Firefox (z.B. den strengen Tracking-Schutzmodus) und deaktiviert die DRM-Unterstützung. Das Projekt ist vollständig quelloffen und gemeinschaftsbasiert und ist nicht auf die Finanzierung durch private Unternehmen angewiesen. Ich empfehle es, wenn Sie einen "abgehärteten" Firefox suchen, mit maximaler Kontrolle über Ihre Daten.
 
 
 
@@ -5927,7 +5913,7 @@ Es ist daher zwingend erforderlich:
 
 
 - aktivieren Sie automatische Updates für Ihren Browser und überprüfen Sie regelmässig manuell, ob Updates verfügbar sind;
-- oder, wenn Sie eine manuell gepackte Version verwenden (z. B. über `apt`, `flatpak` oder `snap` unter Linux), aktualisieren Sie das gesamte System regelmässig über Ihren Paketmanager.
+- oder, wenn Sie eine manuell gepackte Version verwenden (z.B. über `apt`, `flatpak` oder `snap` unter Linux), aktualisieren Sie das gesamte System regelmässig über Ihren Paketmanager.
 
 
 
@@ -6007,7 +5993,7 @@ Ein VPN (*Virtuelles Privates Netzwerk*) ist ein Tunneling-Tool, das den Netzwer
 
 
 
-Die Verwendung eines VPN hat mehrere Vorteile. Es schützt Ihr Surfen in unsicheren Netzwerken (z. B. öffentliches WLAN in Flughäfen oder Hotels), indem es Dritte daran hindert, Ihre Daten abzufangen. Es verbirgt auch Ihre echte IP Address, was nützlich sein kann, um eine grundlegende Verfolgung zu vermeiden oder eine Verbindung aus einem anderen Land zu simulieren. Nicht zuletzt ist ein VPN ein Werkzeug zur Umgehung der Zensur. In Umgebungen, in denen der Zugang zu bestimmten Inhalten auf ISP-Ebene blockiert ist, können Sie durch Umleitung Ihres Datenverkehrs zu einem VPN-Server in einem ungefilterten Land wieder freien Zugang erhalten.
+Die Verwendung eines VPN hat mehrere Vorteile. Es schützt Ihr Surfen in unsicheren Netzwerken (z.B. öffentliches WLAN in Flughäfen oder Hotels), indem es Dritte daran hindert, Ihre Daten abzufangen. Es verbirgt auch Ihre echte IP Address, was nützlich sein kann, um eine grundlegende Verfolgung zu vermeiden oder eine Verbindung aus einem anderen Land zu simulieren. Nicht zuletzt ist ein VPN ein Werkzeug zur Umgehung der Zensur. In Umgebungen, in denen der Zugang zu bestimmten Inhalten auf ISP-Ebene blockiert ist, können Sie durch Umleitung Ihres Datenverkehrs zu einem VPN-Server in einem ungefilterten Land wieder freien Zugang erhalten.
 
 
 
@@ -6053,7 +6039,7 @@ Der Verlauf ist eine einfache lokale Datenbank, in der alle besuchten Seiten mit
 
 
 
-Cookies hingegen sind kleine Dateien, die vom Browser auf Anfrage von Websites gespeichert werden. Sie werden verwendet, um sich an Ihre Sitzung zu erinnern (z. B. um mit einer Website verbunden zu bleiben), Ihre Präferenzen zu speichern oder Ihr Verhalten zu statistischen Zwecken zu verfolgen. Einige Cookies sind funktional (d. h. für das ordnungsgemässe Funktionieren einer Website erforderlich), während andere von Dritten gesetzt werden (von Werbeagenturen oder Trackern auf besuchten Seiten). Letztere ermöglichen ein Site-übergreifendes Tracking, manchmal über Jahre hinweg, indem sie Ihre Surfgewohnheiten miteinander vergleichen, um ein Werbeprofil zu erstellen.
+Cookies hingegen sind kleine Dateien, die vom Browser auf Anfrage von Websites gespeichert werden. Sie werden verwendet, um sich an Ihre Sitzung zu erinnern (z.B. um mit einer Website verbunden zu bleiben), Ihre Präferenzen zu speichern oder Ihr Verhalten zu statistischen Zwecken zu verfolgen. Einige Cookies sind funktional (d. h. für das ordnungsgemässe Funktionieren einer Website erforderlich), während andere von Dritten gesetzt werden (von Werbeagenturen oder Trackern auf besuchten Seiten). Letztere ermöglichen ein Site-übergreifendes Tracking, manchmal über Jahre hinweg, indem sie Ihre Surfgewohnheiten miteinander vergleichen, um ein Werbeprofil zu erstellen.
 
 
 
@@ -6134,7 +6120,7 @@ Um diese Angriffe beim Surfen im Internet zu vermeiden, ist es wichtig, bestimmt
 
 
 
-- Analysieren Sie die URL**: Angreifer verwenden oft Adressen, die dem Original sehr ähnlich sind (z. B. "micr0soft-support.com", "paypal-verif.net" usw.). Einige ersetzen auch visuell ähnliche Zeichen und nutzen Unicode-Zeichen aus. Prüfen Sie, ob der Address genau der erwarteten Website entspricht und keine verdächtigen Präfixe oder Suffixe enthält.
+- Analysieren Sie die URL**: Angreifer verwenden oft Adressen, die dem Original sehr ähnlich sind (z.B. "micr0soft-support.com", "paypal-verif.net" usw.). Einige ersetzen auch visuell ähnliche Zeichen und nutzen Unicode-Zeichen aus. Prüfen Sie, ob der Address genau der erwarteten Website entspricht und keine verdächtigen Präfixe oder Suffixe enthält.
 
 
 
@@ -6234,7 +6220,7 @@ Die Aufteilung der Aktivitäten ist eine wichtige Praxis, um die Reichweite eine
 
 
 
-Das Ziel ist einfach: Es soll verhindert werden, dass ein Vorfall mit einer bestimmten Aktivität (z. B. ein Cookie-Leck, ein Angriff oder ein Sitzungsdiebstahl) Ihre gesamte digitale Umgebung verseucht. Es können mehrere Methoden allein oder in Kombination angewandt werden:
+Das Ziel ist einfach: Es soll verhindert werden, dass ein Vorfall mit einer bestimmten Aktivität (z.B. ein Cookie-Leck, ein Angriff oder ein Sitzungsdiebstahl) Ihre gesamte digitale Umgebung verseucht. Es können mehrere Methoden allein oder in Kombination angewandt werden:
 
 
 
@@ -6270,7 +6256,7 @@ Das Ziel ist einfach: Es soll verhindert werden, dass ein Vorfall mit einer best
 
 
 
-Moderne Browser ermöglichen es Websites, den Zugriff auf sensible Ressourcen auf Ihrem Gerät anzufordern, z. B. auf die Kamera, das Mikrofon, die Geolokalisierung oder Systembenachrichtigungen. Diese Funktionen sind für bestimmte Anwendungen (Videokonferenzen, interaktive Karten usw.) nützlich, aber sie öffnen auch die Tür für Missbrauch, wenn sie schlecht kontrolliert werden.
+Moderne Browser ermöglichen es Websites, den Zugriff auf sensible Ressourcen auf Ihrem Gerät anzufordern, z.B. auf die Kamera, das Mikrofon, die Geolokalisierung oder Systembenachrichtigungen. Diese Funktionen sind für bestimmte Anwendungen (Videokonferenzen, interaktive Karten usw.) nützlich, aber sie öffnen auch die Tür für Missbrauch, wenn sie schlecht kontrolliert werden.
 
 
 
@@ -6517,7 +6503,7 @@ Darüber hinaus setzt die obligatorische Integration von iCloud in die meisten D
 
 
 
-- einige Elements (z. B. Verbindungs-Metadaten, Siri-Anfragen oder Fehlerprotokolle) laufen noch über Apple-Server
+- einige Elements (z.B. Verbindungs-Metadaten, Siri-Anfragen oder Fehlerprotokolle) laufen noch über Apple-Server
 - mechanismen zur Verhaltensanalyse für kontextbezogene Vorschläge, App Store-Updates oder Nachrichtenfilterung verwenden nicht überprüfbare proprietäre Modelle
 - die Nutzung von Diensten wie iCloud implizites Vertrauen in die Infrastruktur von Apple voraussetzt, ohne dass man kontrollieren kann, wo und wie lange die Daten gespeichert werden
 
@@ -6703,7 +6689,7 @@ Auf einem Smartphone kann jede Anwendung direkten Zugriff auf sensible Ressource
 Eine Taschenlampenanwendung benötigt beispielsweise keinen Zugriff auf Ihre Kontakte oder Geolocation. Eine Wetteranwendung kann mit manueller Lokalisierung arbeiten, ohne GPS-Zugriff. Ein PDF-Reader muss weder das Mikrofon noch SMS verwenden. Verweigern Sie im Zweifelsfall immer die Standardeinstellung und bewerten Sie dann neu, wenn die Anwendung nicht richtig funktioniert. Auf einigen Systemen ist es auch möglich, Berechtigungen nur vorübergehend zu erteilen: entweder für eine einmalige Nutzung oder nur, wenn die Anwendung läuft. Dadurch wird verhindert, dass eine Anwendung im Hintergrund bestimmte Berechtigungen ohne Ihr Wissen ausnutzt.
 
 
-Android und iOS bieten jetzt eine granulare Berechtigungssteuerung. Sie können sie nach Anwendung oder nach Berechtigungstyp verwalten. Nehmen Sie sich die Zeit, z. B. einmal im Monat, die aktiven Berechtigungen in den Einstellungen Ihres Telefons zu überprüfen.
+Android und iOS bieten jetzt eine granulare Berechtigungssteuerung. Sie können sie nach Anwendung oder nach Berechtigungstyp verwalten. Nehmen Sie sich die Zeit, z.B. einmal im Monat, die aktiven Berechtigungen in den Einstellungen Ihres Telefons zu überprüfen.
 
 
 Einige Systeme ermöglichen es Ihnen auch, die einer Anwendung erteilten Berechtigungen nach einer bestimmten Zeit der Nichtbenutzung automatisch zu entziehen. Dadurch werden die Risiken begrenzt, wenn Sie vergessen, eine Anwendung zu deinstallieren.
@@ -6780,7 +6766,7 @@ Ihr Smartphone steht in ständiger Kommunikation mit der Aussenwelt, sei es übe
 #### Öffentliches Wi-Fi
 
 
-Öffentliche Wi-Fi-Netzwerke, z. B. in Cafés, Hotels oder öffentlichen Verkehrsmitteln, sind selten sicher. Selbst wenn sie ein Kennwort erfordern, wird es oft von vielen Benutzern gemeinsam genutzt, und die angewandte Verschlüsselung kann manchmal leicht umgangen werden. Ein Angreifer, der mit demselben Netzwerk verbunden ist, kann Ihre Datenpakete abfangen, Anmeldedaten abfangen oder über Man-in-the-Middle-Angriffe bösartige Inhalte einspeisen.
+Öffentliche Wi-Fi-Netzwerke, z.B. in Cafés, Hotels oder öffentlichen Verkehrsmitteln, sind selten sicher. Selbst wenn sie ein Kennwort erfordern, wird es oft von vielen Benutzern gemeinsam genutzt, und die angewandte Verschlüsselung kann manchmal leicht umgangen werden. Ein Angreifer, der mit demselben Netzwerk verbunden ist, kann Ihre Datenpakete abfangen, Anmeldedaten abfangen oder über Man-in-the-Middle-Angriffe bösartige Inhalte einspeisen.
 
 
 Um sich zu schützen, vermeiden Sie einfach die Nutzung dieser öffentlichen Netze oder verwenden Sie ein VPN, das einen verschlüsselten Tunnel zwischen Ihrem Gerät und einem entfernten Server herstellt. Dieser Tunnel kapselt Ihre Daten ein und macht es extrem schwierig, sie abzufangen oder zu verändern.
@@ -6799,7 +6785,7 @@ Was Ihr heimisches Wi-Fi-Netzwerk betrifft, so werden wir darüber im letzten Te
 #### Bluetooth, NFC und GPS
 
 
-Bluetooth (drahtloses Protokoll für Kurzstreckenkommunikation), NFC (Nahfeldkommunikation) und GPS (Satellitenortung) sind bei vielen Smartphones standardmässig aktiviert. Diese Technologien können als Einfallstor für lokale Angriffe genutzt werden: Remote-Code-Ausführung, unbefugter Zugriff, Standortverfolgung, im Falle von Bluetooth sogar Abfangen der Kommunikation (z. B. BlueBorne-Schwachstellen).
+Bluetooth (drahtloses Protokoll für Kurzstreckenkommunikation), NFC (Nahfeldkommunikation) und GPS (Satellitenortung) sind bei vielen Smartphones standardmässig aktiviert. Diese Technologien können als Einfallstor für lokale Angriffe genutzt werden: Remote-Code-Ausführung, unbefugter Zugriff, Standortverfolgung, im Falle von Bluetooth sogar Abfangen der Kommunikation (z.B. BlueBorne-Schwachstellen).
 
 
 Um diese Risiken zu begrenzen, sollten Sie diese Funktionen immer deaktivieren, wenn Sie sie nicht verwenden. Dadurch wird die Angriffsfläche drastisch reduziert und jeder Versuch eines Missbrauchs verhindert.
@@ -6814,7 +6800,7 @@ Smartphones stehen in ständiger Kommunikation mit den Basisstationen der Telefo
 ![Image](assets/fr/145.webp)
 
 
-Einige Anwendungen, wie z. B. SnoopSnitch auf Android, können verdächtiges Verhalten beim Austausch mit dem Netz erkennen. Diese Tools analysieren die Metadaten der mobilen Kommunikation und können Sie auf Änderungen in der Funkkonfiguration oder abnormales Verhalten hinweisen, wodurch Sie wachsamer gegenüber Abhörversuchen werden.
+Einige Anwendungen, wie z.B. SnoopSnitch auf Android, können verdächtiges Verhalten beim Austausch mit dem Netz erkennen. Diese Tools analysieren die Metadaten der mobilen Kommunikation und können Sie auf Änderungen in der Funkkonfiguration oder abnormales Verhalten hinweisen, wodurch Sie wachsamer gegenüber Abhörversuchen werden.
 
 
 Der beste Weg, um Ihre Kommunikation zu sichern, ist die Verwendung von sicheren Messaging-Anwendungen, sei es für Anrufe oder Nachrichten. Diese Anwendungen nutzen das Mobilfunknetz nicht und sorgen dafür, dass der Datenaustausch ordnungsgemäss verschlüsselt wird. Wir werden dieses Thema im nächsten Kapitel ausführlicher behandeln.
@@ -6862,7 +6848,7 @@ Mit NetGuard können Sie zum Beispiel den Internetzugang für jede einzelne Anwe
 Die regelmässige Sicherung Ihrer Smartphone-Daten ist für Ihre Sicherheit sehr wichtig. Diese Sicherung muss jedoch verschlüsselt werden, damit niemand auf Ihre sensiblen Daten zugreifen kann, der Ihre Sicherungsmedien in die Hände bekommt. Dies gilt gleichermassen für Fotos, Dokumente und Anwendungsdaten.
 
 
-Um dies zu erreichen, sollten Sie verschlüsselte lokale Lösungen verwenden, wie eine externe Festplatte oder einen verschlüsselten USB-Stick (z. B. mit Veracrypt). Andernfalls können Sie mit selbst gehosteten Cloud-Lösungen wie *Syncthing* oder *Nextcloud* Ihre Daten auf einem persönlichen Server sichern und dabei die volle Kontrolle über Zugriff und Vertraulichkeit behalten. Im Gegensatz zu kommerziellen Cloud-Diensten (Google Drive, iCloud...) schränken diese Lösungen die Preisgabe Ihrer Daten an Dritte erheblich ein.
+Um dies zu erreichen, sollten Sie verschlüsselte lokale Lösungen verwenden, wie eine externe Festplatte oder einen verschlüsselten USB-Stick (z.B. mit Veracrypt). Andernfalls können Sie mit selbst gehosteten Cloud-Lösungen wie *Syncthing* oder *Nextcloud* Ihre Daten auf einem persönlichen Server sichern und dabei die volle Kontrolle über Zugriff und Vertraulichkeit behalten. Im Gegensatz zu kommerziellen Cloud-Diensten (Google Drive, iCloud...) schränken diese Lösungen die Preisgabe Ihrer Daten an Dritte erheblich ein.
 
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
@@ -6873,7 +6859,7 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 Ein verlorenes oder gestohlenes Smartphone kann für einen Angreifer zu einer ergiebigen Informationsquelle werden: Persönliche Daten, Browser-Historien, verbundene Konten usw. Daher kann es sinnvoll sein, systemeigene Funktionen zum Auffinden, Sperren und Fernlöschen Ihres Geräts zu konfigurieren.
 
 
-Unter Android können Sie *Mein Gerät finden* über die Google-Einstellungen verwenden. Unter iOS spielt *Mein iPhone finden* die gleiche Rolle und ist über iCloud zugänglich. Mit diesen Tools können Sie den Zugriff sofort sperren, das Gerät anrufen, um es zu orten, oder als letzten Ausweg die Daten komplett aus der Ferne löschen. Es gibt auch ähnliche Dienste, die von den Software-Overlays der Hersteller verwaltet werden, wie z. B. *SmartThings Find* von Samsung.
+Unter Android können Sie *Mein Gerät finden* über die Google-Einstellungen verwenden. Unter iOS spielt *Mein iPhone finden* die gleiche Rolle und ist über iCloud zugänglich. Mit diesen Tools können Sie den Zugriff sofort sperren, das Gerät anrufen, um es zu orten, oder als letzten Ausweg die Daten komplett aus der Ferne löschen. Es gibt auch ähnliche Dienste, die von den Software-Overlays der Hersteller verwaltet werden, wie z.B. *SmartThings Find* von Samsung.
 
 
 ![Image](assets/fr/147.webp)
@@ -6911,7 +6897,7 @@ SMS (*Short Message Service*) war in der Vergangenheit für den Austausch von Te
 
 
 - durch den Betreiber
-- durch einen böswilligen Akteur, der den Mobilfunkverkehr abfängt (z. B. über IMSI-Catcher)
+- durch einen böswilligen Akteur, der den Mobilfunkverkehr abfängt (z.B. über IMSI-Catcher)
 - oder von staatlichen Stellen mit legalem oder illegalem Zugang zu Netzinfrastrukturen
 
 
@@ -6921,7 +6907,7 @@ Die Tatsache, dass SMS-Nachrichten auf den zentralen Servern der Betreiber gespe
 Diese Beschränkungen gelten auch für MMS (*Multimedia Messaging Service*), das auf denselben technischen Grundlagen beruht und zusätzlich Multimedia-Inhalte (Fotos, Videos) enthält.
 
 
-In den letzten Jahren haben einige Betreiber und Hersteller RCS (*Rich Communication Services*) eingeführt, eine technische Weiterentwicklung von SMS. RCS ermöglicht den Versand angereicherter Nachrichten (Bilder, Videos, Empfangsbestätigungen usw.) und integriert eine Transitverschlüsselung (TLS), die jedoch weiterhin von den Servern der Betreiber abhängig ist und nicht in allen Fällen eine Ende-zu-Ende-Verschlüsselung garantiert. Darüber hinaus schränkt die Fragmentierung der Implementierung zwischen Betreibern und Herstellern (z. B. zwischen Android und iOS) die Akzeptanz und die tatsächliche Zuverlässigkeit ein.
+In den letzten Jahren haben einige Betreiber und Hersteller RCS (*Rich Communication Services*) eingeführt, eine technische Weiterentwicklung von SMS. RCS ermöglicht den Versand angereicherter Nachrichten (Bilder, Videos, Empfangsbestätigungen usw.) und integriert eine Transitverschlüsselung (TLS), die jedoch weiterhin von den Servern der Betreiber abhängig ist und nicht in allen Fällen eine Ende-zu-Ende-Verschlüsselung garantiert. Darüber hinaus schränkt die Fragmentierung der Implementierung zwischen Betreibern und Herstellern (z.B. zwischen Android und iOS) die Akzeptanz und die tatsächliche Zuverlässigkeit ein.
 
 
 Seit 2021 hat Google Messages das Signal-Protokoll übernommen, um eine Ende-zu-Ende-Verschlüsselung zu gewährleisten, aber diese Funktion ist nur verfügbar, wenn beide Parteien Google Messages verwenden.
@@ -7026,7 +7012,7 @@ Technisch gesehen werden die Nachrichten von Ende zu Ende verschlüsselt und dur
 Das Protokoll ist vollständig quelloffen: Clients, Server und Protokolle sind öffentlich zugänglich und werden überprüft. SimpleX ist auf Android, iOS, Linux, Windows und macOS verfügbar und verfügt über einen verschlüsselten, portablen lokalen Speicher, sodass Profile ohne zentralen Server übertragen werden können. Jeder Nutzer kann auch mehrere isolierte Profile verwalten, jedes mit eigenen Einstellungen, Nickname und Foto. Diese Flexibilität ermöglicht es, Privatleben, Berufsleben und Pseudonymität klar zu trennen.
 
 
-Kontakte werden über temporäre Links oder statische Adressen (dauerhafte, aber widerrufbare Identifikatoren) hinzugefügt. Sie können auch zwischen dem ephemeren Exchange oder einem klassischeren Modus mit fein abgestuften Kontrollen für Sichtbarkeit und Berechtigungen wählen (z. B. können Sie Ihren echten Namen hinter einem zufälligen, eindeutigen Pseudonym für jeden Kontakt verstecken).
+Kontakte werden über temporäre Links oder statische Adressen (dauerhafte, aber widerrufbare Identifikatoren) hinzugefügt. Sie können auch zwischen dem ephemeren Exchange oder einem klassischeren Modus mit fein abgestuften Kontrollen für Sichtbarkeit und Berechtigungen wählen (z.B. können Sie Ihren echten Namen hinter einem zufälligen, eindeutigen Pseudonym für jeden Kontakt verstecken).
 
 
 In Bezug auf Sicherheit und Vertraulichkeit geht SimpleX weiter als die meisten bestehenden Nachrichtensysteme, indem es die Metadaten auf ein Minimum beschränkt und jede Abhängigkeit von einem zentralen Verzeichnis oder einer eindeutigen Kennung beseitigt. Diese Architektur bringt jedoch eine Reihe von Kompromissen in Bezug auf die Benutzerfreundlichkeit mit sich: manchmal weniger intuitive Ergonomie, die Notwendigkeit einer leichten Einarbeitung und die Abhängigkeit von der Verfügbarkeit von Relay-Servern.
@@ -7114,7 +7100,7 @@ https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-6
 Beliebte Messaging-Anwendungen wie WhatsApp, WeChat, Facebook Messenger, Instagram Direct Message, Snapchat und LINE werden täglich in grossem Umfang genutzt. Aus technischer Sicht entsprechen diese Plattformen jedoch nicht den modernen Sicherheitsstandards, die für die private Kommunikation geeignet sind.
 
 
-Bei der Auswahl eines Nachrichtendienstes sind im Allgemeinen zwei grundlegende Kriterien zu beachten: Bietet er eine Ende-zu-Ende-Verschlüsselung, und ist sein Code quelloffen? Dann gibt es noch andere Merkmale, die von Interesse sein können, wie z. B. die anonyme Registrierung oder die Verwendung einer dezentralen Netzwerkarchitektur, aber diese ersten beiden Elements sind die Grundlagen. Die Verschlüsselung garantiert die Vertraulichkeit Ihres Austauschs, während die Offenlegung des Quellcodes es Ihnen ermöglicht, zu überprüfen, ob die Verschlüsselung sicher implementiert wurde.
+Bei der Auswahl eines Nachrichtendienstes sind im Allgemeinen zwei grundlegende Kriterien zu beachten: Bietet er eine Ende-zu-Ende-Verschlüsselung, und ist sein Code quelloffen? Dann gibt es noch andere Merkmale, die von Interesse sein können, wie z.B. die anonyme Registrierung oder die Verwendung einer dezentralen Netzwerkarchitektur, aber diese ersten beiden Elements sind die Grundlagen. Die Verschlüsselung garantiert die Vertraulichkeit Ihres Austauschs, während die Offenlegung des Quellcodes es Ihnen ermöglicht, zu überprüfen, ob die Verschlüsselung sicher implementiert wurde.
 
 
 Die Inanspruchnahme von Diensten, die diese beiden Voraussetzungen nicht erfüllen, ist gleichbedeutend damit, den Schutz Ihrer Börsen vollständig an kommerzielle Akteure zu delegieren, deren wirtschaftliche Interessen häufig von ihrer Ausbeutung abhängen.
@@ -7223,7 +7209,7 @@ Proton Mail ist ein sicherer Messaging-Dienst mit Sitz in der Schweiz, der eine 
 ![Image](assets/fr/159.webp)
 
 
-Ein E-Mail-System besteht aus 2 verschiedenen Komponenten: Dem E-Mail-Anbieter (z. B. Gmail, Tuta oder Proton Mail), der den Empfang, den Versand und die Speicherung von Nachrichten über Server abwickelt, und dem E-Mail-Client, der die Anwendung ist, mit der Sie Ihre E-Mails anzeigen und schreiben können (z. B. Gmail die Anwendung, Outlook, K-9 Mail oder Thunderbird). Der Client kann sich über Standardprotokolle wie IMAP oder SMTP mit verschiedenen Anbietern verbinden.
+Ein E-Mail-System besteht aus 2 verschiedenen Komponenten: Dem E-Mail-Anbieter (z.B. Gmail, Tuta oder Proton Mail), der den Empfang, den Versand und die Speicherung von Nachrichten über Server abwickelt, und dem E-Mail-Client, der die Anwendung ist, mit der Sie Ihre E-Mails anzeigen und schreiben können (z.B. Gmail die Anwendung, Outlook, K-9 Mail oder Thunderbird). Der Client kann sich über Standardprotokolle wie IMAP oder SMTP mit verschiedenen Anbietern verbinden.
 
 
 Es ist daher möglich, einen datenschutzfreundlichen Open-Source-Client zu verwenden und gleichzeitig ein Konto bei einem herkömmlichen Anbieter zu unterhalten. Einige Anwendungen wie Gmail, Proton Mail oder Tuta bieten E-Mail-Clients an, die auch als Messaging-Anbieter fungieren und somit eine Komplettlösung bieten, die sowohl das Lesen als auch das Senden und Empfangen von Interface-E-Mails integriert.
@@ -7269,7 +7255,7 @@ Sie enthält keine Werbung, Tracking oder Datenerfassung. Die App eignet sich be
 OsmAnd (*OpenStreetMap Automated Navigation Directions*) ist eine weitere umfassende Open-Source-Kartenanwendung. Sie bietet Offline-GPS-Navigation, detaillierte Karten (einschliesslich Wanderwege, Radwege und Landformen) und umfangreiche Anpassungsmöglichkeiten.
 
 
-Sie können verschiedene Ebenen aktivieren (Fussgängerzonen, öffentliche Verkehrsmittel usw.), Geschwindigkeitswarnungen definieren oder spezielle Karten, z. B. für Wanderungen oder Seerouten, integrieren.
+Sie können verschiedene Ebenen aktivieren (Fussgängerzonen, öffentliche Verkehrsmittel usw.), Geschwindigkeitswarnungen definieren oder spezielle Karten, z.B. für Wanderungen oder Seerouten, integrieren.
 
 
 Die kostenlose Version ist bereits sehr umfangreich, und mit der kostenpflichtigen Version können Sie noch mehr Funktionen freischalten und das Projekt unterstützen.
@@ -7743,7 +7729,7 @@ Google Contacts synchronisiert, wie viele Standardanwendungen auf Android, Ihre 
 - [Connect You](https://github.com/you-apps/ConnectYou)
 
 
-Connect You ist eine leichtgewichtige, übersichtliche Open-Source-Alternative, die für diejenigen entwickelt wurde, die ihre Kontakte lokal verwalten möchten, ohne Datenerfassung oder erzwungene Synchronisierung mit einer Drittanbieter-Cloud. Es bietet ein intuitives Interface, macht es einfach, Ihre Einträge zu sortieren, zu suchen und zu bearbeiten, und kann mit CalDAV-Diensten integriert werden, wenn Sie einen selbst gehosteten Kontaktserver verwenden (z. B. über Nextcloud).
+Connect You ist eine leichtgewichtige, übersichtliche Open-Source-Alternative, die für diejenigen entwickelt wurde, die ihre Kontakte lokal verwalten möchten, ohne Datenerfassung oder erzwungene Synchronisierung mit einer Drittanbieter-Cloud. Es bietet ein intuitives Interface, macht es einfach, Ihre Einträge zu sortieren, zu suchen und zu bearbeiten, und kann mit CalDAV-Diensten integriert werden, wenn Sie einen selbst gehosteten Kontaktserver verwenden (z.B. über Nextcloud).
 
 
 ### Fotoverwaltung
@@ -8020,7 +8006,7 @@ Die Internet-Infrastruktur basiert hauptsächlich auf zwei Protokollen:
 Diese beiden Protokolle arbeiten zusammen, um sicherzustellen, dass die von einem Punkt zum anderen gesendeten Nachrichten vollständig und in der richtigen Reihenfolge ankommen.
 
 
-Konkret: Wenn Sie eine Website besuchen, zum Beispiel durch Eingabe eines Address in Ihren Browser, werden im Hintergrund mehrere Vorgänge ausgelöst. Zunächst muss Ihr Computer oder Smartphone die lesbare Address (z. B. "planb.network") mithilfe eines DNS (*Domain Name System*) genannten Dienstes in eine IP Address umwandeln. Sobald die IP Address des Webservers ermittelt wurde, können die Daten an ihr Ziel gesendet werden.
+Konkret: Wenn Sie eine Website besuchen, zum Beispiel durch Eingabe eines Address in Ihren Browser, werden im Hintergrund mehrere Vorgänge ausgelöst. Zunächst muss Ihr Computer oder Smartphone die lesbare Address (z.B. "planb.network") mithilfe eines DNS (*Domain Name System*) genannten Dienstes in eine IP Address umwandeln. Sobald die IP Address des Webservers ermittelt wurde, können die Daten an ihr Ziel gesendet werden.
 
 
 Diese Daten durchlaufen dann einen komplexen Weg. Zunächst durchlaufen sie Ihren Heimrouter und Ihr Modem, bevor sie die Infrastruktur Ihres Internetanbieters erreichen. Von dort aus durchqueren sie möglicherweise mehrere Zwischennetze (manchmal transozeanische Kabel, Transit-Router, Internet-Exchange-Punkte usw.), bevor sie ihr Ziel erreichen: Der Server der Website, die Sie besuchen möchten. Dieser wiederum sendet die Daten (den Inhalt der Website) in die andere Richtung.
@@ -8076,7 +8062,7 @@ Im nächsten Kapitel erfahren Sie, wie Sie diese Konfiguration optimieren, häuf
 Das lokale Netzwerk, oder "LAN" (*Local Area Network*), bezieht sich auf alle digitalen Verbindungen innerhalb Ihres Hauses. Es umfasst alle Geräte, die mit Ihrem Router verbunden sind: Computer, Smartphones, Tablets, Drucker usw.
 
 
-Im Gegensatz zum Internet, das ein globales, öffentliches Netz ist, ist das lokale Netz ein privater, teilweise isolierter Raum, der es Geräten ermöglicht, miteinander zu kommunizieren, ohne dass ihr Austausch Ihr Haus verlässt. Wenn Sie z. B. eine Datei von Ihrem Computer an einen über Wi-Fi angeschlossenen Drucker senden oder eine angeschlossene Glühbirne über Ihr Telefon steuern, findet diese Kommunikation ausschliesslich lokal statt, ohne dass sie über einen entfernten Server läuft.
+Im Gegensatz zum Internet, das ein globales, öffentliches Netz ist, ist das lokale Netz ein privater, teilweise isolierter Raum, der es Geräten ermöglicht, miteinander zu kommunizieren, ohne dass ihr Austausch Ihr Haus verlässt. Wenn Sie z.B. eine Datei von Ihrem Computer an einen über Wi-Fi angeschlossenen Drucker senden oder eine angeschlossene Glühbirne über Ihr Telefon steuern, findet diese Kommunikation ausschliesslich lokal statt, ohne dass sie über einen entfernten Server läuft.
 
 
 ![Image](assets/fr/194.webp)
@@ -8103,7 +8089,7 @@ Daher ist es wichtig, die internen Abläufe in Ihrem Netzwerk zu verstehen und z
 Wi-Fi (kurz für "*Wireless Fidelity*") ist eine drahtlose Kommunikationstechnologie, mit der Sie Ihre Geräte kabellos an Ihr lokales Netzwerk anschliessen können. Diese Technologie basiert auf der Übertragung von Daten über Funkwellen, in der Regel in den Frequenzbändern 2,4 GHz und 5 GHz (oder sogar 6 GHz für Wi-Fi 6E und Wi-Fi 7 Netzwerke).
 
 
-Diese Benutzerfreundlichkeit birgt jedoch auch Risiken in sich. Im Gegensatz zu kabelgebundenen Verbindungen (z. B. Ethernet) durchdringen Wi-Fi-Signale Wände und können aus Dutzenden von Metern Entfernung empfangen werden. Das bedeutet, dass Personen ausserhalb Ihres Hauses (auf der Strasse, in einem benachbarten Gebäude, sogar von einem in der Nähe geparkten Fahrzeug aus) versuchen können, Ihr Netzwerk zu erkennen und eine Verbindung herzustellen, wenn es nicht ordnungsgemäss gesichert ist.
+Diese Benutzerfreundlichkeit birgt jedoch auch Risiken in sich. Im Gegensatz zu kabelgebundenen Verbindungen (z.B. Ethernet) durchdringen Wi-Fi-Signale Wände und können aus Dutzenden von Metern Entfernung empfangen werden. Das bedeutet, dass Personen ausserhalb Ihres Hauses (auf der Strasse, in einem benachbarten Gebäude, sogar von einem in der Nähe geparkten Fahrzeug aus) versuchen können, Ihr Netzwerk zu erkennen und eine Verbindung herzustellen, wenn es nicht ordnungsgemäss gesichert ist.
 
 
 ![Image](assets/fr/195.webp)
@@ -8113,7 +8099,7 @@ Ein Angreifer mit Zugang zu Ihrem Wi-Fi-Netzwerk könnte dann:
 
 
 
-- Abfangen unverschlüsselter Daten, die über das Netz laufen (z. B. DNS-Anfragen oder HTTP-Verkehr)
+- Abfangen unverschlüsselter Daten, die über das Netz laufen (z.B. DNS-Anfragen oder HTTP-Verkehr)
 - Zugriff auf Ihre Dateien oder Geräte, wenn diese unzureichend geschützt sind
 - Einschleusen bösartiger Inhalte in Ihren Browser
 - Ihre Internetverbindung ohne Ihr Wissen zu nutzen oder sogar Online-Angriffe von Ihrer öffentlichen IP Address aus durchzuführen
@@ -8125,7 +8111,7 @@ Um sich vor diesen Bedrohungen zu schützen, müssen Sie Ihr Wi-Fi-Netzwerk absi
 ### Lokale IP-Adressen
 
 
-Wenn Sie ein Gerät an Ihr Heimnetzwerk anschliessen, erhält es eine lokale IP Address. Diese Address besteht aus vier durch Punkte getrennten Zahlen (z. B. "192.168.1.14"). Er wird verwendet, um jedes Gerät in Ihrem lokalen Netzwerk eindeutig zu identifizieren. Dank dieser Address weiss Ihr Router, an welches Gerät er Daten senden muss (z. B. eine Webseite oder ein Video, das Sie angefordert haben).
+Wenn Sie ein Gerät an Ihr Heimnetzwerk anschliessen, erhält es eine lokale IP Address. Diese Address besteht aus vier durch Punkte getrennten Zahlen (z.B. "192.168.1.14"). Er wird verwendet, um jedes Gerät in Ihrem lokalen Netzwerk eindeutig zu identifizieren. Dank dieser Address weiss Ihr Router, an welches Gerät er Daten senden muss (z.B. eine Webseite oder ein Video, das Sie angefordert haben).
 
 
 Es ist wichtig zu wissen, dass diese lokalen IP-Adressen vom Internet aus nicht sichtbar sind. Sie gehören zu reservierten Bereichen, die durch internationale Normen definiert sind und im öffentlichen Netz nicht verwendet werden können. Die drei häufigsten lokalen IP-Address-Bereiche sind:
@@ -8259,7 +8245,7 @@ Diese Systeme ermöglichen eine feinere Kontrolle der Firewall-Regeln, der ausge
 Einer der häufigsten (und gefährlichsten) Fehler ist die Beibehaltung der vom Routerhersteller vorgegebenen Standard-Anmeldedaten oder die Verwendung eines schwachen Passworts.
 
 
-In der Vergangenheit waren die Standard-Anmeldedaten für Router äusserst unsicher und oft für alle Benutzer identisch, wie z. B. das bekannte `admin/admin`. Diese grundlegenden Anmeldeinformationen waren öffentlich, in Benutzerhandbüchern dokumentiert und in Datenbanken, die von Angreifern genutzt wurden, weit verbreitet. In diesem Fall könnte jeder, der das Vorhandensein Ihres Routers entdeckt, versuchen, sich unerlaubt Zugang zu verschaffen, indem er einfach diese bekannten Kombinationen testet.
+In der Vergangenheit waren die Standard-Anmeldedaten für Router äusserst unsicher und oft für alle Benutzer identisch, wie z.B. das bekannte `admin/admin`. Diese grundlegenden Anmeldeinformationen waren öffentlich, in Benutzerhandbüchern dokumentiert und in Datenbanken, die von Angreifern genutzt wurden, weit verbreitet. In diesem Fall könnte jeder, der das Vorhandensein Ihres Routers entdeckt, versuchen, sich unerlaubt Zugang zu verschaffen, indem er einfach diese bekannten Kombinationen testet.
 
 
 Heutzutage weisen die meisten Hersteller jedem Router ein eindeutiges, robustes Passwort zu. Aber auch in diesem Fall empfehle ich, die Standard-Anmeldedaten zu ändern. Dies verringert die Supply-Kettenrisiken und verhindert, dass das ursprüngliche Kennwort (das manchmal auf dem Etikett des Routers aufgedruckt ist) Ihre Sicherheit gefährdet.
@@ -8332,7 +8318,7 @@ Deaktivieren Sie alle Verwaltungsdienste, die Klartextprotokolle wie Telnet, FTP
 Einige Router reagieren standardmässig auf ICMP-Anfragen, die von aussen gesendet werden (Befehl "ping"). Dadurch kann ein Angreifer überprüfen, ob Ihr Netz aktiv und erreichbar ist. Wenn Sie dies nicht benötigen, deaktivieren Sie diese Antwort in der Firewall des Routers.
 
 
-Denken Sie schliesslich daran, den Zugriff auf die Interface-Verwaltung des Routers nur auf vertrauenswürdige Geräte zu beschränken und den Zugriff auf bestimmte IP-Adressen zu begrenzen, wenn der Interface dies zulässt. Einige Firmwares, wie z. B. OpenWrt, bieten eine sehr genaue Kontrolle über diese Parameter.
+Denken Sie schliesslich daran, den Zugriff auf die Interface-Verwaltung des Routers nur auf vertrauenswürdige Geräte zu beschränken und den Zugriff auf bestimmte IP-Adressen zu begrenzen, wenn der Interface dies zulässt. Einige Firmwares, wie z.B. OpenWrt, bieten eine sehr genaue Kontrolle über diese Parameter.
 
 
 ### Verstärkung der Sicherheit von Wi-Fi-Netzwerken
@@ -8386,10 +8372,10 @@ Schliesslich bietet dieser Ansatz auch Vorteile in Bezug auf Leistung und Verwal
 ### Erweiterte DNS-Verwaltung
 
 
-DNS (*Domain Name System*) ist der Internetdienst, der für Menschen verständliche Webadressen (z. B. "planb.network") in für Maschinen verständliche IP-Adressen übersetzt. Wenn ein Gerät in Ihrem Netz eine Website besuchen möchte, fragt es einen DNS-Server ab, um den Address des Servers zu erhalten, den es kontaktieren soll. Standardmässig werden diese DNS-Anfragen oft im Klartext (unverschlüsselt) an Ihren Internetdienstanbieter gesendet, so dass dieser (oder eine dritte Partei wie die Regierung) alle von Ihnen besuchten Websites sehen kann, selbst wenn deren Inhalt über HTTPS verschlüsselt ist.
+DNS (*Domain Name System*) ist der Internetdienst, der für Menschen verständliche Webadressen (z.B. "planb.network") in für Maschinen verständliche IP-Adressen übersetzt. Wenn ein Gerät in Ihrem Netz eine Website besuchen möchte, fragt es einen DNS-Server ab, um den Address des Servers zu erhalten, den es kontaktieren soll. Standardmässig werden diese DNS-Anfragen oft im Klartext (unverschlüsselt) an Ihren Internetdienstanbieter gesendet, so dass dieser (oder eine dritte Partei wie die Regierung) alle von Ihnen besuchten Websites sehen kann, selbst wenn deren Inhalt über HTTPS verschlüsselt ist.
 
 
-Um den Datenschutz beim Surfen zu verbessern und bestimmte unerwünschte Inhalte von Anfang an zu blockieren, können Sie die Kontrolle über die DNS-Auflösung in Ihrem Heimnetzwerk übernehmen. Beginnen Sie damit, die standardmässig bereitgestellten DNS-Server durch datenschutzfreundlichere Alternativen zu ersetzen, wie z. B. :
+Um den Datenschutz beim Surfen zu verbessern und bestimmte unerwünschte Inhalte von Anfang an zu blockieren, können Sie die Kontrolle über die DNS-Auflösung in Ihrem Heimnetzwerk übernehmen. Beginnen Sie damit, die standardmässig bereitgestellten DNS-Server durch datenschutzfreundlichere Alternativen zu ersetzen, wie z.B. :
 
 
 
@@ -8430,7 +8416,7 @@ In der Praxis können DNS-Verschlüsselung und Serverwechsel auf verschiedenen E
 
 
 
-- Auf Anwendungsebene: Einige Softwareanwendungen, wie z. B. der Firefox-Browser, ermöglichen die direkte Konfiguration von DNS-Verschlüsselungsprotokollen, wie z. B. DoH. Diese Lösung schützt jedoch nur Anfragen, die über die Anwendung erfolgen, und nicht den Rest Ihres Computers.
+- Auf Anwendungsebene: Einige Softwareanwendungen, wie z.B. der Firefox-Browser, ermöglichen die direkte Konfiguration von DNS-Verschlüsselungsprotokollen, wie z.B. DoH. Diese Lösung schützt jedoch nur Anfragen, die über die Anwendung erfolgen, und nicht den Rest Ihres Computers.
 
 
 ![Image](assets/fr/198.webp)
@@ -8444,7 +8430,7 @@ In der Praxis können DNS-Verschlüsselung und Serverwechsel auf verschiedenen E
 - Auf Netzwerkebene: Die DNS-Verschlüsselung kann über die Router-Konfiguration auf das gesamte lokale Netz angewendet werden. Auch hier gilt, dass ein für DoH/DoT konfigurierter Router nur den Verkehr sieht, der tatsächlich an ihn gesendet wird. Ein Browser, der so konfiguriert ist, dass er einen entfernten Resolver direkt kontaktiert, entzieht sich also dieser Kontrolle. Um diese Schlupflöcher zu schliessen, müssen Sie Port 53 im Klartext blockieren und nicht autorisierte DoH/DoT-Ziele über die Firewall des Routers einschränken.
 
 
-Auch die vom Internetanbieter bereitgestellten Modem-Router unterstützen diese Funktionen nicht immer. Für den Fall, dass der Router diese Funktionen nicht unterstützt, gibt es mehrere Alternativen. Sie können auf jedem Gerät einen manuell verschlüsselten DNS-Client installieren, hinter dem Router des Internetanbieters einen persönlichen Router hinzufügen (der DNS-Verschlüsselung beherrscht) oder einen lokalen DNS-Server (z. B. auf einem Raspberry Pi) einrichten, der DNS-Anfragen verschlüsselt und an einen sicheren Resolver weiterleitet.
+Auch die vom Internetanbieter bereitgestellten Modem-Router unterstützen diese Funktionen nicht immer. Für den Fall, dass der Router diese Funktionen nicht unterstützt, gibt es mehrere Alternativen. Sie können auf jedem Gerät einen manuell verschlüsselten DNS-Client installieren, hinter dem Router des Internetanbieters einen persönlichen Router hinzufügen (der DNS-Verschlüsselung beherrscht) oder einen lokalen DNS-Server (z.B. auf einem Raspberry Pi) einrichten, der DNS-Anfragen verschlüsselt und an einen sicheren Resolver weiterleitet.
 
 
 
@@ -8463,7 +8449,7 @@ Diese Tools funktionieren wie ein kleiner DNS-Server in Ihrem Netzwerk und block
 
 In manchen Fällen ist es nützlich, auch von unterwegs auf Ihr Heimnetzwerk zugreifen zu können: Sie können Dateien auf einem NAS abrufen, einen Bitcoin und einen Lightning-Knoten verwenden, auf einen selbst gehosteten Server zugreifen oder Ihr Netzwerk verwalten. Diese Remote-Verbindung muss jedoch sicher sein.
 
-Der erste Tipp ist, niemals direkt einen Port auf Ihrem Router zu öffnen, um auf ein Gerät zuzugreifen (z. B. über RDP, SSH oder FTP), da dies diesen Dienst dem gesamten Internet aussetzt, was eine Sicherheitslücke darstellt. Es gibt zahlreiche automatisierte Angriffe auf offene Ports.
+Der erste Tipp ist, niemals direkt einen Port auf Ihrem Router zu öffnen, um auf ein Gerät zuzugreifen (z.B. über RDP, SSH oder FTP), da dies diesen Dienst dem gesamten Internet aussetzt, was eine Sicherheitslücke darstellt. Es gibt zahlreiche automatisierte Angriffe auf offene Ports.
 
 Die Lösung, die ich empfehle, ist die Verwendung eines VPN (*Virtuelles Privates Netzwerk*), d. h. eines verschlüsselten Tunnels zwischen Ihrem entfernten Gerät (Computer, Smartphone usw.) und Ihrem lokalen Netzwerk. Sobald Sie mit dem VPN verbunden sind, können Sie auf die Ressourcen Ihres Hauses zugreifen, als wären Sie physisch vor Ort, und zwar auf sichere Weise.
 
@@ -8478,7 +8464,7 @@ Hier finden Sie eine vollständige Anleitung zu Tailscale, einer einfach zu konf
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
-Sie können dieses VPN direkt auf einem kompatiblen Router, auf einem kleinen Computer (z. B. einem Raspberry Pi) oder auf einem dedizierten Server zu Hause hosten. Sie können es auch als Client direkt auf einem beliebigen Gerät installieren.
+Sie können dieses VPN direkt auf einem kompatiblen Router, auf einem kleinen Computer (z.B. einem Raspberry Pi) oder auf einem dedizierten Server zu Hause hosten. Sie können es auch als Client direkt auf einem beliebigen Gerät installieren.
 
 Aber ein VPN ist nicht nur für den Fernzugriff geeignet. Sie können auch einen klassischen VPN-Client auf Ihren Geräten verwenden, um Ihren gesamten ausgehenden Datenverkehr zu verschlüsseln, auch wenn Sie nicht zu Hause sind (öffentliches WLAN, Hotel, Universität usw.). In diesem Fall stellt Ihr Gerät eine Verbindung zu einem VPN-Server eines Drittanbieters (kommerziell oder selbst gehostet) her, der dann Ihre Verbindungen ins Internet weiterleitet. Dies verbirgt Ihre echte IP Address vor dem Internetanbieter, schützt Ihre Daten vor lokaler Spionage und umgeht bestimmte Formen der Zensur.
 
