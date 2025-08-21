@@ -3201,9 +3201,9 @@ Die Absicherung des UEFI ist eine oft übersehene, aber absolut entscheidende Ma
 
 #### Sicherung des physischen Zugangs zum Computer
 
-xxx
 
-Die Sicherung eines Arbeitsplatzes beschränkt sich nicht nur auf den Softwareschutz: Wenn eine böswillige Person physischen Zugang zu Ihrem Rechner erhält, kann sie viele Barrieren umgehen oder das System ohne Ihr Wissen kompromittieren. Dies gilt insbesondere für Laptops, die leicht zu transportieren sind, aber auch für jedes Gerät, das in einem gemeinsam genutzten Raum steht, der Öffentlichkeit zugänglich ist oder einfach nur für andere Personen zugänglich ist.
+
+Die Sicherung eines Arbeitsplatzes beschränkt sich nicht nur auf den Softwareschutz: Wenn eine böswillige Person physischen Zugang zu deinem Rechner erhält, kann sie viele Barrieren umgehen oder das System ohne dein Wissen kompromittieren. Dies gilt insbesondere für Laptops, die leicht zu transportieren sind, aber auch für jedes Gerät, das in einem gemeinsam genutzten Raum steht, der Öffentlichkeit  oder einfach nur für andere Personen zugänglich ist.
 
 
 
@@ -3211,25 +3211,21 @@ Eines der häufigsten (aber unterschätzten) Risiken besteht darin, einen Comput
 
 
 
-Aus demselben Grund rate ich davon ab, externes Zubehör oder Peripheriegeräte zu verwenden, die Sie nicht kontrollieren. Vermeiden Sie das Einstecken von USB-Sticks, externen Hard-Laufwerken, Ladegeräten oder Dongles in Ihren Computer, wenn die Herkunft dieser Objekte nicht bekannt ist (neu oder im Besitz einer vertrauenswürdigen Person). Einige scheinbar harmlose Zubehörteile können Schaltkreise enthalten, die bösartige Befehle ausführen können, sobald sie eingesteckt sind. Umgekehrt sollten Sie Ihr eigenes Zubehör nicht ausleihen oder unbeaufsichtigt an zugänglichen Orten liegen lassen: Es könnte gegen kompromittierte Versionen ausgetauscht werden.
+Aus demselben Grund rate ich davon ab, externes Zubehör oder Peripheriegeräte zu verwenden, die du nicht kontrollierst. Vermeide das Einstecken von USB-Sticks, externen Festplatten, Ladegeräten oder Dongles in deinen Computer, wenn die Herkunft dieser Objekte nicht bekannt ist (neu oder im Besitz einer vertrauenswürdigen Person). Einige scheinbar harmlose Zubehörteile können Schaltkreise enthalten, die bösartige Befehle ausführen können, sobald sie eingesteckt sind. Umgekehrt solltest du dein eigenes Zubehör nicht ausleihen oder unbeaufsichtigt an zugänglichen Orten liegen lassen: Es könnte gegen kompromittierte Versionen ausgetauscht werden.
 
 
-
-Um das Risiko eines physischen Diebstahls zu begrenzen, können Sie einen Desktop-PC mit einem physischen Schliesssystem ausstatten. Die meisten professionellen PCs verfügen über einen Kensington-Sicherheitsanschluss, mit dem ein Stahlseil an einem festen Möbelstück befestigt werden kann. Auch für Laptops gibt es Varianten. Diese Vorrichtungen bieten natürlich keinen absoluten Schutz vor Diebstahl, aber sie reichen aus, um opportunistische Angriffe abzuschrecken.
-
+Um das Risiko eines physischen Diebstahls zu begrenzen, kannst du einen Desktop-PC mit einem physischen Schließsystem ausstatten. Die meisten professionellen PCs verfügen über einen Kensington-Sicherheitsanschluss, mit dem ein Stahlseil an einem festen Möbelstück befestigt werden kann. Auch für Laptops gibt es Varianten. Diese Vorrichtungen bieten natürlich keinen absoluten Schutz vor Diebstahl, aber sie reichen aus, um opportunistische Angriffe abzuschrecken.
 
 
 ![Image](assets/fr/202.webp)
 
 
 
-Ausserdem sollten Sie Ihren Rechner immer ausschalten, wenn Sie sich nicht in der Nähe aufhalten, insbesondere in einer ungesicherten Umgebung. Im Gegensatz zum einfachen Standby verhindert ein vollständiges Herunterfahren, dass das Betriebssystem geladen wird, und schützt vor bestimmten Angriffen auf den Arbeitsspeicher. Ausserdem wird dadurch die BIOS/UEFI-Sicherheit aktiviert.
+Außerdem solltest du deinen Rechner immer ausschalten, wenn du dich nicht in der Nähe aufhältst, insbesondere in einer ungesicherten Umgebung. Im Gegensatz zum einfachen Standby verhindert ein vollständiges Herunterfahren, dass das Betriebssystem geladen wird, und schützt vor bestimmten Angriffen auf den Arbeitsspeicher. Außerdem wird dadurch die BIOS/UEFI-Sicherheit aktiviert.
 
 
 
-Eine der wichtigsten Massnahmen, die Sie ergreifen können, um sich vor Diebstahl zu schützen, ist die Aktivierung der vollständigen Festplattenverschlüsselung. Dadurch werden Ihre Daten geschützt, indem sie ohne Kennwort unzugänglich gemacht werden, selbst wenn die Festplatte entnommen und in einen anderen Rechner gesteckt wird. Auf einigen Systemen ist diese Verschlüsselung standardmässig aktiviert:
-
-
+Eine der wichtigsten Maßnahmen gegen Diebstahl ist die Aktivierung der vollständigen Festplattenverschlüsselung. Dadurch werden deine Daten geschützt, indem sie ohne Kennwort unzugänglich gemacht werden, selbst wenn die Festplatte entnommen und in einen anderen Rechner gesteckt wird. Auf einigen Systemen ist diese Verschlüsselung standardmäßig aktiviert:
 
 
 - macOS verwendet FileVault
@@ -3239,7 +3235,7 @@ Eine der wichtigsten Massnahmen, die Sie ergreifen können, um sich vor Diebstah
 
 https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
-In jedem Fall muss das Entschlüsselungskennwort sicher sein, sich vom Systemkennwort unterscheiden und in einem sicheren Kennwortmanager gespeichert sein. Wenn Sie eine externe Festplatte oder einen USB-Stick mit sensiblen Daten verwenden, sollten Sie diese mit Tools wie VeraCrypt einzeln verschlüsseln.
+In jedem Fall muss das Entschlüsselungskennwort sicher sein, sich vom Systemkennwort unterscheiden und in einem sicheren Kennwortmanager gespeichert sein. Wenn du eine externe Festplatte oder einen USB-Stick mit sensiblen Daten verwendest, solltest du diese mit Tools wie VeraCrypt einzeln verschlüsseln.
 
 
 
@@ -3249,15 +3245,15 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 
-Das Prinzip der geringsten Privilegien ist eine grundlegende Regel der Cybersicherheit, nach der jede Einheit (ein menschlicher Benutzer, ein Softwareprogramm, ein Systemprozess usw.) nur über die Rechte verfügen sollte, die zur Erfüllung ihrer Aufgaben unbedingt erforderlich sind. Mit anderen Worten: Erteilen Sie nie mehr Berechtigungen als nötig, da jede zusätzliche Berechtigung die Angriffsfläche des Systems vergrössert.
+Das Prinzip der geringsten Privilegien ist eine grundlegende Regel der Cybersicherheit, nach der jede Einheit (ein menschlicher Benutzer, ein Softwareprogramm, ein Systemprozess usw.) nur über die Rechte verfügen sollte, die zur Erfüllung ihrer Aufgaben unbedingt erforderlich sind. Mit anderen Worten: Erteile nie mehr Berechtigungen als nötig, da jede zusätzliche Berechtigung die Angriffsfläche des Systems vergrössert.
 
 
 
-Konkret bedeutet dies für Ihren Computer, dass Ihr Hauptbenutzerkonto keine Administratorrechte für alltägliche Aktivitäten haben darf: Surfen im Internet, Abrufen von E-Mails, Büroarbeit usw. Wenn nämlich eine Schadsoftware von einem Konto mit erhöhten Rechten ausgeführt wird, kann sie Systemdateien verändern, dauerhafte Dienste installieren oder Sicherheitsvorkehrungen deaktivieren. Wird sie dagegen in einer eingeschränkten Umgebung ausgeführt, kann sie nur begrenzt Schaden anrichten.
+Konkret bedeutet dies für deinen Computer, dass dein Hauptbenutzerkonto keine Administratorrechte für alltägliche Aktivitäten haben darf: Surfen im Internet, Abrufen von E-Mails, Büroarbeit usw. Wenn nämlich eine Schadsoftware von einem Konto mit erhöhten Rechten ausgeführt wird, kann sie Systemdateien verändern, dauerhafte Dienste installieren oder Sicherheitsvorkehrungen deaktivieren. Wird sie dagegen in einer eingeschränkten Umgebung ausgeführt, kann sie nur begrenzt Schaden anrichten.
 
 
 
-Unter Windows haben die meisten Benutzer standardmässig ein Administratorkonto, auch wenn dies eine schlechte Praxis ist. Ich empfehle Ihnen, ein Standard-Benutzerkonto für den täglichen Gebrauch zu erstellen und das Administratorkonto für Vorgänge zu verwenden, die es wirklich benötigen. Wenn Sie versuchen, eine Aufgabe auszuführen, für die erhöhte Rechte erforderlich sind, wird Windows Sie einfach auffordern, das Administratorkennwort einzugeben, anstatt einfach auf die Schaltfläche "*JA*" zu klicken.
+Unter Windows haben die meisten Benutzer standardmäßig ein Administratorkonto, auch wenn dies eine schlechte Praxis ist. Ich empfehle dir, ein Standard-Benutzerkonto für den täglichen Gebrauch zu erstellen und das Administratorkonto für Vorgänge zu verwenden, die es wirklich benötigen. Wenn du versuchst, eine Aufgabe auszuführen, für die erhöhte Rechte erforderlich sind, wird Windows dich einfach auffordern, das Administratorkennwort einzugeben, anstatt einfach auf die Schaltfläche "*JA*" zu klicken.
 
 
 
@@ -3265,7 +3261,7 @@ Unter Windows haben die meisten Benutzer standardmässig ein Administratorkonto,
 
 
 
-Unter Linux ist dieses Prinzip der geringsten Rechte besser anwendbar. Standardmässig haben Sie ein Benutzerkonto mit eingeschränkten Rechten, und Sie können Ihre Privilegien vorübergehend mit dem Befehl `sudo` erhöhen. Es ist auch möglich, `sudo` so zu konfigurieren, dass je nach Benutzer nur bestimmte Befehle erlaubt sind (über `/etc/sudoers`).
+Unter Linux ist dieses Prinzip der geringsten Rechte besser anwendbar. Standardmässig hast du ein Benutzerkonto mit eingeschränkten Rechten, und du kannst deine Privilegien vorübergehend mit dem Befehl `sudo` erhöhen. Es ist auch möglich, `sudo` so zu konfigurieren, dass je nach Benutzer nur bestimmte Befehle erlaubt sind (über `/etc/sudoers`).
 
 
 
@@ -3273,11 +3269,11 @@ Unter Linux ist dieses Prinzip der geringsten Rechte besser anwendbar. Standardm
 
 
 
-Unter macOS hat der erste erstellte Account zwar oft administrative Rechte, aber das System verwendet einen ähnlichen Mechanismus wie `sudo`: Sie müssen Ihre Aktionen mit einem Passwort bestätigen, wenn Sie kritische Operationen durchführen wollen. Nichtsdestotrotz ist es durchaus möglich, ein normales Benutzerkonto zu erstellen und das Administratorkonto für die gelegentliche Nutzung zu reservieren, was ich empfehle, wenn der Computer von mehreren Personen genutzt wird.
+Unter macOS hat der erste erstellte Account zwar oft administrative Rechte, aber das System verwendet einen ähnlichen Mechanismus wie `sudo`: Du musst deine Aktionen mit einem Passwort bestätigen, wenn du kritische Operationen durchführen willst. Nichtsdestotrotz ist es durchaus möglich, ein normales Benutzerkonto zu erstellen und das Administratorkonto für die gelegentliche Nutzung zu reservieren. Ich empfehle dieses Vorgehen, wenn der Computer von mehreren Personen genutzt wird.
 
 
 
-Diese Kompartimentierung ist nicht auf menschliche Benutzer beschränkt. Viele Anwendungen erfordern bei der Installation erhöhte Rechte und werden auch dann noch mit diesen Rechten ausgeführt, wenn sie nicht mehr benötigt werden. Ich empfehle Ihnen daher, wo immer möglich, Anwendungen zu bevorzugen, die im Benutzermodus ausgeführt werden, Software zu deinstallieren, die Sie nicht mehr benötigen, und bei Anfragen zur Erhöhung der Berechtigungen wachsam zu sein.
+Diese Kompartimentierung ist nicht auf menschliche Benutzer beschränkt. Viele Anwendungen erfordern bei der Installation erhöhte Rechte und werden auch dann noch mit diesen Rechten ausgeführt, wenn sie nicht mehr benötigt werden. Ich empfehle dir daher, wo immer möglich, Anwendungen zu bevorzugen, die im Benutzermodus ausgeführt werden. Zudem solltest du Software deinstallieren, die du nicht mehr benötigst und bei Anfragen zur Erhöhung der Berechtigungen wachsam sein.
 
 
 
@@ -3285,7 +3281,7 @@ Diese Kompartimentierung ist nicht auf menschliche Benutzer beschränkt. Viele A
 
 
 
-Neben der Trennung von Administratorkonten und Standardkonten besteht eine weitere bewährte Praxis darin, mehrere verschiedene Benutzersitzungen auf demselben Computer einzurichten, um die Nutzung entsprechend ihrer Art aufzuteilen. Dieser Ansatz beruht auf einer einfachen Logik: Indem Sie Ihre Aktivitäten in verschiedene Umgebungen aufteilen, reduzieren Sie die Angriffsfläche jeder Umgebung und begrenzen die Folgen eines Sicherheitsvorfalls.
+Neben der Trennung von Administratorkonten und Standardkonten besteht eine weitere bewährte Praxis darin, mehrere verschiedene Benutzersitzungen auf demselben Computer einzurichten, um die Nutzung entsprechend ihrer Art aufzuteilen. Dieser Ansatz beruht auf einer einfachen Logik: Indem du deine Aktivitäten in verschiedene Umgebungen aufteilst, reduzierst du die Angriffsfläche jeder Umgebung und begrenzst die Folgen eines Sicherheitsvorfalls.
 
 
 
@@ -3293,19 +3289,18 @@ Alle modernen Betriebssysteme erlauben die Einrichtung mehrerer Benutzerkonten a
 
 
 
-Sie könnten Ihre Sitzungen zum Beispiel wie folgt strukturieren:
+Du könntest deine Sitzungen zum Beispiel wie folgt strukturieren:
 
 
 
 
-- Ein Konto für Ihre berufliche Tätigkeit, auf dem Sie nur die Software installieren, die Sie unbedingt benötigen (Office-Suiten, Tools für die Zusammenarbeit, professionelles Messaging...). Diese Sitzung darf nicht zum freien Surfen im Internet oder zum Testen von Software verwendet werden;
+- Ein Konto für deine berufliche Tätigkeit, auf dem du nur die Software installierst, die du unbedingt benötigst (Office-Suiten, Tools für die Zusammenarbeit, professionelles Messaging...). Diese Sitzung darf nicht zum freien Surfen im Internet oder zum Testen von Software verwendet werden;
 - Ein Konto für den persönlichen Gebrauch, das für das tägliche Surfen im Internet, soziale Netzwerke, Streaming oder die Installation von Verbraucheranwendungen verwendet wird. Dies ist in der Regel die Sitzung, die am meisten für Browserangriffe oder verdächtige Downloads anfällig ist;
-- Ein Konto, das für sensible Aktivitäten reserviert ist, wie z.B. die Abfrage von Bankkonten, die Verwaltung Ihrer Bitcoin-Portfolios oder jede andere Verwendung, die ein hohes Mass an Sicherheit erfordert. Dieses Konto sollte ausschliesslich für diese Aufgaben verwendet werden, wobei die installierte Software auf das Nötigste beschränkt und die Netzwerkkonfiguration strenger sein sollte;
-- Ein Gastkonto oder ein stark eingeschränktes Konto, das ausschliesslich für die gelegentliche Nutzung z.B. durch Familienmitglieder gedacht ist. Dieses Konto darf natürlich keine Administratorrechte und nur einen eingeschränkten Zugang haben.
+- Ein Konto, das für sensible Aktivitäten reserviert ist, wie z.B. die Abfrage von Bankkonten, die Verwaltung deiner Bitcoin-Portfolios oder jede andere Verwendung, die ein hohes Maß an Sicherheit erfordert. Dieses Konto solltest du ausschließlich für diese Aufgaben verwenden, wobei die installierte Software auf das Nötigste beschränkt und die Netzwerkkonfiguration strenger sein sollte;
+- Ein Gastkonto oder ein stark eingeschränktes Konto, das ausschließlich für die gelegentliche Nutzung z.B. durch Familienmitglieder gedacht ist. Dieses Konto darf natürlich keine Administratorrechte und nur einen eingeschränkten Zugang haben.
 
 
-
-Dieser Ansatz hat mehrere Vorteile. Erstens können die in einer Sitzung installierten Anwendungen nicht die Anwendungen anderer Benutzer beeinträchtigen (ausser im Falle einer Erhöhung der Berechtigungen). Zweitens: Wenn eine Sitzung kompromittiert wird, z.B. durch heruntergeladene Schadsoftware, bleiben die Auswirkungen in der Regel auf das betreffende Konto beschränkt. Dies bedeutet, dass Ihre Geschäftsdokumente oder Bitcoin-Portfolios für Malware unzugänglich bleiben, wenn sie in einer anderen, ordnungsgemäss isolierten Sitzung aufbewahrt werden.
+Dieser Ansatz hat mehrere Vorteile. Erstens können die in einer Sitzung installierten Anwendungen nicht die Anwendungen anderer Benutzer beeinträchtigen (ausser im Falle einer Erhöhung der Berechtigungen). Zweitens: Wenn eine Sitzung kompromittiert wird, z.B. durch heruntergeladene Schadsoftware, bleiben die Auswirkungen in der Regel auf das betreffende Konto beschränkt. Dies bedeutet, dass deine Geschäftsdokumente oder Bitcoin-Portfolios für Malware unzugänglich bleiben, wenn sie in einer anderen, ordnungsgemäss isolierten Sitzung aufbewahrt werden.
 
 
 
@@ -3317,7 +3312,7 @@ Unter Linux kann diese Trennung durch Mechanismen wie AppArmor oder SELinux vers
 
 
 
-Es ist wichtig, darauf hinzuweisen, dass Multisession weder die Verwendung eines Nicht-Administrator-Kontos noch die Anwendung des Prinzips der geringsten Privilegien ersetzt. Sie ergänzt diese durch ein Layer der logischen Isolierung, das einfach einzurichten und besonders effektiv für den gemischten Einsatz in Familie und Beruf ist.
+Es ist wichtig, darauf hinzuweisen, dass Multisession weder die Verwendung eines Nicht-Administrator-Kontos noch die Anwendung des Prinzips der geringsten Privilegien ersetzt. Sie ergänzt diese durch eine Schicht der logischen Isolierung, die einfach einzurichten und besonders effektiv für den gemischten Einsatz in Familie und Beruf ist.
 
 
 
@@ -3329,7 +3324,7 @@ Ein anderer, radikalerer, aber besonders wirksamer Ansatz besteht darin, für je
 
 
 
-Mit virtuellen Maschinen (oder "VMs") können Sie völlig isolierte Umgebungen auf Ihrem Computer schaffen. Eine VM simuliert einen unabhängigen Computer mit eigenem Betriebssystem, Anwendungen und Einstellungen, funktioniert aber in Wirklichkeit wie ein Programm, das auf Ihrem Hauptrechner läuft.
+Mit virtuellen Maschinen (oder "VMs") kannst du völlig isolierte Umgebungen auf deinem Computer schaffen. Eine VM simuliert einen unabhängigen Computer mit eigenem Betriebssystem, Anwendungen und Einstellungen, funktioniert aber in Wirklichkeit wie ein Programm, das auf deinem Hauptrechner läuft.
 
 
 
@@ -3342,16 +3337,15 @@ Diese Technologie basiert auf einem Hypervisor, einem Softwareprogramm, das die 
 
 https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
-In Bezug auf die IT-Sicherheit ist einer der grossen Vorteile virtueller Maschinen ihre Fähigkeit zur Abschottung. Eine virtuelle Maschine teilt ihre Dateien, Prozesse oder ihren Netzwerkzugang nicht mit dem Host-System, es sei denn, Sie konfigurieren diesen Austausch ausdrücklich. Wenn also eine virtuelle Maschine mit Malware infiziert wird oder Sie darin sensible Software testen, bleiben die Auswirkungen auf diese virtuelle Maschine beschränkt: Ihr Hauptsystem bleibt intakt, sofern die Isolierungsparameter eingehalten werden (keine gemeinsam genutzten Verzeichnisse, keine USB-Geräte, die an die virtuelle Maschine weitergegeben werden ...).
+In Bezug auf die IT-Sicherheit ist einer der großen Vorteile virtueller Maschinen ihre Fähigkeit zur Abschottung. Eine virtuelle Maschine teilt ihre Dateien, Prozesse oder ihren Netzwerkzugang nicht mit dem Host-System. Es sei denn, du konfigurierst diesen Austausch ausdrücklich. Wenn also eine virtuelle Maschine mit Malware infiziert wird oder du darin sensible Software testest, bleiben die Auswirkungen auf diese virtuelle Maschine beschränkt: Dein Hauptsystem bleibt intakt, sofern die Isolierungsparameter eingehalten werden (keine gemeinsam genutzten Verzeichnisse, keine USB-Geräte, die an die virtuelle Maschine weitergegeben werden ...).
 
 
 
-Mit einer VM können Sie verdächtige Software testen: Wenn Sie ein Programm von einer unzuverlässigen Quelle oder einer zweifelhaften Website herunterladen, können Sie es zunächst in einer VM ausführen, um sein Verhalten in aller Sicherheit zu beobachten. Dies kann auch nützlich sein, wenn Sie auf riskanten Websites surfen: Sie können eine VM für die Konsultation sensibler oder unbekannter Webinhalte verwenden, was die Wahrscheinlichkeit von Angriffen durch bösartige Skripte oder die Ausnutzung von Schwachstellen im Browser verringert. Kurz gesagt: Mit einer VM können Sie eine bestimmte Anwendung leicht vom Rest Ihres Systems isolieren.
+Mit einer VM kannst du verdächtige Software testen: Wenn du ein Programm von einer unzuverlässigen Quelle oder einer zweifelhaften Website herunterlädst, kannst du es zunächst in einer VM ausführen, um sein Verhalten in aller Sicherheit zu beobachten. Dies kann auch nützlich sein, wenn du auf riskanten Websites surfst: Du kannst eine VM für die Konsultation sensibler oder unbekannter Webinhalte verwenden, was die Wahrscheinlichkeit von Angriffen durch bösartige Skripte oder die Ausnutzung von Schwachstellen im Browser verringert. Kurz gesagt: Mit einer VM kannst du eine bestimmte Anwendung leicht vom Rest deines Systems isolieren.
 
 
 
-Schliesslich ist es wichtig zu verstehen, dass die von VMs gebotene Sicherheit von ihrer korrekten Konfiguration abhängt. Einige Hypervisoren erlauben standardmässig den Austausch von Dateien zwischen dem Host und der VM oder den Zugriff auf USB-Peripheriegeräte. Diese Funktionen sollten deaktiviert werden, um die Isolierung zu maximieren.
-
+Schließlich ist es wichtig zu verstehen, dass die von VMs gebotene Sicherheit von ihrer korrekten Konfiguration abhängt. Einige Hypervisoren erlauben standardmäßig den Austausch von Dateien zwischen dem Host und der VM oder den Zugriff auf USB-Peripheriegeräte. Diese Funktionen sollten deaktiviert werden, um die Isolierung zu maximieren.
 
 
 ### Sandboxing
@@ -3360,7 +3354,7 @@ Schliesslich ist es wichtig zu verstehen, dass die von VMs gebotene Sicherheit v
 
 Sandboxing ist eine Methode der Computersicherheit, bei der eine Anwendung oder ein Prozess in einer isolierten, stark eingeschränkten Umgebung ausgeführt wird. Ziel ist es, die Interaktion der Anwendung mit dem Rest des Systems strikt zu begrenzen. Sollte eine Bedrohung auftreten, werden ihre Auswirkungen in der Regel auf diesen Bereich beschränkt.
 
-
+xxx
 
 Im Gegensatz zu virtuellen Maschinen, die ein komplettes Betriebssystem mit eigenen Ressourcen simulieren, ist Sandboxing leichter, schneller zu implementieren und weniger ressourcenintensiv. Sie beruht auf Mechanismen zur Begrenzung der Zugriffsrechte: auf Speicher, Dateien, Netzwerk, Peripheriegeräte... Eine Sandbox-Anwendung kann z.B. eine temporäre Datei lesen, aber niemals auf Ihr persönliches Verzeichnis oder Dateisystem zugreifen.
 
