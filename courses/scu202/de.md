@@ -3354,13 +3354,13 @@ Schließlich ist es wichtig zu verstehen, dass die von VMs gebotene Sicherheit v
 
 Sandboxing ist eine Methode der Computersicherheit, bei der eine Anwendung oder ein Prozess in einer isolierten, stark eingeschränkten Umgebung ausgeführt wird. Ziel ist es, die Interaktion der Anwendung mit dem Rest des Systems strikt zu begrenzen. Sollte eine Bedrohung auftreten, werden ihre Auswirkungen in der Regel auf diesen Bereich beschränkt.
 
-xxx
-
-Im Gegensatz zu virtuellen Maschinen, die ein komplettes Betriebssystem mit eigenen Ressourcen simulieren, ist Sandboxing leichter, schneller zu implementieren und weniger ressourcenintensiv. Sie beruht auf Mechanismen zur Begrenzung der Zugriffsrechte: auf Speicher, Dateien, Netzwerk, Peripheriegeräte... Eine Sandbox-Anwendung kann z.B. eine temporäre Datei lesen, aber niemals auf Ihr persönliches Verzeichnis oder Dateisystem zugreifen.
 
 
+Im Gegensatz zu virtuellen Maschinen, die ein komplettes Betriebssystem mit eigenen Ressourcen simulieren, ist Sandboxing leichter, schneller zu implementieren und weniger ressourcenintensiv. Sie beruht auf Mechanismen zur Begrenzung der Zugriffsrechte: auf Speicher, Dateien, Netzwerk, Peripheriegeräten... Eine Sandbox-Anwendung kann z.B. eine temporäre Datei lesen, aber niemals auf dein persönliches Verzeichnis oder Dateisystem zugreifen.
 
-Hier sind einige konkrete Lösungen für Sandboxing, abhängig von Ihrem Betriebssystem:
+
+
+Hier sind einige konkrete Lösungen für Sandboxing, abhängig von deinem Betriebssystem:
 
 
 
@@ -3397,7 +3397,7 @@ Schliesslich bietet Sandboxing zwar einen effektiven Layer-Schutz, aber es ist w
 
 
 
-Nachdem wir nun die Sicherheit Ihres Computers durch Authentifizierung und Abschottung behandelt haben, werden wir uns im nächsten Kapitel mit guten Wartungspraktiken befassen, um seine Sicherheit weiter zu erhöhen.
+Nachdem wir nun die Sicherheit deines Computers durch Authentifizierung und Abschottung behandelt haben, werden wir uns im nächsten Kapitel mit guten Wartungspraktiken befassen, um die Sicherheit weiter zu erhöhen.
 
 
 
@@ -3408,11 +3408,11 @@ Nachdem wir nun die Sicherheit Ihres Computers durch Authentifizierung und Absch
 
 
 
-Viele Menschen denken, dass die Installation einer Antiviren-Software oder die Wahl des richtigen Passworts ausreicht, um ihren Computer zu schützen. Aber es geht bei der Computersicherheit um viel mehr als nur um eine einmalige Konfiguration. Die Realität ist viel komplexer: Die meisten Cyberangriffe nutzen Schwachstellen in veralteten Systemen und Software aus. Mit anderen Worten: Zur Computersicherheit gehört auch die regelmässige Wartung Ihres Rechners.
+Viele Menschen denken, dass die Installation einer Antiviren-Software oder die Wahl des richtigen Passworts ausreicht, um ihren Computer zu schützen. Aber es geht bei der Computersicherheit um viel mehr als nur um eine einmalige Konfiguration. Die Realität ist viel komplexer: Die meisten Cyberangriffe nutzen Schwachstellen in veralteten Systemen und Software aus. Mit anderen Worten: Zur Computersicherheit gehört auch die regelmässige Wartung deines Rechners.
 
 
 
-In diesem Kapitel erkläre ich Ihnen Schritt für Schritt, wie Sie Ihren Computer effektiv warten und das Risiko einer Gefährdung minimieren können.
+In diesem Kapitel erkläre ich dir Schritt für Schritt, wie du deinen Computer effektiv warten und das Risiko einer Gefährdung minimieren kannst.
 
 
 
@@ -3420,31 +3420,31 @@ In diesem Kapitel erkläre ich Ihnen Schritt für Schritt, wie Sie Ihren Compute
 
 
 
-Wie wir zu Beginn dieses Kurses gesehen haben, verwaltet das Betriebssystem die Hardware (Prozessor, Speicher, Festplatten, Peripheriegeräte usw.), führt Programme aus, organisiert Dateien und verwaltet Netzwerkverbindungen. Es ist also eine wichtige Komponente Ihres Computers.
+Wie wir zu Beginn dieses Kurses gesehen haben, verwaltet das Betriebssystem die Hardware (Prozessor, Speicher, Festplatten, Peripheriegeräte usw.), führt Programme aus, organisiert Dateien und verwaltet Netzwerkverbindungen. Es ist also eine wichtige Komponente deines Computers.
 
 
 
-#### Warum sollten Sie Ihr Betriebssystem aktualisieren?
+#### Warum solltest du dein Betriebssystem aktualisieren?
 
 
 
-Aufgrund ihrer Komplexität ist keine Betriebssystemversion völlig frei von Sicherheitslücken. Wir sprechen hier von zig Millionen Codezeilen. Diese Sicherheitslücken können von Angreifern ausgenutzt werden, um bösartigen Code auszuführen, unbefugte Rechte zu erlangen oder das gesamte System zu kompromittieren. Einige dieser Schwachstellen werden von Cybersecurity-Forschern verantwortungsbewusst entdeckt, während andere bereits aktiv ausgenutzt werden, ohne dass die Allgemeinheit davon weiss: Diese sind als Zero-Day-Schwachstellen bekannt.
+Aufgrund ihrer Komplexität ist keine Betriebssystemversion völlig frei von Sicherheitslücken. Wir sprechen hier von zig Millionen Codezeilen. Diese Sicherheitslücken können von Angreifern ausgenutzt werden, um bösartigen Code auszuführen, unbefugte Rechte zu erlangen oder das gesamte System zu kompromittieren. Einige dieser Schwachstellen werden von verantwortungsbewussten Cybersecurity-Forschern  entdeckt, während andere bereits aktiv ausgenutzt werden, ohne dass die Allgemeinheit davon weiss: Diese sind als Zero-Day-Schwachstellen bekannt.
 
 
 
-Die Hersteller von Betriebssystemen veröffentlichen regelmässig Sicherheitsupdates, um diese Schwachstellen zu beheben. Die Nichtinstallation dieser Patches ist gleichbedeutend damit, dass Sie Angriffen bewusst Tür und Tor öffnen, selbst wenn Sie glauben, dass Ihre Nutzung bescheiden oder Ihre Daten wertlos sind.
+Die Hersteller von Betriebssystemen veröffentlichen regelmässig Sicherheitsupdates, um diese Schwachstellen zu beheben. Die Nichtinstallation dieser Patches ist gleichbedeutend damit, dass du Angriffen Tür und Tor öffnest, selbst wenn du glaubst, dass deine Verhalten harmlos oder deine Daten wertlos sind.
 
 
 
-Es geht nicht nur darum, sichtbare Fehler zu beheben, sondern auch darum, die Angriffsvektoren Ihres Systems zu bekämpfen. Je weniger Vektoren es gibt, desto weniger Hebel haben Angreifer, um Ihren Rechner zu kompromittieren.
+Es geht nicht nur darum, sichtbare Fehler zu beheben, sondern auch darum, die Angriffsvektoren deines Systems zu bekämpfen. Je weniger Vektoren es gibt, desto weniger Hebel haben Angreifer, um deinen Rechner zu kompromittieren.
 
 
 
-Insbesondere empfehle ich Ihnen, automatische Updates zu aktivieren. Diese Funktion ist von Haus aus auf allen modernen Systemen verfügbar. Windows Update z.B. übernimmt dies standardmässig auf Windows 10 und 11. Unter macOS sind die Sicherheitsupdates in das Systemaktualisierungssystem integriert. Unter Linux können Sie je nach Distribution mit Tools wie `unattended-upgrades` (Debian/Ubuntu) oder `dnf-automatic` (Fedora) Aktualisierungen planen.
+Insbesondere empfehle ich dir, automatische Updates zu aktivieren. Diese Funktion ist von Haus aus auf allen modernen Systemen verfügbar. Windows Update z.B. übernimmt dies standardmässig auf Windows 10 und 11. Unter macOS sind die Sicherheitsupdates in das Systemaktualisierungssystem integriert. Unter Linux kannst du je nach Distribution mit Tools wie `unattended-upgrades` (Debian/Ubuntu) oder `dnf-automatic` (Fedora) Aktualisierungen planen.
 
 
 
-Schliesslich sollten Sie bedenken, dass bestimmte kritische Updates in vielen Fällen erst nach einem Neustart wirksam werden. Daher ist es wichtig, dass Sie Ihren Computer regelmässig neu starten, insbesondere nach einer Systemaktualisierung. Die Aktualisierung Ihres Betriebssystems dauert oft nur ein paar Minuten, ist aber eines der wirksamsten Bollwerke gegen viele Angriffe.
+Schliesslich solltest du bedenken, dass bestimmte kritische Updates in vielen Fällen erst nach einem Neustart wirksam werden. Daher ist es wichtig, dass du deinen Computer regelmässig neu startest, insbesondere nach einer Systemaktualisierung. Die Aktualisierung deines Betriebssystems dauert oft nur ein paar Minuten, ist aber eines der wirksamsten Bollwerke gegen viele Angriffe.
 
 
 
@@ -3452,13 +3452,13 @@ Schliesslich sollten Sie bedenken, dass bestimmte kritische Updates in vielen F�
 
 
 
-Auch wenn automatische Updates auf Ihrem System aktiviert sind, ist es wichtig, in regelmässigen Abständen manuell zu überprüfen, ob noch Updates ausstehen. Schauen wir uns an, wie Sie dies je nach System tun können:
+Auch wenn automatische Updates auf deinem System aktiviert sind, ist es wichtig, in regelmässigen Abständen manuell zu überprüfen, ob noch Updates ausstehen. Schauen wir uns an, wie du dies je nach System tun kannst:
 
 
 
 
 
-- Betriebssystem Windows*
+- *Betriebssystem Windows*
 
 
 
@@ -3466,7 +3466,7 @@ Windows verfügt über einen zentralisierten Update-Manager namens "Windows Upda
 
 
 
-So überprüfen Sie den Status von Aktualisierungen manuell:
+So überprüfst du den Status von Aktualisierungen manuell:
 
 
 
@@ -3476,17 +3476,17 @@ Settings → Windows Update → Check for updates
 
 
 
-Vergessen Sie nicht, im gleichen Menü nach optionalen Updates zu suchen.
+Vergiss nicht, im gleichen Menü nach optionalen Updates zu suchen.
 
 
 
 
 
-- Linux*-Betriebssystem
+- *Linux*-Betriebssystem
 
 
 
-Linux-Distributionen basieren auf einem System von Paketen, die von der Community und den Betreuern Ihrer Distribution gepflegt werden. Aktualisierungen werden über den Paketmanager eingespielt.
+Linux-Distributionen basieren auf einem System von Paketen, die von der Community und den Betreuern deiner Distribution gepflegt werden. Aktualisierungen werden über den Paketmanager eingespielt.
 
 
 
@@ -3504,7 +3504,7 @@ sudo apt update && sudo apt upgrade -y
 
 
 
-Wenn Sie es vorziehen, einen grafischen Interface zu verwenden, gibt es unter Ubuntu das Tool *Software Updater*, mit dem Sie Aktualisierungen einfach verwalten können, ohne das Terminal zu benutzen.
+Wenn du es vorziehst, ein grafisches Interface zu verwenden, gibt es unter Ubuntu das Tool *Software Updater*. Damit kannst du Aktualisierungen einfach verwalten, ohne das Terminal zu benutzen.
 
 
 
@@ -3535,11 +3535,11 @@ sudo pacman -Syu
 
 
 
-- Betriebssystem MacOS*
+- Betriebssystem *MacOS*
 
 
 
-Apple zentralisiert seine Systemaktualisierungen in den Einstellungen des Interface. So prüfen Sie die Verfügbarkeit:
+Apple zentralisiert seine Systemaktualisierungen in den Einstellungen des Interface. So prüfst du die Verfügbarkeit:
 
 
 
@@ -3561,7 +3561,7 @@ macOS lädt automatisch Sicherheits-, System- und Programm-Updates über die Opt
 
 
 
-Die Sicherheit Ihres Computers hängt nicht nur von Ihrem Betriebssystem ab. Jede Software, die Sie installieren, stellt eine potenzielle Eintrittspforte für Angriffe dar. Sobald ein Programm eine unkorrigierte Sicherheitslücke aufweist, kann diese ausgenutzt werden, um Ihr System zu gefährden oder Ihre Daten zu stehlen.
+Die Sicherheit deines Computers hängt nicht nur von deinem Betriebssystem ab. Jede Software, die du installierst, stellt eine potenzielle Eintrittspforte für Angriffe dar. Sobald ein Programm eine unkorrigierte Sicherheitslücke aufweist, kann diese ausgenutzt werden, um dein System zu gefährden oder deine Daten zu stehlen.
 
 
 
@@ -3571,29 +3571,29 @@ Manche Software ist sensibler als andere, weil sie direkt mit der Aussenwelt int
 
 
 
-- Webbrowser*: Sie stehen an vorderster Front der Angriffe, da sie ungeprüfte Inhalte in Echtzeit verarbeiten und eine besonders grosse Angriffsfläche bieten. Darüber hinaus spielen sie eine zentrale Rolle beim Schutz Ihrer persönlichen Daten. Und vor allem ersetzen sie in der Regel viele früher lokal genutzte Softwareanwendungen (E-Mail-Clients, Office-Suiten, Mediaplayer...). Aber darauf werden wir im nächsten Abschnitt des SCU202-Kurses zurückkommen;
+- *Webbrowser*: Sie stehen an vorderster Front der Angriffe, da sie ungeprüfte Inhalte in Echtzeit verarbeiten und eine besonders grosse Angriffsfläche bieten. Darüber hinaus spielen sie eine zentrale Rolle beim Schutz deiner persönlichen Daten. Und vor allem ersetzen sie in der Regel viele früher lokal genutzte Softwareanwendungen (E-Mail-Clients, Office-Suiten, Mediaplayer...). Aber darauf werden wir im nächsten Abschnitt des SCU202-Kurses zurückkommen;
 
 
 
 
 
-- E-Mail-Clients*: Sie erhalten Anhänge oder Links aus externen Quellen, die unkontrollierbar und daher riskant sind;
+- *E-Mail-Clients*: Du erhältst Anhänge oder Links aus externen Quellen, die unkontrollierbar und daher riskant sind;
 
 
 
 
 
-- Kommunikationstools* (TeamViewer, Zoom, Signal, Teams...): Aufgrund ihrer interaktiven Natur sind sie Ziele für Spionageangriffe oder Fernsteuerungsversuche. Genauso wie E-Mail-Clients können Kommunikations-Tools als Vektoren für Phishing-Versuche oder die Verbreitung bösartiger Anhänge genutzt werden;
+- *Kommunikationstools* (TeamViewer, Zoom, Signal, Teams...): Aufgrund ihrer interaktiven Natur sind sie Ziele für Spionageangriffe oder Fernsteuerungsversuche. Genauso wie E-Mail-Clients können Kommunikations-Tools als Vektoren für Phishing-Versuche oder die Verbreitung bösartiger Anhänge genutzt werden;
 
 
 
 
 
-- Antiviren-, Firewall- und andere Erkennungslösungen*: Diese Tools geniessen in der Regel erhöhte Privilegien, da sie Ihre Dateien, Prozesse und Netzwerkverbindungen ständig überprüfen. Eine veraltete Signaturenbasis, eine schlechte Konfiguration oder eine Schwachstelle in der Software selbst kann es Malware ermöglichen, unerkannt zu bleiben oder sogar erhöhte Privilegien zu erlangen.
+- *Antiviren-, Firewall- und andere Erkennungslösungen*: Diese Tools geniessen in der Regel erhöhte Privilegien, da sie deine Dateien, Prozesse und Netzwerkverbindungen ständig überprüfen. Eine veraltete Signaturenbasis, eine schlechte Konfiguration oder eine Schwachstelle in der Software selbst kann es Malware ermöglichen, unerkannt zu bleiben oder sogar erhöhte Privilegien zu erlangen.
 
 
 
-Diese Risiken entstehen natürlich nicht nur durch schlechte Wartung, aber es ist wichtig, dass Sie der Aktualisierung dieser sensiblen Softwareprogramme besondere Aufmerksamkeit schenken. Ich vereinfache hier, aber natürlich muss auch all Ihre andere Software regelmässig aktualisiert werden. Schauen wir uns einmal an, wie Sie das je nach Betriebssystem tun können.
+Diese Risiken entstehen natürlich nicht nur durch schlechte Wartung, aber es ist wichtig, dass du der Aktualisierung dieser sensiblen Softwareprogramme besondere Aufmerksamkeit schenkst. Ich vereinfache hier, aber natürlich muss auch all deine andere Software regelmässig aktualisiert werden. Schauen wir uns einmal an, wie du das je nach Betriebssystem tun kannst.
 
 
 
@@ -3601,7 +3601,7 @@ Diese Risiken entstehen natürlich nicht nur durch schlechte Wartung, aber es is
 
 
 
-Unter Windows 11 ist das Dienstprogramm *Winget* in das System integriert. Damit können Sie die meisten der auf Ihrem Computer installierten Programme direkt über das Terminal auflisten und aktualisieren. Führen Sie einfach Windows PowerShell aus:
+Unter Windows 11 ist das Dienstprogramm *Winget* in das System integriert. Damit kannst du die meisten der auf deinem Computer installierten Programme direkt über das Terminal auflisten und aktualisieren. Führe einfach Windows PowerShell aus:
 
 
 
@@ -3611,7 +3611,7 @@ winget upgrade --all
 
 
 
-Dieser Befehl sucht in öffentlichen Repositories nach den neuesten Versionen Ihrer Software und aktualisiert diese automatisch.
+Dieser Befehl sucht in öffentlichen Repositories nach den neuesten Versionen deiner Software und aktualisiert diese automatisch.
 
 
 
@@ -3619,7 +3619,7 @@ Dieser Befehl sucht in öffentlichen Repositories nach den neuesten Versionen Ih
 
 
 
-Leider funktioniert dieser Befehl nicht bei jeder Software. Deshalb empfehle ich Ihnen, eine Liste all Ihrer Software zu führen und regelmässig manuell nach Updates zu suchen, insbesondere bei sensiblen Anwendungen. Für die kritischste Software, wie z.B. Ihr Antivirusprogramm oder Ihren Webbrowser, empfehle ich Ihnen, diese Prüfung täglich durchzuführen.
+Leider funktioniert dieser Befehl nicht bei jeder Software. Deshalb empfehle ich dir, eine Liste all deiner Software zu führen und regelmässig manuell nach Updates zu suchen, insbesondere bei sensiblen Anwendungen. Für die kritischste Software, wie z.B. dein Antivirusprogramm oder dein Webbrowser, empfehle ich dir eine tägliche Prüfung.
 
 
 
@@ -3631,7 +3631,7 @@ Die Stärke der Linux-Distributionen liegt in ihrer zentralen Softwareverwaltung
 
 
 
-Um ein globales Update Ihrer Software durchzuführen, führen Sie einfach wie bei der Betriebssystemaktualisierung einen Befehl aus:
+Um ein globales Update Ihrer Software durchzuführen, führe einfach wie bei der Betriebssystemaktualisierung einen Befehl aus:
 
 
 
@@ -3645,7 +3645,7 @@ Dieser grundlegende Befehl aktualisiert die Liste der verfügbaren Pakete (`apt 
 
 
 
-Für eine umfassendere Aktualisierung können Sie auch diesen Befehl verwenden:
+Für eine umfassendere Aktualisierung kannst du auch diesen Befehl verwenden:
 
 
 
@@ -3658,7 +3658,7 @@ sudo apt update \
 
 
 
-
+xxx
 
 - sudo apt full-upgrade" aktualisiert alle installierten Pakete, einschliesslich derjenigen, bei denen Abhängigkeiten hinzugefügt oder entfernt werden müssen. y" erlaubt es Ihnen, automatisch mit "ja" auf jede Bestätigung zu antworten, nach der der Paketmanager Sie fragt;
 - sudo apt autoremove -y`: Entfernt unnötige Abhängigkeiten ;
