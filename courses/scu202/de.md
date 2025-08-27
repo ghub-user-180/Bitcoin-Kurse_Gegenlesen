@@ -3658,9 +3658,9 @@ sudo apt update \
 
 
 
-xxx
 
-- sudo apt full-upgrade" aktualisiert alle installierten Pakete, einschliesslich derjenigen, bei denen Abhängigkeiten hinzugefügt oder entfernt werden müssen. y" erlaubt es Ihnen, automatisch mit "ja" auf jede Bestätigung zu antworten, nach der der Paketmanager Sie fragt;
+
+- sudo apt full-upgrade" aktualisiert alle installierten Pakete, einschliesslich derjenigen, bei denen Abhängigkeiten hinzugefügt oder entfernt werden müssen. y" erlaubt es dir, automatisch mit "ja" auf jede Bestätigung zu antworten, nach der der Paketmanager dich fragt;
 - sudo apt autoremove -y`: Entfernt unnötige Abhängigkeiten ;
 - sudo apt autoclean`: bereinigt den Cache von veralteten Paketen.
 
@@ -3670,7 +3670,7 @@ xxx
 
 
 
-Wenn Sie Software haben, die als Flatpak- oder Snap-Pakete vertrieben wird, werden einige automatisch aktualisiert, aber Sie können sie alle manuell mit dem Befehl aktualisieren:
+Wenn du Software hast, die als Flatpak- oder Snap-Pakete vertrieben wird, werden einige automatisch aktualisiert, aber du kannst sie alle manuell mit folgendem Befehl aktualisieren:
 
 
 
@@ -3694,11 +3694,11 @@ Apple menu → App Store → Update All
 
 
 
-Sie können die automatische Aktualisierung von Anwendungen auch in den Einstellungen des App Stores aktivieren.
+Du kannst die automatische Aktualisierung von Anwendungen auch in den Einstellungen des App Stores aktivieren.
 
 
 
-Allerdings stammen nicht alle auf Ihrem Mac installierten Programme aus dem App Store. Andere Programme müssen Sie manuell aktualisieren. Wie bei Windows-Nutzern empfehle ich Ihnen daher, eine Liste all Ihrer Software zu führen und regelmässig nach neuen Versionen zu suchen, insbesondere bei sensiblen Programmen wie Ihrem Webbrowser.
+Allerdings stammen nicht alle auf deinem Mac installierten Programme aus dem App Store. Andere Programme musst du manuell aktualisieren. Wie bei Windows-Nutzern empfehle ich dir daher, eine Liste all deiner Software zu führen und regelmäßig nach neuen Versionen zu suchen, insbesondere bei sensiblen Programmen wie deinem Webbrowser.
 
 
 
@@ -3706,11 +3706,11 @@ Allerdings stammen nicht alle auf Ihrem Mac installierten Programme aus dem App 
 
 
 
-Aus Sicht der IT-Sicherheit gilt: Je weniger Software Sie installiert haben, desto weniger potenzielle Einfallstore haben Sie für Angreifer. Jede auf Ihrem System installierte Anwendung kann Sicherheitslücken enthalten, selbst wenn Sie sie nie benutzen. Dies wird als Angriffsfläche bezeichnet: Je grösser sie ist, desto grösser ist das Risiko. Eine einfache, aber wirksame Präventivmassnahme ist es, diese Angriffsfläche zu verringern, indem man unnötige Software entfernt.
+Aus Sicht der IT-Sicherheit gilt: Je weniger Software du installiert hast, desto weniger potenzielle Einfallstore hast du für Angreifer. Jede auf deinem System installierte Anwendung kann Sicherheitslücken enthalten, selbst wenn du sie nie benutzt. Dies wird als Angriffsfläche bezeichnet: Je größer sie ist, desto größer ist das Risiko. Eine einfache, aber wirksame Präventivmaßnahme ist es, diese Angriffsfläche zu verringern, indem man unnötige Software entfernt.
 
 
 
-Einige vorinstallierte Anwendungen oder Programme, die nur zur einmaligen Verwendung installiert werden, können monatelang auf Ihrem Computer verbleiben, ohne dass sie benutzt werden, während sie weiterhin Updates erhalten oder mit Ihrem System interagieren. Schlimmer noch: Wenn diese Programme nicht mehr gewartet werden, können sie Sicherheitslücken enthalten.
+Einige vorinstallierte Anwendungen oder Programme, die nur zur einmaligen Verwendung installiert werden, können monatelang auf deinem Computer verbleiben, ohne dass du sie benutzt, während sie weiterhin Updates erhalten oder mit deinem System interagieren. Schlimmer noch: Wenn diese Programme nicht mehr gewartet werden, können sie Sicherheitslücken enthalten.
 
 
 
@@ -3718,7 +3718,7 @@ Einige vorinstallierte Anwendungen oder Programme, die nur zur einmaligen Verwen
 
 
 
-So rufen Sie die Liste der installierten Anwendungen auf:
+So rufst du die Liste der installierten Anwendungen auf:
 
 
 
@@ -3728,15 +3728,14 @@ Settings → Apps → Installed apps
 
 
 
-Gehen Sie die Liste der Software durch und entfernen Sie alles, was Sie nicht mehr verwenden oder von dem Sie nicht wissen, wozu es dient (ggf. nach einer kurzen Internetrecherche). Seien Sie vorsichtig mit Systemsoftware, aber zögern Sie nicht, vorinstallierte Spiele, zweifelhafte Wartungsprogramme oder Marketinganwendungen zu deinstallieren.
-
+Gehe die Liste der Software durch und entferne alles, was du nicht mehr verwendest oder von dem du nicht weißt, wozu es dient (ggf. nach einer kurzen Internetrecherche). Sei vorsichtig mit Systemsoftware, aber zögere nicht, vorinstallierte Spiele, zweifelhafte Wartungsprogramme oder Marketinganwendungen zu deinstallieren.
 
 
 #### Unter Linux (Debian/Ubuntu)
 
 
 
-Öffnen Sie ein Terminal und führen Sie den folgenden Befehl aus, um ein Softwareprogramm zu löschen:
+Öffne ein Terminal und führe den folgenden Befehl aus, um ein Softwareprogramm zu löschen:
 
 
 
@@ -3750,7 +3749,7 @@ sudo apt remove name_of_the_software
 
 
 
-Führen Sie dann diesen Befehl aus, um alle nicht mehr benötigten Abhängigkeiten automatisch zu entfernen:
+Führe dann diesen Befehl aus, um alle nicht mehr benötigten Abhängigkeiten automatisch zu entfernen:
 
 
 
@@ -3764,7 +3763,7 @@ sudo apt autoremove
 
 
 
-Unter macOS gibt es 2 Hauptmethoden: über *Launchpad* oder über *Finder*. Wenn die Anwendung aus dem App Store heruntergeladen wurde, öffnen Sie *Launchpad* (aus dem Dock oder dem Verzeichnis `/Applications`), suchen Sie die Anwendung und halten Sie dann die Optionstaste gedrückt oder klicken Sie lange, bis die Symbole zu wackeln beginnen. Klicken Sie dann auf das Kreuz neben der Anwendung und bestätigen Sie die Löschung.
+Unter macOS gibt es 2 Hauptmethoden: über *Launchpad* oder über *Finder*. Wenn die Anwendung aus dem App Store heruntergeladen wurde, öffne *Launchpad* (aus dem Dock oder dem Verzeichnis `/Applications`), suche die Anwendung und halte dann die Optionstaste gedrückt oder klicke lange, bis die Symbole zu wackeln beginnen. Klicke dann auf das Kreuz neben der Anwendung und bestätige die Löschung.
 
 
 
@@ -3772,20 +3771,19 @@ Unter macOS gibt es 2 Hauptmethoden: über *Launchpad* oder über *Finder*. Wenn
 
 
 
-Wenn die Schaltfläche "Löschen" nicht angezeigt wird, wurde die Anwendung nicht aus dem App Store installiert. Verwenden Sie in diesem Fall *Finder*. Schliessen Sie zuerst die Anwendung, falls sie noch läuft. Öffnen Sie *Finder*, gehen Sie in das Verzeichnis `/Applications`, wählen Sie die Anwendung aus, die Sie löschen möchten, und verschieben Sie sie in den Papierkorb. Leeren Sie schliesslich den Papierkorb, um die Deinstallation abzuschliessen.
+Wenn die Schaltfläche "Löschen" nicht angezeigt wird, wurde die Anwendung nicht aus dem App Store installiert. Verwende in diesem Fall *Finder*. Schliesse zuerst die Anwendung, falls sie noch läuft. Öffne *Finder*, gehe in das Verzeichnis `/Applications`, wähle die Anwendung aus, die du löschen möchtest, und verschiebe sie in den Papierkorb. Leere schliesslich den Papierkorb, um die Deinstallation abzuschliessen.
 
 
 
-#### Vergessen Sie nicht die Browser-Erweiterungen
+#### Vergiss nicht die Browser-Erweiterungen
 
 
 
-Die Erweiterungen und Add-ons Ihres Browsers werden oft übersehen, aber auch sie stellen einen häufigen Angriffsvektor dar. Eine bösartige oder veraltete Erweiterung kann Ihre Browsing-Daten abfangen, Code einschleusen oder Sie diskret ausspionieren.
+Die Erweiterungen und Add-ons Ihres Browsers werden oft übersehen, aber auch sie stellen einen häufigen Angriffsvektor dar. Eine bösartige oder veraltete Erweiterung kann deine Browsing-Daten abfangen, Code einschleusen oder dich diskret ausspionieren.
 
 
 
-Gehen Sie zu den Einstellungen Ihres Browsers und deaktivieren oder löschen Sie alle Erweiterungen, die Sie nicht verwenden oder von denen Sie nichts wissen. Behalten Sie nur diejenigen, die unbedingt notwendig sind, aus vertrauenswürdigen Quellen stammen und noch gepflegt werden.
-
+Gehe zu den Einstellungen deines Browsers und deaktiviere oder lösche alle Erweiterungen, die du nicht verwendest oder von denen du nichts weißt. Behalte nur diejenigen, die unbedingt notwendig sind, aus vertrauenswürdigen Quellen stammen und noch gepflegt werden.
 
 
 ### Systemüberwachung und Auditing
@@ -3796,7 +3794,7 @@ Zur Cybersicherheit gehört auch die Überwachung der Systemaktivität. Dieser p
 
 
 
-Wenn Sie eine Überwachungsroutine (selbst eine einfache) einrichten, können Sie das Vorhandensein von Malware, schlafenden Trojanern oder Spyware in einem frühen Stadium erkennen. Eine solche Überwachung kann mit speziellen Tools durchgeführt werden.
+Wenn du eine Überwachungsroutine (selbst eine einfache) einrichtest, kannst du das Vorhandensein von Malware, schlafenden Trojanern oder Spyware in einem frühen Stadium erkennen. Eine solche Überwachung kann mit speziellen Tools durchgeführt werden.
 
 
 
@@ -3810,7 +3808,7 @@ Wie wir im vorigen Abschnitt gesehen haben, war Windows aufgrund seiner weiten V
 
 
 
-- Microsoft Defender*: Unter Windows ist ein gutes Virenschutzprogramm eine Grundvoraussetzung. Viele Jahre lang galt der Microsoft Defender (ehemals Windows Defender), das integrierte Antivirenprogramm des Systems, als unzuverlässig, und es wurden stattdessen Lösungen von Drittanbietern empfohlen. Aber diese Software hat sich im Laufe der Zeit erheblich verbessert und ist meiner Meinung nach jetzt ausreichend, um einen grundlegenden Schutz für den persönlichen Gebrauch zu bieten. Dennoch sollte man die Rolle der Antiviren-Software nicht überbewerten: Es sind vor allem Ihre eigenen digitalen Praktiken, die Ihre Sicherheit gewährleisten. Einer der Vorteile von Defender ist seine native Integration in Windows. Zusätzlich zum Echtzeitschutz bietet er umfassende Scans, die Sie wöchentlich planen oder in regelmässigen Abständen manuell ausführen können.
+- *Microsoft Defender*: Unter Windows ist ein gutes Virenschutzprogramm eine Grundvoraussetzung. Viele Jahre lang galt der Microsoft Defender (ehemals Windows Defender), das integrierte Antivirenprogramm des Systems, als unzuverlässig, und es wurden stattdessen Lösungen von Drittanbietern empfohlen. Aber diese Software hat sich im Laufe der Zeit erheblich verbessert und ist meiner Meinung nach jetzt ausreichend, um einen grundlegenden Schutz für den persönlichen Gebrauch zu bieten. Dennoch sollte man die Rolle der Antiviren-Software nicht überbewerten: Es sind vor allem deine eigenen digitalen Praktiken, die deine Sicherheit gewährleisten. Einer der Vorteile von Defender ist seine native Integration in Windows. Zusätzlich zum Echtzeitschutz bietet er umfassende Scans, die du wöchentlich planst oder in regelmässigen Abständen manuell ausführen kannst.
 
 
 
@@ -3820,12 +3818,12 @@ Wie wir im vorigen Abschnitt gesehen haben, war Windows aufgrund seiner weiten V
 
 
 
-- Sysinternals Suite*: Hierbei handelt es sich um eine wesentlich fortschrittlichere Reihe von Tools, die von Microsoft zur Diagnose, Überwachung und Fehlerbehebung von Windows angeboten werden. Hier sind die wichtigsten Tools dieser Suite:
-    - Process Monitor*: Ermöglicht es Ihnen, aktive Prozesse, Dateizugriffe, Register usw. in Echtzeit zu beobachten;
-    - Autoruns*: zeigt alle beim Start gestarteten Programme an und hilft Ihnen, hartnäckige Malware oder Anwendungen, die nicht ausgeführt werden sollten, schnell zu erkennen;
-    - Process Explorer*: überwacht Prozesse und erkennt verdächtiges Verhalten;
-    - TCPView*: Visualisierung aktiver Netzwerkverbindungen (Erkennung von anormalen Verbindungen) ;
-    - Sigcheck*: prüft digitale Signaturen von Dateien auf bösartigen Code.
+- *Sysinternals Suite*: Hierbei handelt es sich um eine wesentlich fortschrittlichere Reihe von Tools, die von Microsoft zur Diagnose, Überwachung und Fehlerbehebung von Windows angeboten werden. Hier sind die wichtigsten Tools dieser Suite:
+    - *Process Monitor*: Ermöglicht es dir, aktive Prozesse, Dateizugriffe, Register usw. in Echtzeit zu beobachten;
+    - *Autoruns*: zeigt alle beim Start gestarteten Programme an und hilft dir, hartnäckige Malware oder Anwendungen, die nicht ausgeführt werden sollten, schnell zu erkennen;
+    - *Process Explorer*: überwacht Prozesse und erkennt verdächtiges Verhalten;
+    - *TCPView*: Visualisierung aktiver Netzwerkverbindungen (Erkennung von anormalen Verbindungen) ;
+    - *Sigcheck*: prüft digitale Signaturen von Dateien auf bösartigen Code.
 
 
 
@@ -3835,7 +3833,7 @@ Wie wir im vorigen Abschnitt gesehen haben, war Windows aufgrund seiner weiten V
 
 
 
-- GlassWire*: ein Tool zur Netzwerküberwachung. Es verfolgt ein- und ausgehende Verbindungen in Echtzeit und warnt Sie bei ungewöhnlichen Aktivitäten.
+- *GlassWire*: ein Tool zur Netzwerküberwachung. Es verfolgt ein- und ausgehende Verbindungen in Echtzeit und warnt dich bei ungewöhnlichen Aktivitäten.
 
 
 
@@ -3847,13 +3845,13 @@ Wie wir im vorigen Abschnitt gesehen haben, war Windows aufgrund seiner weiten V
 
 
 
-Auf einem gut gewarteten Linux-Rechner, der für persönliche Zwecke genutzt wird, sind die Risiken geringer. Dennoch gibt es einige fortschrittliche Tools zur Überwachung Ihres Systems:
+Auf einem gut gewarteten Linux-Rechner, der für persönliche Zwecke genutzt wird, sind die Risiken geringer. Dennoch gibt es einige fortschrittliche Tools zur Überwachung deines Systems:
 
 
 
 
 
-- Fail2ban*: überwacht die Systemprotokolle auf erfolglose Zugriffsversuche (z.B. SSH-Anmeldeversuche mit roher Gewalt). Wenn ein verdächtiges Verhalten festgestellt wird, wird die angreifende IP Address über `iptables` vorübergehend gebannt;
+- *Fail2ban*: überwacht die Systemprotokolle auf erfolglose Zugriffsversuche (z.B. SSH-Anmeldeversuche mit roher Gewalt). Wenn ein verdächtiges Verhalten festgestellt wird, wird die angreifende IP Address über `iptables` vorübergehend blockiert;
 
 
 
@@ -3863,7 +3861,7 @@ Auf einem gut gewarteten Linux-Rechner, der für persönliche Zwecke genutzt wir
 
 
 
-- Lynis*: ein umfassendes Sicherheits-Audit-Tool, das Ihr System auf Fehlkonfigurationen, bekannte Schwachstellen oder Abweichungen von bewährten Verfahren untersucht. Es erstellt einen leicht verständlichen Bericht mit einer Sicherheitsbewertung und Empfehlungen.
+- *Lynis*: ein umfassendes Sicherheits-Audit-Tool, das dein System auf Fehlkonfigurationen, bekannte Schwachstellen oder Abweichungen von bewährten Verfahren untersucht. Es erstellt einen leicht verständlichen Bericht mit einer Sicherheitsbewertung und Empfehlungen.
 
 
 
@@ -3876,15 +3874,15 @@ https://planb.network/tutorials/computer-security/operating-system/lynis-1cf865b
 
 
 
-macOS ist für seine Sicherheit bekannt, vor allem dank der Richtlinien für Anwendungssignaturen und der relativ geschlossenen Architektur. Für den persönlichen Gebrauch bietet ein aktueller Rechner mit Standardeinstellungen bereits eine angemessene Sicherheit. Um Ihre Systemüberwachung einen Schritt weiter zu bringen, empfehle ich :
+macOS ist für seine Sicherheit bekannt, vor allem dank der Richtlinien für Anwendungssignaturen und der relativ geschlossenen Architektur. Für den persönlichen Gebrauch bietet ein aktueller Rechner mit Standardeinstellungen bereits eine angemessene Sicherheit. Um deine Systemüberwachung einen Schritt weiter zu bringen, empfehle ich :
 
 
 
 
 
-- KnockKnock*: scannt alle Elements, die so konfiguriert sind, dass sie beim Start ausgeführt werden (Agenten, Daemons, Kernelmodule...) und identifiziert diejenigen, die potenziell verdächtig, unsigniert oder unbekannt sind. Damit können Sie bösartige Persistenz auf Ihrem System schnell identifizieren.
+- *KnockKnock*: scannt alle Elements, die so konfiguriert sind, dass sie beim Start ausgeführt werden (Agenten, Daemons, Kernelmodule...) und identifiziert diejenigen, die potenziell verdächtig, unsigniert oder unbekannt sind. Damit kannst du bösartige Persistenz auf deinem System schnell identifizieren.
 
-
+xxx
 
 ![Image](assets/fr/209.webp)
 
