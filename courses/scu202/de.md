@@ -4447,27 +4447,26 @@ Die vollständige Verschlüsselung ist wie ein Schloss: Solange das Passwort nic
 #### Welche technischen Lösungen bietet dein System?
 
 
-xxx
+
 
 
 - *Linux (Debian)*
 
 
 
-Unter Linux ist die Standardlösung LUKS (*Linux Unified Key Setup*). LUKS ist ein verschlüsseltes Volume-Management-System, das in die meisten Distributionen integriert ist. Bei der Erstinstallation des Systems werden Sie in der Regel aufgefordert, die gesamte Festplatte des Computers zu verschlüsseln. Ich empfehle Ihnen natürlich dringend, diese Option zu aktivieren. Sobald die Verschlüsselung aktiviert ist, fragt das System bei jedem Start nach dem Passwort, sogar bevor das Betriebssystem geladen wird. Dadurch wird sichergestellt, dass der physische Zugriff auf die Festplatte die Sicherheit nicht umgehen kann.
+Unter Linux ist die Standardlösung LUKS (*Linux Unified Key Setup*). LUKS ist ein verschlüsseltes Volume-Management-System, das in die meisten Distributionen integriert ist. Bei der Erstinstallation des Systems wirst du in der Regel aufgefordert, die gesamte Festplatte des Computers zu verschlüsseln. Ich empfehle dir natürlich dringend, diese Option zu aktivieren. Sobald die Verschlüsselung aktiviert ist, fragt das System bei jedem Start nach dem Passwort, sogar bevor das Betriebssystem geladen wird. Dadurch wird sichergestellt, dass der physische Zugriff auf die Festplatte die Sicherheit nicht umgehen kann.
 
 
 https://planb.network/tutorials/computer-security/data/luks-13d9928b-08b1-478c-a1b4-67617978584a
 
-Wenn Sie eine externe Festplatte oder einen USB-Stick verschlüsseln möchten, können Sie dies auch über die Befehlszeile oder über das grafische Interface tun. Der Datenträger muss formatiert werden, so dass alle vorhandenen Daten verloren gehen, wenn sie nicht vorher gesichert werden.
-
+Wenn du eine externe Festplatte oder einen USB‑Stick verschlüsseln möchtest, kannst du das auch über die Befehlszeile oder über das grafische Interface tun. Der Datenträger muss formatiert werden, so dass alle vorhandenen Daten verloren gehen, wenn du sie nicht vorher sicherst.
 
 
 **Über Terminal**
 
 
 
-Stellen Sie sicher, dass Sie das Paket *cryptsetup* installiert haben:
+Stelle sicher, dass du das Paket *cryptsetup* installiert hast:
 
 
 
@@ -4478,7 +4477,7 @@ sudo apt install cryptsetup
 
 
 
-Beginnen Sie damit, Ihren USB-Stick mit dem folgenden Befehl zu identifizieren:
+Beginne damit, deinen USB-Stick mit dem folgenden Befehl zu identifizieren:
 
 
 
@@ -4488,11 +4487,11 @@ lsblk
 
 
 
-Sie sollten ein Gerät wie `/dev/sdb` mit einer zugehörigen Partition sehen, zum Beispiel `/dev/sdb1`. Achten Sie darauf, die richtige Festplatte auszuwählen, da diese gelöscht wird!
+Du solltest ein Gerät wie `/dev/sdb` mit einer zugehörigen Partition sehen, zum Beispiel `/dev/sdb1`. Achte darauf, die richtige Festplatte auszuwählen, da diese gelöscht wird!
 
 
 
-Um den Schlüssel zu verschlüsseln, führen Sie den folgenden Befehl aus, um die Verschlüsselung zu initialisieren:
+Um den Schlüssel zu verschlüsseln, führe den folgenden Befehl aus, um die Verschlüsselung zu initialisieren:
 
 
 
@@ -4502,7 +4501,7 @@ sudo cryptsetup luksFormat /dev/sdb
 
 
 
-Geben Sie "YES" in Grossbuchstaben ein, um den Vorgang zu bestätigen, und wählen und bestätigen Sie dann ein starkes passphrase. Mit diesem Passwort können Sie auf Ihre Daten zugreifen: Denken Sie daran, eine Sicherungskopie zu erstellen, da sonst der Zugriff auf die Daten des Schlüssels dauerhaft verloren geht.
+Gib "YES" in Grossbuchstaben ein, um den Vorgang zu bestätigen, und wähle und bestätige dann eine starke Passphrase. Damit kannst du auf deine Daten zugreifen: Denke daran, eine Sicherungskopie zu erstellen, da sonst der Zugriff auf die Daten des Schlüssels dauerhaft verloren geht.
 
 
 
@@ -4510,7 +4509,7 @@ Geben Sie "YES" in Grossbuchstaben ein, um den Vorgang zu bestätigen, und wähl
 
 
 
-Entriegeln und öffnen Sie den Datenträger:
+Entriegle und öffne den Datenträger:
 
 
 
@@ -4520,7 +4519,7 @@ sudo cryptsetup open /dev/sdb encrypted_usb
 
 
 
-Sie müssen Ihr passphrase eingeben, um das Volume zu entsperren. verschlüsselte_USB" ist der Name des entschlüsselten Datenträgers.
+Du musst deine Passphrase eingeben, um das Volume zu entsperren. `encrypted_usb` ist der Name des entschlüsselten Datenträgers.
 
 
 
@@ -4528,7 +4527,7 @@ Sie müssen Ihr passphrase eingeben, um das Volume zu entsperren. verschlüsselt
 
 
 
-Formatieren Sie dann die entschlüsselte Partition. Für ein natives Linux-Format:
+Formatiere dann die entschlüsselte Partition. Für ein natives Linux-Format:
 
 
 
@@ -4538,7 +4537,7 @@ sudo mkfs.ext4 /dev/mapper/encrypted_usb
 
 
 
-Oder, wenn Sie Kompatibilität mit Windows wünschen:
+Oder, wenn du Kompatibilität mit Windows wünschst:
 
 
 
@@ -4552,7 +4551,7 @@ sudo mkfs.vfat /dev/mapper/encrypted_usb
 
 
 
-Montieren Sie den Schlüssel zum Gebrauch:
+Mounte den Schlüssel für die Nutzung:
 
 
 
@@ -4563,7 +4562,7 @@ sudo mount /dev/mapper/encrypted_usb /mnt/usb
 
 
 
-Sie können nun über das Verzeichnis `/mnt/usb` auf Ihren Schlüssel zugreifen und Dateien wie auf jedem anderen Volume lesen und schreiben.
+Du kannst nun über das Verzeichnis `/mnt/usb` auf deinen Schlüssel zugreifen und Dateien wie auf jedem anderen Volume lesen und schreiben.
 
 
 
@@ -4578,11 +4577,11 @@ sudo cryptsetup close encrypted_usb
 
 
 
-Sie können Ihren USB-Stick dann sicher entfernen.
+Du kannst deinen USB-Stick dann sicher entfernen.
 
 
 
-Für die künftige Verwendung Ihres USB-Flash-Laufwerks:
+Für die künftige Verwendung deines USB-Flash-Laufwerks:
 
 
 
@@ -4600,16 +4599,15 @@ sudo cryptsetup close encrypted_usb
 
 
 
-Wenn Sie möchten, können Sie diese Sequenz auch mit Python- oder Bash-Skripten automatisieren.
+Wenn du möchtest, kannst du diese Sequenz auch mit Python‑ oder Bash‑Skripten automatisieren.
 
 
 
-
-**Von GNOME-Disketten:**
-
+**Via GNOME-Disks:**
 
 
-Die andere Lösung ist die Verwendung der GNOME-Disks-Software mit ihrem grafischen Interface, was oft einfacher ist als die Verwendung des Terminals. Normalerweise ist dieses Dienstprogramm auf Ubuntu bereits vorinstalliert. Sollte dies nicht der Fall sein, können Sie es manuell mit dem folgenden Befehl installieren:
+
+Die andere Lösung ist die Verwendung der GNOME-Disks-Software mit ihrem grafischen Interface, was oft einfacher ist als die Verwendung des Terminals. Normalerweise ist dieses Dienstprogramm auf Ubuntu bereits vorinstalliert. Sollte dies nicht der Fall sein, kannst du es manuell mit dem folgenden Befehl installieren:
 
 
 
@@ -4620,11 +4618,11 @@ sudo apt install -y gnome-disk-utility
 
 
 
-Um die Software zu öffnen, gehen Sie in das Anwendungsmenü von Ubuntu und suchen Sie nach "*Disks*". Normalerweise befindet es sich standardmässig im Verzeichnis "*Utilities*".
+Um die Software zu öffnen, gehst du in das Anwendungsmenü von Ubuntu und suchst nach "*Disks*". Normalerweise befindet es sich standardmässig im Verzeichnis "*Utilities*".
 
 
 
-Suchen Sie in der linken Spalte Ihren USB-Stick. Wenn bereits eine Partition vorhanden ist, wählen Sie sie aus; wenn nicht, erstellen Sie eine neue: Klicken Sie auf die Schaltfläche "+" unterhalb der Liste der Partitionen.
+Suche in der linken Spalte deinen USB-Stick. Wenn bereits eine Partition vorhanden ist, wähle sie aus; wenn nicht, erstelle eine neue: Klicke auf die Schaltfläche "+" unterhalb der Liste der Partitionen.
 
 
 
@@ -4632,7 +4630,7 @@ Suchen Sie in der linken Spalte Ihren USB-Stick. Wenn bereits eine Partition vor
 
 
 
-Wählen Sie dann die Partition aus, die verschlüsselt werden soll. Klicken Sie auf das Zahnrad-Symbol und wählen Sie "Partition formatieren...".
+Wähle dann die Partition aus, die verschlüsselt werden soll. Klicke auf das Zahnrad-Symbol und wähle "Partition formatieren...".
 
 
 
@@ -4645,9 +4643,9 @@ In der:
 
 
 
-- Geben Sie unter "Volume name" einen Namen ein (z.B. `usb`);
-- Wählen Sie das Format "Internal disk for use with Linux systems only (Ext4)";
-- Aktivieren Sie das Kontrollkästchen "Passwortgeschütztes Volume (LUKS)".
+- Gib unter "Volume name" einen Namen ein (z.B. `usb`);
+- Wähle das Format "Internal disk for use with Linux systems only (Ext4)";
+- Aktiviere das Kontrollkästchen "Passwortgeschütztes Volume (LUKS)".
 
 
 
@@ -4655,7 +4653,7 @@ In der:
 
 
 
-Geben Sie einen robusten passphrase ein und bestätigen Sie ihn.
+Gib eine robuste Passphrase ein und bestätige sie.
 
 
 
@@ -4663,7 +4661,7 @@ Geben Sie einen robusten passphrase ein und bestätigen Sie ihn.
 
 
 
-Bestätigen Sie und warten Sie, bis die Partition vollständig formatiert ist (alle Daten werden gelöscht).
+Bestätige und warte, bis die Partition vollständig formatiert ist (alle Daten werden gelöscht).
 
 
 
@@ -4671,7 +4669,7 @@ Bestätigen Sie und warten Sie, bis die Partition vollständig formatiert ist (a
 
 
 
-Sobald der Vorgang abgeschlossen ist, erscheint die Partition mit einem kleinen Vorhängeschloss. Wählen Sie sie aus und klicken Sie dann auf das Vorhängeschloss, um sie zu entsperren.
+Sobald der Vorgang abgeschlossen ist, erscheint die Partition mit einem kleinen Vorhängeschloss. Wähle sie aus und klicke dann auf das Vorhängeschloss, um sie zu entsperren.
 
 
 
@@ -4679,7 +4677,7 @@ Sobald der Vorgang abgeschlossen ist, erscheint die Partition mit einem kleinen 
 
 
 
-Geben Sie das Passwort ein und klicken Sie auf "Freischalten".
+Gib das Passwort ein und klicke auf "Freischalten".
 
 
 
@@ -4687,7 +4685,7 @@ Geben Sie das Passwort ein und klicken Sie auf "Freischalten".
 
 
 
-Das Volume wird automatisch gemountet und ist von Ihrem Dateimanager aus zugänglich, normalerweise im Verzeichnis `/media/username/usb`.
+Das Volume wird automatisch gemountet und ist von deinem Dateimanager aus zugänglich, normalerweise im Verzeichnis `/media/username/usb`.
 
 
 
@@ -4695,11 +4693,11 @@ Das Volume wird automatisch gemountet und ist von Ihrem Dateimanager aus zugäng
 
 
 
-Um den USB-Stick auszuhängen und die Verschlüsselung wieder zu aktivieren, klicken Sie in GNOME Disks erneut auf das Vorhängeschloss-Symbol.
+Um den USB-Stick auszuhängen und die Verschlüsselung wieder zu aktivieren, klicke in GNOME Disks erneut auf das Vorhängeschloss-Symbol.
 
 
 
-Klicken Sie abschliessend auf die pfeilförmige Schaltfläche in der oberen rechten Ecke, um den Schlüssel sauber von Ihrem PC abzuziehen. Wenn Sie sich das nächste Mal anmelden, sollte Ubuntu Ihren verschlüsselten Schlüssel automatisch erkennen und Sie nach dem Passwort fragen, ohne dass Sie GNOME Disks öffnen müssen.
+Klicke abschliessend auf die pfeilförmige Schaltfläche in der oberen rechten Ecke, um den Schlüssel sauber von deinem PC abzuziehen. Wenn du dich das nächste Mal anmeldest, sollte Ubuntu deinen verschlüsselten Schlüssel automatisch erkennen und dich nach dem Passwort fragen, ohne dass du GNOME Disks öffnen musst.
 
 
 
@@ -4709,11 +4707,11 @@ Klicken Sie abschliessend auf die pfeilförmige Schaltfläche in der oberen rech
 
 
 
-- Fenster:**
+- **Windows:**
 
 
 
-Unter Windows gibt es eine native Lösung, mit der Sie Ihre Festplatte verschlüsseln können. Sie ist leicht zu aktivieren: Gehen Sie einfach zu den Einstellungen "*Datenschutz und Sicherheit*" und aktivieren Sie das Kästchen "*Geräteverschlüsselung*" im gleichnamigen Untermenü. Die Wiederherstellungsschlüssel werden dann automatisch in Ihrem zugehörigen Microsoft-Konto gespeichert.
+Unter Windows gibt es eine native Lösung, mit der du deine Festplatte verschlüsseln kannst. Sie ist leicht zu aktivieren: Gehe einfach zu den Einstellungen "*Datenschutz und Sicherheit*" und aktiviere das Kästchen "*Geräteverschlüsselung*" im gleichnamigen Untermenü. Die Wiederherstellungsschlüssel werden dann automatisch in deinem zugehörigen Microsoft-Konto gespeichert.
 
 
 
@@ -4721,7 +4719,7 @@ Unter Windows gibt es eine native Lösung, mit der Sie Ihre Festplatte verschlü
 
 
 
-Wenn Sie ein lokales Konto verwenden oder Ihr Rechner diese Funktion nicht von Haus aus unterstützt, können Sie *BitLocker* (die proprietäre Verschlüsselungssoftware von Microsoft) manuell einrichten. Es gibt aber auch Open-Source-Alternativen wie *VeraCrypt*.
+Wenn du ein lokales Konto verwendest oder dein Rechner diese Funktion nicht von Haus aus unterstützt, kannst du *BitLocker* (die proprietäre Verschlüsselungssoftware von Microsoft) manuell einrichten. Es gibt aber auch Open-Source-Alternativen wie *VeraCrypt*.
 
 
 
@@ -4729,7 +4727,7 @@ Wenn Sie ein lokales Konto verwenden oder Ihr Rechner diese Funktion nicht von H
 
 
 
-Wenn Sie mehr über diese Lösung erfahren möchten, lesen Sie bitte dieses vollständige Tutorial:
+Wenn du mehr über diese Lösung erfahren möchtest, lies bitte dieses vollständige Tutorial:
 
 
 
@@ -4738,11 +4736,11 @@ https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4
 
 
 
-- macOS :**
+- **macOS :**
 
 
 
-Unter macOS basiert die Verschlüsselung der Systemfestplatte auf *FileVault*, einer nativen Funktion, die über die Sicherheitseinstellungen zugänglich ist. Wenn Ihr Mac mit einem Apple Silicon Chip (M1, M2...) oder einem T2-Chip ausgestattet ist, ist die Hardware-Verschlüsselung bereits dauerhaft aktiviert. Durch die Aktivierung von FileVault wird jedoch ein zusätzliches Layer an Sicherheit hinzugefügt, indem das gesamte Systemvolume verschlüsselt wird.
+Unter macOS basiert die Verschlüsselung der Systemfestplatte auf *FileVault*, einer nativen Funktion, die über die Sicherheitseinstellungen zugänglich ist. Wenn dein Mac mit einem Apple Silicon Chip (M1, M2...) oder einem T2-Chip ausgestattet ist, ist die Hardware-Verschlüsselung bereits dauerhaft aktiviert. Durch die Aktivierung von FileVault wird jedoch eine zusätzliche Sicherheits-Schicht hinzugefügt, indem das gesamte Systemvolume verschlüsselt wird.
 
 
 
@@ -4750,33 +4748,33 @@ Unter macOS basiert die Verschlüsselung der Systemfestplatte auf *FileVault*, e
 
 
 
-Nach der Aktivierung von FileVault müssen Sie eine Wiederherstellungsmethode für den Fall wählen, dass Sie Ihr Passwort verlieren: Entweder verwenden Sie Ihr *iCloud*-Konto oder generate einen eindeutigen Sicherungsschlüssel. Dieser Schlüssel muss an einem sicheren Ort aufbewahrt werden, da sein Verlust Ihre Daten dauerhaft unzugänglich machen würde.
+Nach der Aktivierung von FileVault musst du eine Wiederherstellungsmethode für den Fall wählen, dass du dein Passwort verlierst: Entweder verwendest du dein *iCloud*-Konto oder generierst einen eindeutigen Sicherungsschlüssel. Dieser Schlüssel muss an einem sicheren Ort aufbewahrt werden, da sein Verlust deine Daten dauerhaft unzugänglich machen würde.
 
-Bei externen Speichermedien (Hard-Disketten, USB-Sticks usw.) wird die Verschlüsselung mit dem Festplattendienstprogramm durchgeführt. Sie müssen den Datenträger vollständig neu formatieren:
+Bei externen Speichermedien (Hard-Disketten, USB-Sticks usw.) wird die Verschlüsselung mit dem Festplattendienstprogramm durchgeführt. Du musst den Datenträger vollständig neu formatieren:
 
-- Wählen Sie das Gerät aus und klicken Sie auf "*Löschen*"
-- Wählen Sie das Schema "GUID* Partitionstabelle"
-- Wählen Sie dann ein verschlüsseltes Dateisystemformat (*APFS* oder *Mac OS extended*)
-- Wählen Sie ein sicheres Passwort
-- Klicken Sie auf "*Löschen*" und dann auf "*OK*" und die Verschlüsselung ist abgeschlossen
+- Wähle das Gerät aus und klicke auf "*Löschen*"
+- Wähle das Schema "GUID* Partitionstabelle"
+- Wähle dann ein verschlüsseltes Dateisystemformat (*APFS* oder *Mac OS extended*)
+- Wähle ein sicheres Passwort
+- Klicke auf "*Löschen*" und dann auf "*OK*" und die Verschlüsselung ist abgeschlossen
 
 Sobald die Verschlüsselung aktiviert ist, kann das externe Laufwerk nur noch durch Eingabe dieses Kennworts eingebunden werden. Das System entschlüsselt es dann im Handumdrehen.
 
-#### Einige Empfehlungen für Ihre verschlüsselten Backups
+#### Einige Empfehlungen für deine verschlüsselten Backups
 
-Bevor Sie einen Datenträger verschlüsseln, müssen Sie alle darauf befindlichen Daten sichern (es sei denn, der Datenträger ist leer), da der Verschlüsselungsvorgang im Allgemeinen den ursprünglichen Inhalt löscht.
+Bevor du einen Datenträger verschlüsselst, musst du alle darauf befindlichen Daten sichern (es sei denn, der Datenträger ist leer), da der Verschlüsselungsvorgang im Allgemeinen den ursprünglichen Inhalt löscht.
 
-Auch die Wahl des Passworts ist sehr wichtig: Es muss lang, komplex und einzigartig sein, da es der einzige Schutz zwischen Ihren Daten und einem böswilligen Dritten ist. Ausserdem müssen Sie eine Sicherungskopie erstellen, zum Beispiel in einem Passwort-Manager, denn anders als bei Online-Diensten gibt es keinen Wiederherstellungsmechanismus. Wenn Sie Ihr Passwort vergessen, sind die Daten für immer verloren.
+Auch die Wahl des Passworts ist sehr wichtig: Es muss lang, komplex und einzigartig sein, da es der einzige Schutz zwischen deinen Daten und einem böswilligen Dritten ist. Außerdem musst du eine Sicherungskopie erstellen, zum Beispiel in einem Passwort‑Manager, denn anders als bei Online‑Diensten gibt es keinen Wiederherstellungsmechanismus. Wenn du dein Passwort vergisst, sind die Daten für immer verloren.
 
 ### Selektive Dateiverschlüsselung
 
-In manchen Fällen ist es weder notwendig noch praktisch, eine gesamte Hard-Festplatte oder ein externes Medium zu verschlüsseln. In solchen Fällen können Sie sich für eine selektive Verschlüsselung entscheiden, bei der nur bestimmte Dateien oder Verzeichnisse mit sensiblen Daten gesichert werden.
+In manchen Fällen ist es weder notwendig noch praktisch, eine gesamte Festplatte oder ein externes Medium zu verschlüsseln. In solchen Fällen kannst du dich für eine selektive Verschlüsselung entscheiden, bei der nur bestimmte Dateien oder Verzeichnisse mit sensiblen Daten gesichert werden.
 
-Eine der bekanntesten Methoden zur Verschlüsselung von Dateien ist die Verwendung von GPG. Dieses Tool basiert auf asymmetrischer Kryptographie: Sie haben ein Schlüsselpaar, einen öffentlichen, den Sie frei an Ihre Korrespondenten verteilen können, und einen privaten, der streng geheim bleiben muss. Die Dateien werden mit dem öffentlichen Schlüssel des Empfängers verschlüsselt, können aber nur mit seinem privaten Schlüssel entschlüsselt werden.
+Eine der bekanntesten Methoden zur Verschlüsselung von Dateien ist die Verwendung von GPG. Dieses Tool basiert auf asymmetrischer Kryptographie: du hast ein Schlüsselpaar, einen öffentlichen Schlüssel, den du frei an deine Korrespondenten verteilen kannst, und einen privaten, der streng geheim bleiben muss. Die Dateien werden mit dem öffentlichen Schlüssel des Empfängers verschlüsselt, können aber nur mit seinem privaten Schlüssel entschlüsselt werden.
 
-Dieses Protokoll eignet sich hervorragend für den sicheren Austausch sensibler Dateien mit anderen, ohne dass ein Passwort mitgeteilt werden muss. Für den persönlichen oder gelegentlichen Gebrauch ermöglicht GPG auch eine symmetrische Verschlüsselung: Die Datei ist dann durch ein eindeutiges, nur Ihnen bekanntes Passwort geschützt.
+Dieses Protokoll eignet sich hervorragend für den sicheren Austausch sensibler Dateien mit anderen, ohne dass ein Passwort mitgeteilt werden muss. Für den persönlichen oder gelegentlichen Gebrauch ermöglicht GPG auch eine symmetrische Verschlüsselung: Die Datei ist dann durch ein eindeutiges, nur dir bekanntes Passwort geschützt.
 
-Eine ausgezeichnete Alternative ist Cryptomator. Mit dieser Open-Source-Software können Sie einen Safe erstellen: ein spezielles Verzeichnis, in dem alle hinterlegten Dateien automatisch verschlüsselt werden. Dieser Safe kann mit Cloud-Diensten wie Dropbox, Google Drive oder Nextcloud synchronisiert werden, ohne dass der Anbieter jemals Zugriff auf die unverschlüsselten Daten hat. Die Anwendung ist auf allen Betriebssystemen, einschliesslich Android und iOS, verfügbar und erfordert keine besonderen technischen Kenntnisse.
+Eine ausgezeichnete Alternative ist Cryptomator. Mit dieser Open‑Source‑Software kannst du einen Safe erstellen: ein spezielles Verzeichnis, in dem alle hinterlegten Dateien automatisch verschlüsselt werden. Dieser Safe kann mit Cloud‑Diensten wie Dropbox, Google Drive oder Nextcloud synchronisiert werden, ohne dass der Anbieter jemals Zugriff auf die unverschlüsselten Daten hat. Die Anwendung ist auf allen Betriebssystemen, einschließlich Android und iOS, verfügbar und erfordert keine besonderen technischen Kenntnisse.
 
 https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
@@ -4790,13 +4788,13 @@ https://planb.network/tutorials/computer-security/data/picocrypt-98c213bd-9ace-4
 
 Schliesslich ist es auch möglich, VeraCrypt im Containermodus zu verwenden, der eine Datei erzeugt, die als verschlüsseltes Archiv fungiert und wie ein Datenträger eingehängt werden kann.
 
-Nachdem Sie nun gelernt haben, wie Sie Ihre persönlichen Daten vor Verlust und Diebstahl schützen können, befasst sich das nächste Kapitel mit einem weiteren wichtigen Aspekt: wie Sie verhindern können, dass Ihre persönlichen Dateien durch ihre Metadaten zu Angriffsvektoren werden.
+Nachdem du nun gelernt hast, wie du deine persönlichen Daten vor Verlust und Diebstahl schützen kannst, befasst sich das nächste Kapitel mit einem weiteren wichtigen Aspekt: wie du verhindern kannst, dass deine persönlichen Dateien durch ihre Metadaten zu Angriffsvektoren werden.
 
 ## Bereinigung von Metadaten
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-Jedes Mal, wenn Sie eine digitale Datei erstellen, sei es ein Foto, ein Office-Dokument, eine Audio- oder Videodatei, enthält sie im Hintergrund Metadaten. Diese Informationen sind nicht direkt sichtbar, wenn Sie die Datei öffnen, aber sie sind vorhanden und können äusserst sensible Daten enthalten.
+Jedes Mal, wenn du eine digitale Datei erstellst, sei es ein Foto, ein Office‑Dokument, eine Audio‑ oder Videodatei, enthält sie im Hintergrund Metadaten. Diese Informationen sind nicht direkt sichtbar, wenn du die Datei öffnest, aber sie sind vorhanden und können äußerst sensible Daten enthalten.
 
 ### Warum sind Metadaten ein Risiko?
 
@@ -4804,16 +4802,16 @@ Metadaten sind Daten, die an eine Datei angehängt sind und deren Aufgabe es ist
 
 Diese Metadaten mögen harmlos erscheinen, aber sie können von böswilligen Akteuren genutzt werden, um den Autor einer Datei zu identifizieren, eine Person physisch zu lokalisieren, Ereignisse oder Gewohnheiten zu rekonstruieren oder sogar Softwarefehler auf der Grundlage der verwendeten Softwareversion auszunutzen.
 
-Nehmen wir ein konkretes Beispiel: Sie stellen ein vermeintlich anonymes Foto in ein Forum. Wenn Sie die EXIF-Metadaten nicht entfernt haben, kann ein einziger Klick die genauen GPS-Koordinaten Ihres Wohnorts, das Modell Ihres Telefons und das genaue Aufnahmedatum des Fotos verraten. Ebenso kann ein anonym verschicktes PDF-Dokument in seinen Eigenschaften Ihren vollen Namen enthalten.
+Nehmen wir ein konkretes Beispiel: du stellst ein vermeintlich anonymes Foto in ein Forum. Wenn du die EXIF‑Metadaten nicht entfernt hast, kann ein einziger Klick die genauen GPS‑Koordinaten deines Wohnorts, das Modell deines Telefons und das genaue Aufnahmedatum des Fotos verraten. Ebenso kann ein anonym verschicktes PDF‑Dokument in seinen Eigenschaften deinen vollen Namen enthalten.
 
-Aus diesem Grund entfernen einige Medienveröffentlichungs- und Kommunikationsplattformen automatisch Metadaten aus Ihren Fotos. Dazu gehören X (Twitter), Instagram, Signal und Session. Andere Plattformen hingegen entfernen die Metadaten überhaupt nicht: Dies ist bei den meisten Online-Foren, vielen E-Mail-Clients oder sogar bei der direkten Veröffentlichung auf einer Website der Fall.
+Aus diesem Grund entfernen einige Medienveröffentlichungs‑ und Kommunikationsplattformen automatisch Metadaten aus deinen Fotos. Dazu gehören X (Twitter), Instagram, Signal und Session. Andere Plattformen hingegen entfernen die Metadaten überhaupt nicht: Dies ist bei den meisten Online‑Foren, vielen E‑Mail‑Clients oder sogar bei der direkten Veröffentlichung auf einer Website der Fall.
 
-Das ist ein wichtiger Reflex: Sobald eine Datei Ihre Privatsphäre verlässt, müssen Sie daran denken, ihre Metadaten zu bereinigen, um zu vermeiden, dass persönliche oder sensible Informationen ohne Ihr Wissen weitergegeben werden. Schauen wir uns einmal an, wie Sie das je nach Betriebssystem tun können.
+Das ist ein wichtiger Reflex: Sobald eine Datei deine Privatsphäre verlässt, musst du daran denken, ihre Metadaten zu bereinigen. Damit vermeidest du, dass persönliche oder sensible Informationen ohne dein Wissen weitergegeben werden. Schauen wir uns einmal an, wie du das je nach Betriebssystem tun kannst.
 
 ### Unter Linux (Debian)
 
 #### Verwendung von ExifTool
-
+xxx
 Das vollständigste und zuverlässigste Mittel zur Verwaltung und Löschung von Metadaten ist das von Phil Harvey entwickelte ExifTool. Es ist mit einer grossen Anzahl von Dateiformaten kompatibel (JPG, PNG, PDF, MP3, DOCX...) und ermöglicht sowohl die Anzeige als auch das Löschen von Metadaten.
 
 - Schritt 1: ExifTool installieren
