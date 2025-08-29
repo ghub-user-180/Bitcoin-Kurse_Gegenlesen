@@ -3882,7 +3882,7 @@ macOS ist für seine Sicherheit bekannt, vor allem dank der Richtlinien für Anw
 
 - *KnockKnock*: scannt alle Elements, die so konfiguriert sind, dass sie beim Start ausgeführt werden (Agenten, Daemons, Kernelmodule...) und identifiziert diejenigen, die potenziell verdächtig, unsigniert oder unbekannt sind. Damit kannst du bösartige Persistenz auf deinem System schnell identifizieren.
 
-xxx
+
 
 ![Image](assets/fr/209.webp)
 
@@ -3892,11 +3892,11 @@ xxx
 
 
 
-Optimale Computersicherheit wird nicht durch die einmalige Installation bestimmter Tools erreicht, sondern durch regelmässige, rigorose und methodische Wartung. Das Betriebssystem auf dem neuesten Stand zu halten, kritische Software zu aktualisieren, unnötige Software zu löschen und das System aktiv zu überwachen, sind die Eckpfeiler einer guten Wartung. Ganz allgemein gelten diese bewährten Praktiken für alle Ihre digitalen Werkzeuge: verbundene Objekte, Server, Smartphones...
+Optimale Computersicherheit wird nicht durch die einmalige Installation bestimmter Tools erreicht, sondern durch regelmässige, rigorose und methodische Wartung. Das Betriebssystem auf dem neuesten Stand zu halten, kritische Software zu aktualisieren, unnötige Software zu löschen und das System aktiv zu überwachen, sind die Eckpfeiler einer guten Wartung. Ganz allgemein gelten diese bewährten Praktiken für alle deine digitalen Werkzeuge: verbundene Objekte, Server, Smartphones...
 
 
 
-Im nächsten Kapitel werden wir uns ansehen, wie Sie die Installation von Malware in der Praxis vermeiden können, indem Sie lernen, wie Sie die Integrität und Authentizität der Dateien, die Sie auf Ihren Computer herunterladen, überprüfen können.
+Im nächsten Kapitel zeigen wir dir, wie du die Installation von Malware in der Praxis vermeiden kannst, indem du lernst, die Integrität und Authentizität der Dateien, die du auf deinen Computer herunterlädst, zu überprüfen.
 
 
 
@@ -3908,7 +3908,7 @@ Im nächsten Kapitel werden wir uns ansehen, wie Sie die Installation von Malwar
 
 
 
-Die Installation von Software auf Ihrem Computer mag wie ein trivialer Vorgang erscheinen, in Wirklichkeit stellt sie jedoch ein sehr ernstes potenzielles Risiko für Ihre Computersicherheit dar. Heruntergeladene Software kann nämlich von Angreifern verändert oder infiziert werden, die diese Gelegenheit nutzen, um Viren, Trojaner und andere Arten von Malware in Ihr System einzuschleusen.
+Die Installation von Software auf deinem Computer mag wie ein trivialer Vorgang erscheinen. In Wirklichkeit stellt sie jedoch ein sehr ernstes potenzielles Risiko für deine Computersicherheit dar. Heruntergeladene Software kann nämlich von Angreifern verändert oder infiziert werden, die diese Gelegenheit nutzen, um Viren, Trojaner und andere Arten von Malware in dein System einzuschleusen.
 
 
 
@@ -3924,7 +3924,8 @@ In diesem Kapitel sehen wir uns an, wie man die Integrität und Authentizität e
 
 
 
-Wenn Sie Software aus dem Internet herunterladen, vertrauen Sie stillschweigend darauf, dass die Datei auf Ihrem Computer läuft. Aber dieses Vertrauen sollte niemals blind sein. Deshalb ist es wichtig, zwei grundlegende Konzepte zu verstehen: Dateiintegrität und Authentizität.
+Wenn du Software aus dem Internet herunterlädst, vertraust du stillschweigend darauf, dass die Datei auf deinem Computer läuft. Aber dieses Vertrauen sollte niemals blind sein. Deshalb ist es wichtig, zwei grundlegende Konzepte zu verstehen: Dateiintegrität und Authentizität.
+
 
 
 
@@ -3948,11 +3949,9 @@ Eine Datei kann intakt (unverändert) sein, aber von einer böswilligen Organisa
 
 
 
-Diese Überprüfung der Herkunft wird durch die digitale Signatur ermöglicht, einen kryptografischen Mechanismus, der die Datei mit dem privaten Schlüssel des Entwicklers verknüpft. Wenn Sie diese Signatur mit dem öffentlichen Schlüssel des Entwicklers (der über sichere Kanäle verteilt wird) überprüfen, können Sie sicher sein, dass die Datei tatsächlich von dieser Person stammt.
+Diese Überprüfung der Herkunft wird durch die digitale Signatur ermöglicht, einen kryptografischen Mechanismus, der die Datei mit dem privaten Schlüssel des Entwicklers verknüpft. Wenn du diese Signatur mit dem öffentlichen Schlüssel des Entwicklers (der über sichere Kanäle verteilt wird) überprüfst, kannst du sicher sein, dass die Datei tatsächlich von dieser Person stammt.
 
-
-
-Indem Sie sowohl die Authentizität (d. h., dass die Installationsdatei aus der richtigen Quelle stammt) als auch die Integrität (d. h., dass sie seit ihrer Veröffentlichung durch den rechtmässigen Entwickler nicht verändert wurde) überprüfen, können Sie sicher sein, dass Sie die richtige Software installieren.
+Indem du sowohl die Authentizität (d.h., dass die Installationsdatei aus der richtigen Quelle stammt) als auch die Integrität (d.h., dass sie seit ihrer Veröffentlichung durch den rechtmäßigen Entwickler nicht verändert wurde) überprüfst, kannst du sicher sein, dass du die richtige Software installierst.
 
 
 
@@ -3960,15 +3959,15 @@ Indem Sie sowohl die Authentizität (d. h., dass die Installationsdatei aus der 
 
 
 
-Dazu werden wir 2 kryptografische Werkzeuge verwenden. Das erste ist Hashing. Ein Hash ist eine kurze Zeichenfolge, die deterministisch und unvorhersehbar aus dem Inhalt einer Datei berechnet wird, wobei ein Hash-Algorithmus wie SHA-256 verwendet wird. Zwei absolut identische Dateien haben genau die gleiche Hash, aber die kleinste Änderung an der Datei führt dazu, dass sich die Hash vollständig ändert.
+Dazu werden wir zwei kryptografische Werkzeuge verwenden. Das erste ist Hashing. Ein Hash ist eine kurze Zeichenfolge, die deterministisch und unvorhersehbar aus dem Inhalt einer Datei berechnet wird, wobei ein Hash-Algorithmus wie SHA-256 verwendet wird. Zwei absolut identische Dateien haben genau die gleiche Hash, aber die kleinste Änderung an der Datei führt dazu, dass sich der Hash vollständig ändert.
 
 
 
-Der rechtmässige Entwickler veröffentlicht normalerweise die Hash der Originaldatei auf seiner offiziellen Website. Sie berechnen vor Ort den Hash der heruntergeladenen Installationsdatei, um die beiden zu vergleichen. Wenn die beiden Fingerabdrücke übereinstimmen, können Sie sicher sein, dass die heruntergeladene Datei echt ist und nicht verfälscht wurde.
+Der rechtmässige Entwickler veröffentlicht normalerweise den Hash der Originaldatei auf seiner offiziellen Website. Sie berechnen vor Ort den Hash der heruntergeladenen Installationsdatei, um die beiden zu vergleichen. Wenn die beiden Fingerabdrücke übereinstimmen, kannst du sicher sein, dass die heruntergeladene Datei echt ist und nicht verfälscht wurde.
 
 
 
-Das zweite Werkzeug ist die digitale Signatur. Damit wird die Authentizität der Installationssoftware überprüft. Der Entwickler signiert die Datei mit Hash mit seinem privaten Schlüssel, und Sie können diese Signatur mit dem entsprechenden öffentlichen Schlüssel überprüfen. Dies beweist, dass die Datei von der richtigen Person veröffentlicht wurde.
+Das zweite Werkzeug ist die digitale Signatur. Damit wird die Authentizität der Installationssoftware überprüft. Der Entwickler signiert die Datei mit Hash mit seinem privaten Schlüssel, und du kannst diese Signatur mit dem entsprechenden öffentlichen Schlüssel überprüfen. Dies beweist, dass die Datei von der richtigen Person veröffentlicht wurde.
 
 
 
@@ -3976,7 +3975,7 @@ Dieses System stützt sich auf asymmetrische Kryptographie und Tools wie GnuPG (
 
 
 
-Um mehr über kryptografische Hash-Funktionen und digitale Signaturen zu erfahren, lade ich Sie ein, den kostenlosen Kurs CYP 201 zu besuchen, der auf Plan ₿ Network angeboten wird:
+Um mehr über kryptografische Hash-Funktionen und digitale Signaturen zu erfahren, lade ich dich ein, den kostenlosen Kurs CYP 201 zu besuchen, der auf Plan ₿ Network angeboten wird:
 
 
 
@@ -3990,7 +3989,7 @@ https://planb.network/courses/46b0ced2-9028-4a61-8fbc-3b005ee8d70f
 
 
 
-Wenn Sie Linux verwenden, ist GPG auf den meisten Distributionen vorinstalliert. Falls nicht, können Sie es mit dem folgenden Befehl installieren:
+Wenn du Linux verwendest, ist GPG auf den meisten Distributionen vorinstalliert. Falls nicht, kannst du es mit dem folgenden Befehl installieren:
 
 
 
@@ -4004,7 +4003,7 @@ sudo apt install gnupg
 
 
 
-Wenn Sie unter macOS den Homebrew-Paketmanager noch nicht installiert haben, können Sie dies mit den folgenden Befehlen nachholen:
+Wenn du unter macOS den Homebrew‑Paketmanager noch nicht installiert hast, kannst du dies mit den folgenden Befehlen nachholen:
 
 
 
@@ -4018,7 +4017,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 
 
-Installieren Sie dann GPG mit diesem Befehl:
+Installiere dann GPG mit diesem Befehl:
 
 
 
@@ -4028,7 +4027,7 @@ brew install gnupg
 
 
 
-Für Windows können Sie, wenn Sie kein GPG haben, [Gpg4win](https://www.gpg4win.org/) installieren.
+Für Windows kannst du, wenn du kein GPG hast, [Gpg4win](https://www.gpg4win.org/) installieren.
 
 
 
@@ -4040,11 +4039,11 @@ Für Windows können Sie, wenn Sie kein GPG haben, [Gpg4win](https://www.gpg4win
 
 
 
-Für die ersten Schritte benötigen Sie mehrere Dokumente zu der Software, die Sie installieren möchten. In diesem Beispiel werden wir *Sparrow wallet*, einen Bitcoin-Portfoliomanager, überprüfen. Das Verfahren ist bei jeder anderen Software ähnlich: Sie müssen nur die richtigen Dateien für die Überprüfung finden.
+Für die ersten Schritte benötigst du mehrere Dokumente zu der Software, die du installieren möchtest. In diesem Beispiel werden wir *Sparrow wallet*, einen Bitcoin-Portfoliomanager, überprüfen. Das Verfahren ist bei jeder anderen Software ähnlich: Du musst nur die richtigen Dateien für die Überprüfung finden.
 
 
 
-Besuchen Sie die offizielle Website von [Sparrow wallet im Abschnitt "_Download_"](https://sparrowwallet.com/download/). Wenn Sie ein anderes Programm ausprobieren möchten, besuchen Sie bitte die Website des betreffenden Programms.
+Besuche die offizielle Website von [Sparrow wallet im Abschnitt "_Download_"](https://sparrowwallet.com/download/). Wenn du ein anderes Programm ausprobieren möchtest, besuche bitte die Website des betreffenden Programms.
 
 
 
@@ -4052,7 +4051,7 @@ Besuchen Sie die offizielle Website von [Sparrow wallet im Abschnitt "_Download_
 
 
 
-Sie können auch [zum GitHub-Repository des Projekts] gehen (https://github.com/sparrowwallet/Sparrow/releases).
+Du kannst auch [zum GitHub-Repository des Projekts] gehen (https://github.com/sparrowwallet/Sparrow/releases).
 
 
 
@@ -4060,7 +4059,7 @@ Sie können auch [zum GitHub-Repository des Projekts] gehen (https://github.com/
 
 
 
-Laden Sie das Software-Installationsprogramm für Ihr Betriebssystem herunter.
+Lade das Software-Installationsprogramm für dein Betriebssystem herunter.
 
 
 
@@ -4068,7 +4067,7 @@ Laden Sie das Software-Installationsprogramm für Ihr Betriebssystem herunter.
 
 
 
-Sie benötigen auch die Hash der Datei, die oft "_SHA256SUMS_" oder "_MANIFEST_" genannt wird.
+Du benötigst auch die Hash der Datei, die oft "_SHA256SUMS_" oder "_MANIFEST_" genannt wird.
 
 
 
@@ -4076,7 +4075,7 @@ Sie benötigen auch die Hash der Datei, die oft "_SHA256SUMS_" oder "_MANIFEST_"
 
 
 
-Laden Sie auch die PGP-Signatur der Datei herunter. Dies ist das `.asc` Dokument.
+Lade auch die PGP-Signatur der Datei herunter. Dies ist das `.asc` Dokument.
 
 
 
@@ -4084,15 +4083,13 @@ Laden Sie auch die PGP-Signatur der Datei herunter. Dies ist das `.asc` Dokument
 
 
 
-Achten Sie darauf, dass alle diese Dateien im selben Verzeichnis abgelegt werden, um die folgenden Schritte zu erleichtern.
+Achte darauf, dass alle diese Dateien im selben Verzeichnis abgelegt werden, um die folgenden Schritte zu erleichtern.
 
 
 
-Schliesslich benötigen Sie den öffentlichen Schlüssel des Entwicklers, um die PGP-Signatur zu überprüfen. Dieser Schlüssel ist in der Regel auf der offiziellen Website der Software, im GitHub-Repository des Projekts, manchmal in den sozialen Netzwerken des Entwicklers oder auf speziellen Plattformen wie Keybase verfügbar.
+Schliesslich brauchst du den öffentlichen Schlüssel des Entwicklers, um die PGP‑Signatur zu überprüfen. Dieser Schlüssel ist in der Regel auf der offiziellen Website der Software, im GitHub‑Repository des Projekts, manchmal in den sozialen Netzwerken des Entwicklers oder auf speziellen Plattformen wie Keybase verfügbar.
 
-
-
-Im Fall von *Sparrow wallet* finden Sie den öffentlichen Schlüssel des Entwicklers [Craig Raw auf Keybase] (https://keybase.io/craigraw). Um ihn direkt aus dem Terminal herunterzuladen, führen Sie den folgenden Befehl aus:
+Im Fall von *Sparrow wallet* findest du den öffentlichen Schlüssel des Entwicklers [Craig Raw auf Keybase] (https://keybase.io/craigraw). Um ihn direkt aus dem Terminal herunterzuladen, führst du den folgenden Befehl aus:
 
 
 
@@ -4110,16 +4107,14 @@ curl https://keybase.io/craigraw/pgp_keys.asc | gpg --import
 
 
 
-Um sicherzugehen, dass Sie den echten öffentlichen Schlüssel des Entwicklers verwenden und nicht einen, der von einem Angreifer usurpiert wurde, empfehle ich Ihnen, die Quellen zu überprüfen: Überprüfen Sie, ob der Fingerabdruck des Schlüssels auf Keybase, auf der offiziellen Website des Projekts und in allen sozialen Netzwerken oder Kommunikationskanälen des Entwicklers übereinstimmt.
-
+Um sicherzugehen, dass du den echten öffentlichen Schlüssel des Entwicklers verwendest und nicht einen, der von einem Angreifer usurpiert wurde, empfehle ich dir, die Quellen zu überprüfen: Überprüfe, ob der Fingerabdruck des Schlüssels auf Keybase, auf der offiziellen Website des Projekts und in allen sozialen Netzwerken oder Kommunikationskanälen des Entwicklers übereinstimmt.
 
 
 #### Überprüfung der Unterschrift
 
 
 
-Der Prozess der Signaturprüfung ist unter Windows, macOS und Linux identisch. Sie sollten den öffentlichen Schlüssel bereits im vorherigen Schritt importiert haben. Wenn Sie dies noch nicht getan haben, können Sie ihn mit dem folgenden Befehl importieren:
-
+Der Prozess der Signaturprüfung ist unter Windows, macOS und Linux identisch. Du solltest den öffentlichen Schlüssel bereits im vorherigen Schritt importiert haben. Wenn du das noch nicht getan hast, kannst du ihn mit dem folgenden Befehl importieren:
 
 
 ```bash
@@ -4128,7 +4123,7 @@ gpg --import [key_path]
 
 
 
-Ersetzen Sie `[key_path]` durch den Speicherort der öffentlichen Schlüsseldatei des Entwicklers.
+Ersetze `[key_path]` durch den Speicherort der öffentlichen Schlüsseldatei des Entwicklers.
 
 
 
@@ -4136,7 +4131,7 @@ Ersetzen Sie `[key_path]` durch den Speicherort der öffentlichen Schlüsseldate
 
 
 
-Überprüfen Sie die Signatur mit dem folgenden Befehl:
+Überprüfe die Signatur mit dem folgenden Befehl:
 
 
 
@@ -4146,7 +4141,7 @@ gpg --verify [file.asc]
 
 
 
-Ersetzen Sie `[file.asc]` durch den Pfad der Signaturdatei. Im Fall der Sparrow heisst diese Datei "_sparrow-2.0.0-manifest.txt.asc_" für Version 2.0.0.
+Ersetze `[file.asc]` durch den Pfad der Signaturdatei. Im Fall der Sparrow heisst diese Datei "_sparrow-2.0.0-manifest.txt.asc_" für Version 2.0.0.
 
 
 
@@ -4158,7 +4153,7 @@ Ersetzen Sie `[file.asc]` durch den Pfad der Signaturdatei. Im Fall der Sparrow 
 
 
 
-Wenn die Signatur gültig ist, wird sie von GPG ausdrücklich bestätigt. Sie können dann mit dem nächsten Schritt fortfahren, da diese Überprüfung die Authentizität der Datei bestätigt.
+Wenn die Signatur gültig ist, wird sie von GPG ausdrücklich bestätigt. Du kannst dann mit dem nächsten Schritt fortfahren, da diese Überprüfung die Authentizität der Datei bestätigt.
 
 
 
@@ -4174,11 +4169,11 @@ Wenn die Signatur gültig ist, wird sie von GPG ausdrücklich bestätigt. Sie k�
 
 
 
-Nachdem die Authentizität der Datei mit den Hashes bestätigt wurde, ist es nun an der Zeit, die Integrität der Installer-Datei anhand dieser authentifizierten Datei zu überprüfen. Das Ziel besteht darin, die Hash Ihres Installationsprogramms mit der in der Datei `.asc` angegebenen zu vergleichen. Wenn die beiden übereinstimmen, ist sichergestellt, dass der Softwarecode in keiner Weise verändert wurde.
+Nachdem die Authentizität der Datei mit den Hashes bestätigt wurde, ist es nun an der Zeit, die Integrität der Installer-Datei anhand dieser authentifizierten Datei zu überprüfen. Das Ziel besteht darin, die Hash deines Installationsprogramms mit der in der Datei `.asc` angegebenen zu vergleichen. Wenn die beiden übereinstimmen, ist sichergestellt, dass der Softwarecode in keiner Weise verändert wurde.
 
 
 
-Öffnen Sie unter Windows ein Terminal und führen Sie den folgenden Befehl aus:
+Öffne unter Windows ein Terminal und führe den folgenden Befehl aus:
 
 
 
@@ -4188,7 +4183,7 @@ CertUtil -hashfile [file_path] SHA256 | findstr /v "hash"
 
 
 
-Ersetzen Sie `[file_path]` durch den Installationsort.
+Ersetze `[file_path]` durch den Installationsort.
 
 
 
@@ -4196,7 +4191,7 @@ Ersetzen Sie `[file_path]` durch den Installationsort.
 
 
 
-Das Terminal sendet das Hash mit der heruntergeladenen Software zurück.
+Das Terminal sendet den Hash mit der heruntergeladenen Software zurück.
 
 
 
@@ -4204,7 +4199,7 @@ Das Terminal sendet das Hash mit der heruntergeladenen Software zurück.
 
 
 
-Vergleichen Sie dann das Ergebnis mit dem entsprechenden Wert in der Datei "_sparrow-2.0.0-manifest.txt_".
+Vergleiche dann das Ergebnis mit dem entsprechenden Wert in der Datei "_sparrow-2.0.0-manifest.txt_".
 
 
 
@@ -4220,7 +4215,7 @@ Unter macOS und Linux ist der Hash-Verifizierungsprozess automatisiert, so dass 
 
 
 
-Führen Sie einfach diesen Befehl unter macOS aus:
+Führe einfach diesen Befehl unter macOS aus:
 
 
 
@@ -4230,7 +4225,7 @@ shasum --check [file_name] --ignore-missing
 
 
 
-Ersetzen Sie `[Dateiname]` durch den Namen der authentifizierten Datei, die die Hashes enthält. Zum Beispiel für Sparrow wallet Version 2.0.0:
+Ersetze `[Dateiname]` durch den Namen der authentifizierten Datei, die die Hashes enthält. Zum Beispiel für Sparrow wallet Version 2.0.0:
 
 
 
@@ -4240,7 +4235,7 @@ shasum --check sparrow-2.0.0-manifest.txt --ignore-missing
 
 
 
-Wenn die Hashes übereinstimmen, sollte die Ausgabe lauten:
+Wenn die Hashes übereinstimmen, sollte die Ausgabe folgendermassen lauten:
 
 
 
@@ -4260,7 +4255,7 @@ sha256sum --check [file_name] --ignore-missing
 
 
 
-Und wenn die Hashes übereinstimmen, sollten Sie erhalten:
+Und wenn die Hashes übereinstimmen, solltest du folgendes erhalten:
 
 
 
@@ -4274,8 +4269,7 @@ sparrow_2.0.0-1_amd64.deb: OK
 
 
 
-Sie können nun sicher sein, dass die Software, die Sie heruntergeladen haben, sowohl echt als auch ehrlich ist. Sie können sie jetzt auf Ihrem Computer installieren.
-
+Du kannst nun sicher sein, dass die Software, die du heruntergeladen hast, sowohl echt als auch ehrlich ist. Du kannst sie jetzt auf deinem Computer installieren.
 
 
 ![Image](assets/fr/237.webp)
@@ -4286,7 +4280,7 @@ Die Überprüfung der Integrität und Authentizität ist ein recht einfaches Ver
 
 
 
-Im nächsten Kapitel werden wir uns näher mit der Datenverwaltung befassen. Wir werden uns ansehen, wie Sie sich vor zwei grossen Risiken schützen können: Datenverlust und Datendiebstahl.
+Im nächsten Kapitel werden wir uns näher mit der Datenverwaltung befassen. Wir werden uns ansehen, wie du dich vor zwei grossen Risiken schützen kannst: Datenverlust und Datendiebstahl.
 
 
 
@@ -4298,25 +4292,21 @@ Im nächsten Kapitel werden wir uns näher mit der Datenverwaltung befassen. Wir
 
 
 
-Der Schutz Ihrer persönlichen Daten ist ein wichtiger Bestandteil der Gewährleistung Ihrer digitalen Souveränität, Privatsphäre und Sicherheit. Die Risiken für Ihre Daten sind vielfältig: Hackerangriffe, Verlust von Hardware oder sogar physische Beschlagnahmung. Durch die Umsetzung wirksamer Sicherungs- und Verschlüsselungsstrategien können Sie die meisten dieser potenziellen Gefahren vermeiden.
+Der Schutz deiner persönlichen Daten ist ein wichtiger Bestandteil der Gewährleistung deiner digitalen Souveränität, Privatsphäre und Sicherheit. Die Risiken für deine Daten sind vielfältig: Hackerangriffe, Verlust von Hardware oder sogar physische Beschlagnahmung. Durch die Umsetzung wirksamer Sicherungs‑ und Verschlüsselungsstrategien kannst du die meisten dieser potenziellen Gefahren vermeiden.
+
+In diesem Kapitel gehst du im Detail darauf ein, wie du deine Daten sichern und verschlüsseln sowie sensible Informationen in deinen Dokumenten bereinigen kannst.
 
 
 
-In diesem Kapitel gehen wir im Detail darauf ein, wie Sie Ihre Daten sichern und verschlüsseln sowie sensible Informationen in Ihren Dokumenten bereinigen können.
+### Sichere deine Daten
 
 
 
-### Sichern Sie Ihre Daten
+#### Warum solltest du deine Daten sichern?
 
 
 
-#### Warum sollten Sie Ihre Daten sichern?
-
-
-
-Die regelmässige Sicherung Ihrer persönlichen oder geschäftlichen Daten ist eine absolut notwendige Sicherheitsmassnahme, die oft vernachlässigt wird, bis es zu spät ist. Entgegen der landläufigen Meinung ist das Sichern von Daten keine optionale oder auf Unternehmen beschränkte Aufgabe: Es betrifft jeden Computernutzer. Ganz gleich, ob es sich um Arbeitsunterlagen, Familienfotos, persönliche Dokumente oder andere sensible Inhalte handelt, diese Daten können aus den unterschiedlichsten Gründen plötzlich verschwinden:
-
-
+Die regelmässige Sicherung deiner persönlichen oder geschäftlichen Daten ist eine absolut notwendige Sicherheitsmaßnahme, die oft vernachlässigt wird, bis es zu spät ist. Entgegen der landläufigen Meinung ist das Sichern von Daten keine optionale oder auf Unternehmen beschränkte Aufgabe: es betrifft jeden Computernutzer. Ganz gleich, ob es sich um Arbeitsunterlagen, Familienfotos, persönliche Dokumente oder andere sensible Inhalte handelt, diese Daten können aus den unterschiedlichsten Gründen plötzlich verschwinden:
 
 
 
@@ -4326,7 +4316,7 @@ Die regelmässige Sicherung Ihrer persönlichen oder geschäftlichen Daten ist e
 
 
 
-- Computerangriff: Einige Schadprogramme, insbesondere Ransomware, verschlüsseln Ihre Dateien lokal und verlangen ein Lösegeld in Exchange für den Entschlüsselungsschlüssel. Ohne ein unabhängiges Backup sind Sie ihnen hilflos ausgeliefert.
+- Computerangriff: Einige Schadprogramme, insbesondere Ransomware, verschlüsseln deine Dateien lokal und verlangen ein Lösegeld im Tausch für den Entschlüsselungsschlüssel. Ohne ein unabhängiges Backup bist du ihnen hilflos ausgeliefert.
 
 
 
@@ -4338,11 +4328,11 @@ Die regelmässige Sicherung Ihrer persönlichen oder geschäftlichen Daten ist e
 
 
 
-- Physische Katastrophen: Feuer, Wasserschäden, Diebstahl oder sogar ein Stromausfall können Ihre Geräte im Handumdrehen unbrauchbar machen.
+- Physische Katastrophen: Feuer, Wasserschäden, Diebstahl oder sogar ein Stromausfall können deine Geräte im Handumdrehen unbrauchbar machen.
 
 
 
-Deshalb brauchen Sie eine rigorose, geplante und belastbare Sicherungsstrategie.
+Deshalb brauchst du eine rigorose, geplante und belastbare Sicherungsstrategie.
 
 
 
@@ -4356,23 +4346,23 @@ Die "3-2-1"-Regel ist ein anerkannter Standard in der IT-Sicherheit. Sie basiert
 
 
 
-- 3 Kopien Ihrer Daten: Dazu gehören das Original (die Dateien auf Ihrem Computer) und zwei zusätzliche Sicherungskopien.
+- 3 Kopien deiner Daten: Dazu gehören das Original (die Dateien auf deinem Computer) und zwei zusätzliche Sicherungskopien.
 
 
 
 
 
-- 2 verschiedene Speichermedien: Ziel ist es, zu vermeiden, dass ein Hardware-Problem alle Ihre Medien auf einmal betrifft. Zum Beispiel ein externes Hard-Laufwerk + eine Cloud; oder ein NAS + Ihr Computer.
+- 2 verschiedene Speichermedien: Ziel ist es, zu vermeiden, dass ein Hardware-Problem alle deine Medien auf einmal betrifft. Zum Beispiel ein externes Laufwerk + eine Ablage in der Cloud; oder ein NAS + dein Computer.
 
 
 
 
 
-- 1 Off-Site-Kopie: Diese Kopie muss sich an einem anderen Ort als Ihrem Hauptwohnsitz befinden (bei einem Verwandten, auf einem entfernten Server, in einer sicheren Cloud...). Sie schützt Sie vor lokalen Ereignissen wie Feuer oder Einbruch.
+- 1 Off-Site-Kopie: Diese Kopie muss sich an einem anderen Ort als deinem Hauptwohnsitz befinden (bei einem Verwandten, auf einem entfernten Server, in einer sicheren Cloud...). Sie schützt dich vor lokalen Ereignissen wie Feuer oder Einbruch.
 
 
 
-Nehmen wir das Beispiel eines Standardbenutzers, Alice, der seine persönlichen Daten schützen möchte.
+Nehmen wir das Beispiel eines Standardbenutzers, Alice. Sie möchte ihre persönlichen Daten schützen.
 
 
 
@@ -4386,7 +4376,7 @@ Mit dieser Konfiguration ist Alice bereits gegen viele gängige Bedrohungen gesc
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-Alice befolgt somit die 3-2-1-Regel: Es gibt drei Kopien seiner Dateien (Computer, USB-Stick, Cloud), die auf mindestens zwei verschiedenen Medien (interne Festplatte, USB-Stick, Remote-Server) gespeichert sind, und mindestens eine Kopie ausserhalb des Standorts (Cloud-Server).
+Alice befolgt somit die 3-2-1-Regel: Es gibt drei Kopien der Dateien (Computer, USB-Stick, Cloud), die auf mindestens zwei verschiedenen Medien (interne Festplatte, USB-Stick, Remote-Server) gespeichert sind, und mindestens eine Kopie ausserhalb des Standorts (Cloud-Server).
 
 
 
@@ -4402,15 +4392,15 @@ Diese Strategie garantiert eine hervorragende Ausfallsicherheit: Wenn ihr Comput
 
 
 
-Eine der besten Methoden zur Gewährleistung einer guten Backup-Hygiene ist die Automatisierung. Konfigurieren Sie Ihre Tools so, dass Backups automatisch nach einem Zeitplan (jede Nacht, jede Woche...) ausgeführt werden. Dadurch werden Versäumnisse vermieden und die Kontinuität auch bei vorübergehender Abwesenheit Ihrerseits gewährleistet.
+Eine der besten Methoden zur Gewährleistung einer guten Backup-Hygiene ist die Automatisierung. Konfiguriere deine Tools so, dass Backups automatisch nach einem Zeitplan (jede Nacht, jede Woche...) ausgeführt werden. Dadurch werden Versäumnisse vermieden und die Kontinuität auch bei vorübergehender Abwesenheit deinerseits gewährleistet.
 
 
 
-In der Praxis gibt es mehrere Möglichkeiten, Ihre Backups zu automatisieren. Sie können z.B. ein Python-Skript erstellen, das automatisch ausgeführt wird, um Ihre Daten auf ein externes Medium zu kopieren. Das ist eine einfache, anpassbare Lösung.
+In der Praxis gibt es mehrere Möglichkeiten, deine Backups zu automatisieren. Du kannst z.B. ein Python-Skript erstellen, das automatisch ausgeführt wird, um deine Daten auf ein externes Medium zu kopieren. Das ist eine einfache, anpassbare Lösung.
 
 
 
-Wenn Sie ein NAS haben, können Sie mit Tools wie *Syncthing* oder *Rclone* Sicherungen innerhalb Ihres lokalen Netzwerks automatisieren, ohne das Internet zu nutzen.
+Wenn du ein NAS hast, kannst du mit Tools wie *Syncthing* oder *Rclone* Sicherungen innerhalb deines lokalen Netzwerks automatisieren, ohne das Internet zu nutzen.
 
 
 
@@ -4418,20 +4408,17 @@ Wenn Sie ein NAS haben, können Sie mit Tools wie *Syncthing* oder *Rclone* Sich
 
 
 
-Um Backups in einem Cloud-Dienst zu automatisieren, können Sie die vom Anbieter selbst bereitgestellte Integrationssoftware verwenden. Ein Beispiel ist *Proton Drive*, das einen Synchronisierungs-Client bietet, um Ihre lokalen Dateien automatisch in die Cloud zu kopieren. Sie können sich auch für eine flexiblere Software wie *Duplicati* entscheiden, mit der Sie verschlüsselte Backups zu zahlreichen Remote-Diensten (Dropbox, Google Drive, Proton Drive, FTP, WebDAV...) planen können.
-
-
+Um Backups in einem Cloud‑Dienst zu automatisieren, kannst du die vom Anbieter selbst bereitgestellte Integrationssoftware verwenden. Ein Beispiel ist *Proton Drive*, das einen Synchronisierungs‑Client bietet, um deine lokalen Dateien automatisch in die Cloud zu kopieren. Du kannst dich auch für eine flexiblere Software wie *Duplicati* entscheiden, mit der du verschlüsselte Backups zu zahlreichen Remote‑Diensten (Dropbox, Google Drive, Proton Drive, FTP, WebDAV…) planen kannst.
 
 ![Image](assets/fr/254.webp)
 
 
 
-Denken Sie auch daran, Ihre Backups regelmässig zu testen, d. h. zu prüfen, ob Sie sie wiederherstellen können. Ein Backup ist nutzlos, wenn es beschädigt, unvollständig oder unlesbar ist.
+Denke auch daran, deine Backups regelmässig zu testen, d.h. zu prüfen, ob du sie wiederherstellen kannst. Ein Backup ist nutzlos, wenn es beschädigt, unvollständig oder unlesbar ist.
 
 
 
-Es ist nicht nur wichtig, die Ausfallsicherheit Ihrer Daten zu gewährleisten, sondern auch den Zugriff auf sie zu schützen. Tatsächlich stehen Belastbarkeit und Sicherheit oft in einem Spannungsverhältnis: Je mehr Kopien Sie von Ihren Dateien anfertigen, desto mehr vergrössern Sie deren Angriffsfläche und damit das Risiko, dass ein Angreifer Zugriff auf sie erhält. Aus diesem Grund ist die Verschlüsselung Ihrer Daten ein wichtiger Schritt. Schauen wir uns an, wie man das in die Praxis umsetzt.
-
+Es ist nicht nur wichtig, die Ausfallsicherheit deiner Daten zu gewährleisten, sondern auch den Zugriff auf sie zu schützen. Tatsächlich stehen Belastbarkeit und Sicherheit oft in einem Spannungsverhältnis: Je mehr Kopien du von deinen Dateien anfertigst, desto mehr vergrößerst du deren Angriffsfläche und damit das Risiko, dass ein Angreifer Zugriff auf sie erhält. Aus diesem Grund ist die Verschlüsselung deiner Daten ein wichtiger Schritt. Schauen wir uns an, wie du das in die Praxis umsetzt.
 
 
 ### Vollständige Verschlüsselung von externen Festplatten und Medien
@@ -4446,25 +4433,24 @@ Eine der Säulen der Sicherheit von Personalcomputern ist die Verschlüsselung d
 
 
 
-Wenn ein Speichermedium nicht verschlüsselt ist, schliessen Sie es einfach an einen beliebigen Computer an, um sofortigen Zugriff auf seinen Inhalt zu erhalten. Es gibt keine Barrieren zum Schutz der Dateien. Das heisst, wenn Ihr Laptop gestohlen wird oder Sie einen einfachen USB-Stick verlieren, kann jemand mit böswilligen Absichten auf Ihre persönlichen Dokumente zugreifen.
+Wenn ein Speichermedium nicht verschlüsselt ist, schließt du es einfach an einen beliebigen Computer an, um sofortigen Zugriff auf seinen Inhalt zu erhalten. Es gibt keine Barrieren zum Schutz der Dateien. Das heißt, wenn dein Laptop gestohlen wird oder du einen einfachen USB‑Stick verlierst, kann jemand mit böswilligen Absichten auf deine persönlichen Dokumente zugreifen.
 
 
 
-Abgesehen von den Datenschutzproblemen, die auf dem Spiel stehen, können Ihre Dateien auch ein echtes Sicherheitsrisiko darstellen. Nehmen wir ein konkretes Beispiel: Wenn Ihre Backups eine Kopie Ihrer Identitätsdokumente enthalten, könnte ein Angreifer diese ausnutzen, um sich als Sie auszugeben, Bank- oder Kryptokonten in Ihrem Namen zu eröffnen oder sogar Bankkredite in Ihrem Namen aufzunehmen. Diese Art von Informationsleck kann schwerwiegende Folgen haben, sowohl persönlich als auch beruflich.
+Abgesehen von den Datenschutzproblemen, die auf dem Spiel stehen, können deine Dateien auch ein echtes Sicherheitsrisiko darstellen. Nehmen wir ein konkretes Beispiel: Wenn deine Backups eine Kopie deiner Identitätsdokumente enthalten, könnte ein Angreifer diese ausnutzen, um sich als deine Person auszugeben, Bank‑ oder Kryptokonten in deinem Namen zu eröffnen oder sogar Bankkredite in deinem Namen aufzunehmen. Diese Art von Informationsleck kann schwerwiegende Folgen haben, sowohl persönlich als auch beruflich.
 
 
 
 Die vollständige Verschlüsselung ist wie ein Schloss: Solange das Passwort nicht bekannt ist, bleiben die Daten unbrauchbar. Selbst ein Angreifer, der mit speziellen Datenwiederherstellungsprogrammen ausgestattet ist, kann ohne den Schlüssel nichts extrahieren.
 
 
-
-#### Welche technischen Lösungen bietet Ihr System?
-
+#### Welche technischen Lösungen bietet dein System?
 
 
+xxx
 
 
-- Linux (Debian)*
+- *Linux (Debian)*
 
 
 
@@ -5116,7 +5102,7 @@ Aber erst 1993 trat das Web mit dem Erscheinen von NCSA Mosaic wirklich in eine 
 
 
 
-1994 verliess Marc Andreessen das NCSA und gründete zusammen mit Jim Clark Netscape Communications. Ein grosser Teil des Teams, das an Mosaic gearbeitet hatte, schloss sich ihm an. Kurz darauf bringt das Unternehmen den Netscape Navigator auf den Markt, einen Browser, der auf den Grundlagen von Mosaic basiert, aber eine bessere Leistung und technische Verbesserungen aufweist. 1995 führte Netscape die von Brendan Eich entwickelte JavaScript-Sprache ein, die es ermöglichte, Webseiten dynamisch zu gestalten, d. h. auf Benutzeraktionen zu reagieren, ohne die Seite neu zu laden.
+1994 verliess Marc Andreessen das NCSA und gründete zusammen mit Jim Clark Netscape Communications. Ein grosser Teil des Teams, das an Mosaic gearbeitet hatte, schloss sich ihm an. Kurz darauf bringt das Unternehmen den Netscape Navigator auf den Markt, einen Browser, der auf den Grundlagen von Mosaic basiert, aber eine bessere Leistung und technische Verbesserungen aufweist. 1995 führte Netscape die von Brendan Eich entwickelte JavaScript-Sprache ein, die es ermöglichte, Webseiten dynamisch zu gestalten, d.h. auf Benutzeraktionen zu reagieren, ohne die Seite neu zu laden.
 
 
 
@@ -6022,7 +6008,7 @@ Der Verlauf ist eine einfache lokale Datenbank, in der alle besuchten Seiten mit
 
 
 
-Cookies hingegen sind kleine Dateien, die vom Browser auf Anfrage von Websites gespeichert werden. Sie werden verwendet, um sich an Ihre Sitzung zu erinnern (z.B. um mit einer Website verbunden zu bleiben), Ihre Präferenzen zu speichern oder Ihr Verhalten zu statistischen Zwecken zu verfolgen. Einige Cookies sind funktional (d. h. für das ordnungsgemässe Funktionieren einer Website erforderlich), während andere von Dritten gesetzt werden (von Werbeagenturen oder Trackern auf besuchten Seiten). Letztere ermöglichen ein Site-übergreifendes Tracking, manchmal über Jahre hinweg, indem sie Ihre Surfgewohnheiten miteinander vergleichen, um ein Werbeprofil zu erstellen.
+Cookies hingegen sind kleine Dateien, die vom Browser auf Anfrage von Websites gespeichert werden. Sie werden verwendet, um sich an Ihre Sitzung zu erinnern (z.B. um mit einer Website verbunden zu bleiben), Ihre Präferenzen zu speichern oder Ihr Verhalten zu statistischen Zwecken zu verfolgen. Einige Cookies sind funktional (d.h. für das ordnungsgemässe Funktionieren einer Website erforderlich), während andere von Dritten gesetzt werden (von Werbeagenturen oder Trackern auf besuchten Seiten). Letztere ermöglichen ein Site-übergreifendes Tracking, manchmal über Jahre hinweg, indem sie Ihre Surfgewohnheiten miteinander vergleichen, um ein Werbeprofil zu erstellen.
 
 
 
@@ -6424,7 +6410,7 @@ Android erlebte einen rasanten Aufstieg: Bereits im Juli 2011 überholte es iOS 
 Das Android-Projekt basiert auf einer strukturellen Dualität. Einerseits stellt das AOSP (*Android open-source Project*) die Open-Source-Basis des Systems dar: Es umfasst den Linux-Kernel, den Systemsoftware-Stack, eine minimale Interface-Grafik und eine Reihe von APIs. Diese Basis wird unter der Apache-2.0-Lizenz veröffentlicht und bleibt für alle zugänglich. Die Umgebung, die von der Mehrheit der Android-Nutzer tatsächlich verwendet wird, basiert dagegen fast vollständig auf proprietären, von Google entwickelten Komponenten: *Google Mobile Services* (GMS).
 
 
-Diese Komponenten sind nicht quelloffen, d. h. sie können weder frei von der Gemeinschaft überprüft noch leicht ersetzt werden. Um sie legal auf ihren Geräten vorinstallieren zu können, müssen die Hersteller Lizenzvereinbarungen mit Google unterzeichnen und sich strengen technischen und kommerziellen Anforderungen unterwerfen. Zu diesen Anforderungen gehören:
+Diese Komponenten sind nicht quelloffen, d.h. sie können weder frei von der Gemeinschaft überprüft noch leicht ersetzt werden. Um sie legal auf ihren Geräten vorinstallieren zu können, müssen die Hersteller Lizenzvereinbarungen mit Google unterzeichnen und sich strengen technischen und kommerziellen Anforderungen unterwerfen. Zu diesen Anforderungen gehören:
 
 
 
@@ -8434,7 +8420,7 @@ In manchen Fällen ist es nützlich, auch von unterwegs auf Ihr Heimnetzwerk zug
 
 Der erste Tipp ist, niemals direkt einen Port auf Ihrem Router zu öffnen, um auf ein Gerät zuzugreifen (z.B. über RDP, SSH oder FTP), da dies diesen Dienst dem gesamten Internet aussetzt, was eine Sicherheitslücke darstellt. Es gibt zahlreiche automatisierte Angriffe auf offene Ports.
 
-Die Lösung, die ich empfehle, ist die Verwendung eines VPN (*Virtuelles Privates Netzwerk*), d. h. eines verschlüsselten Tunnels zwischen Ihrem entfernten Gerät (Computer, Smartphone usw.) und Ihrem lokalen Netzwerk. Sobald Sie mit dem VPN verbunden sind, können Sie auf die Ressourcen Ihres Hauses zugreifen, als wären Sie physisch vor Ort, und zwar auf sichere Weise.
+Die Lösung, die ich empfehle, ist die Verwendung eines VPN (*Virtuelles Privates Netzwerk*), d.h. eines verschlüsselten Tunnels zwischen Ihrem entfernten Gerät (Computer, Smartphone usw.) und Ihrem lokalen Netzwerk. Sobald Sie mit dem VPN verbunden sind, können Sie auf die Ressourcen Ihres Hauses zugreifen, als wären Sie physisch vor Ort, und zwar auf sichere Weise.
 
 Die beiden wichtigsten Lösungen für Privatkunden sind:
 
