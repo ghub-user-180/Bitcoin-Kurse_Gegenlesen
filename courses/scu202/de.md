@@ -4811,19 +4811,19 @@ Das ist ein wichtiger Reflex: Sobald eine Datei deine Privatsphäre verlässt, m
 ### Unter Linux (Debian)
 
 #### Verwendung von ExifTool
-xxx
+
 Das vollständigste und zuverlässigste Mittel zur Verwaltung und Löschung von Metadaten ist das von Phil Harvey entwickelte ExifTool. Es ist mit einer grossen Anzahl von Dateiformaten kompatibel (JPG, PNG, PDF, MP3, DOCX...) und ermöglicht sowohl die Anzeige als auch das Löschen von Metadaten.
 
 - Schritt 1: ExifTool installieren
 
-Um es auf einer Debian-Distribution (Ubuntu) zu installieren, öffnen Sie ein Terminal und geben Sie den Befehl ein:
+Um es auf einer Debian-Distribution (Ubuntu) zu installieren, öffne ein Terminal und gib folgenden Befehl ein:
 
 ```bash
 sudo apt update
 sudo apt install libimage-exiftool-perl
 ```
 
-Dieses Paket installiert `exiftool`, das Sie dann direkt von der Kommandozeile aus verwenden können.
+Dieses Paket installiert `exiftool`, das du dann direkt von der Kommandozeile aus verwenden kannst.
 
 
 
@@ -4833,11 +4833,11 @@ Dieses Paket installiert `exiftool`, das Sie dann direkt von der Kommandozeile a
 
 
 
-- Schritt 2: Anzeige der Datei-Metadaten** (auf Französisch)
+- Schritt 2: Anzeige der Datei-Metadaten (auf Französisch)
 
 
 
-Um alle in einer Datei enthaltenen Metadaten anzuzeigen, verwenden Sie den folgenden Befehl:
+Um alle in einer Datei enthaltenen Metadaten anzuzeigen, verwende den folgenden Befehl:
 
 
 
@@ -4847,7 +4847,7 @@ exiftool name.jpg
 
 
 
-Ersetzen Sie "Name.jpg" durch den richtigen Namen Ihrer Datei. Stellen Sie ausserdem sicher, dass Sie sich in dem Verzeichnis befinden, das dieses Bild enthält. Wenn ich zum Beispiel ein Foto der Satoshi Nakamoto-Statue im Verzeichnis `/Downloads` habe, kann ich die Metadaten mit dem folgenden Befehl anzeigen:
+Ersetze "Name.jpg" durch den richtigen Namen deiner Datei. Stelle ausserdem sicher, dass du dich in dem Verzeichnis befindest, das dieses Bild enthält. Wenn ich zum Beispiel ein Foto der Satoshi Nakamoto-Statue im Verzeichnis `/Downloads` habe, kann ich die Metadaten mit dem folgenden Befehl anzeigen:
 
 
 
@@ -4875,17 +4875,17 @@ Daraufhin wird eine lange Liste von Attributen angezeigt, die unter anderem Folg
 
 
 
-So erhalten Sie einen vollständigen Überblick über das, was Sie veröffentlichen oder übermitteln wollen.
+So erhältst du einen vollständigen Überblick über das, was du veröffentlichen oder übermitteln willst.
 
 
 
 
 
-- Schritt 3: Löschen Sie die Metadaten
+- Schritt 3: Lösche die Metadaten
 
 
 
-Um alle unnötigen Metadaten aus einer Datei zu löschen, verwenden Sie den Befehl:
+Um alle unnötigen Metadaten aus einer Datei zu löschen, verwende folgenden Befehl:
 
 
 
@@ -4907,7 +4907,7 @@ Dieser Befehl erstellt automatisch eine Kopie der Originaldatei, wobei die Metad
 
 
 
-Wenn Sie das Original nicht behalten wollen, können Sie es mit dem Befehl löschen:
+Wenn du das Original nicht behalten willst, kannst du es mit folgendem Befehl löschen:
 
 
 
@@ -4931,7 +4931,7 @@ Wenn wir uns die Metadaten unserer Datei noch einmal ansehen, können wir festst
 
 
 
-Wenn Sie mehrere Dateien im selben Verzeichnis zu verarbeiten haben, können Sie einen allgemeinen Befehl wie z.B. verwenden:
+Wenn du mehrere Dateien im selben Verzeichnis zu verarbeiten hast, kannst du einen allgemeinen Befehl wie z.B. folgenden verwenden:
 
 
 
@@ -4941,7 +4941,7 @@ exiftool -all= *.jpeg
 
 
 
-Dies löscht die Metadaten aller JPEG-Dateien im aktuellen Verzeichnis. Sie können die Erweiterung an Ihre Bedürfnisse anpassen (`*.png`, `*.pdf`...).
+Dies löscht die Metadaten aller JPEG-Dateien im aktuellen Verzeichnis. Du kannst die Erweiterung an deine Bedürfnisse anpassen (`*.png`, `*.pdf`...).
 
 
 
@@ -4953,7 +4953,7 @@ Dies löscht die Metadaten aller JPEG-Dateien im aktuellen Verzeichnis. Sie kön
 
 
 
-Als Alternative zu ExifTool können Sie MAT2 (*Metadata Anonymization Toolkit v2*) verwenden.
+Als Alternative zu ExifTool kannst du MAT2 (*Metadata Anonymization Toolkit v2*) verwenden.
 
 
 
@@ -4973,7 +4973,7 @@ sudo apt install mat2
 
 
 
-Nach der Installation können Sie es von der Kommandozeile aus wie folgt verwenden:
+Nach der Installation kannst du es von der Kommandozeile aus wie folgt verwenden:
 
 
 
@@ -5009,11 +5009,11 @@ mat2 ~/Downloads/*
 
 
 
-Unter Windows und macOS gibt es mehrere Methoden zum Entfernen von Metadaten aus Ihren Dokumenten. Meiner Meinung nach ist es am einfachsten, die Open-Source-Software [ExifCleaner] (https://exifcleaner.com/) zu verwenden. Dieses leichtgewichtige Tool verfügt über eine grafische Interface und kann die meisten Dateiformate durch einfaches Ziehen und Ablegen verarbeiten. Wenn Sie eine oder mehrere Dateien auf den Interface ziehen, entfernt die Software automatisch unnötige Metadaten und ersetzt die Originaldateien im selben Verzeichnis. ExifCleaner ist für Windows, macOS und Linux verfügbar.
+Unter Windows und macOS gibt es mehrere Methoden zum Entfernen von Metadaten aus deinen Dokumenten. Meiner Meinung nach ist es am einfachsten, die Open-Source-Software [ExifCleaner] (https://exifcleaner.com/) zu verwenden. Dieses leichtgewichtige Tool verfügt über ein grafisches Interface und kann die meisten Dateiformate durch einfaches Ziehen und Ablegen verarbeiten. Wenn du eine oder mehrere Dateien auf das Interface ziehst, entfernt die Software automatisch unnötige Metadaten und ersetzt die Originaldateien im selben Verzeichnis. ExifCleaner ist für Windows, macOS und Linux verfügbar.
 
 
 
-Die Bedienung ist denkbar einfach: Starten Sie die Software, und ziehen Sie eine oder mehrere Dateien per Drag & Drop in das Fenster.
+Die Bedienung ist denkbar einfach: Starte die Software, und ziehe eine oder mehrere Dateien per Drag & Drop in das Fenster.
 
 
 
@@ -5021,7 +5021,7 @@ Die Bedienung ist denkbar einfach: Starten Sie die Software, und ziehen Sie eine
 
 
 
-Warten Sie ein paar Augenblicke, während das Tool die Metadaten bereinigt. Sobald der Vorgang abgeschlossen ist, wird eine Zusammenfassung angezeigt, die die ursprüngliche und die endgültige Anzahl der Metadaten enthält. Alle überflüssigen Informationen sind dann entfernt worden.
+Warte ein paar Augenblicke, während das Tool die Metadaten bereinigt. Sobald der Vorgang abgeschlossen ist, wird eine Zusammenfassung angezeigt, die die ursprüngliche und die endgültige Anzahl der Metadaten enthält. Alle überflüssigen Informationen sind dann entfernt worden.
 
 
 
@@ -5029,11 +5029,11 @@ Warten Sie ein paar Augenblicke, während das Tool die Metadaten bereinigt. Soba
 
 
 
-Die Bereinigung der Metadaten der von Ihnen freigegebenen Dateien ist daher eine gute Praxis, wenn es um IT-Sicherheit geht. Dank der einfachen Werkzeuge, die in diesem Kapitel vorgestellt werden, ist dies eine Gewohnheit, die Sie täglich leicht umsetzen können.
+Die Bereinigung der Metadaten der von dir freigegebenen Dateien ist daher eine gute Gewohnheit, wenn es um IT-Sicherheit geht. Dank der einfachen Werkzeuge, die in diesem Kapitel vorgestellt werden, ist dies etwas, das du täglich leicht umsetzen kannst.
 
 
 
-Wir sind am Ende dieses Abschnitts über die Sicherheit Ihres Computers angelangt. Im nächsten Abschnitt werden wir einen detaillierten Blick auf eines der wichtigsten Programme auf Ihrem Computer werfen: den Webbrowser. Er allein zentralisiert einen grossen Teil Ihrer digitalen Aktivitäten und ist damit ein Hauptziel in Bezug auf Sicherheit und Datenschutz.
+Wir sind am Ende dieses Abschnitts über die Sicherheit deines Computers angelangt. Im nächsten Abschnitt werden wir einen detaillierten Blick auf eines der wichtigsten Programme auf deinem Computer werfen: den Webbrowser. Er allein zentralisiert einen grossen Teil deiner digitalen Aktivitäten und ist damit ein Hauptziel in Bezug auf Sicherheit und Datenschutz.
 
 
 
@@ -5045,14 +5045,14 @@ Wir sind am Ende dieses Abschnitts über die Sicherheit Ihres Computers angelang
 
 
 
-## Eine kurze Geschichte der Navigatoren
+## Eine kurze Geschichte der Browser
 
 
 <chapterId>ac6d2c23-5883-4564-b6a9-bc109b47f92c</chapterId>
 
 
 
-Der Webbrowser ist die Software, mit der Sie auf Websites und Inhalte im *World Wide Web* zugreifen können. Seine Aufgabe ist es, die zur Erstellung von Webseiten verwendeten Sprachen, insbesondere HTML, CSS und JavaScript, zu interpretieren, um den Inhalt der Website lesbar und interaktiv darzustellen. Er fungiert als Interface zwischen dem Benutzer und den Webservern, sendet Anfragen und empfängt Antworten über das HTTP- oder HTTPS-Protokoll.
+Der Webbrowser ist die Software, mit der du auf Websites und Inhalte im *World Wide Web* zugreifen kannst. Seine Aufgabe ist es, die zur Erstellung von Webseiten verwendeten Sprachen, insbesondere HTML, CSS und JavaScript, zu interpretieren, um den Inhalt der Website lesbar und interaktiv darzustellen. Er fungiert als Interface zwischen dem Benutzer und den Webservern, sendet Anfragen und empfängt Antworten über das HTTP- oder HTTPS-Protokoll.
 
 
 
@@ -5068,11 +5068,11 @@ Doch diese zentrale Rolle hat er nicht immer innegehabt. Die Geschichte der Brow
 
 
 
-### Die Geburt und die ersten Seefahrer
+### Der Anfang und die ersten Browser
 
 
 
-Die Geschichte der Webbrowser beginnt mit der Geburt des *World Wide Web*, das 1989-1990 von Tim Berners-Lee erfunden wurde. Es handelt sich um ein System für den Zugriff auf Seiten mit Texten, Bildern, Videos oder Links über das Internet mit Hilfe eines Webbrowsers. Um dieses neue System zugänglich zu machen, entwickelte er im Herbst 1990 den allerersten Browser namens "WorldWideWeb", der den Grundstein für das Surfen legte, wie wir es heute kennen. Er ermöglicht sowohl das Betrachten als auch das Erstellen von Webseiten, einschliesslich eines integrierten HTML-Editors. Um eine Verwechslung zwischen dem Browser und dem Web selbst zu vermeiden, wurde der Name später in "Nexus" geändert.
+Die Geschichte der Webbrowser beginnt mit der Geburt des *World Wide Web*, das 1989-1990 von Tim Berners-Lee erfunden wurde. Es handelt sich um ein System für den Zugriff auf Seiten mit Texten, Bildern, Videos oder Links über das Internet mit Hilfe eines Webbrowsers. Um dieses neue System zugänglich zu machen, entwickelte er im Herbst 1990 den allerersten Browser namens "WorldWideWeb", der den Grundstein für das Surfen legte, wie wir es heute kennen. Er ermöglichte sowohl das Betrachten als auch das Erstellen von Webseiten, einschliesslich eines integrierten HTML-Editors. Um eine Verwechslung zwischen dem Browser und dem Web selbst zu vermeiden, wurde der Name später in "Nexus" geändert.
 
 
 
@@ -5080,7 +5080,7 @@ Die Geschichte der Webbrowser beginnt mit der Geburt des *World Wide Web*, das 1
 
 
 
-Im Jahr 1992 erschienen mehrere andere experimentelle Browser. Einer der bemerkenswertesten war Erwise, entwickelt von vier finnischen Studenten für das Unix-basierte X Window System. Es war der erste Browser, der einen grafischen Interface für diese Art von Umgebung enthielt. Trotz seiner technischen Vorzüge litt er unter einem Mangel an finanziellen Mitteln und wurde nach seiner ersten Version nicht weiter gepflegt. Andere Projekte, wie ViolaWWW, entstanden ebenfalls in dieser Zeit.
+Im Jahr 1992 erschienen mehrere andere experimentelle Browser. Einer der bemerkenswertesten war Erwise, entwickelt von vier finnischen Studenten für das Unix-basierte X Window System. Es war der erste Browser, der ein grafisches Interface für diese Art von Umgebung enthielt. Trotz seiner technischen Vorzüge litt er unter einem Mangel an finanziellen Mitteln und wurde nach seiner ersten Version nicht weiter gepflegt. Andere Projekte, wie ViolaWWW, entstanden ebenfalls in dieser Zeit.
 
 
 
@@ -5092,7 +5092,7 @@ Im Jahr 1992 erschienen mehrere andere experimentelle Browser. Einer der bemerke
 
 
 
-Aber erst 1993 trat das Web mit dem Erscheinen von NCSA Mosaic wirklich in eine Phase des schnellen Wachstums ein. Dieser Browser wurde von Marc Andreessen und Eric Bina am NCSA (*National Center for Supercomputing Applications*) in den USA entwickelt. Mosaic ist der erste Mainstream-Browser, der Text und Bilder nahtlos in einem einzigen Fenster kombiniert. Er kann Bilder direkt in Webseiten anzeigen (GIF- und XBM-Formate), was einen ergonomischen Durchbruch im Vergleich zu Textbrowsern wie Lynx darstellt. Mosaic führte auch die Unterstützung von Formularen ein und ebnete damit den Weg für echte Interaktivität zwischen Benutzer und Webserver. Mosaic wurde schnell auf verschiedene Betriebssysteme (Windows, Mac, Unix) portiert und war somit leicht zu verbreiten. Innerhalb eines Jahres wurde es zum Standardwerkzeug für die Erkundung des Webs.
+Aber erst 1993 trat das Web mit dem Erscheinen von NCSA Mosaic wirklich in eine Phase des schnellen Wachstums ein. Dieser Browser wurde von Marc Andreessen und Eric Bina am NCSA (*National Center for Supercomputing Applications*) in den USA entwickelt. Mosaic war der erste Mainstream-Browser, der Text und Bilder nahtlos in einem einzigen Fenster kombinierte. Er konnte Bilder direkt in Webseiten anzeigen (GIF- und XBM-Formate), was einen ergonomischen Durchbruch im Vergleich zu Textbrowsern wie Lynx darstellte. Mosaic führte auch die Unterstützung von Formularen ein und ebnete damit den Weg für echte Interaktivität zwischen Benutzer und Webserver. Mosaic wurde schnell auf verschiedene Betriebssysteme (Windows, Mac, Unix) portiert und war somit leicht zu verbreiten. Innerhalb eines Jahres wurde er zum Standardwerkzeug für die Erkundung des Webs.
 
 
 
@@ -5100,7 +5100,7 @@ Aber erst 1993 trat das Web mit dem Erscheinen von NCSA Mosaic wirklich in eine 
 
 
 
-1994 verliess Marc Andreessen das NCSA und gründete zusammen mit Jim Clark Netscape Communications. Ein grosser Teil des Teams, das an Mosaic gearbeitet hatte, schloss sich ihm an. Kurz darauf bringt das Unternehmen den Netscape Navigator auf den Markt, einen Browser, der auf den Grundlagen von Mosaic basiert, aber eine bessere Leistung und technische Verbesserungen aufweist. 1995 führte Netscape die von Brendan Eich entwickelte JavaScript-Sprache ein, die es ermöglichte, Webseiten dynamisch zu gestalten, d.h. auf Benutzeraktionen zu reagieren, ohne die Seite neu zu laden.
+1994 verliess Marc Andreessen das NCSA und gründete zusammen mit Jim Clark Netscape Communications. Ein grosser Teil des Teams, das an Mosaic gearbeitet hatte, schloss sich ihm an. Kurz darauf brachte das Unternehmen den Netscape Navigator auf den Markt, einen Browser, der auf den Grundlagen von Mosaic basierte, aber eine bessere Leistung und technische Verbesserungen aufwies. 1995 führte Netscape die von Brendan Eich entwickelte JavaScript-Sprache ein, die es ermöglichte, Webseiten dynamisch zu gestalten, d.h. auf Benutzeraktionen zu reagieren, ohne die Seite neu zu laden.
 
 
 
@@ -5116,11 +5116,11 @@ Dank seiner Benutzerfreundlichkeit, seiner plattformübergreifenden Kompatibilit
 
 
 
-Der kometenhafte Erfolg des Netscape Navigator Mitte der 90er Jahre ging auch Microsoft nicht entgangen, das schnell die strategische Bedeutung des Webbrowsers für die Zukunft der Computertechnik erkannte. Im August 1995, wenige Tage nach der Veröffentlichung von Windows 95, brachte Microsoft die erste Version des Internet Explorer auf den Markt, die zunächst auf einer kommerziellen Lizenz des Spyglass Mosaic-Quellcodes basierte (eine andere kommerzielle Version von Mosaic als die am NCSA entwickelte).
+Der kometenhafte Erfolg des Netscape Navigator Mitte der 90er Jahre war auch Microsoft nicht entgangen, das schnell die strategische Bedeutung des Webbrowsers für die Zukunft der Computertechnik erkannte. Im August 1995, wenige Tage nach der Veröffentlichung von Windows 95, brachte Microsoft die erste Version des Internet Explorer auf den Markt, die zunächst auf einer kommerziellen Lizenz des Spyglass Mosaic-Quellcodes basierte (eine andere kommerzielle Version von Mosaic als die am NCSA entwickelte).
 
 
 
-Die erste Version des Internet Explorer war noch rudimentär, aber Microsoft begann eine aggressive Entwicklungspolitik. 1996 begann Microsoft mit dem Internet Explorer 3.0, seinen Browser direkt in das Windows-Betriebssystem zu integrieren, so dass die Benutzer keinen Browser eines Drittanbieters mehr herunterladen mussten. Diese Integration wurde 1997 mit dem Internet Explorer 4.0 verstärkt, der eine neue proprietäre Rendering-Engine namens Trident einführte. Diese Engine verbessert die Geschwindigkeit der Seitendarstellung beträchtlich und ist tief in den Windows Interface integriert.
+Die erste Version des Internet Explorer war noch rudimentär, aber Microsoft begann eine aggressive Entwicklungspolitik. 1996 begann Microsoft mit dem Internet Explorer 3.0, seinen Browser direkt in das Windows-Betriebssystem zu integrieren, so dass die Benutzer keinen Browser eines Drittanbieters mehr herunterladen mussten. Diese Integration wurde 1997 mit dem Internet Explorer 4.0 verstärkt, der eine neue proprietäre Rendering-Engine namens Trident einführte. Diese Engine verbessert die Geschwindigkeit der Seitendarstellung beträchtlich und war tief in das Windows Interface integriert.
 
 
 
@@ -5181,8 +5181,8 @@ Firefox führte auch mehrere Innovationen ein, die das Surfen im Internet nachha
 
 
 - ein modulares Erweiterungssystem, das es den Nutzern ermöglicht, auf einfache Weise neue Funktionen hinzuzufügen, ohne den Kern des Browsers zu verändern;
-- tabbed Browsing, das bei der breiten Öffentlichkeit beliebt ist, obwohl es bereits in älteren Browsern wie Opera vorhanden ist;
-- datenschutz-Tools wie Pop-up-Blocker, ein integrierter Passwort-Manager und Feinabstimmungsoptionen für Cookies und JavaScript.
+- tabbed Browsing, das bei der breiten Öffentlichkeit beliebt ist, obwohl es bereits in älteren Browsern wie Opera vorhanden war;
+- Datenschutz-Tools wie Pop-up-Blocker, ein integrierter Passwort-Manager und Feinabstimmungsoptionen für Cookies und JavaScript.
 
 
 
@@ -5198,7 +5198,7 @@ In der Zwischenzeit entwickelte Apple seinen eigenen nativen Browser für macOS.
 
 
 
-Safari wurde ab Mac OS X Panther (10.3) zum Standardbrowser auf allen Macs und ersetzte nach und nach den Internet Explorer für Mac, den Microsoft 2005 aufgab. WebKit wird später auch in vielen anderen Browsern verwendet werden.
+Safari wurde ab Mac OS X Panther (10.3) zum Standardbrowser auf allen Macs und ersetzte nach und nach den Internet Explorer für Mac, den Microsoft 2005 aufgab. WebKit würde später auch in vielen anderen Browsern verwendet werden.
 
 
 
@@ -5228,7 +5228,7 @@ Chrome basierte ursprünglich auf zwei technischen Säulen:
 
 
 
-Der eigentliche Durchbruch von Chrome liegt jedoch in seiner Multiprozess-Architektur. Jede Registerkarte wird in einem isolierten Prozess ausgeführt, wobei eine Sandbox-Technik verwendet wird, die verhindert, dass eine bösartige Seite den gesamten Browser kompromittiert. Diese Isolierung verbessert auch die Stabilität: Wenn eine Registerkarte abstürzt, bleiben die anderen funktionsfähig. Hinzu kommt ein minimalistischer, inhaltsorientierter Interface ohne Menüleiste, eine kombinierte Address- und Suchleiste (*Omnibox*) und stille Hintergrundaktualisierungen.
+Der eigentliche Durchbruch von Chrome liegt jedoch in seiner Multiprozess-Architektur. Jede Registerkarte wird in einem isolierten Prozess ausgeführt, wobei eine Sandbox-Technik verwendet wird, die verhindert, dass eine bösartige Seite den gesamten Browser kompromittiert. Diese Isolierung verbessert auch die Stabilität: Wenn eine Registerkarte abstürzt, bleiben die anderen funktionsfähig. Hinzu kommt ein minimalistisches, inhaltsorientiertes Interface ohne Menüleiste, eine kombinierte Address- und Suchleiste (*Omnibox*) und stille Hintergrundaktualisierungen.
 
 
 
@@ -5240,7 +5240,7 @@ Unterstützt durch die Marke Google und eine äusserst wirksame Marketingkampagn
 
 
 
-Im Jahr 2013 kündigte Google eine wichtige strategische Änderung an: Es würde Fork WebKit, um eine neue unabhängige Rendering-Engine zu schaffen, genannt Blink. Dies Fork wird mit technischen und organisatorischen Unterschieden zu Apple erklärt, vor allem in Bezug auf die Architektur der Engine und die Integration experimenteller Funktionen. Blink wurde ab Version 28 die exklusive Engine für Chrome und wurde später von vielen anderen Browsern übernommen: Opera (das Presto im Jahr 2013 aufgegeben hat), Vivaldi, Brave, Microsoft Edge (seit 2020) und andere.
+Im Jahr 2013 kündigte Google eine wichtige strategische Änderung an: Es würde WebKit forken, um eine neue unabhängige Rendering-Engine zu schaffen, genannt Blink. Diese Fork wird mit technischen und organisatorischen Unterschieden zu Apple begründet, vor allem in Bezug auf die Architektur der Engine und die Integration experimenteller Funktionen. Blink wurde ab Version 28 die exklusive Engine für Chrome und wurde später von vielen anderen Browsern übernommen: Opera (das Presto im Jahr 2013 aufgegeben hatte), Vivaldi, Brave, Microsoft Edge (seit 2020) und andere.
 
 
 
@@ -5256,11 +5256,11 @@ Chrome hat die Leistungs-, Sicherheits- und Ergonomiestandards moderner Browser 
 
 
 
-Die Rendering Engine ist die Kernkomponente eines Webbrowsers. Ihre Hauptaufgabe besteht darin, die von einem Server empfangenen Dateien (HTML, CSS, JavaScript, Bilder, Schriftarten ...) in generate eine interaktive grafische Interface zu interpretieren. Die Rendering-Engine ist wie ein Dolmetscher zwischen den Websprachen und Ihrem Bildschirm, der Codezeilen in eine visuell kohärente, interaktive und funktionale Seite übersetzt.
+Die Rendering Engine ist die Kernkomponente eines Webbrowsers. Ihre Hauptaufgabe besteht darin, die von einem Server empfangenen Dateien (HTML, CSS, JavaScript, Bilder, Schriftarten ...) in einem interaktiven grafischen Interface zu interpretieren. Die Rendering-Engine ist wie ein Dolmetscher zwischen den Websprachen und deinem Bildschirm, der Codezeilen in eine visuell kohärente, interaktive und funktionale Seite übersetzt.
 
 
 
-Konkret: Wenn Sie eine URL in die Address-Leiste eingeben:
+Konkret: Wenn du eine URL in die Address-Leiste eingibst:
 
 
 
@@ -5278,15 +5278,15 @@ Dieser gesamte Prozess muss schnell und flüssig ablaufen, um dem Benutzer auch 
 
 
 
-Im Folgenden finden Sie einen historischen Überblick über die wichtigsten Rendering-Engines, die die Entwicklung des Internets geprägt haben:
+Im Folgenden findest du einen historischen Überblick über die wichtigsten Rendering-Engines, die die Entwicklung des Internets geprägt haben:
 
 
 
-#### Dreizack (1997 - 2015)
+#### Trident (1997 - 2015)
 
 
 
-Die von Microsoft für den Internet Explorer 4 entwickelte Trident-Engine dominierte das Web in den frühen 2000er Jahren und stand im Mittelpunkt der Browser-Kriege. Obwohl er in seinen Anfängen innovativ war, geriet er schnell ins Hintertreffen, was die Einhaltung der W3C-Standards betraf, was dazu führte, dass viele Websites ausschliesslich für den Internet Explorer optimiert wurden.
+Die von Microsoft für den Internet Explorer 4 entwickelte Trident-Engine dominierte das Web in den frühen 2000er Jahren und stand im Mittelpunkt der Browser-Kriege. Obwohl er in seinen Anfängen innovativ war, geriet er schnell ins Hintertreffen, was die Einhaltung der W3C-Standards betraf. Das führte dazu, dass viele Websites ausschliesslich für den Internet Explorer optimiert wurden.
 
 
 
@@ -5356,7 +5356,7 @@ WebKit zeichnet sich durch seine Geschwindigkeit und seinen geringen Platzbedarf
 
 
 
-#### Blinzeln (2013)
+#### Blink (2013)
 
 
 
@@ -5428,7 +5428,7 @@ Innerhalb von dreissig Jahren hat sich der Webbrowser von einem einfachen Anzeig
 
 
 
-Im nächsten Kapitel geben wir Ihnen einen Überblick über die derzeit verfügbaren Browser, von den traditionellen bis hin zu den futuristischen, und vergleichen ihre Vor- und Nachteile, damit Sie eine fundierte Wahl treffen können.
+Im nächsten Kapitel geben wir dir einen Überblick über die derzeit verfügbaren Browser, von den traditionellen bis hin zu den futuristischen, und vergleichen ihre Vor- und Nachteile, damit du eine fundierte Wahl treffen kannst.
 
 
 
@@ -5443,7 +5443,7 @@ Nachdem wir uns mit der Geschichte und der Entwicklung von Browsern befasst habe
 
 
 
-Ziel dieses Kapitels ist es, Ihnen bei der Auswahl des Browsers zu helfen, der Ihren Bedürfnissen am besten entspricht. Ich habe sie nach Rendering Engine geordnet, aber die Reihenfolge spiegelt keine Rangfolge wider.
+Ziel dieses Kapitels ist es, dir bei der Auswahl des Browsers zu helfen, der deinen Bedürfnissen am besten entspricht. Ich habe sie nach Rendering Engine geordnet, aber die Reihenfolge spiegelt keine Rangfolge wider.
 
 
 
@@ -5475,7 +5475,7 @@ Google Chrome basiert auf dem Chromium-Projekt, das Open Source ist. Allerdings 
 
 
 
-Ich würde also nicht empfehlen, Google Chrome zu verwenden, weder privat noch beruflich (es sei denn, Ihr Unternehmen hängt von der Google-Suite ab). In der Tat gibt es einige ausgezeichnete Alternativen zu den Google-Diensten, sowohl lokal als auch in der Cloud. Ich lade Sie insbesondere ein, die von Proton angebotenen Dienste zu entdecken:
+Ich würde also nicht empfehlen, Google Chrome zu verwenden, weder privat noch beruflich (es sei denn, dein Unternehmen hängt von der Google-Suite ab). In der Tat gibt es einige ausgezeichnete Alternativen zu den Google-Diensten, sowohl lokal als auch in der Cloud. Ich lade dich insbesondere ein, die von Proton angebotenen Dienste zu entdecken:
 
 
 
@@ -5483,7 +5483,7 @@ https://planb.network/tutorials/computer-security/communication/proton-mail-c3b0
 
 https://planb.network/tutorials/computer-security/data/proton-drive-03cbe49f-6ddc-491f-8786-bc20d98ebb16
 
-#### Mutig
+#### Brave
 
 
 
@@ -5511,29 +5511,29 @@ Obwohl Brave diese API inzwischen deaktiviert hat, zeigt dieser Fall deutlich di
 
 
 
-→ "***Fingerprinting***" im Zusammenhang mit dem Surfen im Internet bezieht sich auf eine Reihe von Techniken, die das Sammeln und Analysieren spezifischer und manchmal einzigartiger Informationen über Ihre Surfumgebung beinhalten, um Sie auf verschiedenen Websites zu erkennen und zu verfolgen, ohne auf explizite Identifikatoren wie Cookies zurückzugreifen. Diese Informationen können Folgendes umfassen:
+→ "***Fingerprinting***" im Zusammenhang mit dem Surfen im Internet bezieht sich auf eine Reihe von Techniken, die das Sammeln und Analysieren spezifischer und manchmal einzigartiger Informationen über deine Surfumgebung beinhalten, um dich auf verschiedenen Websites zu erkennen und zu verfolgen, ohne auf explizite Identifikatoren wie Cookies zurückzugreifen. Diese Informationen können Folgendes umfassen:
 
 
 
 
-- Ihr IP Address,
-- Ihr Internetdienstanbieter,
-- Ihre Geolocation,
-- Ihr Browser und seine Eigenschaften,
-- Ihr Betriebssystem,
-- Ihre Software-Version,
+- deine IP Address,
+- dein Internetdienstanbieter,
+- deine Geolocation,
+- dein Browser und seine Eigenschaften,
+- dein Betriebssystem,
+- deine Software-Version,
 - Installierte Schriftarten,
-- Ihre Bildschirmauflösung und -grösse,
+- deine Bildschirmauflösung und -grösse,
 - Farbtiefe,
-- Ihre Zeitzone und Sprache,
+- deine Zeitzone und Sprache,
 - HTML5-Leinwand,
 - Grafische Rendering-Analyse,
-- Ihre Browser-Erweiterungen,
+- deine Browser-Erweiterungen,
 - usw...
 
 
 
-Um zu überprüfen, ob Ihr Browser-Fingerabdruck Sie einzigartig macht oder ob Sie mit der Masse verschmelzen, können Sie die folgende Website nutzen: https://amiunique.org/
+Um zu überprüfen, ob dein Browser-Fingerabdruck dich einzigartig macht oder ob du mit der Masse verschmilzt, kannst du die folgende Website nutzen: https://amiunique.org/
 
 
 
@@ -5553,11 +5553,11 @@ Was die Sicherheit betrifft, so bietet Vivaldi mehrere Funktionen zum Blockieren
 
 
 
-#### Oper
+#### Opera
 
 
 
-[Opera] (https://www.opera.com/) ist ein langjähriger Browser, den es bereits seit 1995 gibt. Er verwendet jetzt Blink, nachdem er seine proprietäre Engine (*Presto*) aufgegeben hat. Er hat einen modernen Interface und einige innovative Funktionen.
+[Opera] (https://www.opera.com/) ist ein langjähriger Browser, den es bereits seit 1995 gibt. Er verwendet jetzt Blink, nachdem er seine proprietäre Engine (*Presto*) aufgegeben hat. Er hat ein modernes Interface und einige innovative Funktionen.
 
 
 
@@ -5579,11 +5579,11 @@ Zu den auf Blink basierenden Browsern gehören auch eine Reihe von eher marginal
 
 
 
-- Bogen** :
+- **Arc** :
 
 
 
-Der von The Browser Company entwickelte [Arc](https://arc.net/) bietet einen radikal anderen Ansatz für den Benutzer Interface. Er ersetzt die traditionellen Registerkarten durch ein System von "*Spaces*", eine einheitliche Seitenleiste und integriert kreative Tools wie kommentierbare Captures und einen einfachen Site-Editor. Der Schwerpunkt liegt auf der Benutzerfreundlichkeit, der visuellen Anpassung und der flüssigen Nutzung, so dass dieses Tool von einigen Fachleuten bevorzugt wird.
+Der von The Browser Company entwickelte [Arc](https://arc.net/) bietet einen radikal anderen Ansatz für das Benutzer-Interface. Er ersetzt die traditionellen Registerkarten durch ein System von "*Spaces*", eine einheitliche Seitenleiste und integriert kreative Tools wie kommentierbare Captures und einen einfachen Site-Editor. Der Schwerpunkt liegt auf der Benutzerfreundlichkeit, der visuellen Anpassung und der flüssigen Nutzung, so dass dieses Tool von einigen Fachleuten bevorzugt wird.
 
 
 
@@ -5597,7 +5597,7 @@ Aus technischer Sicht basiert Arc auf Chromium, bleibt aber eine proprietäre So
 
 
 
-- Polypan** :
+- **Polypane** :
 
 
 
@@ -5665,11 +5665,11 @@ Der Nachteil ist eine erhebliche Leistungseinbusse (hohe Latenz) und eine einges
 
 https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
-Er verfügt über die meisten der Sicherheits- und Datenschutzfunktionen, die der Tor-Browser bietet, mit einem Unterschied: Er leitet den Datenverkehr nicht über das Tor-Netzwerk um. Um IP Address-Lecks zu vermeiden, können Sie ihn in Kombination mit einem VPN (idealerweise Mullvad VPN) verwenden.
+Er verfügt über die meisten der Sicherheits- und Datenschutzfunktionen, die der Tor-Browser bietet, mit einem Unterschied: Er leitet den Datenverkehr nicht über das Tor-Netzwerk um. Um IP Address-Lecks zu vermeiden, kannst du ihn in Kombination mit einem VPN (idealerweise Mullvad VPN) verwenden.
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
-Mullvad Browser ist eine ausgezeichnete Lösung, wenn Sie sich um Ihre Privatsphäre sorgen, egal ob Sie Anfänger oder fortgeschrittener Nutzer sind.
+Mullvad Browser ist eine ausgezeichnete Lösung, wenn du dich um deine Privatsphäre sorgst, egal ob du Anfänger oder fortgeschrittener Nutzer bist.
 
 
 
@@ -5677,7 +5677,7 @@ Mullvad Browser ist eine ausgezeichnete Lösung, wenn Sie sich um Ihre Privatsph
 
 
 
-#### Librewolf
+#### m
 
 
 
@@ -5685,7 +5685,7 @@ Mullvad Browser ist eine ausgezeichnete Lösung, wenn Sie sich um Ihre Privatsph
 
 
 
-Standardmässig aktiviert LibreWolf die erweiterten Sicherheitseinstellungen von Firefox (z.B. den strengen Tracking-Schutzmodus) und deaktiviert die DRM-Unterstützung. Das Projekt ist vollständig quelloffen und gemeinschaftsbasiert und ist nicht auf die Finanzierung durch private Unternehmen angewiesen. Ich empfehle es, wenn Sie einen "abgehärteten" Firefox suchen, mit maximaler Kontrolle über Ihre Daten.
+Standardmässig aktiviert LibreWolf die erweiterten Sicherheitseinstellungen von Firefox (z.B. den strengen Tracking-Schutzmodus) und deaktiviert die DRM-Unterstützung. Das Projekt ist vollständig quelloffen und gemeinschaftsbasiert und ist nicht auf die Finanzierung durch private Unternehmen angewiesen. Ich empfehle es, wenn du einen "abgehärteten" Firefox suchst, mit maximaler Kontrolle über deine Daten.
 
 
 
@@ -5699,7 +5699,7 @@ https://planb.network/tutorials/computer-security/communication/librewolf-1783e9
 
 [Zen Browser] (https://zen-browser.app/) ist ein freier und quelloffener Browser, der auf Firefox (Gecko-Engine) basiert und 2024 auf den Markt kam. Sein Ziel ist es, ein modernes, elegantes, hochgradig anpassbares und vor allem datenschutzfreundliches Browsing-Erlebnis zu bieten, ohne von Chromium abhängig zu sein.
 
-Zen zeichnet sich durch seine radikale Herangehensweise an Interface und seine Benutzerfreundlichkeit aus, die weitgehend vom Arc-Browser inspiriert ist, sich aber durch seinen Open-Source-Charakter und die Gecko-Engine von ihm emanzipiert. Er umfasst :
+Zen zeichnet sich durch seine radikale Herangehensweise an das Interface und seine Benutzerfreundlichkeit aus, die weitgehend vom Arc-Browser inspiriert ist, sich aber durch seinen Open-Source-Charakter und die Gecko-Engine von ihm emanzipiert. Er umfasst :
 
 - Ein minimalistisches, modulares Interface, mit einer vertikalen Seitenleiste für Registerkarten, einer geteilten Ansicht und einem *Arbeitsbereich*-System zur Gruppierung von Registerkarten nach Projekten;
 - Ein System von anpassbaren Interface-Vorlagen (*Zen Mods*), mit denen das Aussehen des Browsers tiefgreifend verändert werden kann;
@@ -5709,7 +5709,7 @@ Zen unterstützt auch Firefox-Erweiterungen sowie die Synchronisierung über ein
 
 Aus Sicht der Sicherheit und des Datenschutzes bietet Zen eine native Blockierung von Trackern Dritter. Der Browser sammelt selbst keine Daten und erlaubt auch die Deaktivierung der Mozilla-Telemetrie. Ausserdem lehnt er veraltete oder nicht konforme SSL-Zertifikate automatisch ab.
 
-Zen Browser ist eine interessante Alternative, wenn Sie eine Gecko-Browsing-Umgebung suchen, die kostenlos, innovativ und übersichtlich ist und Ihre Privatsphäre respektiert.
+Zen Browser ist eine interessante Alternative, wenn du eine Gecko-Browsing-Umgebung suchst, die kostenlos, innovativ und übersichtlich ist und deine Privatsphäre respektiert.
 
 https://planb.network/tutorials/computer-security/operating-system/zen-browser-f1afc500-1933-409a-a2b7-b6c1c43ec285
 
@@ -5777,7 +5777,7 @@ Dieses Modell hat natürlich grosse Einschränkungen: das völlige Fehlen einer 
 
 
 
-Luchs kann in bestimmten, sehr spezifischen Kontexten immer noch interessant sein:
+Lynx kann in bestimmten, sehr spezifischen Kontexten immer noch interessant sein:
 
 
 
@@ -5794,7 +5794,7 @@ Luchs kann in bestimmten, sehr spezifischen Kontexten immer noch interessant sei
 
 
 
-Für Nutzer, die standardmässig Wert auf Sicherheit und Datenschutz legen, ohne zahlreiche Einstellungen manuell ändern zu müssen, und die einen Allzweckbrowser für den täglichen Gebrauch suchen, sind LibreWolf und Mullvad Browser meiner Meinung nach die beste Wahl. Wenn es Ihnen nichts ausmacht, eine Chromium-Basis zu verwenden (trotz der damit verbundenen Risiken und einer ganz anderen Philosophie), können Sie auch Brave in Betracht ziehen. Wie Sie sehen können, bevorzuge ich die Gecko-Rendering-Engine aus vielen Gründen, auch wenn sie derzeit in Bezug auf die Leistung hinter Blink zurückbleibt.
+Für Nutzer, die standardmässig Wert auf Sicherheit und Datenschutz legen, ohne zahlreiche Einstellungen manuell ändern zu müssen, und die einen Allzweckbrowser für den täglichen Gebrauch suchen, sind LibreWolf und Mullvad Browser meiner Meinung nach die beste Wahl. Wenn es dir nichts ausmacht, eine Chromium-Basis zu verwenden (trotz der damit verbundenen Risiken und einer ganz anderen Philosophie), kannst du auch Brave in Betracht ziehen. Wie du sehen kannst, bevorzuge ich die Gecko-Rendering-Engine aus vielen Gründen, auch wenn sie derzeit in Bezug auf die Leistung hinter Blink zurückbleibt.
 
 
 
@@ -5810,11 +5810,11 @@ Chrome kann trotz seiner Beliebtheit nicht als Teil eines Konzepts für digitale
 
 
 
-Die Wahl Ihres Browsers spielt heute eine wichtige Rolle für Ihre Online-Sicherheit und Ihre Privatsphäre. Nehmen Sie sich also die Zeit, um den Browser zu finden, der Ihrem Risikoprofil und Ihren Prioritäten am besten entspricht.
+Die Wahl deines Browsers spielt heute eine wichtige Rolle für deine Online-Sicherheit und Ihre Privatsphäre. Nimm dir also die Zeit, um den Browser zu finden, der deinem Risikoprofil und deinen Prioritäten am besten entspricht.
 
 
 
-Hier ist eine kurze Zusammenfassung, die Ihnen bei der Wahl helfen soll (bedenken Sie jedoch, dass sich dieser Vergleich im Laufe der Zeit, seit SCU202 geschrieben wurde, weiterentwickelt haben kann, und dass die Bewertung des Interface und seiner Funktionen in erster Linie eine Frage der persönlichen Einschätzung ist):
+Hier ist eine kurze Zusammenfassung, die dir bei der Wahl helfen soll (bedenke jedoch, dass sich dieser Vergleich im Laufe der Zeit, seit SCU202 geschrieben wurde, weiterentwickelt haben kann, und dass die Bewertung des Interface und seiner Funktionen in erster Linie eine Frage der persönlichen Einschätzung ist):
 
 
 
@@ -5850,19 +5850,19 @@ Im vorangegangenen Kapitel haben wir die wichtigsten derzeit verfügbaren Browse
 
 
 
-Doch selbst der sicherste Browser reicht nicht aus: Die Art und Weise, wie Sie ihn verwenden, ist entscheidend für den Schutz Ihrer digitalen Sicherheit. In diesem Kapitel werfen wir einen detaillierten Blick auf die wichtigsten Best Practices zur Minimierung der Risiken, die mit der täglichen Internetnutzung verbunden sind.
+Doch selbst der sicherste Browser reicht nicht aus: Die Art und Weise, wie du ihn verwendest, ist entscheidend für den Schutz deiner digitalen Sicherheit. In diesem Kapitel werfen wir einen detaillierten Blick auf die wichtigsten Best Practices zur Minimierung der Risiken, die mit der täglichen Internetnutzung verbunden sind.
 
 
 
-### Halten Sie Ihren Browser auf dem neuesten Stand
+### Halte deinen Browser auf dem neuesten Stand
 
 
 
-Der Webbrowser ist eine der am meisten beanspruchten Softwarekomponenten in einem Computersystem. Im Gegensatz zu den meisten anderen Programmen verarbeitet er dynamische Inhalte aus dem Internet in Echtzeit, was grundsätzlich unzuverlässig ist. Wenn eine Website geladen wird, führt der Browser Remote-Code aus, der über die Rendering Engine direkt mit Ihrem System interagiert.
+Der Webbrowser ist eine der am meisten beanspruchten Softwarekomponenten in einem Computersystem. Im Gegensatz zu den meisten anderen Programmen verarbeitet er dynamische Inhalte aus dem Internet in Echtzeit, was grundsätzlich unzuverlässig ist. Wenn eine Website geladen wird, führt der Browser Remote-Code aus, der über die Rendering Engine direkt mit deinem System interagiert.
 
 
 
-Diese technische Komplexität in Verbindung mit einer massiven Angriffsfläche macht den Browser zu einem vorrangigen Ziel für Angreifer. Kritische Schwachstellen in Rendering-Engines (wie Blink oder Gecko), Bildanalysebibliotheken oder Speichermanagern können so genannte "Zero-Click"-Angriffe (einfach eine mit Fallen versehene Website besuchen und schon ist der Rechner kompromittiert) oder "Zero-Day"-Angriffe (dem Hersteller unbekannte Schwachstelle) ermöglichen.
+Diese technische Komplexität in Verbindung mit einer massiven Angriffsfläche macht den Browser zu einem vorrangigen Ziel für Angreifer. Kritische Schwachstellen in Rendering-Engines (wie Blink oder Gecko), Bildanalysebibliotheken oder Speichermanager können so genannte "Zero-Click"-Angriffe (einfach eine mit Fallen versehene Website besuchen und schon ist der Rechner kompromittiert) oder "Zero-Day"-Angriffe (dem Hersteller unbekannte Schwachstelle) ermöglichen.
 
 
 
@@ -5874,13 +5874,13 @@ Um diese Risiken zu verringern, veröffentlichen die Browserhersteller sehr häu
 
 
 
-Es ist daher zwingend erforderlich:
+Folgendes ist daher zwingend erforderlich:
 
 
 
 
-- aktivieren Sie automatische Updates für Ihren Browser und überprüfen Sie regelmässig manuell, ob Updates verfügbar sind;
-- oder, wenn Sie eine manuell gepackte Version verwenden (z.B. über `apt`, `flatpak` oder `snap` unter Linux), aktualisieren Sie das gesamte System regelmässig über Ihren Paketmanager.
+- aktiviere automatische Updates für deinen Browser und überprüfe regelmässig manuell, ob Updates verfügbar sind;
+- oder, wenn du eine manuell gepackte Version verwendest (z.B. über `apt`, `flatpak` oder `snap` unter Linux), aktualisiere das gesamte System regelmässig über deinen Paketmanager.
 
 
 
@@ -5889,8 +5889,8 @@ Um die Version manuell zu prüfen und eine Aktualisierung auszulösen:
 
 
 
-- in Firefox: menü > Einstellungen > Firefox Updates";
-- kommandozeile unter Linux (`apt`-Pakete):
+- in Firefox: Menü > Einstellungen > Firefox Updates";
+- Kommandozeile unter Linux (`apt`-Pakete):
 
 
 
@@ -5900,11 +5900,11 @@ sudo apt update && sudo apt upgrade firefox
 
 
 
-Die Aktualisierung Ihres Browsers, Ihrer Software und Ihres Betriebssystems ist einer der ersten konkreten Schritte, die Sie im Bereich der Cybersicherheit unternehmen können.
+Die Aktualisierung deines Browsers, deiner Software und deines Betriebssystems ist einer der ersten konkreten Schritte, die du im Bereich der Cybersicherheit unternehmen kannst.
 
 
 
-### Verwenden Sie sichere, eindeutige Passwörter
+### Verwende sichere, eindeutige Passwörter
 
 
 
@@ -5916,11 +5916,11 @@ Der erste Grundsatz bei Passwörtern ist, sie nicht wiederzuverwenden. Jedes Onl
 
 
 
-Wenn Sie beispielsweise dasselbe Kennwort für eine Videospielplattform und für Ihr E-Mail-Konto verwenden und dieses Kennwort über eine mit der Spieleplattform verknüpfte Phishing-Website kompromittiert wird, könnte der Angreifer dann problemlos auf Ihr E-Mail-Konto zugreifen und die Kontrolle über alle Ihre anderen Online-Konten übernehmen.
+Wenn du beispielsweise dasselbe Kennwort für eine Videospielplattform und für dein E-Mail-Konto verwendest und dieses Kennwort über eine mit der Spieleplattform verknüpfte Phishing-Website kompromittiert wird, könnte der Angreifer dann problemlos auf dein E-Mail-Konto zugreifen und die Kontrolle über alle deine anderen Online-Konten übernehmen.
 
 
 
-Der zweite wichtige Grundsatz ist ein sicheres Passwort. Ein Passwort gilt als sicher, wenn es schwer zu knacken ist, d.h. durch Ausprobieren gefunden werden kann. Das bedeutet, dass Ihre Passwörter so zufällig wie möglich sein sollten, lang und eine Vielzahl von Zeichen enthalten sollten (Klein- und Grossbuchstaben, Zahlen und Symbole).
+Der zweite wichtige Grundsatz ist ein sicheres Passwort. Ein Passwort gilt als sicher, wenn es schwer zu knacken ist, d.h. durch Ausprobieren gefunden werden kann. Das bedeutet, dass deine Passwörter so zufällig wie möglich sein sollten, lang und eine Vielzahl von Zeichen enthalten sollten (Klein- und Grossbuchstaben, Zahlen und Symbole).
 
 
 
@@ -5928,7 +5928,7 @@ Die Anwendung dieser beiden Grundsätze der Passwortsicherheit (Einzigartigkeit 
 
 
 
-Ein Passwort-Manager generiert und speichert sichere Passwörter, mit denen Sie auf alle Ihre Online-Konten zugreifen können, ohne sie sich einzeln merken zu müssen. Sie müssen sich nur ein einziges Passwort merken, das Master-Passwort, mit dem Sie Zugriff auf alle im Manager gespeicherten Passwörter haben. Die Verwendung eines Passwortmanagers stärkt Ihre Online-Sicherheit, da er die Wiederverwendung von Passwörtern verhindert und systematisch Zufallspasswörter generiert.
+Ein Passwort-Manager generiert und speichert sichere Passwörter, mit denen du auf alle deine Online-Konten zugreifen kannst, ohne sie sich einzeln merken zu müssen. Du musst dir nur ein einziges Passwort merken, das Master-Passwort, mit dem du Zugriff auf alle im Manager gespeicherten Passwörter hast. Die Verwendung eines Passwortmanagers stärkt deine Online-Sicherheit, da er die Wiederverwendung von Passwörtern verhindert und systematisch Zufallspasswörter generiert.
 
 
 
@@ -5936,11 +5936,11 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-Die Verwendung eines Passwortmanagers hat eine Reihe von Vorteilen: Er vereinfacht Ihr tägliches Leben, da Sie sich nicht mehr eine Vielzahl von Passwörtern merken müssen, und minimiert die grösste Schwachstelle bei der Authentifizierung: den Benutzer selbst.
+Die Verwendung eines Passwortmanagers hat eine Reihe von Vorteilen: Er vereinfacht dein tägliches Leben, da du dir nicht mehr eine Vielzahl von Passwörtern merken musst, und minimiert die grösste Schwachstelle bei der Authentifizierung: den Benutzer selbst.
 
 
 
-Bei der Authentifizierung muss die Verwendung eines Passwortmanagers durch eine Zwei-Faktor-Authentifizierungslösung (2FA) ergänzt werden, die für alle Konten verwendet werden muss, die sie unterstützen. Idealerweise sollten Sie eine spezielle Anwendung oder noch besser ein physisches Gerät wie ein Yubikey verwenden.
+Bei der Authentifizierung muss die Verwendung eines Passwortmanagers durch eine Zwei-Faktor-Authentifizierungslösung (2FA) ergänzt werden, die für alle Konten verwendet werden muss, die sie unterstützen. Idealerweise solltest du eine spezielle Anwendung oder noch besser ein physisches Gerät wie ein Yubikey verwenden.
 
 
 
@@ -5956,11 +5956,11 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 
 
-Ein VPN (*Virtuelles Privates Netzwerk*) ist ein Tunneling-Tool, das den Netzwerkverkehr zwischen Ihrem Gerät und einem Zwischenserver verschlüsselt. Dieser Server fungiert als Gateway und leitet alle Ihre Verbindungen zum Internet um. Dadurch sieht Ihr Internetanbieter nur den verschlüsselten Datenverkehr, der für das VPN bestimmt ist, und die von Ihnen besuchten Websites sehen nur die IP Address des VPN-Servers, nicht Ihre.
+Ein VPN (*Virtuelles Privates Netzwerk*) ist ein Tunneling-Tool, das den Netzwerkverkehr zwischen deinem Gerät und einem Zwischenserver verschlüsselt. Dieser Server fungiert als Gateway und leitet alle deine Verbindungen zum Internet um. Dadurch sieht dein Internetanbieter nur den verschlüsselten Datenverkehr, der für das VPN bestimmt ist, und die von dir besuchten Websites sehen nur die IP Address des VPN-Servers, nicht deine.
 
 
 
-Die Verwendung eines VPN hat mehrere Vorteile. Es schützt Ihr Surfen in unsicheren Netzwerken (z.B. öffentliches WLAN in Flughäfen oder Hotels), indem es Dritte daran hindert, Ihre Daten abzufangen. Es verbirgt auch Ihre echte IP Address, was nützlich sein kann, um eine grundlegende Verfolgung zu vermeiden oder eine Verbindung aus einem anderen Land zu simulieren. Nicht zuletzt ist ein VPN ein Werkzeug zur Umgehung der Zensur. In Umgebungen, in denen der Zugang zu bestimmten Inhalten auf ISP-Ebene blockiert ist, können Sie durch Umleitung Ihres Datenverkehrs zu einem VPN-Server in einem ungefilterten Land wieder freien Zugang erhalten.
+Die Verwendung eines VPN hat mehrere Vorteile. Es schützt dein Surfen in unsicheren Netzwerken (z.B. öffentliches WLAN in Flughäfen oder Hotels), indem es Dritte daran hindert, deine Daten abzufangen. Es verbirgt auch deine echte IP Adresse, was nützlich sein kann, um eine grundlegende Verfolgung zu vermeiden oder eine Verbindung aus einem anderen Land zu simulieren. Nicht zuletzt ist ein VPN ein Werkzeug zur Umgehung der Zensur. In Umgebungen, in denen der Zugang zu bestimmten Inhalten auf ISP-Ebene blockiert ist, kannst du durch Umleitung deines Datenverkehrs zu einem VPN-Server in einem ungefilterten Land wieder freien Zugang erhalten.
 
 
 
@@ -5968,11 +5968,11 @@ Die Verwendung eines VPN hat mehrere Vorteile. Es schützt Ihr Surfen in unsiche
 
 
 
-Andererseits bietet ein VPN entgegen der landläufigen Meinung keine Anonymität. Der VPN-Anbieter kennt Ihre echte IP Address, kann Ihre Verbindungen aufzeichnen und wird zu einer vertrauenswürdigen dritten Partei. Sie übertragen Ihre gesamten Online-Aktivitäten an ihn. Wenn der Anbieter böswillig ist, verbindlichen rechtlichen Verpflichtungen unterliegt oder technisch nachlässig ist, können Ihre Daten offengelegt werden.
+Andererseits bietet ein VPN entgegen der landläufigen Meinung keine Anonymität. Der VPN-Anbieter kennt deine echte IP-Adresse, kann deine Verbindungen aufzeichnen und wird zu einer vertrauenswürdigen dritten Partei. Du überträgst deine gesamten Online-Aktivitäten an ihn. Wenn der Anbieter böswillig ist, verbindlichen rechtlichen Verpflichtungen unterliegt oder technisch nachlässig ist, können deine Daten offengelegt werden.
 
 
 
-Darüber hinaus bietet ein VPN keinen Schutz vor Malware, JavaScript-Tracking oder Cookies von Drittanbietern. Wenn Sie in Ihrem Google- oder Facebook-Konto eingeloggt sind, verhindert ein VPN nicht, dass diese Plattformen Sie genau identifizieren können. VPNs filtern auch keine Inhalte und können nicht verhindern, dass Sie über eine Sicherheitslücke im Browser von einer mit Fallen versehenen Seite angegriffen werden.
+Darüber hinaus bietet ein VPN keinen Schutz vor Malware, JavaScript-Tracking oder Cookies von Drittanbietern. Wenn du in deinem Google- oder Facebook-Konto eingeloggt bist, verhindert ein VPN nicht, dass diese Plattformen dich genau identifizieren können. VPNs filtern auch keine Inhalte und können nicht verhindern, dass du über eine Sicherheitslücke im Browser von einer mit Fallen versehenen Seite angegriffen wirst.
 
 
 
@@ -5998,42 +5998,42 @@ Hochkarätige VPNs sollten vermieden werden. Trotz ihres aggressiven Marketings 
 
 
 
-Jede Website, die Sie besuchen, speichert lokal auf Ihrem Computer Sitzungsdaten, von denen es zwei Hauptarten gibt: den Browserverlauf und Cookies.
+Jede Website, die du besuchst, speichert lokal auf deinem Computer Sitzungsdaten, von denen es zwei Hauptarten gibt: den Browserverlauf und Cookies.
 
 
 
-Der Verlauf ist eine einfache lokale Datenbank, in der alle besuchten Seiten mit Datum, Titel und manchmal auch der Uhrzeit des Besuchs aufgeführt sind. Das macht es einfach, eine zuvor geöffnete Seite zu finden. Andererseits werden dadurch alle Ihre Online-Suchen für jeden sichtbar, der Zugriff auf Ihre Sitzung hat (einschliesslich bösartiger Software oder neugieriger Verwandter).
+Der Verlauf ist eine einfache lokale Datenbank, in der alle besuchten Seiten mit Datum, Titel und manchmal auch der Uhrzeit des Besuchs aufgeführt sind. Das macht es einfach, eine zuvor geöffnete Seite zu finden. Andererseits werden dadurch alle deine Online-Suchen für jeden sichtbar, der Zugriff auf deine Sitzung hat (einschliesslich bösartiger Software oder neugieriger Verwandter).
 
 
 
-Cookies hingegen sind kleine Dateien, die vom Browser auf Anfrage von Websites gespeichert werden. Sie werden verwendet, um sich an Ihre Sitzung zu erinnern (z.B. um mit einer Website verbunden zu bleiben), Ihre Präferenzen zu speichern oder Ihr Verhalten zu statistischen Zwecken zu verfolgen. Einige Cookies sind funktional (d.h. für das ordnungsgemässe Funktionieren einer Website erforderlich), während andere von Dritten gesetzt werden (von Werbeagenturen oder Trackern auf besuchten Seiten). Letztere ermöglichen ein Site-übergreifendes Tracking, manchmal über Jahre hinweg, indem sie Ihre Surfgewohnheiten miteinander vergleichen, um ein Werbeprofil zu erstellen.
+Cookies hingegen sind kleine Dateien, die vom Browser auf Anfrage von Websites gespeichert werden. Sie werden verwendet, um sich an deine Sitzung zu erinnern (z.B. um mit einer Website verbunden zu bleiben), deine Präferenzen zu speichern oder dein Verhalten zu statistischen Zwecken zu verfolgen. Einige Cookies sind funktional (d.h. für das ordnungsgemässe Funktionieren einer Website erforderlich), während andere von Dritten gesetzt werden (von Werbeagenturen oder Trackern auf besuchten Seiten). Letztere ermöglichen ein Site-übergreifendes Tracking, manchmal über Jahre hinweg, indem sie deine Surfgewohnheiten miteinander vergleichen, um ein Werbeprofil zu erstellen.
 
 
 
-Die regelmässige Bereinigung dieser lokalen Daten ist eine einfache, aber wirksame Methode, um das Tracking einzuschränken und Ihre Privatsphäre zu schützen. Die meisten Browser bieten Optionen für:
-
-
-
-
-- entweder Sie löschen diese Daten manuell (in den Einstellungen);
-- entweder für eine automatische Löschung bei jedem Schliessen des Browsers oder für einen bestimmten Zeitraum (ich empfehle diese Option);
-- entweder um temporäre Sitzungen über einen privaten Browsing-Modus zu starten (mehr dazu im nächsten Abschnitt).
-
-
-
-In Firefox zum Beispiel können Sie die automatische Löschung über Einstellungen > Datenschutz und Sicherheit konfigurieren.
-
-
-
-Denken Sie jedoch daran, dass das einfache Löschen von Cookies nicht ausreicht, um Ihre Privatsphäre zu schützen: Es gibt andere, fortschrittlichere Verfolgungstechniken wie das Fingerprinting (ein eindeutiger Fingerabdruck Ihres Browsers, Ihrer Hardware, Ihrer IP-Adresse, Ihrer Nutzung usw.), die zusätzliche Massnahmen erfordern, um sie zu umgehen:
+Die regelmässige Bereinigung dieser lokalen Daten ist eine einfache, aber wirksame Methode, um das Tracking einzuschränken und deine Privatsphäre zu schützen. Die meisten Browser bieten folgende Optionen:
 
 
 
 
-- Verwenden Sie einen Browser, der von Haus aus gegen Fingerabdrücke geschützt ist: Tor-Browser und Mullvad-Browser sind dafür am besten geeignet, ansonsten sind LibreWolf, Brave oder Firefox mit manueller Härtung weitere gute Optionen;
-- Begrenzen oder blockieren Sie JavaScript wann immer möglich;
-- Vermeiden Sie nicht unbedingt notwendige Erweiterungen;
-- Im Allgemeinen sollten Sie ein gewöhnliches, einheitliches Profil annehmen, um sich besser zu integrieren und die Möglichkeiten der Identifizierung zu begrenzen.
+- entweder du löschst diese Daten manuell (in den Einstellungen);
+- oder du aktivierst das automatische Löschung bei jedem Schliessen des Browsers oder für einen bestimmten Zeitraum (ich empfehle diese Option);
+- oder du startest temporäre Sitzungen über einen privaten Browsing-Modus (mehr dazu im nächsten Abschnitt).
+
+
+
+In Firefox zum Beispiel kannst du die automatische Löschung über Einstellungen > Datenschutz und Sicherheit konfigurieren.
+
+
+
+Denke jedoch daran, dass das einfache Löschen von Cookies nicht ausreicht, um deine Privatsphäre zu schützen: Es gibt andere, fortschrittlichere Verfolgungstechniken wie das Fingerprinting (ein eindeutiger Fingerabdruck deines Browsers, deiner Hardware, deiner IP-Adresse, deiner Nutzung usw.), die zusätzliche Massnahmen erfordern, um sie zu umgehen:
+
+
+
+
+- Verwende einen Browser, der von Haus aus gegen Fingerabdrücke geschützt ist: Tor-Browser und Mullvad-Browser sind dafür am besten geeignet, ansonsten sind LibreWolf, Brave oder Firefox mit manueller Härtung weitere gute Optionen;
+- Begrenze oder blockiere JavaScript wann immer möglich;
+- Vermeide nicht unbedingt notwendige Erweiterungen;
+- Im Allgemeinen solltest du ein gewöhnliches, einheitliches Profil annehmen, um sich besser zu integrieren und die Möglichkeiten der Identifizierung zu begrenzen.
 
 
 
@@ -6041,27 +6041,27 @@ Denken Sie jedoch daran, dass das einfache Löschen von Cookies nicht ausreicht,
 
 
 
-Der Modus für privates Surfen, der in allen modernen Browsern (Firefox, Chrome, Brave, Safari...) verfügbar ist, wird oft missverstanden. Er ist weder ein Anonymisierungswerkzeug noch ein Schutz gegen Online-Tracking. Dieser Modus beschränkt lediglich die Aufzeichnung von lokalen Daten auf Ihrem Computer während der aktiven Sitzung.
+Der Modus für privates Surfen, der in allen modernen Browsern (Firefox, Chrome, Brave, Safari...) verfügbar ist, wird oft missverstanden. Er ist weder ein Anonymisierungswerkzeug noch ein Schutz gegen Online-Tracking. Dieser Modus beschränkt lediglich die Aufzeichnung von lokalen Daten auf deinem Computer während der aktiven Sitzung.
 
 
 
-Konkret: Wenn Sie ein Fenster im privaten Browser öffnen:
+Konkret: Wenn du ein Fenster im privaten Browser öffnest:
 
 
 
 
-- der Browserverlauf wird nicht lokal auf Ihrem Gerät gespeichert;
+- der Browserverlauf wird nicht lokal auf deinem Gerät gespeichert;
 - die während der Sitzung erstellten Cookies werden automatisch gelöscht, wenn das Fenster geschlossen wird;
-- formulardaten (ausgefüllte Felder, Passwörter) werden nicht gespeichert;
+- Formulardaten (ausgefüllte Felder, Passwörter) werden nicht gespeichert;
 - temporäre Dateien, die mit Webseiten verknüpft sind, werden nach dem Schliessen gelöscht.
 
 
 
-Dieser Modus verbirgt jedoch nicht Ihre Online-Aktivitäten: Die von Ihnen besuchten Websites sehen immer noch Ihre öffentliche IP Address, können immer noch Fingerprinting-Techniken ausnutzen, und Ihr ISP oder jeder in Ihrem lokalen Netzwerk kann immer noch die von Ihnen besuchten Websites sehen.
+Dieser Modus verbirgt jedoch nicht deine Online-Aktivitäten: Die von dir besuchten Websites sehen immer noch deine öffentliche IP-Adresse, können immer noch Fingerprinting-Techniken ausnutzen, und dein ISP oder jeder in deinem lokalen Netzwerk kann immer noch die von dir besuchten Websites sehen.
 
 
 
-Daher ist es wichtig, privates Surfen nicht mit Anonymität zu verwechseln. Um Ihre Online-Privatsphäre besser zu schützen, müssen Sie je nach Bedrohungsgrad ergänzende Tools wie Tor oder ein gutes VPN verwenden.
+Daher ist es wichtig, privates Surfen nicht mit Anonymität zu verwechseln. Um deine Online-Privatsphäre besser zu schützen, musst du je nach Bedrohungsgrad ergänzende Tools wie Tor oder ein gutes VPN verwenden.
 
 
 
@@ -6087,49 +6087,49 @@ Um diese Angriffe beim Surfen im Internet zu vermeiden, ist es wichtig, bestimmt
 
 
 
-- Analysieren Sie die URL**: Angreifer verwenden oft Adressen, die dem Original sehr ähnlich sind (z.B. "micr0soft-support.com", "paypal-verif.net" usw.). Einige ersetzen auch visuell ähnliche Zeichen und nutzen Unicode-Zeichen aus. Prüfen Sie, ob der Address genau der erwarteten Website entspricht und keine verdächtigen Präfixe oder Suffixe enthält.
+- **Analysiere die URL**: Angreifer verwenden oft Adressen, die dem Original sehr ähnlich sind (z.B. "micr0soft-support.com", "paypal-verif.net" usw.). Einige ersetzen auch visuell ähnliche Zeichen und nutzen Unicode-Zeichen aus. Prüfe, ob die Adresse genau der erwarteten Website entspricht und keine verdächtigen Präfixe oder Suffixe enthält.
 
 
 
 
 
-- Vermeiden Sie verkürzte Links**: Dienste wie `bit.ly` oder `t.co` können den endgültigen Address verschleiern. Wenn Sie einen verkürzten Link erhalten, seien Sie misstrauisch oder verwenden Sie einen URL-Erweiterungsdienst, um das Ziel zu überprüfen.
+- **Vermeide verkürzte Links**: Dienste wie `bit.ly` oder `t.co` können die endgültige Adresse verschleiern. Wenn du einen verkürzten Link erhältst, sei misstrauisch oder verwende einen URL-Erweiterungsdienst, um das Ziel zu überprüfen.
 
 
 
 
 
-- Hüten Sie sich vor alarmistischen Nachrichten**: Phishing-Versuche nutzen oft starke Emotionen aus (Dringlichkeit, Bedrohung, Belohnung, Neugier...). Eine E-Mail, in der behauptet wird, dass Ihr Konto demnächst gesperrt wird oder dass ein Paket nicht zugestellt werden kann, ist natürlich verdächtig.
+- **Hüte dich vor alarmistischen Nachrichten**: Phishing-Versuche nutzen oft starke Emotionen aus (Dringlichkeit, Bedrohung, Belohnung, Neugier...). Eine E-Mail, in der behauptet wird, dass dein Konto demnächst gesperrt wird oder dass ein Paket nicht zugestellt werden kann, ist natürlich verdächtig.
 
 
 
 
 
-- Übermitteln Sie niemals sensible Informationen über einen empfangenen Link**: Ein seriöses Institut wird Sie niemals über eine einfache E-Mail oder SMS nach einem Passwort, einem Authentifizierungscode oder einer eingescannten Kopie Ihres Ausweises fragen.
+- **Übermittle niemals sensible Informationen über einen empfangenen Link**: Ein seriöses Institut wird dich niemals über eine einfache E-Mail oder SMS nach einem Passwort, einem Authentifizierungscode oder einer eingescannten Kopie deines Ausweises fragen.
 
 
 
-Und hier sind ein paar Präventivmassnahmen, die Sie direkt in Ihrem Browser implementieren können, um das Risiko von Phishing zu minimieren:
-
-
-
-
-
-- Zugriff auf wichtige Websites über Ihre Lesezeichen**:
-
-
-
-Speichern Sie bei wichtigen Diensten (Bank, Finanzamt, E-Mail usw.) und generell bei allen Websites, die Sie regelmässig nutzen, die offizielle URL in Ihren Lesezeichen und verwenden Sie niemals eine Suchmaschine oder einen externen Link, um dorthin zu gelangen.
-
-
-
-Haben Sie eine E-Mail vom Finanzamt erhalten, die einen Link enthält? Klicken Sie ihn nicht an. Gehen Sie stattdessen direkt zu Ihrem persönlichen Bereich und verwenden Sie die URL, die Sie in Ihren Lesezeichen gespeichert haben. Heutzutage bieten alle modernen Browser eine Lesezeichenleiste mit der Möglichkeit, Ihre Links in Ordnern zu ordnen. Nehmen Sie sich die Zeit, dies einmal zu tun und die URL und das SSL/TLS-Zertifikat sorgfältig zu prüfen, und Sie werden sicherer surfen können.
+Und hier sind ein paar Präventivmassnahmen, die du direkt in deinem Browser implementieren kannst, um das Risiko von Phishing zu minimieren:
 
 
 
 
 
-- Respektieren Sie gute Authentifizierungspraktiken** :
+- **Zugriff auf wichtige Websites über deine Lesezeichen**:
+
+
+
+Speichere bei wichtigen Diensten (Bank, Finanzamt, E-Mail usw.) und generell bei allen Websites, die du regelmässig nutzt, die offizielle URL in deinen Lesezeichen und verwende niemals eine Suchmaschine oder einen externen Link, um dorthin zu gelangen.
+
+
+
+Hast du eine E-Mail vom Finanzamt erhalten, die einen Link enthält? Klicke ihn nicht an. Gehe stattdessen direkt zu deinem persönlichen Bereich und verwende die URL, die du in deinen Lesezeichen gespeichert hast. Heutzutage bieten alle modernen Browser eine Lesezeichenleiste mit der Möglichkeit, deine Links in Ordnern zu ordnen. Nimm dir die Zeit, dies einmal zu tun und die URL und das SSL/TLS-Zertifikat sorgfältig zu prüfen, und du wirst sicherer surfen können.
+
+
+
+
+
+- **Respektiere gute Authentifizierungspraktiken** :
 
 
 
@@ -6137,55 +6137,54 @@ Ausserdem ist es wichtig, gute Authentifizierungspraktiken zu befolgen, um die m
 
 
 
-Nehmen wir ein Beispiel: Wenn es einem Angreifer gelingt, das Passwort für Ihr Steam-Konto zu erlangen, Sie aber für jedes Ihrer Konten ein anderes Passwort verwenden, kann er nicht auf sensiblere Dienste wie Ihre E-Mails oder Bankgeschäfte zugreifen. Und wenn Sie die Zwei-Faktor-Authentifizierung (2FA) aktiviert haben, kann sich der Angreifer auch mit dem Passwort nicht anmelden, da er keinen Zugang zu Ihrer TOTP-Anwendung (wie Authy, Google Authenticator...) hat.
+Nehmen wir ein Beispiel: Wenn es einem Angreifer gelingt, das Passwort für dein Steam-Konto zu erlangen, du aber für jedes deiner Konten ein anderes Passwort verwendest, kann er nicht auf sensiblere Dienste wie deine E-Mails oder Bankgeschäfte zugreifen. Und wenn du die Zwei-Faktor-Authentifizierung (2FA) aktiviert hast, kann sich der Angreifer auch mit dem Passwort nicht anmelden, da er keinen Zugang zu deiner TOTP-Anwendung (wie Authy, Google Authenticator...) hat.
 
 
 
-Zusätzlich zu diesen Massnahmen kann die Verwendung eines guten Passwortmanagers als Browsererweiterung Sie auch vor gefälschten Websites schützen. Die meisten dieser Erweiterungen erkennen eine verdächtige URL und weigern sich, Ihre Anmeldedaten automatisch auszufüllen, oder weisen Sie sogar darauf hin, damit Sie nicht versehentlich Ihre Zugangsdaten preisgeben.
+Zusätzlich zu diesen Massnahmen kann die Verwendung eines guten Passwortmanagers als Browsererweiterung dich auch vor gefälschten Websites schützen. Die meisten dieser Erweiterungen erkennen eine verdächtige URL und weigern sich, deine Anmeldedaten automatisch auszufüllen, oder weisen dich sogar darauf hin, damit du nicht versehentlich deine Zugangsdaten preisgibst.
 
 
 
 
 
-- Überprüfen Sie SSL/TLS**-Zertifikate:
+- **Überprüfe SSL/TLS-Zertifikate**:
 
 
 
-Das Vorhängeschloss-Symbol in der Address-Leiste zeigt eine verschlüsselte Verbindung an, garantiert aber nicht die Legitimität der Website. Klicken Sie darauf, um das Zertifikat zu prüfen (Organisation, Domäne, Zertifizierungsstelle). Dies kann hilfreich sein, wenn Sie Zweifel an der URL einer Website haben.
+Das Vorhängeschloss-Symbol in der Adress-Leiste zeigt eine verschlüsselte Verbindung an, garantiert aber nicht die Legitimität der Website. Klicken Sie darauf, um das Zertifikat zu prüfen (Organisation, Domäne, Zertifizierungsstelle). Dies kann hilfreich sein, wenn du Zweifel an der URL einer Website hast.
 
 
 
-Phishing funktioniert nur, wenn Sie zu schnell klicken. Machen Sie es sich zur Gewohnheit, jeden Link, den Sie erhalten, systematisch zu überprüfen, selbst wenn es sich um eine Ihnen bekannte Website handelt. Wenn Sie sich die Zeit nehmen, URLs sorgfältig zu prüfen und zu verifizieren, selbst wenn sie Ihnen bekannt sind, ist dies eine der besten Abwehrmassnahmen gegen diese Art von Angriffen.
-
+Phishing funktioniert nur, wenn du zu schnell klickst. Mach dir zur Gewohnheit, jeden Link, den du erhältst, systematisch zu überprüfen, selbst wenn es sich um eine dir bekannte Website handelt. Wenn du dir die Zeit nimmst, URLs sorgfältig zu prüfen und zu verifizieren, selbst wenn sie dir bekannt sind, ist dies eine der besten Abwehrmaßnahmen gegen diese Art von Angriffen.
 
 
 ### Installierte Erweiterungen prüfen
 
 
 
-Browser-Erweiterungen sind Module, die zusätzliche Funktionen bieten (Werbeblocker, Übersetzung, Notizen, Passwortmanager, Bitcoin-Geldbörsen usw.). Sie werden direkt in der Browserumgebung ausgeführt und können auf alle oder einen Teil der von Ihnen besuchten Seiten zugreifen. Das macht sie leistungsfähig, aber auch potenziell gefährlich.
+Browser-Erweiterungen sind Module, die zusätzliche Funktionen bieten (Werbeblocker, Übersetzung, Notizen, Passwortmanager, Bitcoin-Geldbörsen usw.). Sie werden direkt in der Browserumgebung ausgeführt und können auf alle oder einen Teil der von dir besuchten Seiten zugreifen. Das macht sie leistungsfähig, aber auch potenziell gefährlich.
 
 
 
-Eine bösartige oder kompromittierte Erweiterung kann Ihre persönlichen Daten abfangen, den Inhalt lesen, Code in Webseiten einfügen oder sogar JavaScript im Hintergrund ausführen. Einige Erweiterungen behalten permanenten Zugriff auf offene Registerkarten oder den Browserverlauf, weit über das hinaus, was für ihren Betrieb notwendig ist.
+Eine bösartige oder kompromittierte Erweiterung kann deine persönlichen Daten abfangen, den Inhalt lesen, Code in Webseiten einfügen oder sogar JavaScript im Hintergrund ausführen. Einige Erweiterungen behalten permanenten Zugriff auf offene Registerkarten oder den Browserverlauf, weit über das hinaus, was für ihren Betrieb notwendig ist.
 
 
 
-Um diese Risiken zu begrenzen, installieren Sie nur Erweiterungen aus offiziellen Quellen (Mozilla Add-ons), überprüfen Sie immer die angeforderten Berechtigungen und beschränken Sie ihre Anzahl auf ein striktes Minimum. Löschen Sie Erweiterungen, die Sie nicht mehr verwenden, und hüten Sie sich vor Klonen.
+Um diese Risiken zu begrenzen, installiere nur Erweiterungen aus offiziellen Quellen (Mozilla Add-ons), überprüfe immer die angeforderten Berechtigungen und beschränke ihre Anzahl auf ein striktes Minimum. Lösche Erweiterungen, die du nicht mehr verwendest, und hüte dich vor Klonen.
 
 
 
-Die regelmässige Überprüfung Ihrer Erweiterungen ist ein wichtiger Bestandteil der Sicherheit Ihres Browsers.
+Die regelmässige Überprüfung deiner Erweiterungen ist ein wichtiger Bestandteil der Sicherheit deines Browsers.
 
 
 
-### Trennen Sie Ihre Webanwendungen
+### Trenne deine Webanwendungen
 
 
 
 Die Aufteilung der Aktivitäten ist eine wichtige Praxis, um die Reichweite einer Kompromittierung im Internet zu begrenzen. Sie besteht darin, die verschiedenen Nutzungsarten des Internets technisch zu trennen: persönliches, berufliches, privates oder sensibles Surfen.
 
-
+xxx
 
 Das Ziel ist einfach: Es soll verhindert werden, dass ein Vorfall mit einer bestimmten Aktivität (z.B. ein Cookie-Leck, ein Angriff oder ein Sitzungsdiebstahl) Ihre gesamte digitale Umgebung verseucht. Es können mehrere Methoden allein oder in Kombination angewandt werden:
 
