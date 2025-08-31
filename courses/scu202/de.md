@@ -6184,27 +6184,28 @@ Die regelmässige Überprüfung deiner Erweiterungen ist ein wichtiger Bestandte
 
 Die Aufteilung der Aktivitäten ist eine wichtige Praxis, um die Reichweite einer Kompromittierung im Internet zu begrenzen. Sie besteht darin, die verschiedenen Nutzungsarten des Internets technisch zu trennen: persönliches, berufliches, privates oder sensibles Surfen.
 
-xxx
-
-Das Ziel ist einfach: Es soll verhindert werden, dass ein Vorfall mit einer bestimmten Aktivität (z.B. ein Cookie-Leck, ein Angriff oder ein Sitzungsdiebstahl) Ihre gesamte digitale Umgebung verseucht. Es können mehrere Methoden allein oder in Kombination angewandt werden:
 
 
-
-
-
-- Verwenden Sie mehrere verschiedene Browser**: zum Beispiel Firefox für den privaten Gebrauch, Tor oder Mullvad für sensible Aktivitäten und Chromium für professionelle Aufgaben. Jeder Browser verwendet eine eigene Speicherinstanz, die Cookies, Sitzungen und Erweiterungen vollständig isoliert. So können Sie die Browsereinstellungen auf Ihre spezifischen Anwendungsfälle abstimmen.
+Das Ziel ist einfach: Es soll verhindert werden, dass ein Vorfall mit einer bestimmten Aktivität (z.B. ein Cookie-Leck, ein Angriff oder ein Sitzungsdiebstahl) deine gesamte digitale Umgebung verseucht. Es können mehrere Methoden allein oder in Kombination angewandt werden:
 
 
 
 
 
-- Erstellen Sie mehrere Profile in einem einzigen Browser**: Einige Browser ermöglichen es Ihnen, unabhängige Profile zu erstellen, jedes mit seinem eigenen Verlauf, seinen Sitzungen, Erweiterungen und Einstellungen. Dies ist eine etwas weniger restriktive Lösung als die Verwendung mehrerer separater Browser, aber immer noch weniger effektiv.
+- **Verwende mehrere verschiedene Browser**: zum Beispiel Firefox für den privaten Gebrauch, Tor oder Mullvad für sensible Aktivitäten und Chromium für professionelle Aufgaben. Jeder Browser verwendet eine eigene Speicherinstanz, die Cookies, Sitzungen und Erweiterungen vollständig isoliert. So kannst du die Browsereinstellungen auf deine spezifischen Anwendungsfälle abstimmen.
 
 
 
 
 
-- Verwenden Sie integrierte Container**: Firefox bietet die [Multi-Account Containers]-Erweiterung (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), mit der Sie separate Registerkarten öffnen können, jede mit eigenem Login und eigenen Cookies. Sie können auch bestimmte Websites automatisch einem bestimmten Container zuweisen, um sie bei jedem Öffnen getrennt zu halten.
+- **Erstelle mehrere Profile in einem einzigen Browser**: Einige Browser ermöglichen es dir, unabhängige Profile zu erstellen, jedes mit seinem eigenen Verlauf, seinen Sitzungen, Erweiterungen und Einstellungen. Dies ist eine etwas weniger restriktive Lösung als die Verwendung mehrerer separater Browser, aber immer noch weniger effektiv.
+
+
+
+
+
+- **Verwende integrierte Container**: Firefox bietet die [Multi-Account Containers]-Erweiterung (https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/), mit der du separate Registerkarten öffnen kannst, jede mit eigenem Login und eigenen Cookies. 
+Du kannst auch bestimmte Websites automatisch einem bestimmten Container zuweisen, um sie bei jedem Öffnen getrennt zu halten.
 
 
 
@@ -6214,7 +6215,7 @@ Das Ziel ist einfach: Es soll verhindert werden, dass ein Vorfall mit einer best
 
 
 
-- Verwenden Sie eine isolierte Systemumgebung**: Bei besonders sensiblen Anwendungen können Sie Ihren Browser auch innerhalb einer virtuellen Maschine oder eines Docker-Containers ausführen, um ihn vollständig von Ihrer Hauptumgebung zu trennen.
+- **Verwende eine isolierte Systemumgebung**: Bei besonders sensiblen Anwendungen kannst du deinen Browser auch innerhalb einer virtuellen Maschine oder eines Docker-Containers ausführen, um ihn vollständig von deiner Hauptumgebung zu trennen.
 
 
 
@@ -6222,21 +6223,17 @@ Das Ziel ist einfach: Es soll verhindert werden, dass ein Vorfall mit einer best
 
 
 
-Moderne Browser ermöglichen es Websites, den Zugriff auf sensible Ressourcen auf Ihrem Gerät anzufordern, z.B. auf die Kamera, das Mikrofon, die Geolokalisierung oder Systembenachrichtigungen. Diese Funktionen sind für bestimmte Anwendungen (Videokonferenzen, interaktive Karten usw.) nützlich, aber sie öffnen auch die Tür für Missbrauch, wenn sie schlecht kontrolliert werden.
+Moderne Browser ermöglichen es Websites, den Zugriff auf sensible Ressourcen auf deinem Gerät anzufordern, z.B. auf die Kamera, das Mikrofon, die Geolokalisierung oder Systembenachrichtigungen. Diese Funktionen sind für bestimmte Anwendungen (Videokonferenzen, interaktive Karten usw.) nützlich, aber sie öffnen auch die Tür für Missbrauch, wenn sie schlecht kontrolliert werden.
 
 
 
-Wenn eine Website Sie um Zugang zu einer dieser Ressourcen bittet, zeigt der Browser ein Pop-up-Fenster an, das Sie akzeptieren müssen. Wenn Sie jedoch einmal zustimmen, ohne sich dessen bewusst zu sein, kann diese Erlaubnis für alle Ihre zukünftigen Besuche auf dieser Website dauerhaft aktiv bleiben. Das bedeutet zum Beispiel, dass eine Website Ihr Mikrofon oder Ihre Kamera erneut aktivieren könnte, ohne Sie zu fragen, wenn Sie dieses Recht nicht manuell widerrufen haben.
-
-
-
-Für zusätzliche Sicherheit:
+Wenn eine Website dich um Zugang zu einer dieser Ressourcen bittet, zeigt der Browser ein Pop‑up‑Fenster an, das du akzeptieren musst. Wenn du jedoch einmal zustimmst, ohne dich dessen bewusst zu sein, kann diese Erlaubnis für alle deine zukünftigen Besuche auf dieser Website dauerhaft aktiv bleiben. Das bedeutet zum Beispiel, dass eine Website dein Mikrofon oder deine Kamera erneut aktivieren könnte, ohne dich zu fragen, wenn du dieses Recht nicht manuell widerrufen hast. Für zusätzliche Sicherheit:
 
 
 
 
-- Erteilen Sie Berechtigungen nur, wenn sie für eine rechtmässige Funktion unbedingt erforderlich sind;
-- Bevorzugen Sie die Option "einmalig zulassen", falls verfügbar;
+- Erteile Berechtigungen nur, wenn sie für eine rechtmässige Funktion unbedingt erforderlich sind;
+- Bevorzuge die Option "einmalig zulassen", falls verfügbar;
 - Manuelles Entziehen von Berechtigungen, die über die Browser-Einstellungen regelmässig erteilt werden.
 
 
@@ -6249,22 +6246,22 @@ Für zusätzliche Sicherheit:
 
 
 
-Wann immer Sie persönliche, vertrauliche oder finanzielle Informationen an eine Website übermitteln, sei es ein Passwort, eine Kreditkartennummer oder ein einfaches Anmeldeformular, sollten Sie sicherstellen, dass die Verbindung zwischen Ihrem Browser und der Website verschlüsselt ist.
+Wann immer du persönliche, vertrauliche oder finanzielle Informationen an eine Website übermitteln, sei es ein Passwort, eine Kreditkartennummer oder ein einfaches Anmeldeformular, solltest sicherstellen, dass die Verbindung zwischen deinem Browser und der Website verschlüsselt ist.
 
 
 
-Genau das ist die Aufgabe von HTTPS (*HyperText Transfer Protocol Secure*). Dieses Protokoll basiert auf der TLS-Verschlüsselung (*Transport Layer Security*), die eine :
+Genau das ist die Aufgabe von HTTPS (*HyperText Transfer Protocol Secure*). Dieses Protokoll basiert auf der TLS-Verschlüsselung (*Transport Layer Security*). Sie bewirkt folgendes:
 
 
 
 
-- verschlüsselung der ausgetauschten Daten (niemand kann sie während der Übertragung lesen oder verändern);
-- die Authentizität des Remote-Servers über ein digitales Zertifikat zu überprüfen;
-- man-in-the-Middle-Angriffe (MITM) zu verhindern, die in öffentlichen oder kompromittierten Netzen häufig vorkommen.
+- Verschlüsselung der ausgetauschten Daten (niemand kann sie während der Übertragung lesen oder verändern);
+- überprüft die Authentizität des Remote-Servers über ein digitales Zertifikat;
+- Verhindert man-in-the-Middle-Angriffe (MITM), die in öffentlichen oder kompromittierten Netzen häufig vorkommen.
 
 
 
-Konkret wird eine HTTPS-fähige Website durch ein geschlossenes Vorhängeschloss in der Address-Leiste Ihres Browsers angezeigt, normalerweise oben links im Interface. Wenn Sie auf dieses Vorhängeschloss klicken, werden Informationen über das TLS-Zertifikat der Website angezeigt (Zertifizierungsstelle, Gültigkeitsdatum usw.). Der Address der Website beginnt ausserdem systematisch mit "https://".
+Konkret wird eine HTTPS-fähige Website durch ein geschlossenes Vorhängeschloss in der Adress-Leiste deines Browsers angezeigt, normalerweise oben links im Interface. Wenn du auf dieses Vorhängeschloss klickst, werden Informationen über das TLS-Zertifikat der Website angezeigt (Zertifizierungsstelle, Gültigkeitsdatum usw.). Die Adresse der Website beginnt ausserdem systematisch mit "https://".
 
 
 
@@ -6272,11 +6269,11 @@ Konkret wird eine HTTPS-fähige Website durch ein geschlossenes Vorhängeschloss
 
 
 
-Verwendet die Website dagegen weiterhin HTTP (ohne das "S"), ist die Verbindung unverschlüsselt. Alle eingegebenen Informationen können dann von einem böswilligen Akteur abgefangen werden, der sich zwischen Ihnen und der Website befindet: Netzbetreiber, Zugangsanbieter, ein mit Fallen versehener Wi-Fi-Hotspot, lokale Malware usw.
+Verwendet die Website dagegen weiterhin HTTP (ohne das "S"), ist die Verbindung unverschlüsselt. Alle eingegebenen Informationen können dann von einem böswilligen Akteur abgefangen werden, der sich zwischen dir und der Website befindet: Netzbetreiber, Zugangsanbieter, ein mit Fallen versehener Wi-Fi-Hotspot, lokale Malware usw.
 
 
 
-Theoretisch sollten Sie diese Informationen immer manuell überprüfen, bevor Sie Daten auf einer Website eingeben. In der Praxis kennzeichnen die meisten modernen Browser HTTP-Websites automatisch als unsicher. Sie können in den Sicherheitseinstellungen Ihres Browsers auch eine Option aktivieren, um die Verwendung des HTTPS-Protokolls zu erzwingen, so dass Sie Websites blockieren können, die es nicht unterstützen.
+Theoretisch solltest du diese Informationen immer manuell überprüfen, bevor du Daten auf einer Website eingibst. In der Praxis kennzeichnen die meisten modernen Browser HTTP-Websites automatisch als unsicher. Du kannst in den Sicherheitseinstellungen deines Browsers auch eine Option aktivieren, um die Verwendung des HTTPS-Protokolls zu erzwingen, so dass du Websites blockieren kannst, die es nicht unterstützen.
 
 
 
@@ -6288,7 +6285,7 @@ In der Tat sind heute nur noch sehr wenige Websites ausschliesslich über HTTP z
 
 
 
-Wie wir bereits gesehen haben, ist es wichtig, zwischen zwei Elements zu unterscheiden, die oft verwechselt werden: dem Browser, der eine auf Ihrem Computer installierte Anwendung (wie Firefox oder Brave) ist und zur Anzeige von Webseiten verwendet wird, und der Suchmaschine, die ein Online-Dienst (wie Google) ist, an den Sie Anfragen senden, um Ergebnisse zu erhalten. Diese beiden Elements sind unabhängig voneinander, obwohl die Browser oft standardmässig eine bestimmte Suchmaschine integrieren.
+Wie wir bereits gesehen haben, ist es wichtig, zwischen zwei Elementen zu unterscheiden, die oft verwechselt werden: dem Browser, der eine auf deinem Computer installierte Anwendung (wie Firefox oder Brave) ist und zur Anzeige von Webseiten verwendet wird, und der Suchmaschine, die ein Online-Dienst (wie Google) ist, an den du Anfragen sendest, um Ergebnisse zu erhalten. Diese beiden Elemente sind unabhängig voneinander, obwohl die Browser oft standardmässig eine bestimmte Suchmaschine integrieren.
 
 
 
@@ -6296,23 +6293,23 @@ Wie wir bereits gesehen haben, ist es wichtig, zwischen zwei Elements zu untersc
 
 
 
-Die von Ihnen verwendete Suchmaschine hat einen direkten Einfluss auf Ihre Privatsphäre. In der Tat kann jede Suche, die Sie durchführen, :
+Die von dir verwendete Suchmaschine hat einen direkten Einfluss auf deine Privatsphäre. In der Tat hat jede Suche, die du durchführst, folgende Resultate:
 
 
 
 
-- die mit Ihrer IP Address verbunden ist, wenn Sie nicht Tor oder ein VPN verwenden;
-- in Verbindung mit Ihrem Login und Passwort, wenn Sie mit einem Konto verbunden sind;
-- gespeichert und ausgewertet, um ein Verhaltensprofil zu erstellen;
-- für gezielte Werbung oder den Weiterverkauf an Dritte verwendet werden.
+- Sie wird mit deiner IP-Adresse verbunden, wenn du nicht Tor oder ein VPN verwendest;
+- Wird in Verbindung mit deinem Login und Passwort gesetzt, wenn du mit einem Konto verbunden bist;
+- Wird gespeichert und ausgewertet, um ein Verhaltensprofil zu erstellen;
+- Wird für gezielte Werbung oder den Weiterverkauf an Dritte verwendet.
 
 
 
-Eine Suchmaschine wie Google liefert also schnelle, relevante Ergebnisse (obwohl [einige Studien darauf hindeuten](https://consumerwatchdog.org/in-the-news/Wallet-hub-google-quality-issues-part-of-an-intentional-strategy/), dass Google immer weniger effektiv ist), aber auf Kosten einer systematischen Überwachung Ihrer Suchanfragen. Bing (Microsoft) und Yahoo verfolgen ein ähnliches Modell der Erfassung Ihrer Online-Aktivitäten, um ihre Werbenetzwerke zu füttern.
+Eine Suchmaschine wie Google liefert also schnelle, relevante Ergebnisse (obwohl [einige Studien darauf hindeuten](https://consumerwatchdog.org/in-the-news/Wallet-hub-google-quality-issues-part-of-an-intentional-strategy/), dass Google immer weniger effektiv ist), aber auf Kosten einer systematischen Überwachung deiner Suchanfragen. Bing (Microsoft) und Yahoo verfolgen ein ähnliches Modell der Erfassung deiner Online-Aktivitäten, um ihre Werbenetzwerke zu füttern.
 
 
 
-Um dieses Tracking einzuschränken, empfehlen wir Ihnen, datenschutzfreundliche Suchmaschinen zu wählen, die keine persönlichen Kennungen oder Ihren Suchverlauf speichern:
+Um dieses Tracking einzuschränken, empfehlen wir dir, datenschutzfreundliche Suchmaschinen zu wählen, die keine persönlichen Kennungen oder deinen Suchverlauf speichern:
 
 
 
@@ -6329,11 +6326,11 @@ Um dieses Tracking einzuschränken, empfehlen wir Ihnen, datenschutzfreundliche 
 
 
 
-In den meisten Browsern können Sie die Standardsuchmaschine in den Einstellungen manuell konfigurieren. So können Sie Google vermeiden, ohne Ihren Browser zu ändern.
+In den meisten Browsern kannst du die Standardsuchmaschine in den Einstellungen manuell konfigurieren. So kannst du Google vermeiden, ohne deinen Browser zu ändern.
 
 
 
-Die in diesem Kapitel vorgestellten bewährten Praktiken bilden die Grundlage für ein sicheres und souveränes Surfen. Wenn Sie sie regelmässig anwenden, werden Sie Ihre Anfälligkeit für Bedrohungen deutlich verringern.
+Die in diesem Kapitel vorgestellten bewährten Praktiken bilden die Grundlage für ein sicheres und souveränes Surfen. Wenn du sie regelmässig anwendest, wirst du deine Anfälligkeit für Bedrohungen deutlich verringern.
 
 
 
@@ -6344,7 +6341,7 @@ Nachdem wir uns nun mit der Verwendung von Browsern und Computern beschäftigt h
 
 
 
-# Die Kontrolle über Ihr Telefon zurückgewinnen
+# Die Kontrolle über dein Telefon zurückgewinnen
 
 
 <partId>5f0ef9ad-5701-4620-89bf-eb6937adccac</partId>
@@ -6356,7 +6353,7 @@ Nachdem wir uns nun mit der Verwendung von Browsern und Computern beschäftigt h
 <chapterId>020329e9-a2cb-464b-bb4c-ee4f0e5346c6</chapterId>
 
 
-Bisher haben wir uns hauptsächlich auf die Sicherung und Nutzung Ihres Computers konzentriert. Für die meisten Menschen ist das Smartphone jedoch heute das meistgenutzte digitale Gerät im Alltag.
+Bisher haben wir uns hauptsächlich auf die Sicherung und Nutzung deines Computers konzentriert. Für die meisten Menschen ist das Smartphone jedoch heute das meistgenutzte digitale Gerät im Alltag.
 
 
 Im Gegensatz zu Computern arbeiten Mobiltelefone im Allgemeinen mit geschlossenen Systemen, die von ihren Herstellern streng kontrolliert werden. Daher schlage ich in diesem Abschnitt vor, dass wir die besonderen Herausforderungen im Zusammenhang mit mobilen Betriebssystemen untersuchen.
@@ -6371,10 +6368,10 @@ Im Gegensatz zu Computern arbeiten Mobiltelefone im Allgemeinen mit geschlossene
 Android dominiert heute den weltweiten Smartphone-Markt mit rund 72 % der im Umlauf befindlichen Geräte. Seine Entwicklung begann 2003 mit der Gründung von Android Inc. durch Andy Rubin, Rich Miner, Nick Sears und Chris White. Ihr ursprüngliches Ziel war die Entwicklung eines Betriebssystems für Digitalkameras.
 
 
-Nach mehreren Absagen von Investoren beschloss Android Inc., sein Projekt auf die Entwicklung eines mobilen Betriebssystems umzustellen. Zur Erinnerung: In den Jahren 2003 und 2004 boomte der Handymarkt, der weitgehend von Herstellern wie Nokia, Motorola, Sony Ericsson und Samsung beherrscht wurde. Bei den meisten Geräten handelte es sich um "Naturtelefone", die mit einer physischen Tastatur, einem kleinen Farbbildschirm und manchmal einer einfachen Kamera ausgestattet waren. Smartphones gab es bereits, aber sie richteten sich hauptsächlich an Profis und wurden von Marken wie BlackBerry angeboten.
+Nach mehreren Absagen von Investoren beschloss Android Inc., sein Projekt auf die Entwicklung eines mobilen Betriebssystems umzustellen. Zur Erinnerung: In den Jahren 2003 und 2004 boomte der Handymarkt, der weitgehend von Herstellern wie Nokia, Motorola, Sony Ericsson und Samsung beherrscht wurde. Bei den meisten Geräten handelte es sich um "nature phones", die mit einer physischen Tastatur, einem kleinen Farbbildschirm und manchmal einer einfachen Kamera ausgestattet waren. Smartphones gab es bereits, aber sie richteten sich hauptsächlich an Profis und wurden von Marken wie BlackBerry angeboten.
 
 
-Google kaufte Android Inc. im Jahr 2005 für rund 50 Millionen Dollar. Zwischen 2005 und 2007 entwickelte das Unternehmen sein Betriebssystem intern, ohne eine öffentliche Version zu erstellen. Während dieser Zeit gab es Gerüchte, dass Google ein mobiles Gerät vorbereitete, das möglicherweise vom BlackBerry inspiriert war, der damals schnell an Popularität gewann.
+Google kaufte Android Inc. im Jahr 2005 für rund 50 Millionen Dollar. Zwischen 2005 und 2007 entwickelte das Unternehmen sein Betriebssystem intern, ohne eine öffentliche Version zu erstellen. Während dieser Zeit gab es Gerüchte, dass Google ein mobiles Gerät vorbereitete, das möglicherweise vom BlackBerry inspiriert war, das damals schnell an Popularität gewann.
 
 
 Doch im Januar 2007 gab es ein Ereignis, das einen wichtigen Wendepunkt in der Geschichte des Smartphones markierte: Steve Jobs stellte das iPhone der ersten Generation vor. Der allgemeine Glaube, dass eine physische Tastatur unverzichtbar sei, wurde erschüttert. Mit dem iPhone wurde ein Gerät vorgestellt, das vollständig auf Berührung ausgelegt war und die Erwartungen des Marktes im Alleingang neu definierte.
@@ -6432,7 +6429,7 @@ Um wirklich die Kontrolle wiederzuerlangen, muss man daher auf Alternativen wie 
 
 
 #### Eine kurze Geschichte von iOS
-
+xxx
 
 iOS ist das von Apple entwickelte Betriebssystem für seine Smartphones, das mit dem ersten iPhone im Jahr 2007 eingeführt wurde (damals "*iPhone OS*" genannt). Von Anfang an verfolgte Apple eine Strategie der vollständigen vertikalen Integration: Hardware, Software, Betriebssystem, Online-Dienste und Anwendungsspeicher werden alle von Apple entwickelt, kontrolliert und gewartet. Ursprünglich wurden native Anwendungen, die nicht von Apple hergestellt wurden, nicht einmal unterstützt. Dieser Ansatz steht in krassem Gegensatz zu Android, dessen Ökosystem von Anfang an viel stärker fragmentiert war und es auch heute noch ist.
 
