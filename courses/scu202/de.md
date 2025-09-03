@@ -6429,7 +6429,7 @@ Um wirklich die Kontrolle wiederzuerlangen, muss man daher auf Alternativen wie 
 
 
 #### Eine kurze Geschichte von iOS
-xxx
+
 
 iOS ist das von Apple entwickelte Betriebssystem für seine Smartphones, das mit dem ersten iPhone im Jahr 2007 eingeführt wurde (damals "*iPhone OS*" genannt). Von Anfang an verfolgte Apple eine Strategie der vollständigen vertikalen Integration: Hardware, Software, Betriebssystem, Online-Dienste und Anwendungsspeicher werden alle von Apple entwickelt, kontrolliert und gewartet. Ursprünglich wurden native Anwendungen, die nicht von Apple hergestellt wurden, nicht einmal unterstützt. Dieser Ansatz steht in krassem Gegensatz zu Android, dessen Ökosystem von Anfang an viel stärker fragmentiert war und es auch heute noch ist.
 
@@ -6443,7 +6443,7 @@ iOS basierte ursprünglich auf dem vom Mac verwendeten Betriebssystem: OS X. Es 
 
 - vollständiges Sandboxing von Anwendungen, wodurch verhindert wird, dass eine Anwendung auf die Daten oder Prozesse einer anderen Anwendung zugreift
 - obligatorische Signatur des Anwendungscodes, die die Integrität der Binärdateien und deren Herkunft garantiert (nur App Store)
-- hardware-Datenverschlüsselung direkt auf dem Chip über den *Secure Enclave*, einen vom übrigen System isolierten kryptografischen Koprozessor
+- Hardware-Datenverschlüsselung direkt auf dem Chip über den *Secure Enclave*, einen vom übrigen System isolierten kryptografischen Co-prozessor
 - schnelle Sicherheitsaktualisierungen, die direkt von Apple auf allen Geräten bereitgestellt werden, ohne zwischengeschaltete Stellen
 
 
@@ -6456,7 +6456,7 @@ Diese geschlossene Architektur ermöglicht es Apple, ein flüssiges und sicheres
 Diese Sicherheit beruht jedoch auf einer strengen Abriegelung des Endnutzers, der praktisch keine technische Kontrolle über sein Gerät hat. Es ist nicht möglich, Anwendungen anders als über den App Store zu installieren, es sei denn durch einen *Jailbreak*, einen komplexen, riskanten und oft instabilen Vorgang, der die Garantie aufhebt und die Systemsicherheit gefährdet. Dieser Grundsatz liegt auch dem Geschäftsmodell von Apple zugrunde, das eine Provision für Transaktionen mit Anwendungen von Drittanbietern verlangt.
 
 
-Auch die Anpassungsmöglichkeiten sind sehr begrenzt. Es ist nicht möglich, das Systemverhalten tiefgreifend zu verändern, die Laufzeitumgebung frei zu ändern oder direkt auf Systemdateien zuzugreifen. In der Praxis bleibt das Smartphone also auch nach dem Kauf Eigentum von Apple, da Sie nicht die volle Kontrolle darüber haben.
+Auch die Anpassungsmöglichkeiten sind sehr begrenzt. Es ist nicht möglich, das Systemverhalten tiefgreifend zu verändern, die Laufzeitumgebung frei zu ändern oder direkt auf Systemdateien zuzugreifen. In der Praxis bleibt das Smartphone also auch nach dem Kauf Eigentum von Apple, da du nicht die volle Kontrolle darüber hast.
 
 
 ![Image](assets/fr/134.webp)
@@ -6466,9 +6466,9 @@ Darüber hinaus setzt die obligatorische Integration von iCloud in die meisten D
 
 
 
-- einige Elements (z.B. Verbindungs-Metadaten, Siri-Anfragen oder Fehlerprotokolle) laufen noch über Apple-Server
-- mechanismen zur Verhaltensanalyse für kontextbezogene Vorschläge, App Store-Updates oder Nachrichtenfilterung verwenden nicht überprüfbare proprietäre Modelle
-- die Nutzung von Diensten wie iCloud implizites Vertrauen in die Infrastruktur von Apple voraussetzt, ohne dass man kontrollieren kann, wo und wie lange die Daten gespeichert werden
+- einige Elemente (z.B. Verbindungs-Metadaten, Siri-Anfragen oder Fehlerprotokolle) laufen noch über Apple-Server
+- Mechanismen zur Verhaltensanalyse für kontextbezogene Vorschläge, App Store-Updates oder Nachrichtenfilterung verwenden nicht überprüfbare proprietäre Modelle
+- die Nutzung von Diensten wie iCloud setzt implizites Vertrauen in die Infrastruktur von Apple voraus, ohne dass man kontrollieren kann, wo und wie lange die Daten gespeichert werden
 
 
 Was schliesslich die digitale Souveränität betrifft, so stellt iOS eine geschlossene Umgebung dar: Keine externe Behörde (weder der Nutzer noch eine unabhängige Organisation) kann den Betrieb überprüfen oder verändern. Die Nutzer sind daher gezwungen, Apple auf allen Ebenen zu vertrauen: Hardware, Software, Netzwerk...
@@ -6477,13 +6477,13 @@ Was schliesslich die digitale Souveränität betrifft, so stellt iOS eine geschl
 ### open-Source-Alternativen mit Android
 
 
-Wie wir gerade gesehen haben, basiert das Standard-Android-Ökosystem, das von Google dominiert wird, auf einer Open-Source-Version des Systems (AOSP) mit proprietären Komponenten (GMS). Mehrere Open-Source-Projekte nutzen die Vorteile von AOSP, um alternative Betriebssysteme anzubieten, die die Privatsphäre besser respektieren, keine aufdringlichen Overlays enthalten und eine bessere Kontrolle durch den Benutzer ermöglichen. Diese Alternativen werden als Ersatz für das ursprüngliche System in Form von angepassten ROMs installiert. Sie ermöglichen es Ihnen, die Kontrolle über die Software zurückzugewinnen, erfordern aber auch eine minimale Hardwarekontrolle, da sie nur mit wenigen Geräten kompatibel sind.
+Wie wir gerade gesehen haben, basiert das Standard-Android-Ökosystem, das von Google dominiert wird, auf einer Open-Source-Version des Systems (AOSP) mit proprietären Komponenten (GMS). Mehrere Open-Source-Projekte nutzen die Vorteile von AOSP, um alternative Betriebssysteme anzubieten, die die Privatsphäre besser respektieren, keine aufdringlichen Overlays enthalten und eine bessere Kontrolle durch den Benutzer ermöglichen. Diese Alternativen werden als Ersatz für das ursprüngliche System in Form von angepassten ROMs installiert. Sie ermöglichen es dir, die Kontrolle über die Software zurückzugewinnen, erfordern aber auch eine minimale Hardwarekontrolle, da sie nur mit wenigen Geräten kompatibel sind.
 
 
 #### Hardwareanforderungen und Warnhinweise
 
 
-Vor der Installation ist es wichtig, die Kompatibilität Ihres Smartphones mit dem gewählten ROM zu überprüfen. Die meisten dieser Projekte unterstützen eine begrenzte Liste von Modellen. Die meiste Zeit, müssen Sie die Google Pixel Telefone verwenden, wegen ihrer entsperrbaren Bootloader Unterstützung und öffentliche Treiber.
+Vor der Installation ist es wichtig, die Kompatibilität deines Smartphones mit dem gewählten ROM zu überprüfen. Die meisten dieser Projekte unterstützen eine begrenzte Liste von Modellen. Die meiste Zeit, musst du die Google Pixel Telefone verwenden, wegen ihrer entsperrbaren Bootloader Unterstützung und öffentliche Treiber.
 
 
 Für die Installation muss der Bootloader entriegelt werden, ein Vorgang, der das Schreiben eines neuen Systemabbilds ermöglicht, bei dem jedoch der Inhalt des ursprünglichen Geräts vollständig gelöscht wird. Zusätzliche Dienste, wie F-Droid oder Aurora Store für Apps, müssen ebenfalls manuell installiert werden.
@@ -6506,14 +6506,14 @@ Einige Hersteller verbieten oder erschweren diesen Vorgang oder deaktivieren sog
 - eine stärkere Android-Sandbox
 - erweiterter Speicherschutz
 - granulare Rechtekontrolle
-- hardware-Verschlüsselung unabhängig von Google
+- Hardware-Verschlüsselung unabhängig von Google
 - usw.
 
 
 ![Image](assets/fr/136.webp)
 
 
-GrapheneOS integriert keine proprietären Komponenten. Es steht Ihnen frei, Google-Dienste hinzuzufügen oder nicht, aber diese sind streng isoliert (in speziellen Profilen in einer Sandbox). Dies macht das System extrem widerstandsfähig gegen lokale Angriffe und die Ausnutzung von Systemschwachstellen.
+GrapheneOS integriert keine proprietären Komponenten. Es steht dir frei, Google-Dienste hinzuzufügen oder nicht, aber diese sind streng isoliert (in speziellen Profilen in einer Sandbox). Dies macht das System extrem widerstandsfähig gegen lokale Angriffe und die Ausnutzung von Systemschwachstellen.
 
 
 Graphene ist nur mit aktuellen Google Pixeln (Pixel 6, 7, 8 und 9) kompatibel.
@@ -6539,7 +6539,7 @@ CalyxOS bietet auch vorinstallierte Anwendungen (Signal, F-Droid, Aurora Store, 
 [LineageOS] (https://lineageos.org/), Nachfolger von CyanogenMod, ist die am weitesten kompatible alternative ROM. Es unterstützt mehrere hundert Modelle, dank einer grossen Gemeinschaft von Mitwirkenden. Basierend auf AOSP, betont es die Anpassung, Einfachheit und Freiheit der Nutzung.
 
 
-LineageOS bietet Ihnen ein Android-System ohne Hersteller-Overlays, ohne Bloatware, mit vollständiger Rechteverwaltung, einfachen Updates und einem optimierten Interface. Sie können Google-Dienste hinzufügen oder sich für eine 100 % kostenlose Nutzung entscheiden.
+LineageOS bietet dir ein Android-System ohne Hersteller-Overlays, ohne Bloatware, mit vollständiger Rechteverwaltung, einfachen Updates und einem optimierten Interface. Du kannst Google-Dienste hinzufügen oder dich für eine 100 % kostenlose Nutzung entscheiden.
 
 
 Im Hinblick auf die Sicherheit integriert LineageOS jedoch nicht bestimmte Hardware-Schutzmassnahmen oder Speicherverstärkungen, die in GrapheneOS und CalyxOS zu finden sind. Das Update-System hängt auch von der Community ab, was zu Verzögerungen bei den Sicherheits-Patches führen kann.
@@ -6551,16 +6551,16 @@ Im Hinblick auf die Sicherheit integriert LineageOS jedoch nicht bestimmte Hardw
 ### Welches Smartphone-Betriebssystem für welchen Zweck?
 
 
-Bei der Wahl Ihres Smartphone-Betriebssystems müssen Sie sich der Kompromisse zwischen Sicherheit, Datenschutz, Benutzerfreundlichkeit und Anwendungskompatibilität bewusst sein. Jede Lösung verfügt über spezifische technische Merkmale, die sich direkt auf Ihre alltäglichen Erfahrungen, Ihre Kontrollmöglichkeiten und Ihre Anfälligkeit für kommerzielle Überwachung oder Schwachstellen auswirken werden.
+Bei der Wahl deines Smartphone-Betriebssystems musst du dich der Kompromisse zwischen Sicherheit, Datenschutz, Benutzerfreundlichkeit und Anwendungskompatibilität bewusst sein. Jede Lösung verfügt über spezifische technische Merkmale, die sich direkt auf deine alltäglichen Erfahrungen, deine Kontrollmöglichkeiten und deine Anfälligkeit für kommerzielle Überwachung oder Schwachstellen auswirken werden.
 
 
-Standard-Android (mit GMS) ist heute die am weitesten verbreitete Lösung. Es bietet volle Kompatibilität mit allen Android-Anwendungen, Benutzerfreundlichkeit und sofortigen Zugriff auf beliebte Dienste (Play Store, Maps, Gmail...). Diese Benutzerfreundlichkeit beruht jedoch auf einer starken Integration der Google-eigenen Dienste mit einer systematischen Datenerfassung: GPS-Position, Browserverlauf, Anruf-Metadaten, Werbepräferenzen... Es ist also eine schlechte Wahl, wenn Sie sich Sorgen um Ihre digitale Souveränität oder Ihre Privatsphäre machen.
+Standard-Android (mit GMS) ist heute die am weitesten verbreitete Lösung. Es bietet volle Kompatibilität mit allen Android-Anwendungen, Benutzerfreundlichkeit und sofortigen Zugriff auf beliebte Dienste (Play Store, Maps, Gmail...). Diese Benutzerfreundlichkeit beruht jedoch auf einer starken Integration der Google-eigenen Dienste mit einer systematischen Datenerfassung: GPS-Position, Browserverlauf, Anruf-Metadaten, Werbepräferenzen... Es ist also eine schlechte Wahl, wenn du dir Sorgen um deine digitale Souveränität oder deine Privatsphäre machst.
 
 
-Das iOS-System von Apple zeichnet sich durch ein hohes Mass an Sicherheit aus. Diese Sicherheit geht jedoch mit einer extremen Abschottung der Umgebung einher: Der Benutzer kann keine Anwendungen ausserhalb des App Store installieren (ausser in Ausnahmefällen), kann das Systemverhalten nicht ändern und ist bei der Verwaltung von Hardware, Cloud-Speicher und Synchronisierung vollständig von Apple abhängig. Es handelt sich um eine effiziente und robuste Umgebung, die jedoch jede Form der Personalisierung oder Unabhängigkeit opfert.
+Das iOS‑System von Apple zeichnet sich durch ein hohes Mass an Sicherheit aus. Diese Sicherheit geht jedoch mit einer extremen Abschottung der Umgebung einher: Du kannst keine Anwendungen außerhalb des App Store installieren (außer in Ausnahmefällen), kannst das Systemverhalten nicht ändern und bist bei der Verwaltung von Hardware, Cloud‑Speicher und Synchronisierung vollständig von Apple abhängig. Es handelt sich um eine effiziente und robuste Umgebung, die jedoch jede Form der Personalisierung oder Unabhängigkeit opfert.
 
 
-GrapheneOS ist auf die anspruchsvollsten Profile in Bezug auf Sicherheit und Vertraulichkeit ausgerichtet. Sein Sicherheitsniveau bringt jedoch einige Einschränkungen mit sich: wenige kompatible Geräte (nur aktuelle Google Pixel-Modelle), keine automatische Integration von Anwendungsdiensten von Drittanbietern und die Notwendigkeit, alternative Tools für Updates, den Store oder Benachrichtigungen manuell zu konfigurieren. Wenn Datenschutz und Sicherheit Ihre Prioritäten sind, ist dies eindeutig die beste Wahl.
+GrapheneOS ist auf die anspruchsvollsten Profile in Bezug auf Sicherheit und Vertraulichkeit ausgerichtet. Sein Sicherheitsniveau bringt jedoch einige Einschränkungen mit sich: wenige kompatible Geräte (nur aktuelle Google‑Pixel‑Modelle), keine automatische Integration von Anwendungsdiensten von Drittanbietern und die Notwendigkeit, alternative Tools für Updates, den Store oder Benachrichtigungen manuell zu konfigurieren. Wenn Datenschutz und Sicherheit deine Prioritäten sind, ist dies eindeutig die beste Wahl.
 
 
 CalyxOS bietet ein interessantes Gleichgewicht. Die Benutzererfahrung bleibt nahe am Standard-Android, aber ohne die direkte Aufsicht von Google. Es unterstützt eine angemessene Anzahl von Modellen (insbesondere das Google Pixel) und kann ohne fortgeschrittene technische Kenntnisse installiert werden. Für Nutzer, die ein hohes Mass an Sicherheit wünschen, ohne die Softwarekompatibilität zu opfern, ist CalyxOS eine praktische, ausgewogene Lösung.
@@ -6577,19 +6577,19 @@ Schliesslich ist LineageOS eine AOSP-Distribution für Benutzer, die Flexibilit�
 | CalyxOS    | 🟡       | 🟢              | 🟡            | 🟡               |
 | LineageOS  | 🟡       | 🟡              | 🟢            | 🟢               |
 
-Unabhängig davon, für welches mobile Betriebssystem Sie sich entscheiden, werden wir uns im nächsten Kapitel mit den besten Praktiken befassen, die Sie anwenden können, um Ihr Telefon effektiv zu schützen und eine gesunde digitale Umgebung zu erhalten.
+Unabhängig davon, für welches mobile Betriebssystem du dich entscheidest, werden wir uns im nächsten Kapitel mit den besten Praktiken befassen, die du anwenden kannst, um dein Telefon effektiv zu schützen und eine gesunde digitale Umgebung zu erhalten.
 
 
-## Sichern Sie Ihr Smartphone für den täglichen Gebrauch
+## Sichere dein Smartphone für den täglichen Gebrauch
 
 
 <chapterId>37b9499e-32cf-42c3-8715-15c6884d2ec7</chapterId>
 
 
-Im vorangegangenen Kapitel haben wir die Probleme im Zusammenhang mit Smartphone-Betriebssystemen analysiert und verschiedene Alternativen untersucht, um mehr Kontrolle über Ihr Telefon zu erhalten. Die Wahl eines guten Betriebssystems reicht jedoch nicht aus: Um echte Sicherheit und Vertraulichkeit zu gewährleisten, ist es wichtig, dass Sie bei der täglichen Nutzung einige gute Praktiken anwenden.
+Im vorangegangenen Kapitel haben wir die Probleme im Zusammenhang mit Smartphone-Betriebssystemen analysiert und verschiedene Alternativen untersucht, um mehr Kontrolle über dein Telefon zu erhalten. Die Wahl eines guten Betriebssystems reicht jedoch nicht aus: Um echte Sicherheit und Vertraulichkeit zu gewährleisten, ist es wichtig, dass du bei der täglichen Nutzung einige gute Praktiken anwendest.
 
 
-In diesem Kapitel gehen wir Schritt für Schritt auf einige grundlegende Empfehlungen ein, die unabhängig von Ihrem Smartphone-Betriebssystem gelten.
+In diesem Kapitel gehen wir Schritt für Schritt auf einige grundlegende Empfehlungen ein, die unabhängig von deinem Smartphone-Betriebssystem gelten.
 
 
 ### Aktualisierungen
@@ -6604,13 +6604,13 @@ Die Nichtanwendung dieser Aktualisierungen bedeutet, dass bekannte Schwachstelle
 ![Image](assets/fr/139.webp)
 
 
-Es ist daher wichtig, in den Systemeinstellungen automatische Updates zu aktivieren und jede Woche manuell zu prüfen, ob Ihr Gerät über die neuesten Sicherheitspatches verfügt. Unter Android geschieht dies in der Regel unter "Einstellungen > Sicherheit > Systemaktualisierung" und unter iOS unter "Einstellungen > Allgemein > Softwareaktualisierung".
+Es ist daher wichtig, in den Systemeinstellungen automatische Updates zu aktivieren und jede Woche manuell zu prüfen, ob dein Gerät über die neuesten Sicherheitspatches verfügt. Unter Android geschieht dies in der Regel unter "Einstellungen > Sicherheit > Systemaktualisierung" und unter iOS unter "Einstellungen > Allgemein > Softwareaktualisierung".
 
 
 #### Unterstützung aktualisieren
 
 
-Nicht alle Smartphones sind gleich, was die Softwareunterstützung angeht. Viele Einsteiger- und Mittelklassegeräte erhalten bereits nach zwei oder drei Jahren keine wichtigen Updates mehr, wodurch Sie immer grösseren Risiken ausgesetzt sind.
+Nicht alle Smartphones sind gleich, was die Softwareunterstützung angeht. Viele Einsteiger- und Mittelklassegeräte erhalten bereits nach zwei oder drei Jahren keine wichtigen Updates mehr, wodurch du immer grösseren Risiken ausgesetzt bist.
 
 
 Einige Marken haben jedoch eine sehr gute Softwareunterstützung, insbesondere Google (7 Jahre), Fairphone (5 bis 7 Jahre), Samsung (5 bis 7 Jahre) und Apple (5 bis 7 Jahre). Dieses Kriterium ist beim Kauf eines neuen Telefons sehr wichtig: Ein langlebiges Gerät ist in erster Linie ein gepflegtes Gerät.
@@ -6622,10 +6622,10 @@ Einige Marken haben jedoch eine sehr gute Softwareunterstützung, insbesondere G
 Mobile Anwendungen stellen eine grosse Risikoquelle dar: Die meisten modernen Android-Malware-Programme werden über sie eingeschleust. Die Installation einer Anwendung über eine "apk"-Datei, die von einer unbekannten Website oder einem nicht zertifizierten Store stammt, bedeutet, dass man das Risiko eingeht, ein Programm zu installieren, das absichtlich bösartig ist oder so verändert wurde, dass es Spionage- oder Datendiebstahlsfunktionen enthält.
 
 
-Selbst in offiziellen Stores wie dem Google Play Store oder dem Apple App Store müssen Sie wachsam bleiben. Trotz Filtermechanismen schaffen es bösartige Anwendungen regelmässig, sich einzuschleichen. Zum Beispiel werden im Play Store manchmal "Sparrow wallet"-Anwendungen angezeigt, obwohl diese Software nur für PCs existiert: Hierbei handelt es sich zweifelsohne um eine betrügerische Anwendung.
+Selbst in offiziellen Stores wie dem Google Play Store oder dem Apple App Store musst du wachsam bleiben. Trotz Filtermechanismen schaffen es bösartige Anwendungen regelmässig, sich einzuschleichen. Zum Beispiel werden im Play Store manchmal "Sparrow wallet"-Anwendungen angezeigt, obwohl diese Software nur für PCs existiert: Hierbei handelt es sich zweifelsohne um eine betrügerische Anwendung.
 
 
-Vor der Installation sollten Sie sich die Zeit nehmen, einige Dinge zu überprüfen: erforderliche Berechtigungen, Anzahl der Downloads, Gesamtbewertung, Datum der letzten Aktualisierung und Nutzerbewertungen.
+Vor der Installation solltest du dir die Zeit nehmen, einige Dinge zu überprüfen: erforderliche Berechtigungen, Anzahl der Downloads, Gesamtbewertung, Datum der letzten Aktualisierung und Nutzerbewertungen.
 
 
 Unter Android bieten alternative Open-Source-Stores wie [F-Droid](https://f-droid.org/) eine ethischere und oft sicherere Lösung: Jede Anwendung wird aus freien Quellen kompiliert und manuell geprüft. Für notwendige proprietäre Anwendungen ermöglichen Tools wie [Aurora Store](https://auroraoss.com/) den Zugriff auf den Play Store ohne ein Google-Konto, wodurch die Datenerfassung eingeschränkt wird.
@@ -6634,12 +6634,12 @@ Unter Android bieten alternative Open-Source-Stores wie [F-Droid](https://f-droi
 ![Image](assets/fr/140.webp)
 
 
-Neben dem Betriebssystem müssen auch die auf Ihrem Smartphone installierten Anwendungen auf dem neuesten Stand gehalten werden. Sie können über die Einstellungen Ihres App-Stores automatische Updates aktivieren und sich angewöhnen, mindestens einmal pro Woche eine manuelle Überprüfung durchzuführen.
+Neben dem Betriebssystem müssen auch die auf deinem Smartphone installierten Anwendungen auf dem neuesten Stand gehalten werden. Du kannst über die Einstellungen deines App-Stores automatische Updates aktivieren und dir angewöhnen, mindestens einmal pro Woche eine manuelle Überprüfung durchzuführen.
 
 
-Wenn Sie unter Android Anwendungen über "apk"-Dateien installieren, müssen Sie Updates manuell verwalten. Diese Anwendungen, die ausserhalb der offiziellen Kanäle installiert werden, haben nämlich keinen automatischen Aktualisierungsmechanismus. Sie müssen also regelmässig die von den Entwicklern auf GitHub oder auf ihrer offiziellen Website veröffentlichten Versionen überprüfen.
+Wenn du unter Android Anwendungen über "apk"-Dateien installierst, musst du Updates manuell verwalten. Diese Anwendungen, die ausserhalb der offiziellen Kanäle installiert werden, haben nämlich keinen automatischen Aktualisierungsmechanismus. Du musst also regelmässig die von den Entwicklern auf GitHub oder auf ihrer offiziellen Website veröffentlichten Versionen überprüfen.
 
-
+xxx
 ### Verwalten von Anwendungsberechtigungen
 
 
