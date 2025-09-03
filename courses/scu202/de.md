@@ -6639,41 +6639,41 @@ Neben dem Betriebssystem müssen auch die auf deinem Smartphone installierten An
 
 Wenn du unter Android Anwendungen über "apk"-Dateien installierst, musst du Updates manuell verwalten. Diese Anwendungen, die ausserhalb der offiziellen Kanäle installiert werden, haben nämlich keinen automatischen Aktualisierungsmechanismus. Du musst also regelmässig die von den Entwicklern auf GitHub oder auf ihrer offiziellen Website veröffentlichten Versionen überprüfen.
 
-xxx
+
 ### Verwalten von Anwendungsberechtigungen
 
 
-Auf einem Smartphone kann jede Anwendung direkten Zugriff auf sensible Ressourcen anfordern: Mikrofon, Kamera, genaue geografische Position, Address-Buch, Dateien, SMS, Bewegungssensoren, usw. Ein solcher Zugriff ist nicht trivial: Wenn die Erlaubnis erteilt wird, kann die Anwendung sie im Hintergrund kontinuierlich oder ad hoc nutzen, manchmal ohne sichtbare Benachrichtigung. Deshalb ist es wichtig, das Prinzip der geringsten Privilegien anzuwenden: jeder Anwendung sollten nur die Berechtigungen erteilt werden, die für ihren minimalen Betrieb unbedingt erforderlich sind.
+Auf einem Smartphone kann jede Anwendung direkten Zugriff auf sensible Ressourcen anfordern: Mikrofon, Kamera, genaue geografische Position, Adress-Buch, Dateien, SMS, Bewegungssensoren, usw. Ein solcher Zugriff ist nicht trivial: Wenn die Erlaubnis erteilt wird, kann die Anwendung sie im Hintergrund kontinuierlich oder ad hoc nutzen, manchmal ohne sichtbare Benachrichtigung. Deshalb ist es wichtig, das Prinzip der geringsten Privilegien anzuwenden: jeder Anwendung sollten nur die Berechtigungen erteilt werden, die für ihren minimalen Betrieb unbedingt erforderlich sind.
 
 
 ![Image](assets/fr/141.webp)
 
 
-Eine Taschenlampenanwendung benötigt beispielsweise keinen Zugriff auf Ihre Kontakte oder Geolocation. Eine Wetteranwendung kann mit manueller Lokalisierung arbeiten, ohne GPS-Zugriff. Ein PDF-Reader muss weder das Mikrofon noch SMS verwenden. Verweigern Sie im Zweifelsfall immer die Standardeinstellung und bewerten Sie dann neu, wenn die Anwendung nicht richtig funktioniert. Auf einigen Systemen ist es auch möglich, Berechtigungen nur vorübergehend zu erteilen: entweder für eine einmalige Nutzung oder nur, wenn die Anwendung läuft. Dadurch wird verhindert, dass eine Anwendung im Hintergrund bestimmte Berechtigungen ohne Ihr Wissen ausnutzt.
+Eine Taschenlampenanwendung benötigt beispielsweise keinen Zugriff auf deine Kontakte oder Geolocation. Eine Wetteranwendung kann mit manueller Lokalisierung arbeiten, ohne GPS-Zugriff. Ein PDF-Reader muss weder das Mikrofon noch SMS verwenden. Verweigere im Zweifelsfall immer die Standardeinstellung und bewerte dann neu, wenn die Anwendung nicht richtig funktioniert. Auf einigen Systemen ist es auch möglich, Berechtigungen nur vorübergehend zu erteilen: entweder für eine einmalige Nutzung oder nur, wenn die Anwendung läuft. Dadurch wird verhindert, dass eine Anwendung im Hintergrund bestimmte Berechtigungen ohne dein Wissen ausnutzt.
 
 
-Android und iOS bieten jetzt eine granulare Berechtigungssteuerung. Sie können sie nach Anwendung oder nach Berechtigungstyp verwalten. Nehmen Sie sich die Zeit, z.B. einmal im Monat, die aktiven Berechtigungen in den Einstellungen Ihres Telefons zu überprüfen.
+Android und iOS bieten jetzt eine granulare Berechtigungssteuerung. Du kannst sie nach Anwendung oder nach Berechtigungstyp verwalten. Nimm dir die Zeit, z.B. einmal im Monat, die aktiven Berechtigungen in den Einstellungen deines Telefons zu überprüfen.
 
 
-Einige Systeme ermöglichen es Ihnen auch, die einer Anwendung erteilten Berechtigungen nach einer bestimmten Zeit der Nichtbenutzung automatisch zu entziehen. Dadurch werden die Risiken begrenzt, wenn Sie vergessen, eine Anwendung zu deinstallieren.
+Einige Systeme ermöglichen es dir auch, die einer Anwendung erteilten Berechtigungen nach einer bestimmten Zeit der Nichtbenutzung automatisch zu entziehen. Dadurch werden die Risiken begrenzt, wenn du vergisst, eine Anwendung zu deinstallieren.
 
 
 ### Bildschirm sperren
 
 
-Die physische Sicherheit eines Smartphones beginnt mit seinem Sperrbildschirm. Dies ist die erste Barriere zwischen einem potenziellen Angreifer und dem Zugriff auf Ihre persönlichen Daten. Das zuverlässigste Mittel ist immer noch der PIN-Code oder ein komplexes Passwort.
+Die physische Sicherheit eines Smartphones beginnt mit seinem Sperrbildschirm. Dies ist die erste Barriere zwischen einem potenziellen Angreifer und dem Zugriff auf deine persönlichen Daten. Das zuverlässigste Mittel ist immer noch der PIN-Code oder ein komplexes Passwort.
 
 
-Andererseits wird von Entsperrungsmethoden wie grafischen Schemata dringend abgeraten. Solche Schemata hinterlassen sichtbare Spuren auf dem Bildschirm, sind für einen Dritten, der Ihre Gesten beobachtet, leicht zu merken und sind selten komplex genug.
+Andererseits wird von Entsperrungsmethoden wie grafischen Schemata dringend abgeraten. Solche Schemata hinterlassen sichtbare Spuren auf dem Bildschirm, sind für einen Dritten, der deine Gesten beobachtet, leicht zu merken und sind selten komplex genug.
 
 
-Biometrische Systeme (Gesichtserkennung oder Fingerabdrücke) bieten offensichtliche Vorteile, sind aber mit Vorsicht zu geniessen. Im Falle von physischem Zwang (Diebstahl, polizeilicher Druck usw.) kann der Fingerabdruck oder das Gesicht ohne Ihre aktive Zustimmung verwendet werden. In einigen Ländern geniesst die Verwendung biometrischer Daten nicht den gleichen rechtlichen Schutz wie die Geheimhaltung eines Passworts.
+Biometrische Systeme (Gesichtserkennung oder Fingerabdrücke) bieten offensichtliche Vorteile, sind aber mit Vorsicht zu geniessen. Im Falle von physischem Zwang (Diebstahl, polizeilicher Druck usw.) kann der Fingerabdruck oder das Gesicht ohne deine aktive Zustimmung verwendet werden. In einigen Ländern geniesst die Verwendung biometrischer Daten nicht den gleichen rechtlichen Schutz wie die Geheimhaltung eines Passworts.
 
 
-Andererseits können biometrische Systeme durch Techniken wie die visuelle Wiedergabe des Gesichts oder die Wiederherstellung latenter Fingerabdrücke auf einer Oberfläche umgangen werden (oder könnten dies in Zukunft tun). Ihre Zuverlässigkeit hängt auch stark von der Sicherheitsstufe Ihres Geräts ab: So ist beispielsweise die Gesichtserkennung Face ID von Apple weitaus strenger als die einiger Einsteiger-Smartphones.
+Andererseits können biometrische Systeme durch Techniken wie die visuelle Wiedergabe des Gesichts oder die Wiederherstellung latenter Fingerabdrücke auf einer Oberfläche umgangen werden (oder könnten dies in Zukunft tun). Ihre Zuverlässigkeit hängt auch stark von der Sicherheitsstufe deines Geräts ab: So ist beispielsweise die Gesichtserkennung Face ID von Apple weitaus strenger als die einiger Einsteiger-Smartphones.
 
 
-Im Folgenden finden Sie eine Rangliste der besten und schlechtesten Smartphone-Schliesssysteme:
+Im Folgenden findest du eine Rangliste der besten und schlechtesten Smartphone-Schliesssysteme:
 
 
 
@@ -6693,13 +6693,13 @@ Bei sensiblen Geräten ist die beste Lösung ein Passwort in Kombination mit ein
 ### Verwendung und Aufteilung der Daten
 
 
-Wie wir in den vorangegangenen Kapiteln gesehen haben, ist die Kompartimentierung eine wichtige Praxis zur Begrenzung der Risiken im Falle einer Kompromittierung eines Teils des Systems. Indem Sie getrennte Umgebungen für Ihre verschiedenen Aktivitäten schaffen, verhindern Sie, dass ein Angriff oder ein Datenleck in einem Bereich Ihr gesamtes Gerät infiziert. Unter Android kann diese Strategie durch eine Reihe von integrierten Mechanismen umgesetzt werden.
+Wie wir in den vorangegangenen Kapiteln gesehen haben, ist die Kompartimentierung eine wichtige Praxis zur Begrenzung der Risiken im Falle einer Kompromittierung eines Teils des Systems. Indem du getrennte Umgebungen für deine verschiedenen Aktivitäten schaffst, verhinderst du, dass ein Angriff oder ein Datenleck in einem Bereich dein gesamtes Gerät infiziert. Unter Android kann diese Strategie durch eine Reihe von integrierten Mechanismen umgesetzt werden.
 
 
-#### Verwenden Sie ein separates berufliches Profil
+#### Verwende ein separates berufliches Profil
 
 
-Das *Arbeitsprofil* ist eine native Funktion von Android (seit Android 5.0), mit der Sie eine separate Softwarepartition innerhalb desselben Smartphones erstellen können. In der Praxis funktioniert dieses Profil wie ein isolierter Container: Anwendungen, Konten und Daten, die in diesem Bereich gespeichert sind, können nicht mit denen im persönlichen Profil interagieren. Diese Trennung verhindert Datenverluste zwischen den beiden Bereichen und schränkt die Zugriffsrechte für Anwendungen ein. Diese Funktion wird oft intern in Unternehmen verwaltet, aber es gibt auch Möglichkeiten, sie persönlich zur Isolierung von Anwendungen zu nutzen.
+Das *Arbeitsprofil* ist eine native Funktion von Android (seit Android 5.0), mit der du eine separate Softwarepartition innerhalb desselben Smartphones erstellen kannst. In der Praxis funktioniert dieses Profil wie ein isolierter Container: Anwendungen, Konten und Daten, die in diesem Bereich gespeichert sind, können nicht mit denen im persönlichen Profil interagieren. Diese Trennung verhindert Datenverluste zwischen den beiden Bereichen und schränkt die Zugriffsrechte für Anwendungen ein. Diese Funktion wird oft intern in Unternehmen verwaltet, aber es gibt auch Möglichkeiten, sie persönlich zur Isolierung von Anwendungen zu nutzen.
 
 
 ![Image](assets/fr/143.webp)
@@ -6720,19 +6720,19 @@ Um die Trennung der Nutzungen noch weiter voranzutreiben, kann man sich für die
 Wenn ein Smartphone kompromittiert wird, bleiben die anderen intakt. Diese physische Partitionierung hat auch den Vorteil, dass sie die Verwaltung des Zugriffs und der Berechtigungen auf jedem Gerät vereinfacht und die Gesamtbelastung durch potenzielle Bedrohungen verringert.
 
 
-### Kontrollieren Sie Ihre Datenflüsse
+### Kontrolliere deine Datenflüsse
 
 
-Ihr Smartphone steht in ständiger Kommunikation mit der Aussenwelt, sei es über Wi-Fi, Bluetooth, NFC, GPS oder mobile Netzwerke. Jeder dieser Kanäle stellt eine potenzielle Angriffsfläche dar. Zu verstehen, wie sie funktionieren, und sie zu sichern, ist daher wichtig, um Risiken zu begrenzen.
+Dein Smartphone steht in ständiger Kommunikation mit der Aussenwelt, sei es über Wi-Fi, Bluetooth, NFC, GPS oder mobile Netzwerke. Jeder dieser Kanäle stellt eine potenzielle Angriffsfläche dar. Zu verstehen, wie sie funktionieren, und sie zu sichern, ist daher wichtig, um Risiken zu begrenzen.
 
 
 #### Öffentliches Wi-Fi
 
 
-Öffentliche Wi-Fi-Netzwerke, z.B. in Cafés, Hotels oder öffentlichen Verkehrsmitteln, sind selten sicher. Selbst wenn sie ein Kennwort erfordern, wird es oft von vielen Benutzern gemeinsam genutzt, und die angewandte Verschlüsselung kann manchmal leicht umgangen werden. Ein Angreifer, der mit demselben Netzwerk verbunden ist, kann Ihre Datenpakete abfangen, Anmeldedaten abfangen oder über Man-in-the-Middle-Angriffe bösartige Inhalte einspeisen.
+Öffentliche Wi-Fi-Netzwerke, z.B. in Cafés, Hotels oder öffentlichen Verkehrsmitteln, sind selten sicher. Selbst wenn sie ein Kennwort erfordern, wird es oft von vielen Benutzern gemeinsam genutzt, und die angewandte Verschlüsselung kann manchmal leicht umgangen werden. Ein Angreifer, der mit demselben Netzwerk verbunden ist, kann deine Datenpakete abfangen, Anmeldedaten abfangen oder über Man-in-the-Middle-Angriffe bösartige Inhalte einspeisen.
 
 
-Um sich zu schützen, vermeiden Sie einfach die Nutzung dieser öffentlichen Netze oder verwenden Sie ein VPN, das einen verschlüsselten Tunnel zwischen Ihrem Gerät und einem entfernten Server herstellt. Dieser Tunnel kapselt Ihre Daten ein und macht es extrem schwierig, sie abzufangen oder zu verändern.
+Um sich zu schützen, vermeide einfach die Nutzung dieser öffentlichen Netze oder verwende ein VPN, das einen verschlüsselten Tunnel zwischen deinem Gerät und einem entfernten Server herstellt. Dieser Tunnel kapselt deine Daten ein und macht es extrem schwierig, sie abzufangen oder zu verändern.
 
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
@@ -6741,7 +6741,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 https://planb.network/tutorials/computer-security/communication/mozilla-vpn-f55903d4-aece-4d59-b193-2eb073e59b67
 
-Was Ihr heimisches Wi-Fi-Netzwerk betrifft, so werden wir darüber im letzten Teil des SCU 202-Kurses sprechen.
+Was dein heimisches Wi-Fi-Netzwerk betrifft, so werden wir darüber im letzten Teil des SCU 202-Kurses sprechen.
 
 
 
@@ -6751,25 +6751,25 @@ Was Ihr heimisches Wi-Fi-Netzwerk betrifft, so werden wir darüber im letzten Te
 Bluetooth (drahtloses Protokoll für Kurzstreckenkommunikation), NFC (Nahfeldkommunikation) und GPS (Satellitenortung) sind bei vielen Smartphones standardmässig aktiviert. Diese Technologien können als Einfallstor für lokale Angriffe genutzt werden: Remote-Code-Ausführung, unbefugter Zugriff, Standortverfolgung, im Falle von Bluetooth sogar Abfangen der Kommunikation (z.B. BlueBorne-Schwachstellen).
 
 
-Um diese Risiken zu begrenzen, sollten Sie diese Funktionen immer deaktivieren, wenn Sie sie nicht verwenden. Dadurch wird die Angriffsfläche drastisch reduziert und jeder Versuch eines Missbrauchs verhindert.
+Um diese Risiken zu begrenzen, solltest du diese Funktionen immer deaktivieren, wenn du sie nicht verwendest. Dadurch wird die Angriffsfläche drastisch reduziert und jeder Versuch eines Missbrauchs verhindert.
 
 
 #### Mobile Netze
 
 
-Smartphones stehen in ständiger Kommunikation mit den Basisstationen der Telefonanbieter. Diese Kommunikation kann von bestimmten *IMSI-Catchern* gekapert werden, die Basisstationen simulieren, um Ihre mobilen Daten abzufangen. Diese Angriffe ermöglichen es einem Dritten, Ihr Gerät zu identifizieren, Ihre Bewegungen zu verfolgen und in einigen Fällen Anrufe und Nachrichten abzufangen.
+Smartphones stehen in ständiger Kommunikation mit den Basisstationen der Telefonanbieter. Diese Kommunikation kann von bestimmten *IMSI-Catchern* gekapert werden, die Basisstationen simulieren, um deine mobilen Daten abzufangen. Diese Angriffe ermöglichen es einem Dritten, dein Gerät zu identifizieren, deine Bewegungen zu verfolgen und in einigen Fällen Anrufe und Nachrichten abzufangen.
 
 
 ![Image](assets/fr/145.webp)
 
 
-Einige Anwendungen, wie z.B. SnoopSnitch auf Android, können verdächtiges Verhalten beim Austausch mit dem Netz erkennen. Diese Tools analysieren die Metadaten der mobilen Kommunikation und können Sie auf Änderungen in der Funkkonfiguration oder abnormales Verhalten hinweisen, wodurch Sie wachsamer gegenüber Abhörversuchen werden.
+Einige Anwendungen, wie z.B. SnoopSnitch auf Android, können verdächtiges Verhalten beim Austausch mit dem Netz erkennen. Diese Tools analysieren die Metadaten der mobilen Kommunikation und können dich auf Änderungen in der Funkkonfiguration oder abnormales Verhalten hinweisen, wodurch du wachsamer gegenüber Abhörversuchen wirst.
 
 
-Der beste Weg, um Ihre Kommunikation zu sichern, ist die Verwendung von sicheren Messaging-Anwendungen, sei es für Anrufe oder Nachrichten. Diese Anwendungen nutzen das Mobilfunknetz nicht und sorgen dafür, dass der Datenaustausch ordnungsgemäss verschlüsselt wird. Wir werden dieses Thema im nächsten Kapitel ausführlicher behandeln.
+Der beste Weg, um deine Kommunikation zu sichern, ist die Verwendung von sicheren Messaging-Anwendungen, sei es für Anrufe oder Nachrichten. Diese Anwendungen nutzen das Mobilfunknetz nicht und sorgen dafür, dass der Datenaustausch ordnungsgemäss verschlüsselt wird. Wir werden dieses Thema im nächsten Kapitel ausführlicher behandeln.
 
 
-### Sichern Sie Ihr mobiles Gerät
+### Sichere dein mobiles Gerät
 
 
 #### Mobiles Antivirus
@@ -6790,13 +6790,13 @@ Ihr tatsächlicher Nutzen ist daher sehr begrenzt, und diese Anwendungen sind ma
 ### Ausgehende Verbindungen prüfen
 
 
-Es gibt auch Smartphone-Firewall-Apps, wie NetGuard oder RethinkDNS, die als lokale Firewall direkt auf Ihrem Gerät fungieren. Sie nutzen die VPN-API von Android, um den gesamten ausgehenden Datenverkehr abzufangen, ohne Root-Zugriff zu benötigen.
+Es gibt auch Smartphone-Firewall-Apps, wie NetGuard oder RethinkDNS, die als lokale Firewall direkt auf deinem Gerät fungieren. Sie nutzen die VPN-API von Android, um den gesamten ausgehenden Datenverkehr abzufangen, ohne Root-Zugriff zu benötigen.
 
 
-In der Praxis bedeutet dies, dass Sie den Internetzugang für bestimmte Anwendungen individuell sperren können und damit das Risiko einer unerwünschten Datenerfassung oder unerlaubten Kommunikation erheblich reduzieren.
+In der Praxis bedeutet dies, dass du den Internetzugang für bestimmte Anwendungen individuell sperren kannst und damit das Risiko einer unerwünschten Datenerfassung oder unerlaubten Kommunikation erheblich reduzierst.
 
 
-Mit NetGuard können Sie zum Beispiel den Internetzugang für jede einzelne Anwendung verwalten, sowohl für Wi-Fi als auch für mobile Daten. RethinkDNS bietet auch erweiterte Funktionen wie DNS-Filterung, Werbeblockierung und DNS-Abfrageprüfung, um potenzielle Lecks zu erkennen.
+Mit NetGuard kannst du zum Beispiel den Internetzugang für jede einzelne Anwendung verwalten, sowohl für Wi-Fi als auch für mobile Daten. RethinkDNS bietet auch erweiterte Funktionen wie DNS-Filterung, Werbeblockierung und DNS-Abfrageprüfung, um potenzielle Lecks zu erkennen.
 
 
 ![Image](assets/fr/146.webp)
@@ -6805,39 +6805,39 @@ Mit NetGuard können Sie zum Beispiel den Internetzugang für jede einzelne Anwe
 ### Sichere Sicherung und Verwaltung im Falle eines Verlusts
 
 
-#### Verschlüsseln Sie Ihre Backups
+#### Verschlüssele deine Backups
 
 
-Die regelmässige Sicherung Ihrer Smartphone-Daten ist für Ihre Sicherheit sehr wichtig. Diese Sicherung muss jedoch verschlüsselt werden, damit niemand auf Ihre sensiblen Daten zugreifen kann, der Ihre Sicherungsmedien in die Hände bekommt. Dies gilt gleichermassen für Fotos, Dokumente und Anwendungsdaten.
+Die regelmässige Sicherung deiner Smartphone-Daten ist für deine Sicherheit sehr wichtig. Diese Sicherung muss jedoch verschlüsselt werden, damit niemand auf deine sensiblen Daten zugreifen kann, der deine Sicherungsmedien in die Hände bekommt. Dies gilt gleichermassen für Fotos, Dokumente und Anwendungsdaten.
 
 
-Um dies zu erreichen, sollten Sie verschlüsselte lokale Lösungen verwenden, wie eine externe Festplatte oder einen verschlüsselten USB-Stick (z.B. mit Veracrypt). Andernfalls können Sie mit selbst gehosteten Cloud-Lösungen wie *Syncthing* oder *Nextcloud* Ihre Daten auf einem persönlichen Server sichern und dabei die volle Kontrolle über Zugriff und Vertraulichkeit behalten. Im Gegensatz zu kommerziellen Cloud-Diensten (Google Drive, iCloud...) schränken diese Lösungen die Preisgabe Ihrer Daten an Dritte erheblich ein.
+Um dies zu erreichen, solltest du verschlüsselte lokale Lösungen verwenden, wie eine externe Festplatte oder einen verschlüsselten USB-Stick (z.B. mit Veracrypt). Andernfalls kannst du mit selbst gehosteten Cloud-Lösungen wie *Syncthing* oder *Nextcloud* deine Daten auf einem persönlichen Server sichern und dabei die volle Kontrolle über Zugriff und Vertraulichkeit behalten. Im Gegensatz zu kommerziellen Cloud-Diensten (Google Drive, iCloud...) schränken diese Lösungen die Preisgabe deiner Daten an Dritte erheblich ein.
 
 
 https://planb.network/tutorials/computer-security/data/veracrypt-d5ed4c83-7c1c-4181-95ea-963fdf2d83c5
 
-#### Fernwischen
+#### Remote wiping
 
 
-Ein verlorenes oder gestohlenes Smartphone kann für einen Angreifer zu einer ergiebigen Informationsquelle werden: Persönliche Daten, Browser-Historien, verbundene Konten usw. Daher kann es sinnvoll sein, systemeigene Funktionen zum Auffinden, Sperren und Fernlöschen Ihres Geräts zu konfigurieren.
+Ein verlorenes oder gestohlenes Smartphone kann für einen Angreifer zu einer ergiebigen Informationsquelle werden: Persönliche Daten, Browser-Historien, verbundene Konten usw. Daher kann es sinnvoll sein, systemeigene Funktionen zum Auffinden, Sperren und Fernlöschen deines Geräts zu konfigurieren.
 
 
-Unter Android können Sie *Mein Gerät finden* über die Google-Einstellungen verwenden. Unter iOS spielt *Mein iPhone finden* die gleiche Rolle und ist über iCloud zugänglich. Mit diesen Tools können Sie den Zugriff sofort sperren, das Gerät anrufen, um es zu orten, oder als letzten Ausweg die Daten komplett aus der Ferne löschen. Es gibt auch ähnliche Dienste, die von den Software-Overlays der Hersteller verwaltet werden, wie z.B. *SmartThings Find* von Samsung.
+Unter Android kannst du *Mein Gerät finden* über die Google-Einstellungen verwenden. Unter iOS spielt *Mein iPhone finden* die gleiche Rolle und ist über iCloud zugänglich. Mit diesen Tools kannst du den Zugriff sofort sperren, das Gerät anrufen, um es zu orten, oder als letzten Ausweg die Daten komplett aus der Ferne löschen. Es gibt auch ähnliche Dienste, die von den Software-Overlays der Hersteller verwaltet werden, wie z.B. *SmartThings Find* von Samsung.
 
 
 ![Image](assets/fr/147.webp)
 
 
-Diese Funktionen sind jedoch mit erheblichen Kompromissen verbunden: Sie zentralisieren Ihre sensiblen Daten (Geolokalisierung, Anmeldungen, Fernzugriff usw.) auf den Servern eines privaten Unternehmens und erfordern, dass Sie Ihren Standort aktiviert lassen.
+Diese Funktionen sind jedoch mit erheblichen Kompromissen verbunden: Sie zentralisieren deine sensiblen Daten (Geolokalisierung, Anmeldungen, Fernzugriff usw.) auf den Servern eines privaten Unternehmens und erfordern, dass du Ihren Standort aktiviert lässt.
 
 
-Wenn Sie sich dennoch dafür entscheiden, diese Funktionen zu implementieren, testen Sie sie im Voraus, um sicherzustellen, dass sie an dem Tag, an dem Sie sie tatsächlich benötigen, ordnungsgemäss funktionieren.
+Wenn du dich dennoch dafür entscheidest, diese Funktionen zu implementieren, teste sie im Voraus, um sicherzustellen, dass sie an dem Tag, an dem du sie tatsächlich benötigst, ordnungsgemäss funktionieren.
 
 
-Wenn Sie es vorziehen, diese Fernsteuerungsdienste nicht zu nutzen, empfehle ich Ihnen, die Daten Ihres Telefons regelmässig zu sichern, um zu verhindern, dass Ihre Informationen bei Verlust oder Diebstahl Ihres Geräts verloren gehen. Um das Risiko zu begrenzen, dass ein Angreifer Zugang zu Ihren Daten erhält, sollten Sie ein sicheres Kennwort für Ihre Telefonsperre und Ihre SIM-Karte festlegen.
+Wenn du es vorziehst, diese Fernsteuerungsdienste nicht zu nutzen, empfehle ich dir, die Daten deines Telefons regelmässig zu sichern, um zu verhindern, dass deine Informationen bei Verlust oder Diebstahl deines Geräts verloren gehen. Um das Risiko zu begrenzen, dass ein Angreifer Zugang zu deinen Daten erhält, solltest du ein sicheres Kennwort für deine Telefonsperre und deine SIM-Karte festlegen.
 
 
-Wir sind am Ende dieses Kapitels über die besten Praktiken für Ihr Smartphone angelangt. Im nächsten Kapitel zeige ich Ihnen die besten Lösungen für eine sichere und vertrauliche Kommunikation über Ihr Gerät, sei es für Anrufe, den Austausch von Nachrichten oder die Verwaltung Ihrer Newsgroups.
+Wir sind am Ende dieses Kapitels über die besten Praktiken für dein Smartphone angelangt. Im nächsten Kapitel zeige ich dir die besten Lösungen für eine sichere und vertrauliche Kommunikation über dein Gerät, sei es für Anrufe, den Austausch von Nachrichten oder die Verwaltung deiner Newsgroups.
 
 
 ## Kommunizieren, ohne belauscht zu werden
@@ -6855,7 +6855,7 @@ In diesem Kapitel werden wir versuchen, die technischen und praktischen Probleme
 ### Warum schützen SMS-Nachrichten nicht den Datenaustausch?
 
 
-SMS (*Short Message Service*) war in der Vergangenheit für den Austausch von Texten sehr beliebt, basiert aber auf einem veralteten Protokoll aus den späten 1980er Jahren. Dieses Protokoll, das in die GSM-Normen (*Global System for Mobile communications*) integriert ist, bietet keinen Mechanismus zur End-to-End-Verschlüsselung. In der Praxis wird jede gesendete SMS im Klartext über die Netze der Mobilfunkbetreiber übertragen (manchmal nur im Interface-Funk verschlüsselt, aber niemals Ende-zu-Ende). Dies bedeutet, dass der Inhalt der Nachricht auf mehreren Ebenen abgefangen werden kann:
+SMS (*Short Message Service*) war in der Vergangenheit für den Austausch von Texten sehr beliebt, basiert aber auf einem veralteten Protokoll aus den späten 1980er Jahren. Dieses Protokoll, das in die GSM-Normen (*Global System for Mobile communications*) integriert ist, bietet keinen Mechanismus zur Ende-zu-Ende-Verschlüsselung. In der Praxis wird jede gesendete SMS im Klartext über die Netze der Mobilfunkbetreiber übertragen (manchmal nur im Interface-Funk verschlüsselt, aber niemals Ende-zu-Ende). Dies bedeutet, dass der Inhalt der Nachricht auf mehreren Ebenen abgefangen werden kann:
 
 
 
@@ -6879,10 +6879,10 @@ Seit 2021 hat Google Messages das Signal-Protokoll übernommen, um eine Ende-zu-
 Im März 2025 veröffentlichte die GSM Association das *Universal Profile 3.0* (UP 3.0), das endlich einen Interoperabilitätsstandard für die Ende-zu-Ende-Verschlüsselung (E2EE) in RCS festlegt. Wenn ein Exchange über einen UP 3.0-konformen RCS-Client erfolgt, wird der Inhalt sowohl für den Betreiber als auch für einen IMSI-Catcher unlesbar. Google und Apple haben ihre Absicht angekündigt, diese Technologie zu unterstützen (es bleibt abzuwarten, ob dies interoperabel sein wird). Ist jedoch eines der Geräte nicht RCS UP 3.0-kompatibel oder besteht keine IP-Konnektivität, wird die Kommunikation automatisch auf herkömmliche, unverschlüsselte SMS umgestellt, was das Abfangen trivial macht.
 
 
-Auf der Apple-Seite bietet iMessage (eingeführt 2011) eine native Ende-zu-Ende-Verschlüsselung zwischen Apple-Nutzern, aber dieses Protokoll bleibt geschlossen und auf das iOS/macOS-Ökosystem beschränkt. Beim Austausch von Nachrichten mit Nutzern ausserhalb dieses Ökosystems kehrt die Nachricht zum klassischen Protokoll zurück, wodurch jegliche Vertraulichkeit verloren geht. Die Verschlüsselung kann auch gebrochen werden, wenn Sie oder Ihr Gegenüber Ihre Nachrichten in iCloud ohne die Option *Erweiterter Datenschutz* speichern.
+Auf der Apple-Seite bietet iMessage (eingeführt 2011) eine native Ende-zu-Ende-Verschlüsselung zwischen Apple-Nutzern, aber dieses Protokoll bleibt geschlossen und auf das iOS/macOS-Ökosystem beschränkt. Beim Austausch von Nachrichten mit Nutzern ausserhalb dieses Ökosystems kehrt die Nachricht zum klassischen Protokoll zurück, wodurch jegliche Vertraulichkeit verloren geht. Die Verschlüsselung kann auch gebrochen werden, wenn du oder dein Gegenüber deine Nachrichten in iCloud ohne die Option *Erweiterter Datenschutz* speichern.
 
-
-Kurz gesagt, weder herkömmliche SMS, noch MMS oder sogar Standard-RCS können als zuverlässige, universelle Lösungen zur Wahrung der Vertraulichkeit des Austauschs angesehen werden. Nur die Verwendung von Google Messages, iMessage oder des künftigen RCS UP 3.0-Protokolls kann eine zufriedenstellende Vertraulichkeit gewährleisten, vorausgesetzt, beide Parteien verwenden das gleiche Verschlüsselungsprotokoll. Und genau hier liegt der grösste Fallstrick von SMS im weitesten Sinne: Diese Messaging-Anwendung, die auf den meisten Telefonen vorinstalliert ist, vereint völlig unterschiedliche Protokolle, und wenn die andere Partei nur das SMS-Protokoll unterstützt, wird Ihre Nachricht im Klartext übertragen, ohne dass Sie es unbedingt merken. Deshalb rate ich dringend davon ab, herkömmliche Nachrichten zu verwenden, solange kein universeller und robuster Standard für die Ende-zu-Ende-Verschlüsselung etabliert ist, denn Sie sind viel zu sehr von der Wahl des Protokolls Ihres Gegenübers abhängig, um Ihre eigene Sicherheit zu gewährleisten.
+xxx
+Kurz gesagt, weder herkömmliche SMS, noch MMS oder sogar Standard-RCS können als zuverlässige, universelle Lösungen zur Wahrung der Vertraulichkeit des Austauschs angesehen werden. Nur die Verwendung von Google Messages, iMessage oder des künftigen RCS UP 3.0-Protokolls kann eine zufriedenstellende Vertraulichkeit gewährleisten, vorausgesetzt, beide Parteien verwenden das gleiche Verschlüsselungsprotokoll. Und genau hier liegt der grösste Fallstrick von SMS im weitesten Sinne: Diese Messaging-Anwendung, die auf den meisten Telefonen vorinstalliert ist, vereint völlig unterschiedliche Protokolle, und wenn die andere Partei nur das SMS-Protokoll unterstützt, wird deine Nachricht im Klartext übertragen, ohne dass Sie es unbedingt merken. Deshalb rate ich dringend davon ab, herkömmliche Nachrichten zu verwenden, solange kein universeller und robuster Standard für die Ende-zu-Ende-Verschlüsselung etabliert ist, denn Sie sind viel zu sehr von der Wahl des Protokolls Ihres Gegenübers abhängig, um Ihre eigene Sicherheit zu gewährleisten.
 
 
 Anstelle von SMS würde ich Ihnen raten, spezielle Messaging-Anwendungen zu verwenden, die eine robuste, transparente Ende-zu-Ende-Verschlüsselung nutzen und eine wirklich sichere und private Kommunikation ermöglichen.
