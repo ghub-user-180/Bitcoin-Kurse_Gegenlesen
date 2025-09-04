@@ -6881,17 +6881,17 @@ Im März 2025 veröffentlichte die GSM Association das *Universal Profile 3.0* (
 
 Auf der Apple-Seite bietet iMessage (eingeführt 2011) eine native Ende-zu-Ende-Verschlüsselung zwischen Apple-Nutzern, aber dieses Protokoll bleibt geschlossen und auf das iOS/macOS-Ökosystem beschränkt. Beim Austausch von Nachrichten mit Nutzern ausserhalb dieses Ökosystems kehrt die Nachricht zum klassischen Protokoll zurück, wodurch jegliche Vertraulichkeit verloren geht. Die Verschlüsselung kann auch gebrochen werden, wenn du oder dein Gegenüber deine Nachrichten in iCloud ohne die Option *Erweiterter Datenschutz* speichern.
 
-xxx
-Kurz gesagt, weder herkömmliche SMS, noch MMS oder sogar Standard-RCS können als zuverlässige, universelle Lösungen zur Wahrung der Vertraulichkeit des Austauschs angesehen werden. Nur die Verwendung von Google Messages, iMessage oder des künftigen RCS UP 3.0-Protokolls kann eine zufriedenstellende Vertraulichkeit gewährleisten, vorausgesetzt, beide Parteien verwenden das gleiche Verschlüsselungsprotokoll. Und genau hier liegt der grösste Fallstrick von SMS im weitesten Sinne: Diese Messaging-Anwendung, die auf den meisten Telefonen vorinstalliert ist, vereint völlig unterschiedliche Protokolle, und wenn die andere Partei nur das SMS-Protokoll unterstützt, wird deine Nachricht im Klartext übertragen, ohne dass Sie es unbedingt merken. Deshalb rate ich dringend davon ab, herkömmliche Nachrichten zu verwenden, solange kein universeller und robuster Standard für die Ende-zu-Ende-Verschlüsselung etabliert ist, denn Sie sind viel zu sehr von der Wahl des Protokolls Ihres Gegenübers abhängig, um Ihre eigene Sicherheit zu gewährleisten.
+
+Kurz gesagt, weder herkömmliche SMS, noch MMS oder sogar Standard-RCS können als zuverlässige, universelle Lösungen zur Wahrung der Vertraulichkeit des Austauschs angesehen werden. Nur die Verwendung von Google Messages, iMessage oder des künftigen RCS UP 3.0-Protokolls kann eine zufriedenstellende Vertraulichkeit gewährleisten, vorausgesetzt, beide Parteien verwenden das gleiche Verschlüsselungsprotokoll. Und genau hier liegt der grösste Fallstrick von SMS im weitesten Sinne: Diese Messaging-Anwendung, die auf den meisten Telefonen vorinstalliert ist, vereint völlig unterschiedliche Protokolle, und wenn die andere Partei nur das SMS-Protokoll unterstützt, wird deine Nachricht im Klartext übertragen, ohne dass du es unbedingt merkst. Deshalb rate ich dringend davon ab, herkömmliche Nachrichten zu verwenden, solange kein universeller und robuster Standard für die Ende-zu-Ende-Verschlüsselung etabliert ist, denn du bist viel zu sehr von der Wahl des Protokolls deines Gegenübers abhängig, um deine eigene Sicherheit zu gewährleisten.
 
 
-Anstelle von SMS würde ich Ihnen raten, spezielle Messaging-Anwendungen zu verwenden, die eine robuste, transparente Ende-zu-Ende-Verschlüsselung nutzen und eine wirklich sichere und private Kommunikation ermöglichen.
+Anstelle von SMS würde ich dir raten, spezielle Messaging-Anwendungen zu verwenden, die eine robuste, transparente Ende-zu-Ende-Verschlüsselung nutzen und eine wirklich sichere und private Kommunikation ermöglichen.
 
 
 ### Sicheres Messaging: Welche Lösungen gibt es?
 
 
-Angesichts der Einschränkungen von SMS sind eine Reihe moderner Anwendungen entstanden, von denen einige über eine Ende-zu-Ende-Verschlüsselung verfügen. Im Folgenden finden Sie einen vergleichenden Überblick über die wichtigsten heute verfügbaren Anwendungen, der Ihnen helfen soll, die Anwendungen zu finden, die Ihren Anforderungen an Sicherheit und Vertraulichkeit am besten entsprechen.
+Angesichts der Einschränkungen von SMS sind eine Reihe moderner Anwendungen entstanden, von denen einige über eine Ende-zu-Ende-Verschlüsselung verfügen. Im Folgenden findest du einen vergleichenden Überblick über die wichtigsten heute verfügbaren Anwendungen, der dir helfen soll, die Anwendungen zu finden, die deinen Anforderungen an Sicherheit und Vertraulichkeit am besten entsprechen.
 
 
 #### Signal
@@ -6906,7 +6906,7 @@ Signal ist eine Instant-Messaging-Anwendung, die von Anfang an auf maximale Vert
 Technisch gesehen wird jede Konversation innerhalb von Signal durch einen asymmetrischen und flüchtigen Verschlüsselungsmechanismus geschützt: Die Sitzungsschlüssel werden dynamisch ausgehandelt und nach der Verwendung zerstört, wodurch das Risiko einer Kompromittierung begrenzt wird. Die Transparenz der Anwendung, deren Code sowohl auf der Client- als auch auf der Serverseite vollständig quelloffen ist, bedeutet, dass jeder Sicherheitsexperte oder Forscher ihre Integrität und die Einhaltung der angegebenen kryptografischen Standards überprüfen kann.
 
 
-Signal hat jedoch einen Schwachpunkt, wenn es um die Anonymität geht: Die Anwendung erfordert eine gültige Telefonnummer für die Benutzerregistrierung und -identifizierung. Obwohl diese Nummer für Ihre Kontakte nicht systematisch sichtbar ist (sie kann unter einem Pseudonym versteckt werden), führt diese Anforderung zu einer Abhängigkeit von der Telefoninfrastruktur und damit zu einer potenziellen Rückverfolgbarkeitslücke.
+Signal hat jedoch einen Schwachpunkt, wenn es um die Anonymität geht: Die Anwendung erfordert eine gültige Telefonnummer für die Benutzerregistrierung und -identifizierung. Obwohl diese Nummer für deine Kontakte nicht systematisch sichtbar ist (sie kann unter einem Pseudonym versteckt werden), führt diese Anforderung zu einer Abhängigkeit von der Telefoninfrastruktur und damit zu einer potenziellen Rückverfolgbarkeitslücke.
 
 
 Kurz gesagt, Signal ist eine sehr gute Messaging-Lösung, aber leider erfordert sie eine Verbindung über eine Telefonnummer.
@@ -6917,22 +6917,22 @@ https://planb.network/tutorials/computer-security/communication/signal-8dfb5572-
 #### WhatsApp
 
 
-WhatsApp, das zu Meta (ehemals Facebook) gehört, verwendet ebenfalls das *Signalprotokoll* für die Ende-zu-Ende-Verschlüsselung. Theoretisch sind Ihre WhatsApp-Unterhaltungen also wirksam gegen Abhören geschützt. In Bezug auf die tatsächliche Vertraulichkeit ist dies jedoch nicht unbedingt das Beste: Die Anwendung sammelt eine riesige Menge an Metadaten (Nummern, Häufigkeit des Austauschs, ungefährer Standort, Kontakte...), die von Meta zu Werbe- oder Analysezwecken kommerziell genutzt werden können.
+WhatsApp, das zu Meta (ehemals Facebook) gehört, verwendet ebenfalls das *Signalprotokoll* für die Ende-zu-Ende-Verschlüsselung. Theoretisch sind deine WhatsApp-Unterhaltungen also wirksam gegen Abhören geschützt. In Bezug auf die tatsächliche Vertraulichkeit ist WhatsApp jedoch nicht unbedingt das Beste: Die Anwendung sammelt eine riesige Menge an Metadaten (Nummern, Häufigkeit des Austauschs, ungefährer Standort, Kontakte...), die von Meta zu Werbe- oder Analysezwecken kommerziell genutzt werden können.
 
 
-Ausserdem kann die von WathsApp angewandte Verschlüsselung nicht überprüft werden, da der Quellcode urheberrechtlich geschützt ist. Deshalb empfehle ich nicht, WhatsApp in einem Kontext zu verwenden, in dem die Vertraulichkeit und Sicherheit Ihres Austauschs wichtig sind.
+Ausserdem kann die von WhatsApp angewandte Verschlüsselung nicht überprüft werden, da der Quellcode urheberrechtlich geschützt ist. Deshalb empfehle ich nicht, WhatsApp in einem Kontext zu verwenden, in dem die Vertraulichkeit und Sicherheit deines Nachrichten-Austauschs wichtig sind.
 
 
-#### Telegramm
+#### Telegram
 
 
-Telegram ist dank seiner Ergonomie und seiner Funktionen (öffentliche Kanäle, Bots, grosse Gruppen...) ein sehr beliebter Messaging-Dienst. Allerdings ist seine Sicherheit standardmässig sehr viel eingeschränkter: Nur "geheime Austausche" profitieren von einer Ende-zu-Ende-Verschlüsselung. Alle anderen Unterhaltungen (der Grossteil des täglichen Austauschs der Nutzer) werden unverschlüsselt auf den Servern von Telegram gespeichert.
+Telegram ist dank seiner Ergonomie und seiner Funktionen (öffentliche Kanäle, Bots, grosse Gruppen...) ein sehr beliebter Messaging-Dienst. Allerdings ist seine Sicherheit standardmässig sehr viel eingeschränkter: Nur "geheime Nachrichten" profitieren von einer Ende-zu-Ende-Verschlüsselung. Alle anderen Unterhaltungen (der Grossteil des täglichen Austauschs der Nutzer) werden unverschlüsselt auf den Servern von Telegram gespeichert.
 
 
 ![Image](assets/fr/149.webp)
 
 
-Telegram kann daher technisch auf den Inhalt der meisten Unterhaltungen zugreifen, die nicht ausdrücklich geschützt sind. Auch wenn das Unternehmen eine feste Haltung gegenüber Regierungsbehörden einnimmt, ist Telegram keine optimale Lösung für vertrauliche oder sensible Gespräche, es sei denn, Sie nutzen ausdrücklich die "geheimen Gespräche", die im Alltag weit weniger praktisch sind.
+Telegram kann daher technisch auf den Inhalt der meisten Unterhaltungen zugreifen, die nicht ausdrücklich geschützt sind. Auch wenn das Unternehmen eine feste Haltung gegenüber Regierungsbehörden einnimmt, ist Telegram keine optimale Lösung für vertrauliche oder sensible Gespräche. Es sei denn, du nutzt ausdrücklich die "geheimen Nachrichten", die im Alltag weit weniger praktisch sind.
 
 
 https://planb.network/tutorials/computer-security/communication/telegram-account-09ab3cf3-7625-4267-97a1-24e59a9e5943
@@ -6949,7 +6949,7 @@ Threema, das 2012 in der Schweiz eingeführt wurde, unterscheidet sich von den m
 Technisch gesehen bietet Threema eine Ende-zu-Ende-Verschlüsselung für die gesamte Kommunikation: Nachrichten, Anrufe, Dateien, Gruppen und andere Funktionen. Seit 2020 ist der Quellcode für mobile Anwendungen Open Source, was eine unabhängige Überprüfung ermöglicht. Die Serverinfrastruktur hingegen bleibt proprietär, obwohl sie sich ausschliesslich in der Schweiz befindet, einem Land, dessen Gesetzgebung den Schutz personenbezogener Daten begünstigt.
 
 
-Die Anwendung ist mit Android und iOS kompatibel und bietet auch einen sicheren Interface-Web- sowie einen nativen Client für Windows, Linux und macOS. Die erste Aktivierung erfordert jedoch ein Smartphone.
+Die Anwendung ist mit Android und iOS kompatibel und bietet auch ein sicheres Web-Interface sowie einen nativen Client für Windows, Linux und macOS. Die erste Aktivierung erfordert jedoch ein Smartphone.
 
 
 Ein weiterer wichtiger Aspekt von Threema ist sein Geschäftsmodell: Die Anwendung ist nicht kostenlos, sondern muss gekauft werden (etwa 5,99 €). Diese Entscheidung vermeidet die Abhängigkeit von einem Modell, das auf Datenerfassung oder Werbung basiert. Um die Anonymität beim Kauf zu wahren, können Aktivierungsschlüssel in Bitcoins oder Bargeld direkt im Threema Shop für Android erworben werden.
@@ -6972,10 +6972,10 @@ SimpleX Chat, das 2021 auf den Markt kommt, verzichtet vollständig auf eine Ben
 Technisch gesehen werden die Nachrichten von Ende zu Ende verschlüsselt und durchlaufen Relay-Server. Diese Relay-Server haben keine Kenntnis von Absender, Empfänger oder deren Schlüssel. Sobald eine Nachricht übertragen wurde, wird sie auf dem Server sofort gelöscht. SimpleX verwendet eine unverbundene, dezentrale Architektur: Die Server teilen sich kein globales Verzeichnis, und jeder Benutzer kann sein eigenes Relais installieren. Dies steht im Gegensatz zu Lösungen wie Matrix, wo föderierte Server den Austausch von Nachrichten verfolgen.
 
 
-Das Protokoll ist vollständig quelloffen: Clients, Server und Protokolle sind öffentlich zugänglich und werden überprüft. SimpleX ist auf Android, iOS, Linux, Windows und macOS verfügbar und verfügt über einen verschlüsselten, portablen lokalen Speicher, sodass Profile ohne zentralen Server übertragen werden können. Jeder Nutzer kann auch mehrere isolierte Profile verwalten, jedes mit eigenen Einstellungen, Nickname und Foto. Diese Flexibilität ermöglicht es, Privatleben, Berufsleben und Pseudonymität klar zu trennen.
+Das Protokoll ist vollständig quelloffen: Clients, Server und Protokolle sind öffentlich zugänglich und werden überprüft. SimpleX ist auf Android, iOS, Linux, Windows und macOS verfügbar und verfügt über einen verschlüsselten, portablen lokalen Speicher, so dass Profile ohne zentralen Server übertragen werden können. Jeder Nutzer kann auch mehrere isolierte Profile verwalten, jedes mit eigenen Einstellungen, Nickname und Foto. Diese Flexibilität ermöglicht es, Privatleben, Berufsleben und Pseudonymität klar zu trennen.
 
 
-Kontakte werden über temporäre Links oder statische Adressen (dauerhafte, aber widerrufbare Identifikatoren) hinzugefügt. Sie können auch zwischen dem ephemeren Exchange oder einem klassischeren Modus mit fein abgestuften Kontrollen für Sichtbarkeit und Berechtigungen wählen (z.B. können Sie Ihren echten Namen hinter einem zufälligen, eindeutigen Pseudonym für jeden Kontakt verstecken).
+Kontakte werden über temporäre Links oder statische Adressen (dauerhafte, aber widerrufbare Identifikatoren) hinzugefügt. Du kannst auch zwischen dem flüchtigen Austausch oder einem klassischeren Modus mit fein abgestuften Kontrollen für Sichtbarkeit und Berechtigungen wählen (z.B. kannst du deinen echten Namen hinter einem zufälligen, eindeutigen Pseudonym für jeden Kontakt verstecken).
 
 
 In Bezug auf Sicherheit und Vertraulichkeit geht SimpleX weiter als die meisten bestehenden Nachrichtensysteme, indem es die Metadaten auf ein Minimum beschränkt und jede Abhängigkeit von einem zentralen Verzeichnis oder einer eindeutigen Kennung beseitigt. Diese Architektur bringt jedoch eine Reihe von Kompromissen in Bezug auf die Benutzerfreundlichkeit mit sich: manchmal weniger intuitive Ergonomie, die Notwendigkeit einer leichten Einarbeitung und die Abhängigkeit von der Verfügbarkeit von Relay-Servern.
@@ -6983,7 +6983,7 @@ In Bezug auf Sicherheit und Vertraulichkeit geht SimpleX weiter als die meisten 
 
 https://planb.network/tutorials/computer-security/communication/simplex-chat-7a1efa11-4d0a-49c4-92aa-e18bf22c22b9
 
-#### Sitzung
+#### Session
 
 
 Session, das 2020 von der Oxen Privacy Tech Foundation auf den Markt gebracht wurde, ist eine Messaging-App, die angesichts der Überwachung mehr Privatsphäre und Widerstandsfähigkeit bieten soll. Session erfordert keine persönlichen Informationen bei der Registrierung: keine Telefonnummer, keine E-Mail, nur ein Paar lokal generierter kryptografischer Schlüssel. Dies ermöglicht eine anonyme Authentifizierung.
@@ -7003,13 +7003,13 @@ https://planb.network/tutorials/computer-security/communication/session-b0e3193c
 #### Keet
 
 
-Keet, das 2022 von Holepunch (einem von Tether und Bitfinex unterstützten Unternehmen) eingeführt wurde, zeichnet sich durch seinen radikal dezentralen Ansatz aus: Die gesamte Kommunikation (Nachrichten, Audio- und Videoanrufe, Dateiübertragungen usw.) findet direkt zwischen den Nutzern statt, ohne einen zentralen Server zu durchlaufen. Diese P2P-Architektur macht Zwischenhändler überflüssig und erhöht die Vertraulichkeit und Widerstandsfähigkeit des Systems erheblich.
+Keet, das 2022 von Holepunch (einem von Tether und Bitfinex unterstützten Unternehmen) eingeführt wurde, zeichnet sich durch seinen radikal dezentralen Ansatz aus: Die gesamte Kommunikation (Nachrichten, Audio- und Videoanrufe, Dateiübertragungen usw.) findet direkt zwischen den Nutzern statt, ohne über einen zentralen Server zu laufen. Diese P2P-Architektur macht Zwischenhändler überflüssig und erhöht die Vertraulichkeit und Widerstandsfähigkeit des Systems erheblich.
 
 
 ![Image](assets/fr/153.webp)
 
 
-Keet verschlüsselt die gesamte Kommunikation von Anfang bis Ende. Die Registrierung ist völlig anonym: Es ist keine Telefonnummer, keine E-Mail Address und keine Kennung erforderlich. Dies gewährleistet eine erhöhte Vertraulichkeit von dem Moment an, in dem der Dienst aktiviert wird. Die Videoanrufe sind von höchster Qualität und die Dateiübertragungen sind von unbegrenzter Grösse, so dass der Dienst sowohl für die berufliche als auch für die private Nutzung geeignet ist.
+Keet verschlüsselt die gesamte Kommunikation von Anfang bis Ende. Die Registrierung ist völlig anonym: Es ist keine Telefonnummer, keine E-Mail Adresse und keine Kennung erforderlich. Dies gewährleistet eine erhöhte Vertraulichkeit von dem Moment an, in dem der Dienst aktiviert wird. Die Videoanrufe sind von höchster Qualität und die Dateiübertragungen sind von unbegrenzter Grösse, so dass der Dienst sowohl für die berufliche als auch für die private Nutzung geeignet ist.
 
 
 Andererseits wurden zwar einige Komponenten (Kryptografie und Netzwerke) als Open Source auf GitHub veröffentlicht, doch war der Interface-Client von Keet zum Zeitpunkt der Erstellung von SCU-202 (Mai 2025) nicht vollständig offen. Holepunch hat jedoch seine Absicht angekündigt, den gesamten Code in Zukunft zu veröffentlichen.
@@ -7052,7 +7052,7 @@ Olvid bietet zwei Versionen an:
 Die Anwendung ist von der ANSSI (*Agence Nationale de la Sécurité des Systèmes d'Information*) zertifiziert.
 
 
-Olvid ist kompatibel mit Android, iOS, Windows, macOS und Linux. Seine Ergonomie bleibt einfach und zugänglich. Die Anwendung bietet auch ein verschlüsseltes Backup-System für Schlüssel und Kontakte, so dass Sie ein Konto auf einem neuen Gerät wiederherstellen können.
+Olvid ist kompatibel mit Android, iOS, Windows, macOS und Linux. Seine Ergonomie bleibt einfach und zugänglich. Die Anwendung bietet auch ein verschlüsseltes Backup-System für Schlüssel und Kontakte, so dass du ein Konto auf einem neuen Gerät wiederherstellen kannst.
 
 
 https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-62c0-4a47-be4e-3d23c6155bfd
@@ -7063,27 +7063,27 @@ https://planb.network/tutorials/computer-security/communication/olvid-05038dc1-6
 Beliebte Messaging-Anwendungen wie WhatsApp, WeChat, Facebook Messenger, Instagram Direct Message, Snapchat und LINE werden täglich in grossem Umfang genutzt. Aus technischer Sicht entsprechen diese Plattformen jedoch nicht den modernen Sicherheitsstandards, die für die private Kommunikation geeignet sind.
 
 
-Bei der Auswahl eines Nachrichtendienstes sind im Allgemeinen zwei grundlegende Kriterien zu beachten: Bietet er eine Ende-zu-Ende-Verschlüsselung, und ist sein Code quelloffen? Dann gibt es noch andere Merkmale, die von Interesse sein können, wie z.B. die anonyme Registrierung oder die Verwendung einer dezentralen Netzwerkarchitektur, aber diese ersten beiden Elements sind die Grundlagen. Die Verschlüsselung garantiert die Vertraulichkeit Ihres Austauschs, während die Offenlegung des Quellcodes es Ihnen ermöglicht, zu überprüfen, ob die Verschlüsselung sicher implementiert wurde.
+Bei der Auswahl eines Nachrichtendienstes sind im Allgemeinen zwei grundlegende Kriterien zu beachten: Bietet er eine Ende-zu-Ende-Verschlüsselung, und ist sein Code quelloffen? Dann gibt es noch andere Merkmale, die von Interesse sein können, wie z.B. die anonyme Registrierung oder die Verwendung einer dezentralen Netzwerkarchitektur, aber diese ersten beiden Elements sind die Grundlagen. Die Verschlüsselung garantiert die Vertraulichkeit deines Austauschs, während die Offenlegung des Quellcodes es dir ermöglicht, zu überprüfen, ob die Verschlüsselung sicher implementiert wurde.
 
 
-Die Inanspruchnahme von Diensten, die diese beiden Voraussetzungen nicht erfüllen, ist gleichbedeutend damit, den Schutz Ihrer Börsen vollständig an kommerzielle Akteure zu delegieren, deren wirtschaftliche Interessen häufig von ihrer Ausbeutung abhängen.
+Die Inanspruchnahme von Diensten, die diese beiden Voraussetzungen nicht erfüllen, ist gleichbedeutend damit, den Schutz deines Nachrichtenaustauschs vollständig an kommerzielle Akteure zu delegieren, deren wirtschaftliche Interessen häufig von ihrer Ausbeutung abhängen.
 
 
-Im Folgenden finden Sie eine zusammenfassende Tabelle der wichtigsten bestehenden Messaging-Anwendungen und ihrer Funktionen, wie sie zum Zeitpunkt der Erstellung dieses Berichts (Mai 2025) vorlagen:
+Im Folgenden findest du eine zusammenfassende Tabelle der wichtigsten bestehenden Messaging-Anwendungen und ihrer Funktionen, wie sie zum Zeitpunkt der Erstellung dieses Berichts (Mai 2025) vorlagen:
 
 
-| Application          | E2EE 1:1       | E2EE groups   | Anonymous registration | Client open-source license | Server open-source license | Decentralized server | Creation year |
+| Applikation          | E2EE 1:1       | E2EE Gruppen   | Anonyme Registrierung | Client Open-source Lizenz | Server Open-source Lizenz | Dezentralisierte Server | Erstellungsjahr |
 | -------------------- | -------------- | -------------- | ------------------- | -------------------------- | --------------------------- | -------------------- | ------------- |
 | WhatsApp             | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2009              |
 | WeChat               | ❌              | ❌              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Facebook Messenger   | ✅              | 🟡 (optionnel) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
-| Telegram             | 🟡 (optionnel) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
+| Facebook Messenger   | ✅              | 🟡 (optional) | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
+| Telegram             | 🟡 (optional) | ❌              | 🟡                  | ✅                          | ❌                           | ❌                    | 2013              |
 | LINE                 | ✅              | ✅              | ❌                   | ❌                          | ❌                           | ❌                    | 2011              |
 | Signal               | ✅              | ✅              | ❌                   | ✅                          | ✅                           | ❌                    | 2014              |
 | Threema              | ✅              | ✅              | ✅                   | ✅                          | ❌                           | ❌                    | 2012              |
-| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federated)          | 2016              |
-| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via email)       | 2017              |
-| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (federated)          | 2014              |
+| Element (Matrix)     | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (föderiert)          | 2016              |
+| Delta Chat           | ✅              | ✅              | ✅                   | ✅                          | N/A                         | 🟡 (via E-Mail)       | 2017              |
+| Conversations (XMPP) | ✅              | ✅              | ✅                   | ✅                          | ✅                           | 🟡 (föderiert)          | 2014              |
 | Session              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2020              |
 | SimpleX              | ✅              | ✅              | ✅                   | ✅                          | ✅                           | ✅                    | 2021              |
 | Olvid                | ✅              | ✅              | ✅                   | ✅                          | ❌                           | 🟡(no directory)   | 2019              |
@@ -7095,10 +7095,10 @@ Im Folgenden finden Sie eine zusammenfassende Tabelle der wichtigsten bestehende
 *E2EE = Ende-zu-Ende-Verschlüsselung*
 
 
-Die Sicherheit Ihrer elektronischen Kommunikation hängt in erster Linie von der Wahl der richtigen Anwendung und der Anwendung bewährter Verfahren ab. Das Verständnis der zugrundeliegenden Sicherheitsmechanismen, das Erkennen der Schwachstellen herkömmlicher Lösungen und die Wahl zuverlässiger Alternativen sind die wesentlichen Grundlagen für eine Kommunikation, die nicht abgehört werden kann.
+Die Sicherheit deiner elektronischen Kommunikation hängt in erster Linie von der Wahl der richtigen Anwendung und der Anwendung bewährter Verfahren ab. Das Verständnis der zugrundeliegenden Sicherheitsmechanismen, das Erkennen der Schwachstellen herkömmlicher Lösungen und die Wahl zuverlässiger Alternativen sind die wesentlichen Grundlagen für eine Kommunikation, die nicht abgehört werden kann.
 
 
-Bisher haben wir uns damit beschäftigt, wie Sie Ihr Smartphone sichern und eine zuverlässige Messaging-App auswählen können. Im nächsten Kapitel schlage ich vor, diese Studie auf alle wichtigen Familien mobiler Anwendungen auszuweiten, um datenschutzfreundliche Alternativen zu Ihren Lieblingsanwendungen zu finden. Welche Open-Source-Anwendungen stehen Ihnen zur Verfügung, ganz gleich, ob es sich um E-Mail, Dateispeicherung, Mapping, Video- oder Musikstreaming handelt?
+Bisher haben wir uns damit beschäftigt, wie du dein Smartphone sichern und eine zuverlässige Messaging-App auswählen können. Im nächsten Kapitel schlage ich vor, diese Studie auf alle wichtigen Familien mobiler Anwendungen auszuweiten, um datenschutzfreundliche Alternativen zu deinen Lieblingsanwendungen zu finden. Welche Open-Source-Anwendungen stehen dir zur Verfügung, ganz gleich, ob es sich um E-Mail, Dateispeicherung, Mapping, Video- oder Musikstreaming handelt?
 
 
 ## open-Source-Anwendungen: die besten Alternativen
@@ -7107,7 +7107,7 @@ Bisher haben wir uns damit beschäftigt, wie Sie Ihr Smartphone sichern und eine
 <chapterId>9c0e056c-45ce-407c-b4b6-f648bbc1f7d5</chapterId>
 
 
-Abgesehen von Instant-Messaging-Anwendungen ist es wichtig, daran zu denken, dass andere Anwendungen auf Ihrem Smartphone Ihre Daten für kommerzielle Zwecke nutzen können. Glücklicherweise gibt es Open-Source-Alternativen, die Ihre Privatsphäre respektieren. Diese möchte ich Ihnen in diesem Kapitel vorstellen.
+Abgesehen von Instant-Messaging-Anwendungen ist es wichtig, daran zu denken, dass andere Anwendungen auf deinem Smartphone deine Daten für kommerzielle Zwecke nutzen können. Glücklicherweise gibt es Open-Source-Alternativen, die deine Privatsphäre respektieren. Diese möchte ich dir in diesem Kapitel vorstellen.
 
 
 Ich werde hier nicht noch einmal auf die Alternativen zu Browsern und Instant Messengern eingehen, da wir sie bereits in früheren Kapiteln ausführlich behandelt haben.
@@ -7116,7 +7116,7 @@ Ich werde hier nicht noch einmal auf die Alternativen zu Browsern und Instant Me
 ### Kunden-E-Mails
 
 
-E-Mail ist nach wie vor ein unverzichtbares Kommunikationsmittel, aber die beliebtesten Anwendungen wie Gmail oder Outlook werfen eine Reihe von Datenschutzproblemen auf. Diese Dienste analysieren häufig Ihre Nachrichten, speichern Metadaten und beteiligen sich an der Erstellung von Werbeprofilen.
+E-Mail ist nach wie vor ein unverzichtbares Kommunikationsmittel, aber die beliebtesten Anwendungen wie Gmail oder Outlook werfen eine Reihe von Datenschutzproblemen auf. Diese Dienste analysieren häufig deine Nachrichten, speichern Metadaten und beteiligen sich an der Erstellung von Werbeprofilen.
 
 
 **Alternativen**:
@@ -7126,7 +7126,7 @@ E-Mail ist nach wie vor ein unverzichtbares Kommunikationsmittel, aber die belie
 - [FairEmail](https://email.faircode.eu/)
 
 
-FairEmail ist eine umfassende, sicherheitsorientierte Android-Anwendung. Sie unterstützt alle IMAP/SMTP-Anbieter, ermöglicht die Nachrichtenverschlüsselung über OpenPGP, blockiert entfernte Bilder (die als Tracker verwendet werden) und verwendet keine Dienste von Drittanbietern. Es gibt Ihnen eine fein abgestufte Kontrolle über Verbindungen, Benachrichtigungen und das Synchronisationsverhalten.
+FairEmail ist eine umfassende, sicherheitsorientierte Android-Anwendung. Sie unterstützt alle IMAP/SMTP-Anbieter, ermöglicht die Nachrichtenverschlüsselung über OpenPGP, blockiert entfernte Bilder (die als Tracker verwendet werden) und verwendet keine Dienste von Drittanbietern. Es gibt dir eine fein abgestufte Kontrolle über Verbindungen, Benachrichtigungen und das Synchronisationsverhalten.
 
 
 ![Image](assets/fr/155.webp)
@@ -7146,7 +7146,7 @@ K-9 Mail ist ein Open-Source-Android-Mail-Client, der kürzlich in das Thunderbi
 - [Thunderbird Mobile](https://www.thunderbird.net/mobile/)
 
 
-Thunderbird Mobile ist die mobile Version des beliebten Open-Source-E-Mail-Clients, der von der Mozilla Foundation entwickelt wurde. Getreu der Philosophie des Projekts legt die Anwendung Wert auf Vertraulichkeit, Transparenz des Codes und das Fehlen aufdringlicher Telemetrie. Thunderbird Mobile basiert auf der Anwendung K-9 Mail, deren offizieller Nachfolger für Android es ist. Es bietet eine erweiterte Verwaltung von IMAP- und POP-Konten, E-Mail-Verschlüsselung (über OpenPGP) und einen einfachen, effizienten Interface.
+Thunderbird Mobile ist die mobile Version des beliebten Open-Source-E-Mail-Clients, der von der Mozilla Foundation entwickelt wurde. Getreu der Philosophie des Projekts legt die Anwendung Wert auf Vertraulichkeit, Transparenz des Codes und das Fehlen aufdringlicher Telemetrie. Thunderbird Mobile basiert auf der Anwendung K-9 Mail, deren offizieller Nachfolger für Android es ist. Es bietet eine erweiterte Verwaltung von IMAP- und POP-Konten, E-Mail-Verschlüsselung (über OpenPGP) und ein einfaches, effizientes Interface.
 
 
 ![Image](assets/fr/157.webp)
@@ -7156,12 +7156,12 @@ Thunderbird Mobile ist die mobile Version des beliebten Open-Source-E-Mail-Clien
 - [Tuta](https://tuta.com/)
 
 
-Tuta (ehemals "*Tutanota*") bietet eine vollständige Lösung für verschlüsselte End-to-End-E-Mails, aber der mobile Client unterstützt nur Tuta-Konten. Er funktioniert nicht mit anderen Anbietern. Interface ist modern und übersichtlich, und die Registrierung erfordert keine persönlichen Daten.
+Tuta (ehemals "*Tutanota*") bietet eine vollständige Lösung für verschlüsselte End-to-End-E-Mails, aber der mobile Client unterstützt nur Tuta-Konten. Er funktioniert nicht mit anderen Anbietern. Das Interface ist modern und übersichtlich, und die Registrierung erfordert keine persönlichen Daten.
 
 
 ![Image](assets/fr/158.webp)
 
-
+xxx
 
 - [Proton Mail](https://proton.me/mail)
 
