@@ -7161,7 +7161,7 @@ Tuta (ehemals "*Tutanota*") bietet eine vollständige Lösung für verschlüssel
 
 ![Image](assets/fr/158.webp)
 
-xxx
+
 
 - [Proton Mail](https://proton.me/mail)
 
@@ -7172,13 +7172,13 @@ Proton Mail ist ein sicherer Messaging-Dienst mit Sitz in der Schweiz, der eine 
 ![Image](assets/fr/159.webp)
 
 
-Ein E-Mail-System besteht aus 2 verschiedenen Komponenten: Dem E-Mail-Anbieter (z.B. Gmail, Tuta oder Proton Mail), der den Empfang, den Versand und die Speicherung von Nachrichten über Server abwickelt, und dem E-Mail-Client, der die Anwendung ist, mit der Sie Ihre E-Mails anzeigen und schreiben können (z.B. Gmail die Anwendung, Outlook, K-9 Mail oder Thunderbird). Der Client kann sich über Standardprotokolle wie IMAP oder SMTP mit verschiedenen Anbietern verbinden.
+Ein E-Mail-System besteht aus zwei verschiedenen Komponenten: Dem E-Mail-Anbieter (z.B. Gmail, Tuta oder Proton Mail), der den Empfang, den Versand und die Speicherung von Nachrichten über Server abwickelt, und dem E-Mail-Client, der die Anwendung ist, mit der du deine E-Mails anzeigen und schreiben kannst (z.B. Gmail die Anwendung, Outlook, K-9 Mail oder Thunderbird). Der Client kann sich über Standardprotokolle wie IMAP oder SMTP mit verschiedenen Anbietern verbinden.
 
 
 Es ist daher möglich, einen datenschutzfreundlichen Open-Source-Client zu verwenden und gleichzeitig ein Konto bei einem herkömmlichen Anbieter zu unterhalten. Einige Anwendungen wie Gmail, Proton Mail oder Tuta bieten E-Mail-Clients an, die auch als Messaging-Anbieter fungieren und somit eine Komplettlösung bieten, die sowohl das Lesen als auch das Senden und Empfangen von Interface-E-Mails integriert.
 
 
-Hier sind ein paar Vorschläge, wenn Sie Ihren E-Mail-Anbieter auswählen:
+Hier sind ein paar Vorschläge, wenn du deinen E-Mail-Anbieter auswählst:
 
 
 
@@ -7192,20 +7192,20 @@ Hier sind ein paar Vorschläge, wenn Sie Ihren E-Mail-Anbieter auswählen:
 ### Kartographie und Navigation
 
 
-Die meisten klassischen Kartenanwendungen wie Google Maps, Waze oder Citymapper sammeln eine Vielzahl persönlicher Daten. Sie zeichnen Ihre Bewegungen, Suchen und Gewohnheiten auf und nutzen sie für kommerzielle Zwecke.
+Die meisten klassischen Kartenanwendungen wie Google Maps, Waze oder Citymapper sammeln eine Vielzahl persönlicher Daten. Sie zeichnen deine Bewegungen, Suchen und Gewohnheiten auf und nutzen sie für kommerzielle Zwecke.
 
 
 **Alternativen**:
 
 
 
-- [Organische Karten] (https://organicmaps.app/)
+- [Organic Maps] (https://organicmaps.app/)
 
 
-Organic Maps ist eine kostenlose Offline-Navigationsanwendung. Sie basiert auf Daten von [OpenStreetMap](https://www.openstreetmap.org), einer offenen, gemeinschaftlichen Datenbank. Sie laden die Karten der Regionen herunter, für die Sie sich interessieren, und navigieren dann ohne Netz.
+Organic Maps ist eine kostenlose Offline-Navigationsanwendung. Sie basiert auf Daten von [OpenStreetMap](https://www.openstreetmap.org), einer offenen, gemeinschaftlichen Datenbank. Du lädtst die Karten der Regionen herunter, für die du dich interessierst, und navigierst dann ohne Netz.
 
 
-Sie enthält keine Werbung, Tracking oder Datenerfassung. Die App eignet sich besonders für Fahrten zu Fuss, mit dem Fahrrad oder dem Auto, wobei Interface einfach, schnell und ablenkungsfrei ist.
+Sie enthält keine Werbung, Tracking oder Datenerfassung. Die App eignet sich besonders für Fahrten zu Fuss, mit dem Fahrrad oder dem Auto, wobei das Interface einfach, schnell und ablenkungsfrei ist.
 
 
 ![Image](assets/fr/160.webp)
@@ -7218,10 +7218,10 @@ Sie enthält keine Werbung, Tracking oder Datenerfassung. Die App eignet sich be
 OsmAnd (*OpenStreetMap Automated Navigation Directions*) ist eine weitere umfassende Open-Source-Kartenanwendung. Sie bietet Offline-GPS-Navigation, detaillierte Karten (einschliesslich Wanderwege, Radwege und Landformen) und umfangreiche Anpassungsmöglichkeiten.
 
 
-Sie können verschiedene Ebenen aktivieren (Fussgängerzonen, öffentliche Verkehrsmittel usw.), Geschwindigkeitswarnungen definieren oder spezielle Karten, z.B. für Wanderungen oder Seerouten, integrieren.
+Du kannst verschiedene Ebenen aktivieren (Fussgängerzonen, öffentliche Verkehrsmittel usw.), Geschwindigkeitswarnungen definieren oder spezielle Karten, z.B. für Wanderungen oder Seerouten, integrieren.
 
 
-Die kostenlose Version ist bereits sehr umfangreich, und mit der kostenpflichtigen Version können Sie noch mehr Funktionen freischalten und das Projekt unterstützen.
+Die kostenlose Version ist bereits sehr umfangreich, und mit der kostenpflichtigen Version kannst du noch mehr Funktionen freischalten und das Projekt unterstützen.
 
 
 ![Image](assets/fr/161.webp)
@@ -7240,10 +7240,10 @@ Klassische Office-Tools wie Google Docs oder Microsoft Office sind zwar sehr pra
 - [Collabora Office](https://www.collaboraoffice.com/)
 
 
-Collabora Office ist eine mobile Version von LibreOffice, die für Android- und iOS-Smartphones und -Tablets entwickelt wurde. Damit können Sie Office-Dokumente erstellen, bearbeiten und teilen, ohne Ihr Gerät oder Ihre persönliche Cloud zu verlassen.
+Collabora Office ist eine mobile Version von LibreOffice, die für Android- und iOS-Smartphones und -Tablets entwickelt wurde. Damit kannst du Office-Dokumente erstellen, bearbeiten und teilen, ohne dein Gerät oder deine persönliche Cloud zu verlassen.
 
 
-Die Anwendung unterstützt die kollaborative Bearbeitung, wenn sie mit einer Nextcloud-Instanz mit der Erweiterung Collabora Online verbunden ist. Dies ermöglicht es, eine Google Docs ähnliche Erfahrung zu reproduzieren, indem Sie Ihre Dateien selbst hosten.
+Die Anwendung unterstützt die kollaborative Bearbeitung, wenn sie mit einer Nextcloud-Instanz mit der Erweiterung Collabora Online verbunden ist. Dies ermöglicht es, eine Google Docs ähnliche Erfahrung zu reproduzieren, indem du deine Dateien selbst hostest.
 
 
 ![Image](assets/fr/162.webp)
@@ -7253,7 +7253,7 @@ Die Anwendung unterstützt die kollaborative Bearbeitung, wenn sie mit einer Nex
 - [ONLYOFFICE](https://www.onlyoffice.com/)
 
 
-ONLYOFFICE ist eine Open-Source-Office-Suite. Mit ihr können Sie Word-, Excel- und PowerPoint-Dokumente direkt auf Ihrem Handy öffnen und bearbeiten, auch lokal. Sie können es auch mit verschiedenen Cloud-Diensten wie Nextcloud zur automatischen Synchronisierung verbinden.
+ONLYOFFICE ist eine Open-Source-Office-Suite. Mit ihr kannst du Word-, Excel- und PowerPoint-Dokumente direkt auf deinem Handy öffnen und bearbeiten, auch lokal. Du kannst sie auch mit verschiedenen Cloud-Diensten wie Nextcloud zur automatischen Synchronisierung verbinden.
 
 
 ![Image](assets/fr/163.webp)
@@ -7262,7 +7262,7 @@ ONLYOFFICE ist eine Open-Source-Office-Suite. Mit ihr können Sie Word-, Excel- 
 ### Dateimanager und Cloud
 
 
-Dienste wie Google Drive oder Dropbox speichern Ihre Dateien auf entfernten Servern, die privaten Unternehmen gehören. Ihre Daten können dann gescannt und für Werbe- oder Statistikzwecke verwendet werden. Ausserdem benötigen Sie eine Internetverbindung und ein Drittanbieterkonto, um darauf zuzugreifen.
+Dienste wie Google Drive oder Dropbox speichern deine Dateien auf entfernten Servern, die privaten Unternehmen gehören. Deine Daten können dann gescannt und für Werbe- oder Statistikzwecke verwendet werden. Ausserdem benötigst du eine Internetverbindung und ein Drittanbieterkonto, um darauf zuzugreifen.
 
 
 **Alternativen**:
@@ -7272,20 +7272,20 @@ Dienste wie Google Drive oder Dropbox speichern Ihre Dateien auf entfernten Serv
 - [Nextcloud](https://nextcloud.com/)
 
 
-Nextcloud ist eine persönliche Open-Source-Cloud-Lösung, die Sie selbst hosten oder über einen vertrauenswürdigen Anbieter nutzen können. Damit können Sie Ihre Dateien von Ihrem Smartphone aus synchronisieren, freigeben und bearbeiten, während Sie die volle Kontrolle über deren Speicherung behalten.
+Nextcloud ist eine persönliche Open-Source-Cloud-Lösung, die du selbst hosten oder über einen vertrauenswürdigen Anbieter nutzen kannst. Damit kannst du deine Dateien von deinem Smartphone aus synchronisieren, freigeben und bearbeiten, während du die volle Kontrolle über deren Speicherung behältst.
 
 
-Auf Android können Sie die offizielle Nextcloud Mobile App installieren, um von überall auf Ihre persönliche Cloud zuzugreifen. Sie können auch Funktionen wie Fotoverwaltung, Office, Kalender und Messaging hinzufügen.
+Auf Android kannst du die offizielle Nextcloud Mobile App installieren, um von überall auf deine persönliche Cloud zuzugreifen. Du kannst auch Funktionen wie Fotoverwaltung, Office, Kalender und Messaging hinzufügen.
 
 
 ![Image](assets/fr/164.webp)
 
 
 
-- [Materialdateien](https://github.com/zhanghai/MaterialFiles)
+- [MaterialFiles](https://github.com/zhanghai/MaterialFiles)
 
 
-Material Files ist ein Open-Source-Dateimanager, der leicht und übersichtlich ist. Mit ihm können Sie Dateien lokal auf Ihrem Android-Gerät durchsuchen, verschieben, kopieren oder löschen.
+Material Files ist ein Open-Source-Dateimanager, der leicht und übersichtlich ist. Mit ihm kannst du Dateien lokal auf deinem Android-Gerät durchsuchen, verschieben, kopieren oder löschen.
 
 
 Die Anwendung enthält keine Werbung oder Tracker und erfordert keine missbräuchlichen Berechtigungen. Sie ist eine interessante Alternative zum von Google bereitgestellten Datei-Explorer, der oft in andere proprietäre Cloud-Dienste integriert ist.
@@ -7297,7 +7297,7 @@ Die Anwendung enthält keine Werbung oder Tracker und erfordert keine missbräuc
 ### Kalender / Tagebuch
 
 
-Viele Menschen nutzen Anwendungen wie Google Kalender oder Outlook Kalender, um ihre Termine zu verwalten. Diese Dienste sind jedoch mit zentralisierten Online-Konten verbunden, die Daten über Ihre Gewohnheiten, Treffpunkte und Interaktionen sammeln.
+Viele Menschen nutzen Anwendungen wie Google Kalender oder Outlook Kalender, um ihre Termine zu verwalten. Diese Dienste sind jedoch mit zentralisierten Online-Konten verbunden, die Daten über deine Gewohnheiten, Treffpunkte und Interaktionen sammeln.
 
 
 **Alternativen**:
@@ -7314,10 +7314,10 @@ Etar ist ein einfacher, effizienter und vollständig quelloffener Kalender. Er k
 
 
 
-- [Einfacher Kalender](https://simplemobiletools.com/simplecalendar/)
+- [Simple Calendar](https://simplemobiletools.com/simplecalendar/)
 
 
-Diese Anwendung ist Teil der "*Simple Mobile Tools*"-Suite. Sie erfordert weder ein Konto noch einen Netzzugang und ist daher ideal für die vollständige Offline-Nutzung. Sie können Ereignisse hinzufügen, Erinnerungen einstellen und Ansichten nach Tag, Woche oder Monat organisieren. Wie der Rest der Suite ist Simple Calendar werbefrei, trackerfrei und 100% Open-Source.
+Diese Anwendung ist Teil der "*Simple Mobile Tools*"-Suite. Sie erfordert weder ein Konto noch einen Netzzugang und ist daher ideal für die vollständige Offline-Nutzung. Du kannst Ereignisse hinzufügen, Erinnerungen einstellen und Ansichten nach Tag, Woche oder Monat organisieren. Wie der Rest der Suite ist Simple Calendar werbefrei, trackerfrei und 100% Open-Source.
 
 
 ![Image](assets/fr/167.webp)
@@ -7327,17 +7327,17 @@ Diese Anwendung ist Teil der "*Simple Mobile Tools*"-Suite. Sie erfordert weder 
 - [Tuta-Kalender](https://tuta.com/calendar)
 
 
-Tuta Calendar, entwickelt von dem Team hinter Tuta Mail, ist ein vollständig verschlüsselter Kalender, der Ihre Termine vertraulich behandelt. Er funktioniert auf Android, iOS und über einen Web-Client. Sogar die Titel, Beschreibungen und Metadaten Ihrer Veranstaltungen sind verschlüsselt, so dass kein Dritter, einschliesslich Tuta, auf Ihre Daten zugreifen kann.
+Tuta Calendar, entwickelt von dem Team hinter Tuta Mail, ist ein vollständig verschlüsselter Kalender, der deine Termine vertraulich behandelt. Er funktioniert auf Android, iOS und über einen Web-Client. Sogar die Titel, Beschreibungen und Metadaten deiner Veranstaltungen sind verschlüsselt, so dass kein Dritter, einschliesslich Tuta, auf deine Daten zugreifen kann.
 
 
 ![Image](assets/fr/168.webp)
 
 
 
-- [Protonen-Kalender](https://proton.me/calendar)
+- [Proton-Kalender](https://proton.me/calendar)
 
 
-Proton Calendar bietet auch eine native Ende-zu-Ende-Verschlüsselung für Ihre Ereignisse und deren Metadaten. Er ist mobil (Android, iOS) und über einen Web-Client zugänglich, mit einem klaren und intuitiven Interface. Der Dienst ermöglicht die Erstellung mehrerer Kalender, den Import/Export von Ereignissen und Freigabeoptionen. Der Web-Client ist Open-Source, aber die mobilen Anwendungen sind noch nicht vollständig Open-Source.
+Proton Calendar bietet auch eine native Ende-zu-Ende-Verschlüsselung für deine Ereignisse und deren Metadaten. Er ist mobil (Android, iOS) und über einen Web-Client zugänglich, mit einem klaren und intuitiven Interface. Der Dienst ermöglicht die Erstellung mehrerer Kalender, den Import/Export von Ereignissen und Freigabeoptionen. Der Web-Client ist Open-Source, aber die mobilen Anwendungen sind noch nicht vollständig Open-Source.
 
 
 ![Image](assets/fr/169.webp)
@@ -7346,7 +7346,7 @@ Proton Calendar bietet auch eine native Ende-zu-Ende-Verschlüsselung für Ihre 
 ### Notizen machen
 
 
-Anwendungen wie Evernote, Google Keep oder OneNote werden verwendet, um Ideen festzuhalten, Aufgaben zu organisieren oder Listen zu speichern. Allerdings sind sie alle auf proprietäre Online-Dienste angewiesen, die Ihre Daten auf ihren Servern zentralisieren und Ihre Inhalte oft für kommerzielle Zwecke analysieren.
+Anwendungen wie Evernote, Google Keep oder OneNote werden verwendet, um Ideen festzuhalten, Aufgaben zu organisieren oder Listen zu speichern. Allerdings sind sie alle auf proprietäre Online-Dienste angewiesen, die deine Daten auf ihren Servern zentralisieren und deine Inhalte oft für kommerzielle Zwecke analysieren.
 
 
 **Alternativen**:
@@ -7356,7 +7356,7 @@ Anwendungen wie Evernote, Google Keep oder OneNote werden verwendet, um Ideen fe
 - [Quillpad](https://quillpad.github.io/)
 
 
-Quillpad ist eine leichtgewichtige Anwendung, die speziell für die Erstellung von Markdown-Notizen entwickelt wurde. Mit ihr können Sie Ihre Notizen optional verschlüsseln, Ihre Inhalte durch Tags und Farben organisieren und Erinnerungen hinzufügen. Alles funktioniert ohne ein Konto oder eine Verbindung, und die Daten bleiben auf Ihrem Gerät gespeichert. Sie können auch verschlüsselt auf pCloud gespeichert werden.
+Quillpad ist eine leichtgewichtige Anwendung, die speziell für die Erstellung von Markdown-Notizen entwickelt wurde. Mit ihr kannst du deine Notizen optional verschlüsseln, deine Inhalte durch Tags und Farben organisieren und Erinnerungen hinzufügen. Alles funktioniert ohne ein Konto oder eine Verbindung, und die Daten bleiben auf deinem Gerät gespeichert. Sie können auch verschlüsselt auf pCloud gespeichert werden.
 
 
 ![Image](assets/fr/170.webp)
@@ -7366,10 +7366,10 @@ Quillpad ist eine leichtgewichtige Anwendung, die speziell für die Erstellung v
 - [Joplin](https://joplinapp.org/)
 
 
-Joplin ist eine umfassendere Lösung, die die Synchronisierung von verschlüsselten Notizen über kompatible Dienste wie Nextcloud, Dropbox oder WebDAV bietet. Sie können einfache oder strukturierte Notizen (in Markdown) verwalten, Ihre Dokumente klassifizieren und sogar Dateianhänge importieren.
+Joplin ist eine umfassendere Lösung, die die Synchronisierung von verschlüsselten Notizen über kompatible Dienste wie Nextcloud, Dropbox oder WebDAV bietet. Du kannst einfache oder strukturierte Notizen (in Markdown) verwalten, deine Dokumente klassifizieren und sogar Dateianhänge importieren.
 
 
-Der Interface ist etwas komplexer als der von QuillNote, aber immer noch perfekt für den mobilen Einsatz geeignet und sowohl für den privaten als auch für den beruflichen Gebrauch geeignet.
+Das Interface ist etwas komplexer als der von QuillNote, aber immer noch perfekt für den mobilen Einsatz geeignet und sowohl für den privaten als auch für den beruflichen Gebrauch geeignet.
 
 
 ![Image](assets/fr/171.webp)
@@ -7378,7 +7378,7 @@ Der Interface ist etwas komplexer als der von QuillNote, aber immer noch perfekt
 ### Passwort-Manager
 
 
-Viele Nutzer lassen ihre Passwörter in ihrem Browser über Lösungen wie Google Password Manager speichern. Diese Art der zentralen Verwaltung ist zwar praktisch, bietet aber keine nutzergesteuerte Ende-zu-Ende-Verschlüsselung und setzt Ihre Anmeldedaten einem Risiko aus, sollte Ihr Google-Konto kompromittiert werden. Für eine sicherere und souveräne Verwaltung Ihrer Passwörter gibt es mehrere Open-Source-Alternativen.
+Viele Nutzer lassen ihre Passwörter in ihrem Browser über Lösungen wie Google Passwort Manager speichern. Diese Art der zentralen Verwaltung ist zwar praktisch, bietet aber keine nutzergesteuerte Ende-zu-Ende-Verschlüsselung und setzt deine Anmeldedaten einem Risiko aus, sollte dein Google-Konto kompromittiert werden. Für eine sicherere und souveräne Verwaltung deiner Passwörter gibt es mehrere Open-Source-Alternativen.
 
 
 **Alternativen**:
@@ -7388,10 +7388,10 @@ Viele Nutzer lassen ihre Passwörter in ihrem Browser über Lösungen wie Google
 - [Bitwarden](https://bitwarden.com/)
 
 
-Bitwarden ist einer der umfassendsten Open-Source-Passwortmanager auf dem Markt. Er verschlüsselt alle Ihre Anmeldeinformationen lokal, ermöglicht Ihnen generate starke Passwörter und bietet verschlüsselte Synchronisierung zwischen Geräten.
+Bitwarden ist einer der umfassendsten Open-Source-Passwortmanager auf dem Markt. Er verschlüsselt alle deine Anmeldeinformationen lokal, ermöglicht das Generieren starker Passwörter und bietet verschlüsselte Synchronisierung zwischen Geräten.
 
 
-Sie können die Server von Bitwarden nutzen oder es selbst hosten, wenn Sie die volle Kontrolle haben möchten. Sein Interface Mobile ist klar und flüssig, mit nahtloser Integration in das Android- oder iOS-System.
+Du kannst die Server von Bitwarden nutzen oder es selbst hosten, wenn du die volle Kontrolle haben möchtest. Sein Interface auf dem Mobile ist klar und flüssig, mit nahtloser Integration in das Android- oder iOS-System.
 
 
 https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f569-fb00-4fad-acba-2fcb1bf05de9
@@ -7424,10 +7424,10 @@ Proton Pass wurde vom Proton-Team (u.a. bekannt für Proton Mail und Proton Driv
 ### VPN
 
 
-VPNs (*Virtuelles Privates Netzwerk*) ermöglichen es Ihnen, Ihren Internetverkehr zu verschlüsseln und ihn über einen entfernten Vermittlungsserver zu leiten. Dies maskiert Ihre IP Address, sichert Ihre Verbindungen in öffentlichen Netzen (Flughafen-Wi-Fi, Cafés...) und schützt Sie vor bestimmten Formen der Überwachung.
+VPNs (*Virtuelles Privates Netzwerk*) ermöglichen es dir, deinen Internetverkehr zu verschlüsseln und ihn über einen entfernten Vermittlungsserver zu leiten. Dies maskiert deine IP-Adresse, sichert deine Verbindungen in öffentlichen Netzen (Flughafen-Wi-Fi, Cafés...) und schützt dich vor bestimmten Formen der Überwachung.
 
 
-Allerdings sind nicht alle VPNs gleich. Beliebte Dienste wie NordVPN oder ExpressVPN funktionieren gut, aber ihr Ansatz bleibt kommerziell, mit einem Modell, das auf der Nachverfolgung der Nutzer zur Marketingoptimierung basiert. Ausserdem müssen sie ein Konto anlegen und sammeln oft mehr Daten, als sie zugeben.
+Allerdings sind nicht alle VPNs gleich. Beliebte Dienste wie NordVPN oder ExpressVPN funktionieren gut, aber ihr Ansatz bleibt kommerziell, mit einem Modell, das auf der Nachverfolgung der Nutzer zur Marketingoptimierung basiert. Ausserdem musst du ein Konto anlegen und sie sammeln oft mehr Daten, als sie zugeben.
 
 
 **Alternativen**:
@@ -7437,7 +7437,7 @@ Allerdings sind nicht alle VPNs gleich. Beliebte Dienste wie NordVPN oder Expres
 - [Mullvad VPN](https://mullvad.net/)
 
 
-Mullvad ist einer der besten VPNs in Bezug auf den Schutz der Privatsphäre. Es erfordert keine E-Mail oder Passwort: Ihr Konto ist mit einer einfachen Zufallszahl verknüpft. Die Zahlung kann in Bitcoins oder Bargeld erfolgen. Der mobile Client ist quelloffen, einfach zu bedienen und leistungsstark. Mullvad speichert keine Protokolle, verfolgt seine Nutzer nicht und veröffentlicht regelmässig unabhängige Sicherheitsprüfungen.
+Mullvad ist einer der besten VPNs in Bezug auf den Schutz der Privatsphäre. Er erfordert kein E-Mail oder Passwort: Dein Konto ist mit einer einfachen Zufallszahl verknüpft. Die Zahlung kann in Bitcoins oder Bargeld erfolgen. Der mobile Client ist quelloffen, einfach zu bedienen und leistungsstark. Mullvad speichert keine Protokolle, verfolgt seine Nutzer nicht und veröffentlicht regelmässig unabhängige Sicherheitsprüfungen.
 
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
@@ -7446,7 +7446,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 - [IVPN](https://www.ivpn.net/)
 
 
-IVPN ist eine weitere hervorragende, auf den Datenschutz ausgerichtete Alternative. Es bietet ein einfaches und effizientes mobiles Interface, keine Log-Erfassung und ermöglicht eine anonyme Registrierung. Sie können auch in Bitcoins bezahlen. Die Anwendung verfügt über eine Firewall, die jeglichen Nicht-VPN-Verkehr blockiert, was auf einem Smartphone sehr nützlich sein kann. Die Clients sind Open-Source.
+IVPN ist eine weitere hervorragende, auf Datenschutz ausgerichtete Alternative. Er bietet ein einfaches und effizientes mobiles Interface, keine Log-Erfassung und ermöglicht eine anonyme Registrierung. Du kannst auch in Bitcoins bezahlen. Die Anwendung verfügt über eine Firewall, die jeglichen Nicht-VPN-Verkehr blockiert, was auf einem Smartphone sehr nützlich sein kann. Die Clients sind Open-Source.
 
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
@@ -7455,7 +7455,7 @@ https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29
 - [Proton VPN](https://protonvpn.com/)
 
 
-Dieses VPN wurde vom Proton-Team entwickelt und bietet einen kostenlosen, werbefreien Plan. Proton VPN ist in der Schweiz ansässig, unterliegt strengen Datenschutzgesetzen und veröffentlicht regelmässige Audits. Seine Clients sind ausserdem quelloffen.
+Dieses VPN wurde vom Proton-Team entwickelt und bietet ein kostenloses, werbefreies Abo. Proton VPN ist in der Schweiz ansässig, unterliegt strengen Datenschutzgesetzen und veröffentlicht regelmässige Audits. Seine Clients sind ausserdem quelloffen.
 
 
 ![Image](assets/fr/174.webp)
@@ -7464,7 +7464,7 @@ Dieses VPN wurde vom Proton-Team entwickelt und bietet einen kostenlosen, werbef
 ### 2FA-Authentifizierung
 
 
-Die Zwei-Faktoren-Authentifizierung (2FA) ist ein zusätzliches Layer der Sicherheit zu Ihrem Passwort. Sie stützt sich oft auf einen einmaligen Code, der alle 30 Sekunden von einer Authentifizierungsanwendung generiert wird. Dieser Code basiert auf einem Geheimnis, das zwischen Ihrem Gerät und dem Online-Dienst gemäss dem TOTP-Protokoll (*Time-based One-Time Password*) ausgetauscht wird. Die bekannteste Anwendung ist Google Authenticator, aber sie ist nicht quelloffen und macht Sie vom Google-Ökosystem abhängig.
+Die Zwei-Faktoren-Authentifizierung (2FA) ist eine zusätzliche  Sicherheitsschicht zusätzlich zu deinem Passwort. Sie stützt sich oft auf einen einmaligen Code, der alle 30 Sekunden von einer Authentifizierungsanwendung generiert wird. Dieser Code basiert auf einem Geheimnis, das zwischen deinem Gerät und dem Online-Dienst gemäss dem TOTP-Protokoll (*Time-based One-Time Password*) ausgetauscht wird. Die bekannteste Anwendung ist Google Authenticator, aber sie ist nicht quelloffen und macht dich vom Google-Ökosystem abhängig.
 
 
 **Alternativen**:
@@ -7474,7 +7474,7 @@ Die Zwei-Faktoren-Authentifizierung (2FA) ist ein zusätzliches Layer der Sicher
 - [Aegis Authenticator](https://getaegis.app/)
 
 
-Aegis ist eine umfassende Open-Source-Anwendung. Sie verschlüsselt Ihre 2FA-Datenbank mit einem Passwort, bietet exportierbare Backups (ebenfalls verschlüsselt) und lässt Sie Ihre Konten nach Verzeichnissen sortieren. Das Interface ist übersichtlich, modern und lässt sich leicht auf einem neuen Gerät wiederherstellen, solange Sie die Sicherungsdatei und das zugehörige Passwort haben.
+Aegis ist eine umfassende Open-Source-Anwendung. Sie verschlüsselt deine 2FA-Datenbank mit einem Passwort, bietet exportierbare Backups (ebenfalls verschlüsselt) und lässt dich deine Konten nach Verzeichnissen sortieren. Das Interface ist übersichtlich, modern und lässt sich leicht auf einem neuen Gerät wiederherstellen, solange du die Sicherungsdatei und das zugehörige Passwort hast.
 
 
 ![Image](assets/fr/175.webp)
@@ -7484,7 +7484,7 @@ Aegis ist eine umfassende Open-Source-Anwendung. Sie verschlüsselt Ihre 2FA-Dat
 - [Ente Auth](https://ente.io/auth/)
 
 
-Ente Auth ist eine moderne, quelloffene, plattformübergreifende Lösung mit verschlüsselten End-to-End-Backups. Sie ermöglicht es Ihnen, Ihre 2FA-Codes sicher auf dem Handy, dem Desktop und im Web zu synchronisieren. Sie können es auch offline verwenden, ohne Cloud-Backup oder Kontoerstellung.
+Ente Auth ist eine moderne, quelloffene, plattformübergreifende Lösung mit verschlüsselten Ende-zu-Ende-Backups. Sie ermöglicht es dir, deine 2FA-Codes sicher auf dem Handy, dem Desktop und im Web zu synchronisieren. Du kannst sie auch offline verwenden, ohne Cloud-Backup oder Kontoerstellung.
 
 
 Ente Auth bietet viele zusätzliche Funktionen: Organisation nach Tags, benutzerdefinierte Icons für jeden Dienst, Notizen, Favoriten, integrierte Suche, sichere gemeinsame Nutzung von Teamcodes.
@@ -7502,7 +7502,7 @@ Authy bietet 2FA-Synchronisierung über mehrere Geräte hinweg, was praktisch se
 
 https://planb.network/tutorials/computer-security/authentication/authy-a76ab26b-71b0-473c-aa7c-c49153705eb7
 
-Wenn Sie mehr über Passwortmanager, 2FA-Authentifizierung und VPNs erfahren möchten, empfehle ich Ihnen, die entsprechenden Kapitel im SCU-101-Kurs zu lesen:
+Wenn du mehr über Passwortmanager, 2FA-Authentifizierung und VPNs erfahren möchtest, empfehle ich dir, die entsprechenden Kapitel im SCU-101-Kurs zu lesen:
 
 
 https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
@@ -7510,14 +7510,14 @@ https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 ### Wetter
 
 
-Klassische Wetteranwendungen wie AccuWeather oder Météo France sammeln oft persönliche Daten, einschliesslich Ihres genauen Standorts, Ihrer Nutzungsgewohnheiten und manchmal sogar Gerätekennungen, für kommerzielle oder Werbezwecke. Diese Dienste stützen sich ausserdem auf zentralisierte, proprietäre APIs, wodurch Sie nur begrenzt kontrollieren können, welche Daten angezeigt oder übertragen werden.
+Klassische Wetteranwendungen wie AccuWeather oder Météo France sammeln oft persönliche Daten, einschliesslich deines genauen Standorts, deiner Nutzungsgewohnheiten und manchmal sogar Gerätekennungen, für kommerzielle oder Werbezwecke. Diese Dienste stützen sich ausserdem auf zentralisierte, proprietäre APIs, wodurch du nur begrenzt kontrollieren kannst, welche Daten angezeigt oder übertragen werden.
 
 
 **Alternativen**:
 
 
 
-- [Geometrisches Wetter](https://github.com/WangDaYeeeeee/GeometricWeather)
+- [Geometric Weather](https://github.com/WangDaYeeeeee/GeometricWeather)
 
 
 Geometric Weather bietet detaillierte Vorhersagen und anpassbare Widgets, alles ohne Werbung oder aufdringliche Datenerfassung. Der Code ist Open-Source. Die Anwendung unterstützt mehrere Wetteranbieter.
@@ -7530,7 +7530,7 @@ Geometric Weather bietet detaillierte Vorhersagen und anpassbare Widgets, alles 
 - [Prognoza](https://github.com/davidtakac/prognoza)
 
 
-Prognoza ist eine minimalistische Anwendung, die direkt auf den Punkt kommt: Die Anzeige des aktuellen Wetters und der Vorhersagen. Es bietet mehrere Widgets. Prognoza ist werbefrei, trackerfrei und erfordert keine unnötigen Berechtigungen.
+Prognoza ist eine minimalistische Anwendung, die direkt auf den Punkt kommt: Die Anzeige des aktuellen Wetters und der Vorhersagen. Sie bietet mehrere Widgets. Prognoza ist werbefrei, trackerfrei und erfordert keine unnötigen Berechtigungen.
 
 
 ![Image](assets/fr/178.webp)
@@ -7546,7 +7546,7 @@ Einfache Wetteranwendung, basierend auf OpenWeatherMap, Open-Source, konfigurier
 ![Image](assets/fr/179.webp)
 
 
-Im Allgemeinen ist es bei Wetteranwendungen besser, die Orte, die Sie interessieren, manuell zu konfigurieren, als die automatische Geolokalisierung zu aktivieren.
+Im Allgemeinen ist es bei Wetteranwendungen besser, die Orte, die dich interessieren, manuell zu konfigurieren, als die automatische Geolokalisierung zu aktivieren.
 
 
 ### Streaming von Audio/Video
@@ -7562,7 +7562,7 @@ Beliebte Plattformen wie Spotify oder YouTube bieten ein nahtloses Nutzererlebni
 - [LibreTube](https://libretube.dev/)
 
 
-LibreTube ist eine Android-Anwendung, mit der Sie YouTube-Videos ansehen können, ohne dass Google Sie verfolgt. Alle Anfragen werden über einen Piped-Proxyserver umgeleitet, der den Zugang zu Videos anonymisiert. Der Interface ist modern, schnell und werbefrei. Die Anwendung erfordert kein Google-Konto und ermöglicht es Ihnen, anonym Kanäle zu abonnieren oder lokale Wiedergabelisten zu erstellen.
+LibreTube ist eine Android-Anwendung, mit der du YouTube-Videos ansehen kannst, ohne dass Google dich verfolgt. Alle Anfragen werden über einen Piped-Proxyserver umgeleitet, der den Zugang zu Videos anonymisiert. Der Interface ist modern, schnell und werbefrei. Die Anwendung erfordert kein Google-Konto und ermöglicht es dir, anonym Kanäle zu abonnieren oder lokale Wiedergabelisten zu erstellen.
 
 
 ![Image](assets/fr/180.webp)
@@ -7572,14 +7572,14 @@ LibreTube ist eine Android-Anwendung, mit der Sie YouTube-Videos ansehen können
 - [NewPipe](https://newpipe.net/)
 
 
-NewPipe ist ein weiterer alternativer YouTube-Client. Er ist leichtgewichtig, werbefrei, trackerfrei und vollständig quelloffen. Mit ihm können Sie Videos von YouTube (und anderen Plattformen wie SoundCloud oder PeerTube) im Hintergrund ansehen, herunterladen oder anhören. Eine Verbindung zu Google ist nicht erforderlich. NewPipe arbeitet völlig unabhängig von der offiziellen YouTube-Anwendung und benötigt keinen Google-Dienst, um zu funktionieren.
+NewPipe ist ein weiterer alternativer YouTube-Client. Er ist leichtgewichtig, werbefrei, trackerfrei und vollständig quelloffen. Mit ihm kannst du Videos von YouTube (und anderen Plattformen wie SoundCloud oder PeerTube) im Hintergrund ansehen, herunterladen oder anhören. Eine Verbindung zu Google ist nicht erforderlich. NewPipe arbeitet völlig unabhängig von der offiziellen YouTube-Anwendung und benötigt keinen Google-Dienst, um zu funktionieren.
 
 
 
 - [VLC Android](https://www.videolan.org/vlc/download-android.html)
 
 
-Der beliebte VLC Media Player ist auch für Android verfügbar. Er unterstützt eine breite Palette von Audio- und Videoformaten und ermöglicht die Wiedergabe von Dateien lokal oder über ein Netzwerk, und zwar ohne Werbung oder Datenerfassung. Er ist eine hervorragende Lösung, um Ihre eigene Multimedia-Bibliothek lokal zu verwalten, ohne Verbindung zu einem Drittanbieterdienst.
+Der beliebte VLC Media Player ist auch für Android verfügbar. Er unterstützt eine breite Palette von Audio- und Videoformaten und ermöglicht die Wiedergabe von Dateien lokal oder über ein Netzwerk, und zwar ohne Werbung oder Datenerfassung. Er ist eine hervorragende Lösung, um deine eigene Multimedia-Bibliothek lokal zu verwalten, ohne Verbindung zu einem Drittanbieterdienst.
 
 
 ![Image](assets/fr/181.webp)
@@ -7597,7 +7597,7 @@ Funkwhale ist eine dezentrale Plattform zum Teilen und Hören von Musik mit komp
 
 Virtuelle Tastaturen wie Gboard von Google oder SwiftKey von Microsoft sind auf Smartphones allgegenwärtig. Sie bergen jedoch grosse Risiken für den Datenschutz: Jedes getippte Zeichen kann theoretisch aufgezeichnet, analysiert oder an entfernte Server übertragen werden. Auch wenn diese Unternehmen behaupten, die Daten zu anonymisieren, ist eine Erfassung dennoch möglich.
 
-
+xxx
 **Alternativen**:
 
 
