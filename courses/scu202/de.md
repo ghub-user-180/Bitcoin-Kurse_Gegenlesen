@@ -3851,7 +3851,7 @@ Auf einem gut gewarteten Linux-Rechner, der für persönliche Zwecke genutzt wir
 
 
 
-- *Fail2ban*: überwacht die Systemprotokolle auf erfolglose Zugriffsversuche (z.B. SSH-Anmeldeversuche mit roher Gewalt). Wenn ein verdächtiges Verhalten festgestellt wird, wird die angreifende IP Address über `iptables` vorübergehend blockiert;
+- *Fail2ban*: überwacht die Systemprotokolle auf erfolglose Zugriffsversuche (z.B. SSH-Anmeldeversuche mit roher Gewalt). Wenn ein verdächtiges Verhalten festgestellt wird, wird die angreifende IP-Adresse über `iptables` vorübergehend blockiert;
 
 
 
@@ -5228,7 +5228,7 @@ Chrome basierte ursprünglich auf zwei technischen Säulen:
 
 
 
-Der eigentliche Durchbruch von Chrome liegt jedoch in seiner Multiprozess-Architektur. Jede Registerkarte wird in einem isolierten Prozess ausgeführt, wobei eine Sandbox-Technik verwendet wird, die verhindert, dass eine bösartige Seite den gesamten Browser kompromittiert. Diese Isolierung verbessert auch die Stabilität: Wenn eine Registerkarte abstürzt, bleiben die anderen funktionsfähig. Hinzu kommt ein minimalistisches, inhaltsorientiertes Interface ohne Menüleiste, eine kombinierte Address- und Suchleiste (*Omnibox*) und stille Hintergrundaktualisierungen.
+Der eigentliche Durchbruch von Chrome liegt jedoch in seiner Multiprozess-Architektur. Jede Registerkarte wird in einem isolierten Prozess ausgeführt, wobei eine Sandbox-Technik verwendet wird, die verhindert, dass eine bösartige Seite den gesamten Browser kompromittiert. Diese Isolierung verbessert auch die Stabilität: Wenn eine Registerkarte abstürzt, bleiben die anderen funktionsfähig. Hinzu kommt ein minimalistisches, inhaltsorientiertes Interface ohne Menüleiste, eine kombinierte Adress- und Suchleiste (*Omnibox*) und stille Hintergrundaktualisierungen.
 
 
 
@@ -5260,7 +5260,7 @@ Die Rendering Engine ist die Kernkomponente eines Webbrowsers. Ihre Hauptaufgabe
 
 
 
-Konkret: Wenn du eine URL in die Address-Leiste eingibst:
+Konkret: Wenn du eine URL in die Adress-Leiste eingibst:
 
 
 
@@ -5516,7 +5516,7 @@ Obwohl Brave diese API inzwischen deaktiviert hat, zeigt dieser Fall deutlich di
 
 
 
-- deine IP Address,
+- deine IP-Adresse,
 - dein Internetdienstanbieter,
 - deine Geolocation,
 - dein Browser und seine Eigenschaften,
@@ -5665,7 +5665,7 @@ Der Nachteil ist eine erhebliche Leistungseinbusse (hohe Latenz) und eine einges
 
 https://planb.network/tutorials/computer-security/communication/mullvad-browser-a16c13d6-8bf9-4cb5-9aa0-85411a9cda0e
 
-Er verfügt über die meisten der Sicherheits- und Datenschutzfunktionen, die der Tor-Browser bietet, mit einem Unterschied: Er leitet den Datenverkehr nicht über das Tor-Netzwerk um. Um IP Address-Lecks zu vermeiden, kannst du ihn in Kombination mit einem VPN (idealerweise Mullvad VPN) verwenden.
+Er verfügt über die meisten der Sicherheits- und Datenschutzfunktionen, die der Tor-Browser bietet, mit einem Unterschied: Er leitet den Datenverkehr nicht über das Tor-Netzwerk um. Um IP Adress-Lecks zu vermeiden, kannst du ihn in Kombination mit einem VPN (idealerweise Mullvad VPN) verwenden.
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
@@ -5956,7 +5956,7 @@ https://planb.network/tutorials/computer-security/authentication/security-key-61
 
 
 
-Ein VPN (*Virtuelles Privates Netzwerk*) ist ein Tunneling-Tool, das den Netzwerkverkehr zwischen deinem Gerät und einem Zwischenserver verschlüsselt. Dieser Server fungiert als Gateway und leitet alle deine Verbindungen zum Internet um. Dadurch sieht dein Internetanbieter nur den verschlüsselten Datenverkehr, der für das VPN bestimmt ist, und die von dir besuchten Websites sehen nur die IP Address des VPN-Servers, nicht deine.
+Ein VPN (*Virtuelles Privates Netzwerk*) ist ein Tunneling-Tool, das den Netzwerkverkehr zwischen deinem Gerät und einem Zwischenserver verschlüsselt. Dieser Server fungiert als Gateway und leitet alle deine Verbindungen zum Internet um. Dadurch sieht dein Internetanbieter nur den verschlüsselten Datenverkehr, der für das VPN bestimmt ist, und die von dir besuchten Websites sehen nur die IP-Adresse des VPN-Servers, nicht deine.
 
 
 
@@ -7597,7 +7597,7 @@ Funkwhale ist eine dezentrale Plattform zum Teilen und Hören von Musik mit komp
 
 Virtuelle Tastaturen wie Gboard von Google oder SwiftKey von Microsoft sind auf Smartphones allgegenwärtig. Sie bergen jedoch grosse Risiken für den Datenschutz: Jedes getippte Zeichen kann theoretisch aufgezeichnet, analysiert oder an entfernte Server übertragen werden. Auch wenn diese Unternehmen behaupten, die Daten zu anonymisieren, ist eine Erfassung dennoch möglich.
 
-xxx
+
 **Alternativen**:
 
 
@@ -7660,29 +7660,29 @@ F-Droid ist ein reiner Open-Source-Anwendungskatalog. Die gesamte verfügbare So
 - [Aurora Store](https://auroraoss.com/)
 
 
-Mit Aurora Store können Sie anonym auf den Google Play Store-Katalog zugreifen, ohne ein Google-Konto zu besitzen. Es handelt sich um einen kostenlosen Client, der direkt mit den Google-Servern interagiert, während Ihre Identität über ein generisches Konto verschleiert wird. Dies ist eine wertvolle Lösung, um bestimmte notwendige proprietäre Anwendungen weiterhin zu nutzen: Anwendungen zu nutzen und gleichzeitig die Google Play-Telemetrie zu vermeiden.
+Mit Aurora Store kannst du anonym auf den Google Play Store-Katalog zugreifen, ohne ein Google-Konto zu besitzen. Es handelt sich um einen kostenlosen Client, der direkt mit den Google-Servern interagiert, während deine Identität über ein generisches Konto verschleiert wird. Dies ist eine wertvolle Lösung, um bestimmte notwendige proprietäre Anwendungen weiterhin zu nutzen: Anwendungen zu nutzen und gleichzeitig die Google Play-Telemetrie zu vermeiden.
 
 
 ### Nachrichten
 
 
-Die Anwendung Google News ist zwar praktisch und personalisiert, stützt sich aber auf eine systematische Analyse Ihrer Interessen, Ihres Surfverhaltens und Ihrer Lesegewohnheiten, um ihre Empfehlungen zu verfeinern. Dies beinhaltet eine umfangreiche Sammlung personenbezogener Daten, die häufig für Werbezwecke verwendet werden.
+Die Anwendung Google News ist zwar praktisch und personalisiert, stützt sich aber auf eine systematische Analyse deiner Interessen, deines Surfverhaltens und deiner Lesegewohnheiten, um ihre Empfehlungen zu verfeinern. Dies beinhaltet eine umfangreiche Sammlung personenbezogener Daten, die häufig für Werbezwecke verwendet werden.
 
 
 **Alternativen**:
 
 
 
-- [Nachrichten] (https://github.com/bubelov/news)
+- [News] (https://github.com/bubelov/news)
 
 
-Die Anwendung *News*, die von Bubelov entwickelt wurde, bietet einen radikal anderen Ansatz. Es handelt sich um einen minimalistischen RSS-Reader, der Nachrichten ohne Tracker, Werbung oder undurchsichtige Empfehlungsalgorithmen konsultieren kann. Sie können Ihre Quellen (Presse, Blogs, Podcasts, unabhängige Medien usw.) manuell auswählen und so ein neutrales, privates Leseerlebnis garantieren. Das Design ist übersichtlich, die Feeds werden automatisch aktualisiert, und es werden keine Daten an Dritte weitergegeben.
+Die Anwendung *News*, die von Bubelov entwickelt wurde, bietet einen radikal anderen Ansatz. Es handelt sich um einen minimalistischen RSS-Reader, der Nachrichten ohne Tracker, Werbung oder undurchsichtige Empfehlungsalgorithmen konsultieren kann. Du kannst deine Quellen (Presse, Blogs, Podcasts, unabhängige Medien usw.) manuell auswählen und so ein neutrales, privates Leseerlebnis garantieren. Das Design ist übersichtlich, die Feeds werden automatisch aktualisiert, und es werden keine Daten an Dritte weitergegeben.
 
 
-### Kontakt
+### Contacts
 
 
-Google Contacts synchronisiert, wie viele Standardanwendungen auf Android, Ihre Address-Bücher permanent mit den Google-Servern. Das bedeutet, dass alle Informationen Ihrer Kontakte (Namen, Nummern, E-Mails, manchmal Postadressen oder Fotos) online gespeichert und mit Ihrem Konto verknüpft werden. Diese Zentralisierung erleichtert die Datensicherung und -synchronisierung, wirft aber auch erhebliche Datenschutzprobleme auf.
+Google Contacts synchronisiert, wie viele Standardanwendungen auf Android, deine Adress-Bücher permanent mit den Google-Servern. Das bedeutet, dass alle Informationen deiner Kontakte (Namen, Nummern, E-Mails, manchmal Postadressen oder Fotos) online gespeichert und mit deinem Konto verknüpft werden. Diese Zentralisierung erleichtert die Datensicherung und -synchronisierung, wirft aber auch erhebliche Datenschutzprobleme auf.
 
 
 **Alternativen**:
@@ -7692,23 +7692,23 @@ Google Contacts synchronisiert, wie viele Standardanwendungen auf Android, Ihre 
 - [Connect You](https://github.com/you-apps/ConnectYou)
 
 
-Connect You ist eine leichtgewichtige, übersichtliche Open-Source-Alternative, die für diejenigen entwickelt wurde, die ihre Kontakte lokal verwalten möchten, ohne Datenerfassung oder erzwungene Synchronisierung mit einer Drittanbieter-Cloud. Es bietet ein intuitives Interface, macht es einfach, Ihre Einträge zu sortieren, zu suchen und zu bearbeiten, und kann mit CalDAV-Diensten integriert werden, wenn Sie einen selbst gehosteten Kontaktserver verwenden (z.B. über Nextcloud).
+Connect You ist eine leichtgewichtige, übersichtliche Open-Source-Alternative, die für diejenigen entwickelt wurde, die ihre Kontakte lokal verwalten möchten, ohne Datenerfassung oder erzwungene Synchronisierung mit einer Drittanbieter-Cloud. Es bietet ein intuitives Interface, macht es einfach, deine Einträge zu sortieren, zu suchen und zu bearbeiten, und kann mit CalDAV-Diensten integriert werden, wenn du einen selbst gehosteten Kontaktserver verwendest (z.B. über Nextcloud).
 
 
 ### Fotoverwaltung
 
 
-Google Fotos ist grossartig, um Bilder automatisch in der Cloud zu speichern, sie zu organisieren oder per Gesichtserkennung zu finden. Hinter dieser Einfachheit verbirgt sich jedoch die systematische Verarbeitung Ihrer Daten: Jedes Bild wird analysiert, indiziert und mit Ihren anderen Google-Daten abgeglichen. Ihre Fotos können so zu einer zusätzlichen Informationsquelle werden, die für kommerzielle Zwecke genutzt wird.
+Google Fotos ist grossartig, um Bilder automatisch in der Cloud zu speichern, sie zu organisieren oder per Gesichtserkennung zu finden. Hinter dieser Einfachheit verbirgt sich jedoch die systematische Verarbeitung deiner Daten: Jedes Bild wird analysiert, indiziert und mit deinen anderen Google-Daten abgeglichen. Deine Fotos können so zu einer zusätzlichen Informationsquelle werden, die für kommerzielle Zwecke genutzt wird.
 
 
 **Alternativen**:
 
 
 
-- [Einfache Galerie](https://github.com/SimpleMobileTools/Simple-Gallery)
+- [Simple Gallery](https://github.com/SimpleMobileTools/Simple-Gallery)
 
 
-Simple Gallery ist eine minimalistische Open-Source-Anwendung, die vollständig offline funktioniert. Sie ist Teil der *Simple Mobile Tools* Suite. Mit ihr können Sie Ihre Bilder verwalten, sortieren, ansehen und bearbeiten, ohne dass Daten Ihr Gerät verlassen. Ausserdem bietet sie Retusche, Passwortschutz und einen Papierkorb zur Wiederherstellung gelöschter Objekte. Keine Nachverfolgung, keine Zwangssynchronisation: Ihre Fotos bleiben bei Ihnen.
+Simple Gallery ist eine minimalistische Open-Source-Anwendung, die vollständig offline funktioniert. Sie ist Teil der *Simple Mobile Tools* Suite. Mit ihr kannst du deine Bilder verwalten, sortieren, ansehen und bearbeiten, ohne dass Daten dein Gerät verlassen. Ausserdem bietet sie Retusche, Passwortschutz und einen Papierkorb zur Wiederherstellung gelöschter Objekte. Keine Nachverfolgung, keine Zwangssynchronisation: deine Fotos bleiben bei dir.
 
 
 
@@ -7725,7 +7725,7 @@ Aves ist eine Alternative mit einem moderneren Interface. Es bietet eine reibung
 - [Ente Photos](https://ente.io/)
 
 
-Ente Photos ist ein Open-Source-Dienst (Clients + Server) für die automatische Sicherung von Fotos mit End-to-End-Verschlüsselung. Ihre Bilder werden auf dem Gerät verschlüsselt, bevor sie gesendet werden, so dass nicht einmal die Ente-Server darauf zugreifen können. Ente bietet auch eine selbst gehostete Version für fortgeschrittene Nutzer.
+Ente Photos ist ein Open-Source-Dienst (Clients + Server) für die automatische Sicherung von Fotos mit End-to-End-Verschlüsselung. Deine Bilder werden auf dem Gerät verschlüsselt, bevor sie gesendet werden, so dass nicht einmal die Ente-Server darauf zugreifen können. Ente bietet auch eine selbst gehostete Version für fortgeschrittene Nutzer.
 
 
 ![Image](assets/fr/186.webp)
@@ -7735,7 +7735,7 @@ Ente Photos ist ein Open-Source-Dienst (Clients + Server) für die automatische 
 - [Stingle Photos](https://stingle.org/)
 
 
-Stingle ist sowohl eine Fotogalerie als auch eine Kameraanwendung, kombiniert mit einem verschlüsselten Backup-Service. Wie bei Ente werden die Fotos durch eine Ende-zu-Ende-Verschlüsselung geschützt. Sie können den Cloud-Service nutzen (1 GB kostenlos) oder den Stingle-Server selbst hosten, um die volle Kontrolle zu haben. Interface ist einfach, ohne Werbung oder Tracker.
+Stingle ist sowohl eine Fotogalerie als auch eine Kameraanwendung, kombiniert mit einem verschlüsselten Backup-Service. Wie bei Ente werden die Fotos durch eine Ende-zu-Ende-Verschlüsselung geschützt. Du kannst den Cloud-Service nutzen (1 GB kostenlos) oder den Stingle-Server selbst hosten, um die volle Kontrolle zu haben. Interface ist einfach, ohne Werbung oder Tracker.
 
 
 ![Image](assets/fr/187.webp)
@@ -7746,7 +7746,7 @@ Stingle ist sowohl eine Fotogalerie als auch eine Kameraanwendung, kombiniert mi
 
 **Alternativen**:
 
-
+xxx
 Der Adobe Acrobat Reader, der häufig zum Lesen oder Kommentieren von PDF-Dokumenten verwendet wird, verfügt über eine Reihe von Online-Funktionen, die Ihre Daten offenlegen können: Aktive Telemetrie, Cloud-Synchronisierung und die Sammlung von Informationen über Ihre Dateien oder Lesegewohnheiten.
 
 
@@ -7969,7 +7969,7 @@ Die Internet-Infrastruktur basiert hauptsächlich auf zwei Protokollen:
 Diese beiden Protokolle arbeiten zusammen, um sicherzustellen, dass die von einem Punkt zum anderen gesendeten Nachrichten vollständig und in der richtigen Reihenfolge ankommen.
 
 
-Konkret: Wenn Sie eine Website besuchen, zum Beispiel durch Eingabe eines Address in Ihren Browser, werden im Hintergrund mehrere Vorgänge ausgelöst. Zunächst muss Ihr Computer oder Smartphone die lesbare Address (z.B. "planb.network") mithilfe eines DNS (*Domain Name System*) genannten Dienstes in eine IP Address umwandeln. Sobald die IP Address des Webservers ermittelt wurde, können die Daten an ihr Ziel gesendet werden.
+Konkret: Wenn Sie eine Website besuchen, zum Beispiel durch Eingabe einer Adresse in Ihren Browser, werden im Hintergrund mehrere Vorgänge ausgelöst. Zunächst muss Ihr Computer oder Smartphone die lesbare Adresse (z.B. "planb.network") mithilfe eines DNS (*Domain Name System*) genannten Dienstes in eine IP-Adresse umwandeln. Sobald die IP-Adresse des Webservers ermittelt wurde, können die Daten an ihr Ziel gesendet werden.
 
 
 Diese Daten durchlaufen dann einen komplexen Weg. Zunächst durchlaufen sie Ihren Heimrouter und Ihr Modem, bevor sie die Infrastruktur Ihres Internetanbieters erreichen. Von dort aus durchqueren sie möglicherweise mehrere Zwischennetze (manchmal transozeanische Kabel, Transit-Router, Internet-Exchange-Punkte usw.), bevor sie ihr Ziel erreichen: Der Server der Website, die Sie besuchen möchten. Dieser wiederum sendet die Daten (den Inhalt der Website) in die andere Richtung.
@@ -8004,7 +8004,7 @@ Das Modem (kurz für "*Modulator-Demodulator*") ist die Komponente, die das Netz
 - Die Rolle des Routers**
 
 
-Der Router ist das Herzstück Ihres lokalen Netzwerks. Er verteilt die Internetverbindung an alle Ihre Geräte: Computer, Smartphones, angeschlossene Objekte, Drucker usw. Er weist jedem von ihnen eine lokale IP Address zu (die sich von Ihrer im Internet sichtbaren öffentlichen IP unterscheidet). Der Router organisiert dann den ein- und ausgehenden Datenverkehr und sorgt dafür, dass die Daten das richtige Gerät erreichen. Er kann auch eine Firewall integrieren, Netzwerkpakete filtern oder Portweiterleitungsregeln verwalten. NAT maskiert Ihr lokales Netzwerk vor den Augen des Internets und verwendet eine einzige öffentliche IP Address, um alle Ihre Geräte zu repräsentieren. Nur der Router weiss, welches lokale Gerät welche Anfrage initiiert hat.
+Der Router ist das Herzstück Ihres lokalen Netzwerks. Er verteilt die Internetverbindung an alle Ihre Geräte: Computer, Smartphones, angeschlossene Objekte, Drucker usw. Er weist jedem von ihnen eine lokale IP-Adresse zu (die sich von Ihrer im Internet sichtbaren öffentlichen IP unterscheidet). Der Router organisiert dann den ein- und ausgehenden Datenverkehr und sorgt dafür, dass die Daten das richtige Gerät erreichen. Er kann auch eine Firewall integrieren, Netzwerkpakete filtern oder Portweiterleitungsregeln verwalten. NAT maskiert Ihr lokales Netzwerk vor den Augen des Internets und verwendet eine einzige öffentliche IP-Adresse, um alle Ihre Geräte zu repräsentieren. Nur der Router weiss, welches lokale Gerät welche Anfrage initiiert hat.
 
 
 In einigen Ländern werden diese beiden Funktionen manchmal auf zwei separate Geräte aufgeteilt: Ein Modem und ein Router.
@@ -8031,7 +8031,7 @@ Im Gegensatz zum Internet, das ein globales, öffentliches Netz ist, ist das lok
 ![Image](assets/fr/194.webp)
 
 
-Dies basiert auf einer Reihe von Standardtechnologien und -protokollen, von denen das IP-Protokoll das wichtigste ist. Jedem Gerät in Ihrem lokalen Netz wird eine lokale IP Address zugewiesen (in der Regel im Format "192.168.x.x"), die zur eindeutigen Identifizierung innerhalb des Netzes dient. Dieser Address ist vom Internet aus nicht sichtbar. Nur Ihre öffentliche IP Address, die von allen Geräten über das Modem gemeinsam genutzt wird, ist ausserhalb Ihres Hauses sichtbar.
+Dies basiert auf einer Reihe von Standardtechnologien und -protokollen, von denen das IP-Protokoll das wichtigste ist. Jedem Gerät in Ihrem lokalen Netz wird eine lokale IP-Adresse zugewiesen (in der Regel im Format "192.168.x.x"), die zur eindeutigen Identifizierung innerhalb des Netzes dient. Dieser Adresse ist vom Internet aus nicht sichtbar. Nur Ihre öffentliche IP-Adresse, die von allen Geräten über das Modem gemeinsam genutzt wird, ist ausserhalb Ihres Hauses sichtbar.
 
 
 Diese scheinbare Isolierung sollte Ihnen jedoch kein falsches Gefühl der Sicherheit vermitteln. Ein schlecht konfiguriertes lokales Netzwerk kann zu einem Einfallstor für Angriffe werden, insbesondere in den folgenden Fällen:
@@ -8065,7 +8065,7 @@ Ein Angreifer mit Zugang zu Ihrem Wi-Fi-Netzwerk könnte dann:
 - Abfangen unverschlüsselter Daten, die über das Netz laufen (z.B. DNS-Anfragen oder HTTP-Verkehr)
 - Zugriff auf Ihre Dateien oder Geräte, wenn diese unzureichend geschützt sind
 - Einschleusen bösartiger Inhalte in Ihren Browser
-- Ihre Internetverbindung ohne Ihr Wissen zu nutzen oder sogar Online-Angriffe von Ihrer öffentlichen IP Address aus durchzuführen
+- Ihre Internetverbindung ohne Ihr Wissen zu nutzen oder sogar Online-Angriffe von Ihrer öffentlichen IP-Adresse aus durchzuführen
 
 
 Um sich vor diesen Bedrohungen zu schützen, müssen Sie Ihr Wi-Fi-Netzwerk absichern. In den nächsten Kapiteln werden wir uns ansehen, wie Sie dies tun können.
@@ -8074,10 +8074,10 @@ Um sich vor diesen Bedrohungen zu schützen, müssen Sie Ihr Wi-Fi-Netzwerk absi
 ### Lokale IP-Adressen
 
 
-Wenn Sie ein Gerät an Ihr Heimnetzwerk anschliessen, erhält es eine lokale IP Address. Diese Address besteht aus vier durch Punkte getrennten Zahlen (z.B. "192.168.1.14"). Er wird verwendet, um jedes Gerät in Ihrem lokalen Netzwerk eindeutig zu identifizieren. Dank dieser Address weiss Ihr Router, an welches Gerät er Daten senden muss (z.B. eine Webseite oder ein Video, das Sie angefordert haben).
+Wenn Sie ein Gerät an Ihr Heimnetzwerk anschliessen, erhält es eine lokale IP-Adresse. Diese Adresse besteht aus vier durch Punkte getrennten Zahlen (z.B. "192.168.1.14"). Er wird verwendet, um jedes Gerät in Ihrem lokalen Netzwerk eindeutig zu identifizieren. Dank dieser Adresse weiss Ihr Router, an welches Gerät er Daten senden muss (z.B. eine Webseite oder ein Video, das Sie angefordert haben).
 
 
-Es ist wichtig zu wissen, dass diese lokalen IP-Adressen vom Internet aus nicht sichtbar sind. Sie gehören zu reservierten Bereichen, die durch internationale Normen definiert sind und im öffentlichen Netz nicht verwendet werden können. Die drei häufigsten lokalen IP-Address-Bereiche sind:
+Es ist wichtig zu wissen, dass diese lokalen IP-Adressen vom Internet aus nicht sichtbar sind. Sie gehören zu reservierten Bereichen, die durch internationale Normen definiert sind und im öffentlichen Netz nicht verwendet werden können. Die drei häufigsten lokalen IP-Adress-Bereiche sind:
 
 
 
@@ -8086,28 +8086,28 @@ Es ist wichtig zu wissen, dass diese lokalen IP-Adressen vom Internet aus nicht 
 - 172.16.0.0" bis "172.31.255.255"
 
 
-Ein und dasselbe Gerät kann also zu Hause eine IP Address wie "192.168.1.42" haben, während ein anderer Benutzer in einem anderen Land ein anderes Gerät mit derselben IP Address in seinem eigenen lokalen Netz hat, ohne dass es jemals zu einem Konflikt kommt, weil diese Adressen das Heimnetz nicht verlassen. Es ist der Router, der die Verbindung zwischen Ihrem Heimnetzwerk und dem öffentlichen Internet herstellt und diese Adressen über einen Mechanismus namens "NAT" (*Network Address Translation*) übersetzt.
+Ein und dasselbe Gerät kann also zu Hause eine IP-Adresse wie "192.168.1.42" haben, während ein anderer Benutzer in einem anderen Land ein anderes Gerät mit derselben IP-Adresse in seinem eigenen lokalen Netz hat, ohne dass es jemals zu einem Konflikt kommt, weil diese Adressen das Heimnetz nicht verlassen. Es ist der Router, der die Verbindung zwischen Ihrem Heimnetzwerk und dem öffentlichen Internet herstellt und diese Adressen über einen Mechanismus namens "NAT" (*Network Address Translation*) übersetzt.
 
 
-Lokale IP-Adressen werden im Allgemeinen dynamisch über DHCP (*Dynamic Host Configuration Protocol*) zugewiesen. Wenn Sie ein neues Gerät an das Netzwerk anschliessen, sendet es eine DHCP-Anforderung für ein Address, und der Router weist ihm ein verfügbares freies Address innerhalb des festgelegten Bereichs zu. Dieses Address kann sich im Laufe der Zeit ändern.
+Lokale IP-Adressen werden im Allgemeinen dynamisch über DHCP (*Dynamic Host Configuration Protocol*) zugewiesen. Wenn Sie ein neues Gerät an das Netzwerk anschliessen, sendet es eine DHCP-Anforderung für ein Adresse, und der Router weist ihm eine verfügbare freie Adresse innerhalb des festgelegten Bereichs zu. Diese Adresse kann sich im Laufe der Zeit ändern.
 
 
-Es ist jedoch möglich, feste IP-Adressen für bestimmte Geräte zu konfigurieren. Das bedeutet, dass ein bestimmter Address dauerhaft für ein bestimmtes Gerät reserviert wird. Dies ist in einer Reihe von Fällen nützlich, zum Beispiel:
+Es ist jedoch möglich, feste IP-Adressen für bestimmte Geräte zu konfigurieren. Das bedeutet, dass eine bestimmte Adresse dauerhaft für ein bestimmtes Gerät reserviert wird. Dies ist in einer Reihe von Fällen nützlich, zum Beispiel:
 
 
 
 - Für einfachen Zugriff auf einen persönlichen Server oder NAS von einem anderen Gerät aus
-- Ferndrucken auf einem Netzwerkdrucker, ohne nach dessen Address suchen zu müssen
+- Ferndrucken auf einem Netzwerkdrucker, ohne nach dessen Adresse suchen zu müssen
 - So erstellen Sie Regeln für die Filterung oder Portweiterleitung in Ihrem Router
 
 
 ### Netzwerkanschlüsse
 
 
-Um zu verstehen, wie ein lokales Netz funktioniert, müssen Sie wissen, dass jeder IP-Address (ob lokal oder öffentlich) mit einer Reihe von numerischen Ports verbunden ist, die von "0" bis "65535" nummeriert sind. Diese Ports sind nicht physisch: Es handelt sich um virtuelle Ein- und Ausgangspunkte, die es Anwendungen und Diensten ermöglichen, über das Netzwerk zu kommunizieren.
+Um zu verstehen, wie ein lokales Netz funktioniert, müssen Sie wissen, dass jede IP-Adresse (ob lokal oder öffentlich) mit einer Reihe von numerischen Ports verbunden ist, die von "0" bis "65535" nummeriert sind. Diese Ports sind nicht physisch: Es handelt sich um virtuelle Ein- und Ausgangspunkte, die es Anwendungen und Diensten ermöglichen, über das Netzwerk zu kommunizieren.
 
 
-Jedes Mal, wenn ein Gerät über das Internet oder ein lokales Netz kommuniziert, tut es dies durch die Kombination einer IP Address und einer Portnummer. Dadurch kann nicht nur festgestellt werden, an welches Gerät Daten zu senden sind, sondern auch, welche spezifische Anwendung oder welcher Dienst auf diesem Gerät läuft. Zum Beispiel:
+Jedes Mal, wenn ein Gerät über das Internet oder ein lokales Netz kommuniziert, tut es dies durch die Kombination einer IP-Adresse und einer Portnummer. Dadurch kann nicht nur festgestellt werden, an welches Gerät Daten zu senden sind, sondern auch, welche spezifische Anwendung oder welcher Dienst auf diesem Gerät läuft. Zum Beispiel:
 
 
 
@@ -8132,7 +8132,7 @@ Diese Ports werden auch in Systemen wie Bitcoin oder Tor verwendet, wo bestimmte
 - Port `9150` wird vom Tor-Browser verwendet
 
 
-Mit anderen Worten, ein Port ist wie eine spezielle Tür. Wenn Sie eine Website besuchen, öffnet Ihr Computer einen Quellport und sendet eine Anfrage an die IP-Adresse Address der Gegenstelle, wobei er bei einer verschlüsselten Verbindung den Port "443" ansteuert. Der entfernte Server sendet dann die Antwort über denselben Kanal zurück. Bei einem Router ist dieser Begriff des Ports wichtig: Er muss wissen, an welches Gerät und welchen lokalen Port er eingehende Datenpakete umleiten soll.
+Mit anderen Worten, ein Port ist wie eine spezielle Tür. Wenn Sie eine Website besuchen, öffnet Ihr Computer einen Quellport und sendet eine Anfrage an die IP-Adresse der Gegenstelle, wobei er bei einer verschlüsselten Verbindung den Port "443" ansteuert. Der entfernte Server sendet dann die Antwort über denselben Kanal zurück. Bei einem Router ist dieser Begriff des Ports wichtig: Er muss wissen, an welches Gerät und welchen lokalen Port er eingehende Datenpakete umleiten soll.
 
 
 Diese Möglichkeit, Ports zu öffnen, birgt jedoch auch ein Sicherheitsrisiko. Ein unnötig offen gelassener Port kann von Netzwerk-Scan-Tools entdeckt und von Angreifern ausgenutzt werden, wenn er mit einem anfälligen oder falsch konfigurierten Dienst verbunden ist. Es ist, als würde man eine Tür offen lassen. Aber dazu später mehr.
@@ -8232,7 +8232,7 @@ https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb
 Achtung: Verwechseln Sie nicht das Administrationspasswort des Routers (das den Zugriff auf die Konfiguration schützt) mit dem Wi-Fi-Passwort (das Ihnen die Verbindung zum drahtlosen Netzwerk ermöglicht). Es handelt sich um zwei verschiedene Elements, die beide geändert werden müssen.
 
 
-Schliesslich verfügen einige moderne Router über zwei Verwaltungsschnittstellen: Ein lokales Interface-Web (zugänglich über ein Address wie "192.168.1.1") und ein Cloud-Interface (ermöglicht die Fernverwaltung über das Internet). Wenn letzteres standardmässig aktiviert ist, empfehle ich Ihnen, es zu deaktivieren, wenn Sie es nicht verwenden, oder seine Sicherheit mit einem starken Passwort und möglicherweise einer Zwei-Faktor-Authentifizierung (2FA) zu verstärken, falls verfügbar.
+Schliesslich verfügen einige moderne Router über zwei Verwaltungsschnittstellen: Ein lokales Interface-Web (zugänglich über ein Adresse wie "192.168.1.1") und ein Cloud-Interface (ermöglicht die Fernverwaltung über das Internet). Wenn letzteres standardmässig aktiviert ist, empfehle ich Ihnen, es zu deaktivieren, wenn Sie es nicht verwenden, oder seine Sicherheit mit einem starken Passwort und möglicherweise einer Zwei-Faktor-Authentifizierung (2FA) zu verstärken, falls verfügbar.
 
 
 ### Sichere Router-Konfiguration
@@ -8293,7 +8293,7 @@ Das Wi-Fi-Netzwerk ist oft der bevorzugte Einstiegspunkt für Eindringlinge in d
 Der erste wichtige Schritt ist die Wahl des richtigen Verschlüsselungsprotokolls. Aktivieren Sie immer "*WPA3-Personal*", den neuesten und sichersten Standard. Er schützt nicht nur die ausgetauschten Daten, sondern verhindert auch bestimmte bekannte Angriffe.
 
 
-Der Name Ihres Wi-Fi-Netzwerks, "SSID" (*Service Set Identifier*) genannt, sollte neutral bleiben. Vermeiden Sie es, Ihren Namen, Address oder die Marke Ihres Routers anzugeben. Ein Name wie `MaisonDupont_WiFi6` gibt einem potenziellen Angreifer bereits zu viele Informationen. Bevorzugen Sie einen allgemeinen Namen, der keine besondere Bedeutung hat. Dies schränkt die für passives Tracking oder Social Targeting verfügbaren Informationen ein.
+Der Name Ihres Wi-Fi-Netzwerks, "SSID" (*Service Set Identifier*) genannt, sollte neutral bleiben. Vermeiden Sie es, Ihren Namen, Adresse oder die Marke Ihres Routers anzugeben. Ein Name wie `MaisonDupont_WiFi6` gibt einem potenziellen Angreifer bereits zu viele Informationen. Bevorzugen Sie einen allgemeinen Namen, der keine besondere Bedeutung hat. Dies schränkt die für passives Tracking oder Social Targeting verfügbaren Informationen ein.
 
 
 Eine weitere bewährte Methode besteht darin, ein von Ihrem Hauptnetz getrenntes Gastnetzwerk einzurichten. Dieses parallele Netzwerk, das häufig von modernen Routern angeboten wird, ermöglicht es Ihnen, Ihren Gästen eine Internetverbindung zur Verfügung zu stellen, ohne dass sie Zugang zu Ihren anderen Geräten (Computer, Drucker, NAS usw.) haben. Das bedeutet auch, dass Sie ihnen nicht das Passwort für Ihr Hauptnetzwerk mitteilen müssen. Um noch weiter zu gehen, aktivieren Sie die Client-Isolierung in diesem Gastnetzwerk: Dadurch wird auch verhindert, dass Besucher miteinander kommunizieren, was die Risiken im Zusammenhang mit kompromittierten Geräten weiter verringert.
@@ -8335,7 +8335,7 @@ Schliesslich bietet dieser Ansatz auch Vorteile in Bezug auf Leistung und Verwal
 ### Erweiterte DNS-Verwaltung
 
 
-DNS (*Domain Name System*) ist der Internetdienst, der für Menschen verständliche Webadressen (z.B. "planb.network") in für Maschinen verständliche IP-Adressen übersetzt. Wenn ein Gerät in Ihrem Netz eine Website besuchen möchte, fragt es einen DNS-Server ab, um den Address des Servers zu erhalten, den es kontaktieren soll. Standardmässig werden diese DNS-Anfragen oft im Klartext (unverschlüsselt) an Ihren Internetdienstanbieter gesendet, so dass dieser (oder eine dritte Partei wie die Regierung) alle von Ihnen besuchten Websites sehen kann, selbst wenn deren Inhalt über HTTPS verschlüsselt ist.
+DNS (*Domain Name System*) ist der Internetdienst, der für Menschen verständliche Webadressen (z.B. "planb.network") in für Maschinen verständliche IP-Adressen übersetzt. Wenn ein Gerät in Ihrem Netz eine Website besuchen möchte, fragt es einen DNS-Server ab, um den Adresse des Servers zu erhalten, den es kontaktieren soll. Standardmässig werden diese DNS-Anfragen oft im Klartext (unverschlüsselt) an Ihren Internetdienstanbieter gesendet, so dass dieser (oder eine dritte Partei wie die Regierung) alle von Ihnen besuchten Websites sehen kann, selbst wenn deren Inhalt über HTTPS verschlüsselt ist.
 
 
 Um den Datenschutz beim Surfen zu verbessern und bestimmte unerwünschte Inhalte von Anfang an zu blockieren, können Sie die Kontrolle über die DNS-Auflösung in Ihrem Heimnetzwerk übernehmen. Beginnen Sie damit, die standardmässig bereitgestellten DNS-Server durch datenschutzfreundlichere Alternativen zu ersetzen, wie z.B. :
@@ -8429,7 +8429,7 @@ https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7
 
 Sie können dieses VPN direkt auf einem kompatiblen Router, auf einem kleinen Computer (z.B. einem Raspberry Pi) oder auf einem dedizierten Server zu Hause hosten. Sie können es auch als Client direkt auf einem beliebigen Gerät installieren.
 
-Aber ein VPN ist nicht nur für den Fernzugriff geeignet. Sie können auch einen klassischen VPN-Client auf Ihren Geräten verwenden, um Ihren gesamten ausgehenden Datenverkehr zu verschlüsseln, auch wenn Sie nicht zu Hause sind (öffentliches WLAN, Hotel, Universität usw.). In diesem Fall stellt Ihr Gerät eine Verbindung zu einem VPN-Server eines Drittanbieters (kommerziell oder selbst gehostet) her, der dann Ihre Verbindungen ins Internet weiterleitet. Dies verbirgt Ihre echte IP Address vor dem Internetanbieter, schützt Ihre Daten vor lokaler Spionage und umgeht bestimmte Formen der Zensur.
+Aber ein VPN ist nicht nur für den Fernzugriff geeignet. Sie können auch einen klassischen VPN-Client auf Ihren Geräten verwenden, um Ihren gesamten ausgehenden Datenverkehr zu verschlüsseln, auch wenn Sie nicht zu Hause sind (öffentliches WLAN, Hotel, Universität usw.). In diesem Fall stellt Ihr Gerät eine Verbindung zu einem VPN-Server eines Drittanbieters (kommerziell oder selbst gehostet) her, der dann Ihre Verbindungen ins Internet weiterleitet. Dies verbirgt Ihre echte IP-Adresse vor dem Internetanbieter, schützt Ihre Daten vor lokaler Spionage und umgeht bestimmte Formen der Zensur.
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
