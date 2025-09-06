@@ -5,7 +5,7 @@ objectives:
 
 
   - Verstehen, wie moderne Betriebssysteme funktionieren und eine fundierte Wahl treffen
-  - Erlangung technischer Autonomie in Linux
+  - Erlangung technischer Autonomie in Linux 
   - Implementierung der besten Sicherheitspraktiken auf einem Personal Computer
   - Verbesserung der Sicherheit beim Surfen im Internet und bei der mobilen Nutzung durch Open-Source-Tools und geeignete Einstellungen
   - Implementierung der notwendigen Schutzmassnahmen in einem Heimnetzwerk
