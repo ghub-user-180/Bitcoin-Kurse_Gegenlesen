@@ -7746,15 +7746,15 @@ Stingle ist sowohl eine Fotogalerie als auch eine Kameraanwendung, kombiniert mi
 
 **Alternativen**:
 
-xxx
-Der Adobe Acrobat Reader, der häufig zum Lesen oder Kommentieren von PDF-Dokumenten verwendet wird, verfügt über eine Reihe von Online-Funktionen, die Ihre Daten offenlegen können: Aktive Telemetrie, Cloud-Synchronisierung und die Sammlung von Informationen über Ihre Dateien oder Lesegewohnheiten.
+
+Der Adobe Acrobat Reader, der häufig zum Lesen oder Kommentieren von PDF-Dokumenten verwendet wird, verfügt über eine Reihe von Online-Funktionen, die deine Daten offenlegen können: Aktive Telemetrie, Cloud-Synchronisierung und die Sammlung von Informationen über deine Dateien oder Lesegewohnheiten.
 
 
 
 - [MuPDF Viewer](https://f-droid.org/en/packages/com.artifex.mupdf.viewer.app/)
 
 
-MuPDF Viewer ist ein ultraleichter, schneller und vollständig quelloffener PDF-Reader. Er verbraucht nur sehr wenige Ressourcen. Obwohl er keine fortgeschrittenen Funktionen wie Anmerkungen oder Unterschriften bietet, erledigt er seine Aufgabe perfekt: Er zeigt Ihre Dokumente an, ohne sie auszuspionieren.
+MuPDF Viewer ist ein ultraleichter, schneller und vollständig quelloffener PDF-Reader. Er verbraucht nur sehr wenige Ressourcen. Obwohl er keine fortgeschrittenen Funktionen wie Anmerkungen oder Unterschriften bietet, erledigt er seine Aufgabe perfekt: Er zeigt deine Dokumente an, ohne sie auszuspionieren.
 
 
 
@@ -7777,7 +7777,7 @@ Die Telefonanwendung von Google, die standardmässig auf vielen Android-Smartpho
 - [Koler](https://github.com/Chooloo/koler)
 
 
-Koler ist eine Open-Source-Telefonieanwendung, die schön, einfach zu bedienen und datenschutzfreundlich ist. Es bietet eine flüssige und intuitive Interface für die Verwaltung Ihrer Anrufe, ohne Tracker oder persönliche Datenanalyse. Allerdings enthält sie derzeit keine erweiterte Anruffilterung oder Integration mit Diensten von Drittanbietern.
+Koler ist eine Open-Source-Telefonieanwendung, die schön, einfach zu bedienen und datenschutzfreundlich ist. Es bietet eine flüssige und intuitive Interface für die Verwaltung deiner Anrufe, ohne Tracker oder persönliche Datenanalyse. Allerdings enthält sie derzeit keine erweiterte Anruffilterung oder Integration mit Diensten von Drittanbietern.
 
 
 ![Image](assets/fr/188.webp)
@@ -7786,7 +7786,7 @@ Koler ist eine Open-Source-Telefonieanwendung, die schön, einfach zu bedienen u
 ### Übersetzung
 
 
-Google Translate ist das Mass aller Dinge bei der automatischen Übersetzung, aber bei seiner Verwendung werden systematisch alle Ihre Anfragen an Google gesendet, mit eingebauter Nachverfolgung und möglicher Sammlung sensibler Daten (übersetzte Texte, Verlauf usw.).
+Google Translate ist das Mass aller Dinge bei der automatischen Übersetzung, aber bei seiner Verwendung werden systematisch alle deine Anfragen an Google gesendet, mit eingebauter Nachverfolgung und möglicher Sammlung sensibler Daten (übersetzte Texte, Verlauf usw.).
 
 
 **Alternativen**:
@@ -7796,7 +7796,7 @@ Google Translate ist das Mass aller Dinge bei der automatischen Übersetzung, ab
 - [TranslateYou](https://github.com/you-apps/TranslateYou)
 
 
-TranslateYou ist eine Open-Source-Übersetzungsanwendung, die die Privatsphäre ihrer Nutzer respektiert. Es funktioniert wie ein Interface für verschiedene Übersetzungsmaschinen (LibreTranslate, LingvaTranslate, Mozhi, DeepL, etc.) und lässt Sie einen Dienst wählen, der Ihre Daten nicht ausnutzt.
+TranslateYou ist eine Open-Source-Übersetzungsanwendung, die die Privatsphäre ihrer Nutzer respektiert. Es funktioniert wie ein Interface für verschiedene Übersetzungsmaschinen (LibreTranslate, LingvaTranslate, Mozhi, DeepL, etc.) und lässt dich einen Dienst wählen, der deine Daten nicht ausnutzt.
 
 
 Keine Werbung, keine Tracker und ein einfach zu bedienendes Interface machen TranslateYou zu einer praktischen Alternative zu Google Translate.
@@ -7821,13 +7821,13 @@ Yuka wird häufig zum Scannen von Lebensmitteln und Kosmetika und zur Bewertung 
 OpenFoodFacts ist eine viel transparentere und datenschutzfreundlichere Alternative. Dieses gemeinschaftliche Open-Source-Projekt bietet eine globale Datenbank, die durch Nutzerbeiträge gespeist wird. Nährwertangaben, Inhaltsstoffe und Etiketten können transparent und ohne missbräuchliche Datenerfassung abgerufen werden.
 
 
-Mit der mobilen Anwendung können Sie Barcodes scannen, sofort auf Produktdatenblätter zugreifen und selbst zur Datenbank beitragen. Die Nutzung ist völlig kostenlos, ohne Werbung oder Tracker.
+Mit der mobilen Anwendung kannst du Barcodes scannen, sofort auf Produktdatenblätter zugreifen und selbst zur Datenbank beitragen. Die Nutzung ist völlig kostenlos, ohne Werbung oder Tracker.
 
 
 ### Teilen in der Nähe
 
 
-Mit Funktionen wie Quick Share (Android) oder AirDrop (iOS/macOS) können Sie Dateien zwischen Geräten in der Nähe über Bluetooth und direktes Wi-Fi senden, ohne eine Internetverbindung zu benötigen. Sie sind praktisch, beruhen aber auf geschlossenen Systemen, die manchmal mit Google-, Samsung- oder Apple-Konten verbunden sind.
+Mit Funktionen wie Quick Share (Android) oder AirDrop (iOS/macOS) kannst du Dateien zwischen Geräten in der Nähe über Bluetooth und direktes Wi-Fi senden, ohne eine Internetverbindung zu benötigen. Sie sind praktisch, beruhen aber auf geschlossenen Systemen, die manchmal mit Google-, Samsung- oder Apple-Konten verbunden sind.
 
 
 Quick Share ist jetzt der Standard auf Android. Diese Software, die ursprünglich von Samsung entwickelt wurde, wurde 2024 mit Nearby Share von Google vereinigt, was zu einer einzigen Anwendung für die Dateifreigabe auf Android führte.
@@ -7840,7 +7840,7 @@ Quick Share ist jetzt der Standard auf Android. Diese Software, die ursprünglic
 - [Snapdrop](https://github.com/SnapDrop/snapdrop)
 
 
-Snapdrop ist eine kostenlose, quelloffene Alternative, die keine Installation erfordert. Mit Snapdrop können Sie Dateien zwischen Geräten austauschen, die mit demselben lokalen Netzwerk verbunden sind, und zwar einfach über einen Webbrowser. Die Übertragung erfolgt direkt (Peer-to-Peer) und die Daten werden nicht über einen Remote-Server übertragen.
+Snapdrop ist eine kostenlose, quelloffene Alternative, die keine Installation erfordert. Mit Snapdrop kannst du Dateien zwischen Geräten austauschen, die mit demselben lokalen Netzwerk verbunden sind, und zwar einfach über einen Webbrowser. Die Übertragung erfolgt direkt (Peer-to-Peer) und die Daten werden nicht über einen Remote-Server übertragen.
 
 
 Eine interessante Alternative ist [PairDrop](https://github.com/schlagmichdoch/pairdrop) (ein Fork von Snapdrop), das ein paar zusätzliche Funktionen bietet.
@@ -7866,7 +7866,7 @@ LocalSend ist eine weitere kostenlose Alternative mit vollem Funktionsumfang und
 ### Bücher
 
 
-Anwendungen wie Goodreads sind zwar weit verbreitet, werfen aber ernste Fragen zum Datenschutz auf. Diese Plattform ist im Besitz von Amazon, das viele Daten über Ihre Lektüre, Vorlieben, Bewertungen und Rezensionen sammelt. Darüber hinaus stützt sich Interface in hohem Masse auf die Verfolgung von Nutzern und Verhaltensanalysen für kommerzielle Zwecke.
+Anwendungen wie Goodreads sind zwar weit verbreitet, werfen aber ernste Fragen zum Datenschutz auf. Diese Plattform ist im Besitz von Amazon, das viele Daten über deine Lektüre, Vorlieben, Bewertungen und Rezensionen sammelt. Darüber hinaus stützt sich Interface in hohem Masse auf die Verfolgung von Nutzern und Verhaltensanalysen für kommerzielle Zwecke.
 
 
 **Alternativen**:
@@ -7876,7 +7876,7 @@ Anwendungen wie Goodreads sind zwar weit verbreitet, werfen aber ernste Fragen z
 - [Openreads] (https://github.com/mateusz-bak/openreads)
 
 
-Openreads ist die Open-Source-Alternative für datenschutzfreundliche Leseverfolgung. Mit dieser Anwendung können Sie eine persönliche digitale Bibliothek erstellen, Ihren Lesefortschritt verfolgen, Bücher bewerten und kommentieren und auf Empfehlungen zugreifen, die auf Ihren eigenen Kriterien basieren, ohne dass eine zentrale Analyse oder Nachverfolgung stattfindet. Alle Daten verbleiben auf Ihrem Gerät oder werden über selbst gehostete Dienste synchronisiert.
+Openreads ist die Open-Source-Alternative für datenschutzfreundliche Leseverfolgung. Mit dieser Anwendung kannst du eine persönliche digitale Bibliothek erstellen, deinen Lesefortschritt verfolgen, Bücher bewerten und kommentieren und auf Empfehlungen zugreifen, die auf deinen eigenen Kriterien basieren, ohne dass eine zentrale Analyse oder Nachverfolgung stattfindet. Alle Daten verbleiben auf deinem Gerät oder werden über selbst gehostete Dienste synchronisiert.
 
 
 ### Uhr, Alarme und Timer
@@ -7889,16 +7889,16 @@ Openreads ist die Open-Source-Alternative für datenschutzfreundliche Leseverfol
 - [Chrono](https://github.com/vicolo-dev/chrono)
 
 
-Chrono ist auf F-Droid verfügbar und vollständig quelloffen. Es bietet ein modernes, übersichtliches Interface ohne Werbung oder Datensammlung. Es lässt Sie anpassbare Alarme erstellen: Wiederholung nach bestimmten Tagen oder Datumsbereichen, Wahl des Tons, progressive Intensität, Vibration oder sogar Aufgaben, die ausgeführt werden müssen, um den Alarm zu deaktivieren (Lösen einer Berechnung, Lesen eines Textes, etc.).
+Chrono ist auf F-Droid verfügbar und vollständig quelloffen. Es bietet ein modernes, übersichtliches Interface ohne Werbung oder Datensammlung. Es lässt dich anpassbare Alarme erstellen: Wiederholung nach bestimmten Tagen oder Datumsbereichen, Wahl des Tons, progressive Intensität, Vibration oder sogar Aufgaben, die ausgeführt werden müssen, um den Alarm zu deaktivieren (Lösen einer Berechnung, Lesen eines Textes, etc.).
 
 
-Die Anwendung enthält auch einen Timer und eine Stoppuhr mit Rundenaufzeichnung, Statistiken, Zeitvergleichen und Verwaltung mehrerer Timer. Sie können mehrere Zeitzonen konfigurieren, das Thema anpassen (Farben, Stile, Animationen) und sogar Ihre Alarme und Timer mit Etiketten organisieren.
+Die Anwendung enthält auch einen Timer und eine Stoppuhr mit Rundenaufzeichnung, Statistiken, Zeitvergleichen und Verwaltung mehrerer Timer. Du kannst mehrere Zeitzonen konfigurieren, das Thema anpassen (Farben, Stile, Animationen) und sogar deine Alarme und Timer mit Etiketten organisieren.
 
 
 ___
 
 
-⚠️ ***Vorsicht**: Obwohl die in diesem Kapitel vorgestellten Alternativen meist quelloffen und datenschutzorientiert sind, sind sie nicht ohne Einschränkungen oder Risiken. Einige werden möglicherweise nicht mehr gewartet, haben ungepatchte Schwachstellen, sind proprietär oder können sogar Malware sein. Einige können auch in Ihrem Land illegal sein. Ich habe dieses Kapitel im Juni 2025 geschrieben, aber die Situation für diese Anwendungen kann sich seither geändert haben.*
+⚠️ ***Vorsicht**: Obwohl die in diesem Kapitel vorgestellten Alternativen meist quelloffen und datenschutzorientiert sind, sind sie nicht ohne Einschränkungen oder Risiken. Einige werden möglicherweise nicht mehr gewartet, haben ungepatchte Schwachstellen, sind proprietär oder können sogar Malware sein. Einige können auch in deinem Land illegal sein. Ich habe dieses Kapitel im Juni 2025 geschrieben, aber die Situation für diese Anwendungen kann sich seither geändert haben.*
 
 
 Ausserdem habe ich den Code der genannten Tools nicht persönlich geprüft, und meine Empfehlungen sollten keinesfalls als absolute Garantien angesehen werden. Es ist daher wichtig, dass jeder vor der Nutzung dieser Anwendungen eigene Nachforschungen anstellt.
@@ -7907,22 +7907,22 @@ Ausserdem habe ich den Code der genannten Tools nicht persönlich geprüft, und 
 ___
 
 
-# Sicherung Ihres lokalen Netzwerks
+# Sicherung deines lokalen Netzwerks
 
 
 <partId>23e49e48-34c9-435c-a36f-1c86b0254275</partId>
 
 
-## Ihr Heimnetzwerk besser verstehen
+## Dein Heimnetzwerk besser verstehen
 
 
 <chapterId>8a7577e0-4a27-4331-a6d9-7a4c838fa720</chapterId>
 
 
-Digitale Sicherheit beginnt oft mit einer guten Beherrschung des Heimnetzwerks. Ihr Heimnetzwerk ist der erste Eintrittspunkt des Internets in Ihr persönliches Umfeld, und es ist das Internet, das die grösste Bedrohung für Ihre Sicherheit und Ihre Privatsphäre darstellt.
+Digitale Sicherheit beginnt oft mit einer guten Beherrschung des Heimnetzwerks. Dein Heimnetzwerk ist der erste Eintrittspunkt des Internets in dein persönliches Umfeld, und es ist das Internet, das die grösste Bedrohung für deine Sicherheit und deine Privatsphäre darstellt.
 
 
-Für Ihre digitale Souveränität ist es wichtig zu verstehen, wie Ihr lokales Netzwerk funktioniert, wie Ihre Daten fliessen und welche Geräte für die Verwaltung dieser Datenströme zuständig sind.
+Für deine digitale Souveränität ist es wichtig zu verstehen, wie dein lokales Netzwerk funktioniert, wie deine Daten fliessen und welche Geräte für die Verwaltung dieser Datenströme zuständig sind.
 
 
 In diesem Kapitel werden wir schrittweise die grundlegenden Konzepte der Heimvernetzung erkunden, von einer Erklärung, was das Internet ist, bis hin zu konkreten Details wie der Zuweisung lokaler IP-Adressen und der Rolle des Routers. Ziel ist es, die theoretischen Grundlagen zu wiederholen, die für das richtige Verständnis des folgenden Kapitels, das sich mit praktischeren Aspekten befasst, unerlässlich sind.
@@ -7940,7 +7940,7 @@ Die Geschichte des Internets reicht bis in die späten 1960er Jahre zurück und 
 ![Image](assets/fr/191.webp)
 
 
-Ziel war es auch, ein widerstandsfähiges Netz zu entwickeln, das auch dann noch funktioniert, wenn ein Teil seiner Knotenpunkte zerstört wird (eine Notwendigkeit inmitten des Cold-Krieges). Das ARPANET ermöglichte 1969 die erste Kommunikation zwischen entfernten Computern.
+Ziel war es auch, ein widerstandsfähiges Netz zu entwickeln, das auch dann noch funktioniert, wenn ein Teil seiner Knotenpunkte zerstört wird (eine Notwendigkeit inmitten des kalten Krieges). Das ARPANET ermöglichte 1969 die erste Kommunikation zwischen voneinander entfernten Computern.
 
 
 ![Image](assets/fr/192.webp)
@@ -7952,15 +7952,15 @@ Im Laufe der Jahrzehnte wurde das Projekt erweitert, insbesondere durch die Stan
 #### Was ist das Internet?
 
 
-Das Internet, das wörtlich übersetzt "zusammenhängendes Netz" bedeutet, ist eine globale Infrastruktur, die es Milliarden von Geräten ermöglicht, miteinander zu kommunizieren. Es handelt sich dabei weder um einen einzelnen Dienst noch um einen bestimmten Ort, sondern um eine Ansammlung öffentlicher und privater Computernetzwerke, die in planetarischem Massstab miteinander verbunden sind. Jeder Akteur (Privatperson, Unternehmen, Behörde usw.) kann sein eigenes Netz mit dem Rest der Welt verbinden, sofern er sich an bestimmte standardisierte technische Protokolle hält, die es den Geräten ermöglichen, sich gegenseitig zu verstehen.
+Das Internet, das wörtlich übersetzt "zusammenhängendes Netz" bedeutet, ist eine globale Infrastruktur, die es Milliarden von Geräten ermöglicht, miteinander zu kommunizieren. Es handelt sich dabei weder um einen einzelnen Dienst noch um einen bestimmten Ort, sondern um eine Ansammlung öffentlicher und privater Computernetzwerke, die in planetarischem Massstab miteinander verbunden sind. Jeder Akteur (Privatperson, Unternehmen, Behörde usw.) kann sein eigenes Netz mit dem Rest der Welt verbinden. Vorausgesetzt, er hält sich an bestimmte standardisierte technische Protokolle, die es den Geräten ermöglichen, sich gegenseitig zu verstehen.
 
 
 Die Internet-Infrastruktur basiert hauptsächlich auf zwei Protokollen:
 
 
 
-- IP** (*Internet Protocol*) Identifiziert jedes angeschlossene Gerät und leitet Datenpakete weiter.
-- TCP** (*Transmission Control Protocol*) segmentiert den Datenfluss, prüft auf Fehler und bringt die Segmente wieder in die richtige Reihenfolge.
+- **IP** (*Internet Protocol*) Identifiziert jedes angeschlossene Gerät und leitet Datenpakete weiter.
+- **TCP** (*Transmission Control Protocol*) segmentiert den Datenfluss, prüft auf Fehler und bringt die Segmente wieder in die richtige Reihenfolge.
 
 
 → Für Echtzeitanwendungen, bei denen die Zuverlässigkeit weniger wichtig ist als die Latenzzeit (VoIP, DNS, Streaming usw.), wird häufig ein anderes Transportprotokoll anstelle von TCP verwendet: UDP (*User Datagram Protocol*).
@@ -7969,42 +7969,42 @@ Die Internet-Infrastruktur basiert hauptsächlich auf zwei Protokollen:
 Diese beiden Protokolle arbeiten zusammen, um sicherzustellen, dass die von einem Punkt zum anderen gesendeten Nachrichten vollständig und in der richtigen Reihenfolge ankommen.
 
 
-Konkret: Wenn Sie eine Website besuchen, zum Beispiel durch Eingabe einer Adresse in Ihren Browser, werden im Hintergrund mehrere Vorgänge ausgelöst. Zunächst muss Ihr Computer oder Smartphone die lesbare Adresse (z.B. "planb.network") mithilfe eines DNS (*Domain Name System*) genannten Dienstes in eine IP-Adresse umwandeln. Sobald die IP-Adresse des Webservers ermittelt wurde, können die Daten an ihr Ziel gesendet werden.
+Konkret: Wenn du eine Website besuchst, zum Beispiel durch Eingabe einer Adresse in deinen Browser, werden im Hintergrund mehrere Vorgänge ausgelöst. Zunächst muss dein Computer oder Smartphone die lesbare Adresse (z.B. "planb.network") mithilfe eines DNS (*Domain Name System*) genannten Dienstes in eine IP-Adresse umwandeln. Sobald die IP-Adresse des Webservers ermittelt wurde, können die Daten an ihr Ziel gesendet werden.
 
 
-Diese Daten durchlaufen dann einen komplexen Weg. Zunächst durchlaufen sie Ihren Heimrouter und Ihr Modem, bevor sie die Infrastruktur Ihres Internetanbieters erreichen. Von dort aus durchqueren sie möglicherweise mehrere Zwischennetze (manchmal transozeanische Kabel, Transit-Router, Internet-Exchange-Punkte usw.), bevor sie ihr Ziel erreichen: Der Server der Website, die Sie besuchen möchten. Dieser wiederum sendet die Daten (den Inhalt der Website) in die andere Richtung.
+Diese Daten durchlaufen dann einen komplexen Weg. Zunächst durchlaufen sie deinen Heimrouter und dein Modem, bevor sie die Infrastruktur deines Internetanbieters erreichen. Von dort aus durchqueren sie möglicherweise mehrere Zwischennetze (manchmal transozeanische Kabel, Transit-Router, Internet-Exchange-Punkte usw.), bevor sie ihr Ziel erreichen: Der Server der Website, die du besuchen möchtest. Dieser wiederum sendet die Daten (den Inhalt der Website) in die andere Richtung.
 
 
 ![Image](assets/fr/193.webp)
 
 
-Das Internet ist also ein riesiges dezentralisiertes Netz, das auf gemeinsamen Regeln beruht und in dem jedes Gerät mit jedem anderen kommunizieren kann, egal wo auf der Welt es sich befindet. Diese Offenheit ermöglicht zwar den digitalen Austausch, aber sie erfordert auch eine wachsame Haltung: Jede Online-Aktion durchläuft Infrastrukturen, über die Sie keine Kontrolle haben, und die Vertraulichkeit Ihres Austauschs hängt davon ab, wie Sie diese Werkzeuge konfigurieren und nutzen.
+Das Internet ist also ein riesiges dezentralisiertes Netz, das auf gemeinsamen Regeln beruht und in dem jedes Gerät mit jedem anderen kommunizieren kann, egal wo auf der Welt es sich befindet. Diese Offenheit ermöglicht zwar den digitalen Austausch, aber sie erfordert auch eine wachsame Haltung: Jede Online-Aktion durchläuft Infrastrukturen, über die du keine Kontrolle hast, und die Vertraulichkeit deines Austauschs hängt davon ab, wie du diese Werkzeuge konfigurierst und nutzt.
 
 
 ### Die Rolle des Modems und des Routers
 
 
-In den meisten modernen Haushalten wird der Internetzugang über ein zentrales Gerät bereitgestellt, das als Modem und Router fungiert. Der Name dieses Geräts variiert von Land zu Land (in Frankreich heisst es "Internet Box"). Dieses multifunktionale Gerät, das vom Internetanbieter zur Verfügung gestellt wird, verbindet Sie mit dem restlichen Internetnetz.
+In den meisten modernen Haushalten wird der Internetzugang über ein zentrales Gerät bereitgestellt, das als Modem und Router fungiert. Der Name dieses Geräts variiert von Land zu Land (in Frankreich heisst es "Internet Box"). Dieses multifunktionale Gerät, das vom Internetanbieter zur Verfügung gestellt wird, verbindet dich mit dem restlichen Internetnetz.
 
 
-→ *ISP = Internet Service Provider
+→ *ISP* = Internet Service Provider
 
 
-Dieses Gerät vereint 2 Hauptfunktionen:
-
-
-
-- Die Modemrolle**
-
-
-Das Modem (kurz für "*Modulator-Demodulator*") ist die Komponente, die das Netz Ihres Internetanbieters mit Ihrem Haus verbindet. Es wandelt die empfangenen elektrischen oder optischen Signale (über Glasfaser, Koaxialkabel, ADSL oder das Mobilfunknetz) in digitale Signale um, die von Ihren Geräten verstanden werden können. Umgekehrt wandelt er die Daten Ihrer Geräte in ein Format um, das über die Infrastruktur des Betreibers übertragen werden kann. Dieser Schritt ist unerlässlich, wenn Ihr Heimnetz mit dem Internet kommunizieren soll.
+Dieses Gerät vereint zwei Hauptfunktionen:
 
 
 
-- Die Rolle des Routers**
+- **Die Rolle des Modems**
 
 
-Der Router ist das Herzstück Ihres lokalen Netzwerks. Er verteilt die Internetverbindung an alle Ihre Geräte: Computer, Smartphones, angeschlossene Objekte, Drucker usw. Er weist jedem von ihnen eine lokale IP-Adresse zu (die sich von Ihrer im Internet sichtbaren öffentlichen IP unterscheidet). Der Router organisiert dann den ein- und ausgehenden Datenverkehr und sorgt dafür, dass die Daten das richtige Gerät erreichen. Er kann auch eine Firewall integrieren, Netzwerkpakete filtern oder Portweiterleitungsregeln verwalten. NAT maskiert Ihr lokales Netzwerk vor den Augen des Internets und verwendet eine einzige öffentliche IP-Adresse, um alle Ihre Geräte zu repräsentieren. Nur der Router weiss, welches lokale Gerät welche Anfrage initiiert hat.
+Das Modem (kurz für "*Modulator-Demodulator*") ist die Komponente, die das Netz deines Internetanbieters mit deinem Haus verbindet. Es wandelt die empfangenen elektrischen oder optischen Signale (über Glasfaser, Koaxialkabel, ADSL oder das Mobilfunknetz) in digitale Signale um, die von deinen Geräten verstanden werden können. Umgekehrt wandelt er die Daten deiner Geräte in ein Format um, das über die Infrastruktur des Betreibers übertragen werden kann. Dieser Schritt ist unerlässlich, wenn dein Heimnetz mit dem Internet kommunizieren soll.
+
+
+
+- **Die Rolle des Routers**
+
+
+Der Router ist das Herzstück deines lokalen Netzwerks. Er verteilt die Internetverbindung an alle deine Geräte: Computer, Smartphones, angeschlossene Objekte, Drucker usw. Er weist jedem von ihnen eine lokale IP-Adresse zu (die sich von deiner im Internet sichtbaren öffentlichen IP unterscheidet). Der Router organisiert dann den ein- und ausgehenden Datenverkehr und sorgt dafür, dass die Daten das richtige Gerät erreichen. Er kann auch eine Firewall integrieren, Netzwerkpakete filtern oder Portweiterleitungsregeln verwalten. NAT maskiert dein lokales Netzwerk vor den Augen des Internets und verwendet eine einzige öffentliche IP-Adresse, um alle deine Geräte zu repräsentieren. Nur der Router weiss, welches lokale Gerät welche Anfrage initiiert hat.
 
 
 In einigen Ländern werden diese beiden Funktionen manchmal auf zwei separate Geräte aufgeteilt: Ein Modem und ein Router.
@@ -8013,28 +8013,28 @@ In einigen Ländern werden diese beiden Funktionen manchmal auf zwei separate Ge
 In der Praxis umfasst ein moderner Modem-Router oft weitere ergänzende Funktionen: Einen Wi-Fi-Zugangspunkt, einen Ethernet-Switch, einen Verwaltungs-Interface und manchmal sogar einen Dateiserver und andere Funktionen.
 
 
-Das Verständnis der Rolle des Router-Modems ist ein Schlüsselfaktor für die Sicherung Ihres lokalen Netzes. Dieses Gerät bildet gewissermassen die Grenze zwischen der Aussenwelt (dem Internet) und Ihrer privaten digitalen Umgebung. Eine falsche Konfiguration, schwache Passwörter oder veraltete Firmware können dieses Gateway in ein klaffendes Loch verwandeln. Umgekehrt wird ein gut konfigurierter Modem-Router zu einem Bollwerk gegen Eindringlinge.
+Das Verständnis der Rolle des Router-Modems ist ein Schlüsselfaktor für die Sicherung deines lokalen Netzes. Dieses Gerät bildet gewissermassen die Grenze zwischen der Aussenwelt (dem Internet) und deiner privaten digitalen Umgebung. Eine falsche Konfiguration, schwache Passwörter oder veraltete Firmware können dieses Gateway in ein klaffendes Loch verwandeln. Umgekehrt wird ein gut konfigurierter Modem-Router zu einem Bollwerk gegen Eindringlinge.
 
 
-Im nächsten Kapitel erfahren Sie, wie Sie diese Konfiguration optimieren, häufige Schwachstellen identifizieren und die Kontrolle über das Gerät zurückgewinnen können.
+Im nächsten Kapitel erfährst du, wie du diese Konfiguration optimierst, häufige Schwachstellen identifizierst und die Kontrolle über das Gerät zurückgewinnen kannst.
 
 
 ### Das lokale Netzwerk (LAN)
 
 
-Das lokale Netzwerk, oder "LAN" (*Local Area Network*), bezieht sich auf alle digitalen Verbindungen innerhalb Ihres Hauses. Es umfasst alle Geräte, die mit Ihrem Router verbunden sind: Computer, Smartphones, Tablets, Drucker usw.
+Das lokale Netzwerk, oder "LAN" (*Local Area Network*), bezieht sich auf alle digitalen Verbindungen innerhalb deines Hauses. Es umfasst alle Geräte, die mit deinem Router verbunden sind: Computer, Smartphones, Tablets, Drucker usw.
 
 
-Im Gegensatz zum Internet, das ein globales, öffentliches Netz ist, ist das lokale Netz ein privater, teilweise isolierter Raum, der es Geräten ermöglicht, miteinander zu kommunizieren, ohne dass ihr Austausch Ihr Haus verlässt. Wenn Sie z.B. eine Datei von Ihrem Computer an einen über Wi-Fi angeschlossenen Drucker senden oder eine angeschlossene Glühbirne über Ihr Telefon steuern, findet diese Kommunikation ausschliesslich lokal statt, ohne dass sie über einen entfernten Server läuft.
+Im Gegensatz zum Internet, das ein globales, öffentliches Netz ist, ist das lokale Netz ein privater, teilweise isolierter Raum, der es Geräten ermöglicht, miteinander zu kommunizieren, ohne dass ihr Austausch dein Haus verlässt. Wenn du z.B. eine Datei von deinem Computer an einen über Wi-Fi angeschlossenen Drucker senden oder eine angeschlossene Glühbirne über dein Telefon steuerst, findet diese Kommunikation ausschliesslich lokal statt, ohne dass sie über einen entfernten Server läuft.
 
 
 ![Image](assets/fr/194.webp)
 
 
-Dies basiert auf einer Reihe von Standardtechnologien und -protokollen, von denen das IP-Protokoll das wichtigste ist. Jedem Gerät in Ihrem lokalen Netz wird eine lokale IP-Adresse zugewiesen (in der Regel im Format "192.168.x.x"), die zur eindeutigen Identifizierung innerhalb des Netzes dient. Dieser Adresse ist vom Internet aus nicht sichtbar. Nur Ihre öffentliche IP-Adresse, die von allen Geräten über das Modem gemeinsam genutzt wird, ist ausserhalb Ihres Hauses sichtbar.
+Dies basiert auf einer Reihe von Standardtechnologien und -protokollen, von denen das IP-Protokoll das wichtigste ist. Jedem Gerät in deinem lokalen Netz wird eine lokale IP-Adresse zugewiesen (in der Regel im Format "192.168.x.x"), die zur eindeutigen Identifizierung innerhalb des Netzes dient. Dieser Adresse ist vom Internet aus nicht sichtbar. Nur deine öffentliche IP-Adresse, die von allen Geräten über das Modem gemeinsam genutzt wird, ist ausserhalb deines Hauses sichtbar.
 
 
-Diese scheinbare Isolierung sollte Ihnen jedoch kein falsches Gefühl der Sicherheit vermitteln. Ein schlecht konfiguriertes lokales Netzwerk kann zu einem Einfallstor für Angriffe werden, insbesondere in den folgenden Fällen:
+Diese scheinbare Isolierung sollte dir jedoch kein falsches Gefühl der Sicherheit vermitteln. Ein schlecht konfiguriertes lokales Netzwerk kann zu einem Einfallstor für Angriffe werden, insbesondere in den folgenden Fällen:
 
 
 
@@ -8043,38 +8043,38 @@ Diese scheinbare Isolierung sollte Ihnen jedoch kein falsches Gefühl der Sicher
 - Wenn bestimmte verbundene Objekte im Klartext mit der Aussenwelt kommunizieren oder Ports offen lassen
 
 
-Daher ist es wichtig, die internen Abläufe in Ihrem Netzwerk zu verstehen und zu kontrollieren, welche Geräte miteinander und mit der Aussenwelt interagieren können.
+Daher ist es wichtig, die internen Abläufe in deinem Netzwerk zu verstehen und zu kontrollieren, welche Geräte miteinander und mit der Aussenwelt interagieren können.
 
 
 ### Wi-Fi
 
 
-Wi-Fi (kurz für "*Wireless Fidelity*") ist eine drahtlose Kommunikationstechnologie, mit der Sie Ihre Geräte kabellos an Ihr lokales Netzwerk anschliessen können. Diese Technologie basiert auf der Übertragung von Daten über Funkwellen, in der Regel in den Frequenzbändern 2,4 GHz und 5 GHz (oder sogar 6 GHz für Wi-Fi 6E und Wi-Fi 7 Netzwerke).
+Wi-Fi (kurz für "*Wireless Fidelity*") ist eine drahtlose Kommunikationstechnologie, mit der du deine Geräte kabellos an dein lokales Netzwerk anschliessen kannst. Diese Technologie basiert auf der Übertragung von Daten über Funkwellen, in der Regel in den Frequenzbändern 2,4 GHz und 5 GHz (oder sogar 6 GHz für Wi-Fi 6E und Wi-Fi 7 Netzwerke).
 
 
-Diese Benutzerfreundlichkeit birgt jedoch auch Risiken in sich. Im Gegensatz zu kabelgebundenen Verbindungen (z.B. Ethernet) durchdringen Wi-Fi-Signale Wände und können aus Dutzenden von Metern Entfernung empfangen werden. Das bedeutet, dass Personen ausserhalb Ihres Hauses (auf der Strasse, in einem benachbarten Gebäude, sogar von einem in der Nähe geparkten Fahrzeug aus) versuchen können, Ihr Netzwerk zu erkennen und eine Verbindung herzustellen, wenn es nicht ordnungsgemäss gesichert ist.
+Diese Benutzerfreundlichkeit birgt jedoch auch Risiken in sich. Im Gegensatz zu kabelgebundenen Verbindungen (z.B. Ethernet) durchdringen Wi-Fi-Signale Wände und können aus Dutzenden von Metern Entfernung empfangen werden. Das bedeutet, dass Personen ausserhalb deines Hauses (auf der Strasse, in einem benachbarten Gebäude, sogar von einem in der Nähe geparkten Fahrzeug aus) versuchen können, dein Netzwerk zu erkennen und eine Verbindung herzustellen, wenn es nicht ordnungsgemäss gesichert ist.
 
 
 ![Image](assets/fr/195.webp)
 
 
-Ein Angreifer mit Zugang zu Ihrem Wi-Fi-Netzwerk könnte dann:
+Ein Angreifer mit Zugang zu deinem Wi-Fi-Netzwerk könnte dann:
 
 
 
-- Abfangen unverschlüsselter Daten, die über das Netz laufen (z.B. DNS-Anfragen oder HTTP-Verkehr)
-- Zugriff auf Ihre Dateien oder Geräte, wenn diese unzureichend geschützt sind
-- Einschleusen bösartiger Inhalte in Ihren Browser
-- Ihre Internetverbindung ohne Ihr Wissen zu nutzen oder sogar Online-Angriffe von Ihrer öffentlichen IP-Adresse aus durchzuführen
+- Unverschlüsselter Daten abfangen, die über das Netz laufen (z.B. DNS-Anfragen oder HTTP-Verkehr)
+- Auf deine Dateien oder Geräte zugreifen, wenn diese unzureichend geschützt sind
+- Bösartige Inhalte in deinen Browser einschleusen 
+- Deine Internetverbindung ohne dein Wissen nutzen oder sogar Online-Angriffe von deiner öffentlichen IP-Adresse aus durchführen
 
 
-Um sich vor diesen Bedrohungen zu schützen, müssen Sie Ihr Wi-Fi-Netzwerk absichern. In den nächsten Kapiteln werden wir uns ansehen, wie Sie dies tun können.
+Um sich vor diesen Bedrohungen zu schützen, musst du dein Wi-Fi-Netzwerk absichern. In den nächsten Kapiteln werden wir uns ansehen, wie du dies tun kannst.
 
 
 ### Lokale IP-Adressen
 
 
-Wenn Sie ein Gerät an Ihr Heimnetzwerk anschliessen, erhält es eine lokale IP-Adresse. Diese Adresse besteht aus vier durch Punkte getrennten Zahlen (z.B. "192.168.1.14"). Er wird verwendet, um jedes Gerät in Ihrem lokalen Netzwerk eindeutig zu identifizieren. Dank dieser Adresse weiss Ihr Router, an welches Gerät er Daten senden muss (z.B. eine Webseite oder ein Video, das Sie angefordert haben).
+Wenn du ein Gerät an dein Heimnetzwerk anschliesst, erhält es eine lokale IP-Adresse. Diese Adresse besteht aus vier durch Punkte getrennten Zahlen (z.B. "192.168.1.14"). Er wird verwendet, um jedes Gerät in deinem lokalen Netzwerk eindeutig zu identifizieren. Dank dieser Adresse weiss dein Router, an welches Gerät er Daten senden muss (z.B. eine Webseite oder ein Video, das du angefordert hast).
 
 
 Es ist wichtig zu wissen, dass diese lokalen IP-Adressen vom Internet aus nicht sichtbar sind. Sie gehören zu reservierten Bereichen, die durch internationale Normen definiert sind und im öffentlichen Netz nicht verwendet werden können. Die drei häufigsten lokalen IP-Adress-Bereiche sind:
@@ -8086,10 +8086,10 @@ Es ist wichtig zu wissen, dass diese lokalen IP-Adressen vom Internet aus nicht 
 - 172.16.0.0" bis "172.31.255.255"
 
 
-Ein und dasselbe Gerät kann also zu Hause eine IP-Adresse wie "192.168.1.42" haben, während ein anderer Benutzer in einem anderen Land ein anderes Gerät mit derselben IP-Adresse in seinem eigenen lokalen Netz hat, ohne dass es jemals zu einem Konflikt kommt, weil diese Adressen das Heimnetz nicht verlassen. Es ist der Router, der die Verbindung zwischen Ihrem Heimnetzwerk und dem öffentlichen Internet herstellt und diese Adressen über einen Mechanismus namens "NAT" (*Network Address Translation*) übersetzt.
+Ein und dasselbe Gerät kann also zu Hause eine IP-Adresse wie "192.168.1.42" haben, während ein anderer Benutzer in einem anderen Land ein anderes Gerät mit derselben IP-Adresse in seinem eigenen lokalen Netz hat, ohne dass es jemals zu einem Konflikt kommt, weil diese Adressen das Heimnetz nicht verlassen. Es ist der Router, der die Verbindung zwischen deinem Heimnetzwerk und dem öffentlichen Internet herstellt und diese Adressen über einen Mechanismus namens "NAT" (*Network Address Translation*) übersetzt.
 
 
-Lokale IP-Adressen werden im Allgemeinen dynamisch über DHCP (*Dynamic Host Configuration Protocol*) zugewiesen. Wenn Sie ein neues Gerät an das Netzwerk anschliessen, sendet es eine DHCP-Anforderung für ein Adresse, und der Router weist ihm eine verfügbare freie Adresse innerhalb des festgelegten Bereichs zu. Diese Adresse kann sich im Laufe der Zeit ändern.
+Lokale IP-Adressen werden im Allgemeinen dynamisch über DHCP (*Dynamic Host Configuration Protocol*) zugewiesen. Wenn du ein neues Gerät an das Netzwerk anschliesst, sendet es eine DHCP-Anforderung für eine Adresse, und der Router weist ihm eine verfügbare freie Adresse innerhalb des festgelegten Bereichs zu. Diese Adresse kann sich im Laufe der Zeit ändern.
 
 
 Es ist jedoch möglich, feste IP-Adressen für bestimmte Geräte zu konfigurieren. Das bedeutet, dass eine bestimmte Adresse dauerhaft für ein bestimmtes Gerät reserviert wird. Dies ist in einer Reihe von Fällen nützlich, zum Beispiel:
@@ -8098,13 +8098,13 @@ Es ist jedoch möglich, feste IP-Adressen für bestimmte Geräte zu konfiguriere
 
 - Für einfachen Zugriff auf einen persönlichen Server oder NAS von einem anderen Gerät aus
 - Ferndrucken auf einem Netzwerkdrucker, ohne nach dessen Adresse suchen zu müssen
-- So erstellen Sie Regeln für die Filterung oder Portweiterleitung in Ihrem Router
+- So erstellst du Regeln für die Filterung oder Portweiterleitung in deinem Router
 
 
 ### Netzwerkanschlüsse
 
 
-Um zu verstehen, wie ein lokales Netz funktioniert, müssen Sie wissen, dass jede IP-Adresse (ob lokal oder öffentlich) mit einer Reihe von numerischen Ports verbunden ist, die von "0" bis "65535" nummeriert sind. Diese Ports sind nicht physisch: Es handelt sich um virtuelle Ein- und Ausgangspunkte, die es Anwendungen und Diensten ermöglichen, über das Netzwerk zu kommunizieren.
+Um zu verstehen, wie ein lokales Netz funktioniert, musst du wissen, dass jede IP-Adresse (ob lokal oder öffentlich) mit einer Reihe von numerischen Ports verbunden ist, die von "0" bis "65535" nummeriert sind. Diese Ports sind nicht physisch: Es handelt sich um virtuelle Ein- und Ausgangspunkte, die es Anwendungen und Diensten ermöglichen, über das Netzwerk zu kommunizieren.
 
 
 Jedes Mal, wenn ein Gerät über das Internet oder ein lokales Netz kommuniziert, tut es dies durch die Kombination einer IP-Adresse und einer Portnummer. Dadurch kann nicht nur festgestellt werden, an welches Gerät Daten zu senden sind, sondern auch, welche spezifische Anwendung oder welcher Dienst auf diesem Gerät läuft. Zum Beispiel:
@@ -8113,70 +8113,68 @@ Jedes Mal, wenn ein Gerät über das Internet oder ein lokales Netz kommuniziert
 
 - Port "80" wird für den Zugriff auf HTTP-Webseiten verwendet
 - Port "443" wird für den Zugriff auf HTTPS-Webseiten verwendet (verschlüsselte Verbindung)
-- Port `22` wird für SSH-Verbindungen verwendet
-- Die Ports `25`, `465` und `587` werden für den Versand von E-Mails (SMTP) verwendet
+- Port "22" wird für SSH-Verbindungen verwendet
+- Die Ports "25", "465" und "587" werden für den Versand von E-Mails (SMTP) verwendet
 - Port "110" wird zum Abrufen von E-Mails über das POP3-Protokoll verwendet
-- Port `143` wird zum Abrufen von E-Mails über das IMAP-Protokoll verwendet
+- Port "143" wird zum Abrufen von E-Mails über das IMAP-Protokoll verwendet
 - Port "21" wird für Dateiübertragungen über das FTP-Protokoll verwendet
-- Port `53` wird für DNS-Anfragen verwendet...
+- Port "53" wird für DNS-Anfragen verwendet...
 
 
 Diese Ports werden auch in Systemen wie Bitcoin oder Tor verwendet, wo bestimmte Ports standardmässig für die Peer-to-Peer-Kommunikation oder die Weiterleitung des Datenverkehrs verwendet werden:
 
 
 
-- Port `8333` wird für P2P Verbindungen auf Bitcoin Mainnet verwendet
-- Der Port "18333" wird für P2P-Verbindungen auf Bitcoin und Testnet verwendet
-- Port `8332` wird für den Interface RPC eines Bitcoin Knotens verwendet
-- Port `9050` wird vom SOCKS5-Proxy von Tor benutzt
-- Port `9150` wird vom Tor-Browser verwendet
+- Port "8333" wird für P2P Verbindungen auf dem Bitcoin Mainnet verwendet
+- Der Port "18333" wird für P2P-Verbindungen auf Bitcoin und dem Testnet verwendet
+- Port "8332" wird für das RPC-Interface eines Bitcoin Knotens verwendet
+- Port "9050" wird vom SOCKS5-Proxy von Tor benutzt
+- Port "9150" wird vom Tor-Browser verwendet
 
 
-Mit anderen Worten, ein Port ist wie eine spezielle Tür. Wenn Sie eine Website besuchen, öffnet Ihr Computer einen Quellport und sendet eine Anfrage an die IP-Adresse der Gegenstelle, wobei er bei einer verschlüsselten Verbindung den Port "443" ansteuert. Der entfernte Server sendet dann die Antwort über denselben Kanal zurück. Bei einem Router ist dieser Begriff des Ports wichtig: Er muss wissen, an welches Gerät und welchen lokalen Port er eingehende Datenpakete umleiten soll.
+Mit anderen Worten, ein Port ist wie eine spezielle Tür. Wenn du eine Website besuchst, öffnet dein Computer einen Quellport und sendet eine Anfrage an die IP-Adresse der Gegenstelle, wobei er bei einer verschlüsselten Verbindung den Port "443" ansteuert. Der entfernte Server sendet dann die Antwort über denselben Kanal zurück. Bei einem Router ist dieser Begriff des Ports wichtig: Er muss wissen, an welches Gerät und welchen lokalen Port er eingehende Datenpakete umleiten soll.
 
 
 Diese Möglichkeit, Ports zu öffnen, birgt jedoch auch ein Sicherheitsrisiko. Ein unnötig offen gelassener Port kann von Netzwerk-Scan-Tools entdeckt und von Angreifern ausgenutzt werden, wenn er mit einem anfälligen oder falsch konfigurierten Dienst verbunden ist. Es ist, als würde man eine Tür offen lassen. Aber dazu später mehr.
 
 
-Das Verständnis der grundlegenden Funktionsweise Ihres Heimnetzwerks ist daher sehr wichtig. Wenn Sie die Grundlagen Ihres Modems, WLANs, Routers, der lokalen IP-Adressen und Ports gut kennen, können Sie potenzielle Risiken erkennen und entsprechend handeln, um Ihre digitale Sicherheit zu stärken.
+Das Verständnis der grundlegenden Funktionsweise deines Heimnetzwerks ist daher sehr wichtig. Wenn du die Grundlagen deines Modems, WLANs, Routers, der lokalen IP-Adressen und Ports gut kennst, kannst du potenzielle Risiken erkennen und entsprechend handeln, um deine digitale Sicherheit zu stärken.
 
 
-In diesem Kapitel haben wir die wichtigsten Konzepte für Heimnetzwerke behandelt. Im nächsten Kapitel werden wir uns ansehen, wie Sie Ihre lokale Internet-Infrastruktur in der Praxis absichern und wie Sie Ihr WLAN richtig konfigurieren, um Ihre Sicherheit zu optimieren.
+In diesem Kapitel haben wir die wichtigsten Konzepte für Heimnetzwerke behandelt. Im nächsten Kapitel werden wir uns ansehen, wie du deine lokale Internet-Infrastruktur in der Praxis absicherst und wie du dein WLAN richtig konfigurierst, um deine Sicherheit zu optimieren.
 
 
-## Sichern Sie Ihr Heimnetzwerk in nur wenigen Schritten
+## Sichere dein Heimnetzwerk in nur wenigen Schritten
 
 
 <chapterId>d5577b2e-5247-4d10-8685-4906391e2cc1</chapterId>
 
 
-Wie wir im vorigen Kapitel festgestellt haben, ist die Sicherung Ihres Heimnetzwerks sehr wichtig, um Ihre Privatsphäre und Ihre persönlichen Daten zu schützen und Ihre digitale Souveränität zu gewährleisten.
+Wie wir im vorigen Kapitel festgestellt haben, ist die Sicherung deines Heimnetzwerks sehr wichtig, um deine Privatsphäre und deine persönlichen Daten zu schützen und deine digitale Souveränität zu gewährleisten.
 
 
-Nach einem Überblick über die theoretischen Grundlagen führt Sie dieses Kapitel durch klare, praktische und effektive Schritte zur Verbesserung der Sicherheit Ihres lokalen Netzwerks.
+Nach einem Überblick über die theoretischen Grundlagen führt dich dieses Kapitel durch klare, praktische und effektive Schritte zur Verbesserung der Sicherheit deines lokalen Netzwerks.
 
 
-*Bitte beachten Sie: Die hier bereitgestellten Informationen sind allgemeiner Art, da sich Plan ₿ Network an ein internationales Publikum richtet. Abhängig von Ihren lokalen Gegebenheiten und Ihrem ISP werden bestimmte bewährte Verfahren hier möglicherweise nicht erwähnt oder gelten in anderer Weise
+*Bitte beachte*: Die hier bereitgestellten Informationen sind allgemeiner Art, da sich Plan ₿ Network an ein internationales Publikum richtet. Abhängig von deinen lokalen Gegebenheiten und deinem ISP werden bestimmte bewährte Verfahren hier möglicherweise nicht erwähnt oder gelten in anderer Weise.
 
 
-### Auswahl und Sicherung Ihrer Netzwerkausrüstung
+### Auswahl und Sicherung deiner Netzwerkausrüstung
 
 
-Die Sicherheit Ihres Heimnetzes beginnt mit der richtigen Wahl der Hardware: dem Router oder in manchen Fällen einem Modem-Router. Dieses Gerät stellt die Verbindung zwischen Ihrem lokalen Netz und dem Internet her. Es spielt daher eine zentrale Rolle beim Schutz Ihrer Daten.
+Die Sicherheit deines Heimnetzes beginnt mit der richtigen Wahl der Hardware: dem Router oder in manchen Fällen einem Modem-Router. Dieses Gerät stellt die Verbindung zwischen deinem lokalen Netz und dem Internet her. Es spielt daher eine zentrale Rolle beim Schutz deiner Daten.
 
 
 Es ist wichtig, moderne Geräte zu wählen, die vom Hersteller gewartet werden und den neuesten Sicherheitsstandards entsprechen. Heute (Juni 2025) wird empfohlen, sich für ein Gerät zu entscheiden, das mit dem Verschlüsselungsprotokoll WPA3 (*Wi-Fi Protected Access 3*) kompatibel ist, das die Nachfolge von WPA2 antritt und mehrere seiner Schwächen behebt. Insbesondere verbessert WPA3 die Widerstandsfähigkeit gegen Brute-Force-Angriffe auf Wi-Fi-Passwörter und führt eine bessere Isolierung zwischen Netzwerk-Clients ein.
 
 
-Ein mit Wi-Fi 6, Wi-Fi 6E oder Wi-Fi 7 kompatibler Router bietet Ihnen bessere Geschwindigkeiten und vor allem native Unterstützung für moderne Sicherheitstechnologien. Umgekehrt können sehr alte Geräte, insbesondere solche, die keine Software-Updates mehr erhalten, bekannte, ungepatchte Sicherheitslücken enthalten. Sie stellen daher ein Risiko für Ihr gesamtes Netz dar, selbst wenn Sie sie richtig konfigurieren. Im Vergleich zu Mobiltelefonen oder Computern sind Router Geräte, die wir in der Regel viele Jahre lang behalten. Es kann jedoch sinnvoll sein, sie in regelmässigen Abständen zu ersetzen, um von einem moderneren und sichereren Modell zu profitieren.
+Ein mit Wi-Fi 6, Wi-Fi 6E oder Wi-Fi 7 kompatibler Router bietet dir bessere Geschwindigkeiten und vor allem native Unterstützung für moderne Sicherheitstechnologien. Umgekehrt können sehr alte Geräte, insbesondere solche, die keine Software-Updates mehr erhalten, bekannte, ungepatchte Sicherheitslücken enthalten. Sie stellen daher ein Risiko für dein gesamtes Netz dar, selbst wenn du sie richtig konfigurierst. Im Vergleich zu Mobiltelefonen oder Computern sind Router Geräte, die wir in der Regel viele Jahre lang behalten. Es kann jedoch sinnvoll sein, sie in regelmäßigen Abständen zu ersetzen, um von einem moderneren und sichereren Modell zu profitieren.
 
 
-Aktualisieren Sie daher systematisch die Firmware Ihres Routers. Diese Updates beheben Schwachstellen, fügen neue Funktionen hinzu und verbessern die allgemeine Systemstabilität. Einige Hersteller bieten automatische Aktualisierungen an, aber in einigen Fällen müssen Sie sie manuell über das Interface-Verwaltungstool Ihres Routers überprüfen. Wie bei Ihrem Telefon, Computer, Betriebssystem und Ihrer Software ist es wichtig, dass Sie Ihren Router regelmässig aktualisieren. Sie können dies zu einem Teil Ihrer wöchentlichen Routine machen - zum Beispiel jeden Sonntag - indem Sie eine Liste aller Elemente erstellen, die Sie überprüfen und auf dem neuesten Stand halten müssen.
+Aktualisiere daher systematisch die Firmware deines Routers. Diese Updates beheben Schwachstellen, fügen neue Funktionen hinzu und verbessern die allgemeine Systemstabilität. Einige Hersteller bieten automatische Aktualisierungen an, aber in einigen Fällen musst du sie manuell über das Interface-Verwaltungstool deines Routers überprüfen. Wie bei deinem Telefon, Computer, Betriebssystem und deiner Software ist es wichtig, dass du deinen Router regelmäßig aktualisierst. Du kannst dies zu einem Teil deiner wöchentlichen Routine machen – zum Beispiel jeden Sonntag – indem du eine Liste aller Elemente erstellst, die du überprüfst und auf dem neuesten Stand hältst.
 
 
-Wenn Ihr Router nicht mehr gewartet wird, aber von der Hardware her noch einwandfrei funktioniert, können Sie eine alternative Open-Source-Firmware installieren, z. B:
-
-
+Wenn dein Router nicht mehr gewartet wird, aber von der Hardware her noch einwandfrei funktioniert, kannst du eine alternative Open-Source-Firmware installieren, z. B.:
 
 - OpenWrt, eine auf Router spezialisierte Linux-Distribution, die grosse Flexibilität und regelmässige Updates bietet
 - pfSense und OPNsense, zwei FreeBSD-basierte (Unix-ähnliche) Systeme für x86-Firewalls und Router
@@ -8197,8 +8195,8 @@ Diese Systeme ermöglichen eine feinere Kontrolle der Firewall-Regeln, der ausge
 
 
 
-- Wählen Sie einen aktuellen Router
-- Halten Sie Ihr System auf dem neuesten Stand
+- Wähle einen aktuellen Router
+- Halte dein System auf dem neuesten Stand
 - Gegebenenfalls alternative Firmware in Betracht ziehen
 
 
@@ -8207,7 +8205,7 @@ Diese Systeme ermöglichen eine feinere Kontrolle der Firewall-Regeln, der ausge
 
 Einer der häufigsten (und gefährlichsten) Fehler ist die Beibehaltung der vom Routerhersteller vorgegebenen Standard-Anmeldedaten oder die Verwendung eines schwachen Passworts.
 
-
+xxx
 In der Vergangenheit waren die Standard-Anmeldedaten für Router äusserst unsicher und oft für alle Benutzer identisch, wie z.B. das bekannte `admin/admin`. Diese grundlegenden Anmeldeinformationen waren öffentlich, in Benutzerhandbüchern dokumentiert und in Datenbanken, die von Angreifern genutzt wurden, weit verbreitet. In diesem Fall könnte jeder, der das Vorhandensein Ihres Routers entdeckt, versuchen, sich unerlaubt Zugang zu verschaffen, indem er einfach diese bekannten Kombinationen testet.
 
 
