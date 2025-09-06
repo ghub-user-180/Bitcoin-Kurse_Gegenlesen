@@ -8205,18 +8205,18 @@ Diese Systeme ermöglichen eine feinere Kontrolle der Firewall-Regeln, der ausge
 
 Einer der häufigsten (und gefährlichsten) Fehler ist die Beibehaltung der vom Routerhersteller vorgegebenen Standard-Anmeldedaten oder die Verwendung eines schwachen Passworts.
 
-xxx
-In der Vergangenheit waren die Standard-Anmeldedaten für Router äusserst unsicher und oft für alle Benutzer identisch, wie z.B. das bekannte `admin/admin`. Diese grundlegenden Anmeldeinformationen waren öffentlich, in Benutzerhandbüchern dokumentiert und in Datenbanken, die von Angreifern genutzt wurden, weit verbreitet. In diesem Fall könnte jeder, der das Vorhandensein Ihres Routers entdeckt, versuchen, sich unerlaubt Zugang zu verschaffen, indem er einfach diese bekannten Kombinationen testet.
+
+In der Vergangenheit waren die Standard-Anmeldedaten für Router äusserst unsicher und oft für alle Benutzer identisch, wie z.B. das bekannte `admin/admin`. Diese grundlegenden Anmeldeinformationen waren öffentlich, in Benutzerhandbüchern dokumentiert und in Datenbanken, die von Angreifern genutzt wurden, weit verbreitet. In diesem Fall könnte jeder, der das Vorhandensein deines Routers entdeckt, versuchen, sich unerlaubt Zugang zu verschaffen, indem er einfach diese bekannten Kombinationen testet.
 
 
-Heutzutage weisen die meisten Hersteller jedem Router ein eindeutiges, robustes Passwort zu. Aber auch in diesem Fall empfehle ich, die Standard-Anmeldedaten zu ändern. Dies verringert die Supply-Kettenrisiken und verhindert, dass das ursprüngliche Kennwort (das manchmal auf dem Etikett des Routers aufgedruckt ist) Ihre Sicherheit gefährdet.
+Heutzutage weisen die meisten Hersteller jedem Router ein eindeutiges, robustes Passwort zu. Aber auch in diesem Fall empfehle ich, die Standard-Anmeldedaten zu ändern. Dies verringert die Supply-Chain-Risiken und verhindert, dass das ursprüngliche Kennwort (das manchmal auf dem Etikett des Routers aufgedruckt ist) deine Sicherheit gefährdet.
 
 
-Ändern Sie daher unbedingt sofort nach der Installation Ihres Routers Ihre Kennungen:
+Ändere daher unbedingt sofort nach der Installation deines Routers deine Kennungen:
 
 
 
-- Den Benutzernamen (falls vorhanden) der Verwaltung Interface
+- Den Benutzernamen (falls vorhanden) für den Zugang auf die Benutzeroberfläche
 - Und vor allem das Administrationspasswort, das den Zugang zur gesamten Netzwerkkonfiguration schützt, sowie das Wi-Fi-Passwort
 
 
@@ -8227,77 +8227,77 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-Achtung: Verwechseln Sie nicht das Administrationspasswort des Routers (das den Zugriff auf die Konfiguration schützt) mit dem Wi-Fi-Passwort (das Ihnen die Verbindung zum drahtlosen Netzwerk ermöglicht). Es handelt sich um zwei verschiedene Elements, die beide geändert werden müssen.
+Achtung: Verwechsle nicht das Administrationspasswort des Routers (das den Zugriff auf die Konfiguration schützt) mit dem Wi-Fi-Passwort (das dir die Verbindung zum drahtlosen Netzwerk ermöglicht). Es handelt sich um zwei verschiedene Elements, die beide geändert werden müssen.
 
 
-Schliesslich verfügen einige moderne Router über zwei Verwaltungsschnittstellen: Ein lokales Interface-Web (zugänglich über ein Adresse wie "192.168.1.1") und ein Cloud-Interface (ermöglicht die Fernverwaltung über das Internet). Wenn letzteres standardmässig aktiviert ist, empfehle ich Ihnen, es zu deaktivieren, wenn Sie es nicht verwenden, oder seine Sicherheit mit einem starken Passwort und möglicherweise einer Zwei-Faktor-Authentifizierung (2FA) zu verstärken, falls verfügbar.
+Schliesslich verfügen einige moderne Router über zwei Verwaltungsschnittstellen: Ein lokales Web-Interface (zugänglich über eine Adresse wie "192.168.1.1") und ein Cloud-Interface (ermöglicht die Fernverwaltung über das Internet). Wenn letzteres standardmässig aktiviert ist, empfehle ich dir, es zu deaktivieren, wenn du es nicht verwendest. Oder du verstärkst seine Sicherheit mit einem starken Passwort und möglicherweise einer Zwei-Faktor-Authentifizierung (2FA), falls verfügbar.
 
 
 ### Sichere Router-Konfiguration
 
 
-Der Router ist das Herzstück Ihres Heimnetzwerks. Seine Konfiguration spielt eine wichtige Rolle für die Sicherheit aller angeschlossenen Geräte. Leider können viele der standardmässig auf diesen Geräten aktivierten Funktionen Ihr Netzwerk ungewollt externen Angriffen aussetzen. Deshalb ist es wichtig, eine vollständige Überprüfung der aktivierten Optionen vorzunehmen und diejenigen zu deaktivieren, die für Ihre Zwecke nicht unbedingt erforderlich sind.
+Der Router ist das Herzstück deines Heimnetzwerks. Seine Konfiguration spielt eine wichtige Rolle für die Sicherheit aller angeschlossenen Geräte. Leider können viele der standardmässig auf diesen Geräten aktivierten Funktionen dein Netzwerk ungewollt externen Angriffen aussetzen. Deshalb ist es wichtig, eine vollständige Überprüfung der aktivierten Optionen vorzunehmen und diejenigen zu deaktivieren, die für deine Zwecke nicht unbedingt erforderlich sind.
 
 
 Einige Funktionen sollten vermieden oder systematisch deaktiviert werden:
 
 
 
-- UPnP (*Universal Plug and Play*)**:
+- **UPnP (*Universal Plug and Play*)**:
 
 
-Diese Funktion ermöglicht es den Geräten in Ihrem Netzwerk, den Router aufzufordern, automatisch Ports zu öffnen. Dies erleichtert zwar bestimmte Nutzungen (Online-Spiele, angeschlossene Kameras usw.), öffnet aber auch die Tür für bösartige Anwendungen, die die Netzwerkkonfiguration ohne Ihre Zustimmung ändern können. UPnP ist eine der Hauptursachen für die unbeabsichtigte Offenlegung interner Dienste gegenüber der Aussenwelt.
-
-
-
-- WPS (*Wi-Fi Protected Setup*)**:
-
-
-Dieses System, das ursprünglich entwickelt wurde, um die Verbindung von Geräten mit Wi-Fi ohne Eingabe eines Passworts zu vereinfachen, basiert auf einem PIN-Code, der oft schwach ist und leicht mit roher Gewalt angegriffen werden kann. Ich rate Ihnen, es zu deaktivieren.
+Diese Funktion ermöglicht es den Geräten in deinem Netzwerk, den Router aufzufordern, automatisch Ports zu öffnen. Dies erleichtert zwar bestimmte Nutzungen (Online-Spiele, angeschlossene Kameras usw.), öffnet aber auch die Tür für bösartige Anwendungen, die die Netzwerkkonfiguration ohne deine Zustimmung ändern können. UPnP ist eine der Hauptursachen für die unbeabsichtigte Offenlegung interner Dienste gegenüber der Aussenwelt.
 
 
 
-- Fernzugriff (*Remote Management*)**:
+- **WPS (*Wi-Fi Protected Setup*)**:
 
 
-Einige Router ermöglichen es Ihnen, von aussen über das Internet eine Verbindung zu ihrer Verwaltung Interface herzustellen. Diese Funktion vergrössert die Angriffsfläche Ihres Routers unangemessen. Deaktivieren Sie diese Funktion vollständig, es sei denn, Sie haben einen speziellen Bedarf an Fernverwaltung. Selbst dann sollten Sie immer ein VPN verwenden.
+Dieses System wurde ursprünglich entwickelt, um die Verbindung von Geräten mit Wi-Fi ohne Eingabe eines Passworts zu vereinfachen. Es basiert auf einem PIN-Code, der oft schwach ist und leicht mit roher Gewalt angegriffen werden kann. Ich rate dir, es zu deaktivieren.
+
+
+
+- **Fernzugriff (*Remote Management*)**:
+
+
+Einige Router ermöglichen es dir, von aussen über das Internet eine Verbindung zu ihrer grafischen Benutzeroberfläche herzustellen. Diese Funktion vergrössert die Angriffsfläche deines Routers unangemessen. Deaktiviere diese Funktion vollständig. Es sei denn, du hast einen speziellen Bedarf an Fernverwaltung. Selbst dann solltest du immer ein VPN verwenden.
 
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
 
-- Veraltete oder unsichere Protokolle**:
+- **Veraltete oder unsichere Protokolle**:
 
 
-Deaktivieren Sie alle Verwaltungsdienste, die Klartextprotokolle wie Telnet, FTP, unverschlüsseltes HTTP oder SMBv1 verwenden. Diese Protokolle gewährleisten weder die Vertraulichkeit noch die Integrität der ausgetauschten Daten und sind häufig das Ziel von Malware. Wenn Sie einen lokalen oder Fernzugriff benötigen, verwenden Sie nur Verbindungen über HTTPS (verschlüsseltes Interface), SSH oder SFTP, je nach Bedarf.
+Deaktiviere alle Verwaltungsdienste, die Klartextprotokolle wie Telnet, FTP, unverschlüsseltes HTTP oder SMBv1 verwenden. Diese Protokolle gewährleisten weder die Vertraulichkeit noch die Integrität der ausgetauschten Daten und sind häufig das Ziel von Malware. Wenn du einen lokalen oder Fernzugriff benötigst, verwende nur Verbindungen über HTTPS (verschlüsseltes Interface), SSH oder SFTP, je nach Bedarf.
 
 
 
-- Ping WAN / ICMP**:
+- **Ping WAN / ICMP**:
 
 
-Einige Router reagieren standardmässig auf ICMP-Anfragen, die von aussen gesendet werden (Befehl "ping"). Dadurch kann ein Angreifer überprüfen, ob Ihr Netz aktiv und erreichbar ist. Wenn Sie dies nicht benötigen, deaktivieren Sie diese Antwort in der Firewall des Routers.
+Einige Router reagieren standardmässig auf ICMP-Anfragen, die von aussen gesendet werden (Befehl "ping"). Dadurch kann ein Angreifer überprüfen, ob dein Netz aktiv und erreichbar ist. Wenn du dies nicht benötigst, deaktiviere diese Antwort in der Firewall des Routers.
 
 
-Denken Sie schliesslich daran, den Zugriff auf die Interface-Verwaltung des Routers nur auf vertrauenswürdige Geräte zu beschränken und den Zugriff auf bestimmte IP-Adressen zu begrenzen, wenn der Interface dies zulässt. Einige Firmwares, wie z.B. OpenWrt, bieten eine sehr genaue Kontrolle über diese Parameter.
+Denke schliesslich daran, den Zugriff auf die grafische Benutzeroberfläche des Routers nur auf vertrauenswürdige Geräte zu beschränken und den Zugriff auf bestimmte IP-Adressen zu begrenzen, wenn das Interface dies zulässt. Einige Firmwares, wie z.B. OpenWrt, bieten eine sehr genaue Kontrolle über diese Parameter.
 
 
 ### Verstärkung der Sicherheit von Wi-Fi-Netzwerken
 
 
-Das Wi-Fi-Netzwerk ist oft der bevorzugte Einstiegspunkt für Eindringlinge in die häusliche Umgebung. Für das blosse Auge unsichtbar, aber von ausserhalb Ihres Hauses zugänglich, ist es ein leichtes Ziel für jeden in Reichweite.
+Das Wi-Fi-Netzwerk ist oft der bevorzugte Einstiegspunkt für Eindringlinge in die häusliche Umgebung. Für das blosse Auge unsichtbar, aber von ausserhalb deines Hauses zugänglich, ist es ein leichtes Ziel für jeden in Reichweite.
 
 
-Der erste wichtige Schritt ist die Wahl des richtigen Verschlüsselungsprotokolls. Aktivieren Sie immer "*WPA3-Personal*", den neuesten und sichersten Standard. Er schützt nicht nur die ausgetauschten Daten, sondern verhindert auch bestimmte bekannte Angriffe.
+Der erste wichtige Schritt ist die Wahl des richtigen Verschlüsselungsprotokolls. Aktiviere immer "*WPA3-Personal*", den neuesten und sichersten Standard. Er schützt nicht nur die ausgetauschten Daten, sondern verhindert auch bestimmte bekannte Angriffe.
 
 
-Der Name Ihres Wi-Fi-Netzwerks, "SSID" (*Service Set Identifier*) genannt, sollte neutral bleiben. Vermeiden Sie es, Ihren Namen, Adresse oder die Marke Ihres Routers anzugeben. Ein Name wie `MaisonDupont_WiFi6` gibt einem potenziellen Angreifer bereits zu viele Informationen. Bevorzugen Sie einen allgemeinen Namen, der keine besondere Bedeutung hat. Dies schränkt die für passives Tracking oder Social Targeting verfügbaren Informationen ein.
+Der Name deines Wi-Fi-Netzwerks, "SSID" (*Service Set Identifier*) genannt, sollte neutral bleiben. Vermeide es, deinen Namen, Adresse oder die Marke deines Routers anzugeben. Ein Name wie `MaisonDupont_WiFi6` gibt einem potenziellen Angreifer bereits zu viele Informationen. Bevorzuge einen allgemeinen Namen, der keine besondere Bedeutung hat. Dies schränkt die für passives Tracking oder Social Targeting verfügbaren Informationen ein.
 
 
-Eine weitere bewährte Methode besteht darin, ein von Ihrem Hauptnetz getrenntes Gastnetzwerk einzurichten. Dieses parallele Netzwerk, das häufig von modernen Routern angeboten wird, ermöglicht es Ihnen, Ihren Gästen eine Internetverbindung zur Verfügung zu stellen, ohne dass sie Zugang zu Ihren anderen Geräten (Computer, Drucker, NAS usw.) haben. Das bedeutet auch, dass Sie ihnen nicht das Passwort für Ihr Hauptnetzwerk mitteilen müssen. Um noch weiter zu gehen, aktivieren Sie die Client-Isolierung in diesem Gastnetzwerk: Dadurch wird auch verhindert, dass Besucher miteinander kommunizieren, was die Risiken im Zusammenhang mit kompromittierten Geräten weiter verringert.
+Eine weitere bewährte Methode besteht darin, ein von deinem Hauptnetz getrenntes Gastnetzwerk einzurichten. Dieses parallele Netzwerk, das häufig von modernen Routern angeboten wird, ermöglicht es dir, deinen Gästen eine Internetverbindung zur Verfügung zu stellen, ohne dass sie Zugang zu deinen anderen Geräten (Computer, Drucker, NAS usw.) haben. Das bedeutet auch, dass du ihnen nicht das Passwort für dein Hauptnetzwerk mitteilen musst. Um noch weiter zu gehen, aktiviere die Client-Isolierung in diesem Gastnetzwerk: Dadurch wird auch verhindert, dass Besucher miteinander kommunizieren, was die Risiken im Zusammenhang mit kompromittierten Geräten weiter verringert.
 
 
-Schliesslich sollten Sie die Sendeleistung Ihres Wi-Fi-Zugangspunkts anpassen. Standardmässig senden viele Router ein sehr starkes Signal aus, das manchmal weit über Ihre Wände hinaus zu erkennen ist. Dies vergrössert den Bereich, in dem Sie sich aufhalten. Reduzieren Sie in den erweiterten Einstellungen Ihres Routers die Sendeleistung auf das für die Abdeckung Ihres Hauses erforderliche Minimum. Wenn Ihr Router dies zulässt, können Sie auch eine automatische Wi-Fi-Abschaltung konfigurieren, wenn er nicht benutzt wird.
+Schliesslich solltest du die Sendeleistung deines Wi-Fi-Zugangspunkts anpassen. Standardmässig senden viele Router ein sehr starkes Signal aus, das manchmal weit über deine Wände hinaus zu erkennen ist. Dies vergrössert den Bereich, in dem du dich aufhältst. Reduziere in den erweiterten Einstellungen deines Routers die Sendeleistung auf das für die Abdeckung deines Hauses erforderliche Minimum. Wenn dein Router dies zulässt, kannst du auch eine automatische Wi-Fi-Abschaltung konfigurieren, wenn er nicht benutzt wird.
 
 
 ### Segmentierung des Netzes
@@ -8306,25 +8306,25 @@ Schliesslich sollten Sie die Sendeleistung Ihres Wi-Fi-Zugangspunkts anpassen. S
 Eine der wirksamsten Strategien zur Erhöhung der Sicherheit eines Heimnetzwerks ist die Segmentierung. Dabei wird das lokale Netz in mehrere unabhängige Teilnetze, so genannte "VLANs" (*Virtual Local Area Networks*), unterteilt. Diese VLANs ermöglichen es, verschiedene Geräte- oder Nutzungstypen zu isolieren, auch wenn sie dieselbe physische Hardware verwenden (Router, Verkabelung, Wi-Fi-Terminal usw.).
 
 
-Jedes VLAN funktioniert wie ein kleines, autonomes Netz mit eigenen Kommunikationsregeln. Der Austausch zwischen VLANs wird standardmässig blockiert oder streng kontrolliert. Dadurch wird beispielsweise verhindert, dass ein kompromittierter angeschlossener Fernseher Ihren PC oder Ihr NAS erreicht. Dieser Ansatz basiert auf 2 der grundlegenden Prinzipien der Cybersicherheit, die wir bereits in früheren Kapiteln untersucht haben: Kompartimentierung und geringste Rechte.
+Jedes VLAN funktioniert wie ein kleines, autonomes Netz mit eigenen Kommunikationsregeln. Der Austausch zwischen VLANs wird standardmässig blockiert oder streng kontrolliert. Dadurch wird beispielsweise verhindert, dass ein kompromittierter angeschlossener Fernseher deinen PC oder dein NAS erreicht. Dieser Ansatz basiert auf zwei der grundlegenden Prinzipien der Cybersicherheit, die wir bereits in früheren Kapiteln untersucht haben: 'Compartmentalization' and 'least privilege'.
 
 
 ![Image](assets/fr/197.webp)
 
 
-Konkret gibt es einige Beispiele für die Segmentierung, die Sie vornehmen könnten:
+Konkret gibt es einige Beispiele für die Segmentierung, die du vornehmen kannst:
 
 
 
-- Ein persönliches VLAN: Für Ihre vertrauenswürdigen Geräte wie Computer, Smartphones oder persönliche Server. Dies ist das Hauptsegment, in dem Ihre sensiblen Daten zirkulieren.
+- Ein persönliches VLAN: Für deine vertrauenswürdigen Geräte wie Computer, Smartphones oder persönliche Server. Dies ist das Hauptsegment, in dem deine sensiblen Daten zirkulieren.
 
 
 
-- Ein IoT-VLAN: Für verbundene Objekte (Glühbirnen, Lautsprecher, Kameras, Smart-TVs usw.). Diese Geräte sind oft unsicher, weniger aktuell und ein häufiges Ziel für Angriffe. Durch die Isolierung dieser Geräte wird das Risiko, dass ein Angreifer sie als Einstiegspunkt in Ihr Netzwerk nutzt, erheblich verringert.
+- Ein IoT-VLAN: Für verbundene Objekte (Glühbirnen, Lautsprecher, Kameras, Smart-TVs usw.). Diese Geräte sind oft unsicher, weniger aktuell und ein häufiges Ziel für Angriffe. Durch die Isolierung dieser Geräte wird das Risiko, dass ein Angreifer sie als Einstiegspunkt in dein Netzwerk nutzt, erheblich verringert.
 
 
 
-- Ein Gast-VLAN: Reserviert für Ihre Freunde oder Familie, wenn diese bei Ihnen zu Gast sind. Es ermöglicht den Zugang zum Internet, aber keinen Zugriff auf Ihre privaten Geräte.
+- Ein Gast-VLAN: Reserviert für deine Freunde oder Familie, wenn diese bei dir zu Gast sind. Es ermöglicht den Zugang zum Internet, aber keinen Zugriff auf deine privaten Geräte.
 
 
 Schliesslich bietet dieser Ansatz auch Vorteile in Bezug auf Leistung und Verwaltung: Sie können bestimmten Arten von Datenverkehr Vorrang einräumen, je nach VLAN spezifische Sicherheitsregeln anwenden (Firewall, Ratenbegrenzung, DNS-Filterung usw.) und anormales Netzwerkverhalten besser überwachen. Eine Praxis, die ich sehr empfehle.
@@ -8333,10 +8333,10 @@ Schliesslich bietet dieser Ansatz auch Vorteile in Bezug auf Leistung und Verwal
 ### Erweiterte DNS-Verwaltung
 
 
-DNS (*Domain Name System*) ist der Internetdienst, der für Menschen verständliche Webadressen (z.B. "planb.network") in für Maschinen verständliche IP-Adressen übersetzt. Wenn ein Gerät in Ihrem Netz eine Website besuchen möchte, fragt es einen DNS-Server ab, um den Adresse des Servers zu erhalten, den es kontaktieren soll. Standardmässig werden diese DNS-Anfragen oft im Klartext (unverschlüsselt) an Ihren Internetdienstanbieter gesendet, so dass dieser (oder eine dritte Partei wie die Regierung) alle von Ihnen besuchten Websites sehen kann, selbst wenn deren Inhalt über HTTPS verschlüsselt ist.
+DNS (*Domain Name System*) ist der Internetdienst, der für Menschen verständliche Webadressen (z.B. "planb.network") in für Maschinen verständliche IP-Adressen übersetzt. Wenn ein Gerät in deinem Netz eine Website besuchen möchte, fragt es einen DNS-Server ab, um die Adresse des Servers zu erhalten, den es kontaktieren soll. Standardmässig werden diese DNS-Anfragen oft im Klartext (unverschlüsselt) an deinen Internetdienstanbieter gesendet, so dass dieser (oder eine dritte Partei wie die Regierung) alle von dir besuchten Websites sehen kann, selbst wenn deren Inhalt über HTTPS verschlüsselt ist.
 
 
-Um den Datenschutz beim Surfen zu verbessern und bestimmte unerwünschte Inhalte von Anfang an zu blockieren, können Sie die Kontrolle über die DNS-Auflösung in Ihrem Heimnetzwerk übernehmen. Beginnen Sie damit, die standardmässig bereitgestellten DNS-Server durch datenschutzfreundlichere Alternativen zu ersetzen, wie z.B. :
+Um den Datenschutz beim Surfen zu verbessern und bestimmte unerwünschte Inhalte von Anfang an zu blockieren, kannst du die Kontrolle über die DNS-Auflösung in deinem Heimnetzwerk übernehmen. Beginne damit, die standardmässig bereitgestellten DNS-Server durch datenschutzfreundlichere Alternativen zu ersetzen, wie z.B. :
 
 
 
@@ -8358,26 +8358,26 @@ Um den Datenschutz beim Surfen zu verbessern und bestimmte unerwünschte Inhalte
 ![Image](assets/fr/199.webp)
 
 
-Aktivieren Sie als nächstes ein Protokoll zur Verschlüsselung von DNS-Anfragen, um zu verhindern, dass DNS-Anfragen abgefangen oder überwacht werden. Hierfür gibt es 2 Hauptprotokolle:
+Aktiviere als nächstes ein Protokoll zur Verschlüsselung von DNS-Anfragen, um zu verhindern, dass DNS-Anfragen abgefangen oder überwacht werden. Hierfür gibt es zwei Hauptprotokolle:
 
 
 
-- DoH (*DNS über HTTPS*)**: Verkapselt DNS-Anfragen in das HTTPS-Protokoll, so dass sie nicht von herkömmlichem verschlüsseltem Webverkehr zu unterscheiden sind
+- **DoH (*DNS über HTTPS*)**: Verkapselt DNS-Anfragen in das HTTPS-Protokoll, so dass sie nicht von herkömmlichem verschlüsseltem Webverkehr zu unterscheiden sind
 
 
 
-- DoT (*DNS über TLS*)**: Erzeugt einen speziellen verschlüsselten Kanal zwischen Ihrem Gerät und dem DNS-Server
+- **DoT (*DNS über TLS*)**: Erzeugt einen speziellen verschlüsselten Kanal zwischen deinem Gerät und dem DNS-Server
 
 
 
-- DoQ (*DNS über QUIC*)**: Überträgt DNS-Anfragen über das UDP-basierte QUIC-Protokoll
+- **DoQ (*DNS über QUIC*)**: Überträgt DNS-Anfragen über das UDP-basierte QUIC-Protokoll
 
 
 In der Praxis können DNS-Verschlüsselung und Serverwechsel auf verschiedenen Ebenen implementiert werden:
 
 
 
-- Auf Anwendungsebene: Einige Softwareanwendungen, wie z.B. der Firefox-Browser, ermöglichen die direkte Konfiguration von DNS-Verschlüsselungsprotokollen, wie z.B. DoH. Diese Lösung schützt jedoch nur Anfragen, die über die Anwendung erfolgen, und nicht den Rest Ihres Computers.
+- Auf Anwendungsebene: Einige Softwareanwendungen, wie z.B. der Firefox-Browser, ermöglichen die direkte Konfiguration von DNS-Verschlüsselungsprotokollen, wie z.B. DoH. Diese Lösung schützt jedoch nur Anfragen, die über die Anwendung erfolgen, und nicht den Rest deines Computers.
 
 
 ![Image](assets/fr/198.webp)
@@ -8388,19 +8388,19 @@ In der Praxis können DNS-Verschlüsselung und Serverwechsel auf verschiedenen E
 
 
 
-- Auf Netzwerkebene: Die DNS-Verschlüsselung kann über die Router-Konfiguration auf das gesamte lokale Netz angewendet werden. Auch hier gilt, dass ein für DoH/DoT konfigurierter Router nur den Verkehr sieht, der tatsächlich an ihn gesendet wird. Ein Browser, der so konfiguriert ist, dass er einen entfernten Resolver direkt kontaktiert, entzieht sich also dieser Kontrolle. Um diese Schlupflöcher zu schliessen, müssen Sie Port 53 im Klartext blockieren und nicht autorisierte DoH/DoT-Ziele über die Firewall des Routers einschränken.
+- Auf Netzwerkebene: Die DNS-Verschlüsselung kann über die Router-Konfiguration auf das gesamte lokale Netz angewendet werden. Auch hier gilt, dass ein für DoH/DoT konfigurierter Router nur den Verkehr sieht, der tatsächlich an ihn gesendet wird. Ein Browser, der so konfiguriert ist, dass er einen entfernten Resolver direkt kontaktiert, entzieht sich also dieser Kontrolle. Um diese Schlupflöcher zu schliessen, musst du Port 53 im Klartext blockieren und nicht autorisierte DoH/DoT-Ziele über die Firewall des Routers einschränken.
 
 
-Auch die vom Internetanbieter bereitgestellten Modem-Router unterstützen diese Funktionen nicht immer. Für den Fall, dass der Router diese Funktionen nicht unterstützt, gibt es mehrere Alternativen. Sie können auf jedem Gerät einen manuell verschlüsselten DNS-Client installieren, hinter dem Router des Internetanbieters einen persönlichen Router hinzufügen (der DNS-Verschlüsselung beherrscht) oder einen lokalen DNS-Server (z.B. auf einem Raspberry Pi) einrichten, der DNS-Anfragen verschlüsselt und an einen sicheren Resolver weiterleitet.
+Auch die vom Internetanbieter bereitgestellten Modem-Router unterstützen diese Funktionen nicht immer. Für den Fall, dass der Router diese Funktionen nicht unterstützt, gibt es mehrere Alternativen. Du kannst auf jedem Gerät einen manuell verschlüsselten DNS-Client installieren, hinter dem Router des Internetanbieters einen persönlichen Router hinzufügen (der DNS-Verschlüsselung beherrscht) oder einen lokalen DNS-Server (z.B. auf einem Raspberry Pi) einrichten, der DNS-Anfragen verschlüsselt und an einen sicheren Resolver weiterleitet.
 
 
 
-Um noch einen Schritt weiter zu gehen, können Sie auch eine lokale DNS-Filterlösung wie Pi-hole oder AdGuard Home einrichten.
+Um noch einen Schritt weiter zu gehen, kannst du auch eine lokale DNS-Filterlösung wie Pi-hole oder AdGuard Home einrichten.
 
 
 https://planb.network/tutorials/computer-security/communication/pi-hole-46a735c5-8af3-4cc3-a2c2-1d4f6a7dc428
 
-Diese Tools funktionieren wie ein kleiner DNS-Server in Ihrem Netzwerk und blockieren Anfragen an Domänen, die bekanntermassen Werbung, Browser-Tracker, Phishing- oder bösartige Websites hosten. Mit diesen Tools können Sie auch Ihre eigenen Blockierlisten erstellen oder die Filterung an die angeschlossenen Geräte anpassen.
+Diese Tools funktionieren wie ein kleiner DNS-Server in deinem Netzwerk und blockieren Anfragen an Domänen, die bekanntermassen Werbung, Browser-Tracker, Phishing- oder bösartige Websites hosten. Mit diesen Tools kannst du auch deine eigenen Blockierlisten erstellen oder die Filterung an die angeschlossenen Geräte anpassen.
 
 
 ![Image](assets/fr/200.webp)
@@ -8408,11 +8408,11 @@ Diese Tools funktionieren wie ein kleiner DNS-Server in Ihrem Netzwerk und block
 
 ### Sicherer Fernzugriff über VPN
 
-In manchen Fällen ist es nützlich, auch von unterwegs auf Ihr Heimnetzwerk zugreifen zu können: Sie können Dateien auf einem NAS abrufen, einen Bitcoin und einen Lightning-Knoten verwenden, auf einen selbst gehosteten Server zugreifen oder Ihr Netzwerk verwalten. Diese Remote-Verbindung muss jedoch sicher sein.
+In manchen Fällen ist es nützlich, auch von unterwegs auf dein Heimnetzwerk zugreifen zu können: Du kannst Dateien auf einem NAS abrufen, einen Bitcoin und einen Lightning-Knoten verwenden, auf einen selbst gehosteten Server zugreifen oder dein Netzwerk verwalten. Diese Remote-Verbindung muss jedoch sicher sein.
 
-Der erste Tipp ist, niemals direkt einen Port auf Ihrem Router zu öffnen, um auf ein Gerät zuzugreifen (z.B. über RDP, SSH oder FTP), da dies diesen Dienst dem gesamten Internet aussetzt, was eine Sicherheitslücke darstellt. Es gibt zahlreiche automatisierte Angriffe auf offene Ports.
+Der erste Tipp ist, niemals direkt einen Port auf deinem Router zu öffnen, um auf ein Gerät zuzugreifen (z.B. über RDP, SSH oder FTP), da dies den Dienst dem gesamten Internet aussetzt, was eine Sicherheitslücke darstellt. Es gibt zahlreiche automatisierte Angriffe auf offene Ports.
 
-Die Lösung, die ich empfehle, ist die Verwendung eines VPN (*Virtuelles Privates Netzwerk*), d.h. eines verschlüsselten Tunnels zwischen Ihrem entfernten Gerät (Computer, Smartphone usw.) und Ihrem lokalen Netzwerk. Sobald Sie mit dem VPN verbunden sind, können Sie auf die Ressourcen Ihres Hauses zugreifen, als wären Sie physisch vor Ort, und zwar auf sichere Weise.
+Die Lösung, die ich empfehle, ist die Verwendung eines VPN (*Virtuelles Privates Netzwerk*), d.h. eines verschlüsselten Tunnels zwischen deinem entfernten Gerät (Computer, Smartphone usw.) und deinem lokalen Netzwerk. Sobald du mit dem VPN verbunden bist, kannst du auf deine Ressourcen zu Hause zugreifen, als wärst du physisch vor Ort, und zwar auf sichere Weise.
 
 Die beiden wichtigsten Lösungen für Privatkunden sind:
 
@@ -8421,47 +8421,47 @@ Die beiden wichtigsten Lösungen für Privatkunden sind:
 
 https://planb.network/tutorials/computer-security/communication/wireguard-81fdd0db-b2bd-4a6c-a082-2de269e26779
 
-Hier finden Sie eine vollständige Anleitung zu Tailscale, einer einfach zu konfigurierenden VPN-Lösung, die WireGuard verwendet:
+Hier findest du eine vollständige Anleitung zu Tailscale, einer einfach zu konfigurierenden VPN-Lösung, die WireGuard verwendet:
 
 https://planb.network/tutorials/computer-security/communication/tailscale-9acbd7de-04d9-40f6-ab80-35f0dfedb632
 
-Sie können dieses VPN direkt auf einem kompatiblen Router, auf einem kleinen Computer (z.B. einem Raspberry Pi) oder auf einem dedizierten Server zu Hause hosten. Sie können es auch als Client direkt auf einem beliebigen Gerät installieren.
+Du kannst dieses VPN direkt auf einem kompatiblen Router, auf einem kleinen Computer (z.B. einem Raspberry Pi) oder auf einem dedizierten Server zu Hause hosten. Du kannst es auch als Client direkt auf einem beliebigen Gerät installieren.
 
-Aber ein VPN ist nicht nur für den Fernzugriff geeignet. Sie können auch einen klassischen VPN-Client auf Ihren Geräten verwenden, um Ihren gesamten ausgehenden Datenverkehr zu verschlüsseln, auch wenn Sie nicht zu Hause sind (öffentliches WLAN, Hotel, Universität usw.). In diesem Fall stellt Ihr Gerät eine Verbindung zu einem VPN-Server eines Drittanbieters (kommerziell oder selbst gehostet) her, der dann Ihre Verbindungen ins Internet weiterleitet. Dies verbirgt Ihre echte IP-Adresse vor dem Internetanbieter, schützt Ihre Daten vor lokaler Spionage und umgeht bestimmte Formen der Zensur.
+Aber ein VPN ist nicht nur für den Fernzugriff geeignet. Du kannst auch einen klassischen VPN-Client auf deinen Geräten verwenden, um deinen gesamten ausgehenden Datenverkehr zu verschlüsseln, auch wenn du nicht zu Hause bist (öffentliches WLAN, Hotel, Universität usw.). In diesem Fall stellt dein Gerät eine Verbindung zu einem VPN-Server eines Drittanbieters (kommerziell oder selbst gehostet) her, der dann deine Verbindungen ins Internet weiterleitet. Dies verbirgt deine echte IP-Adresse vor dem Internetanbieter, schützt deine Daten vor lokaler Spionage und umgeht bestimmte Formen der Zensur.
 
 https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5-b3f0-4d23-a9e0-c07a3e85aaa8
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-Schliesslich ist es auch möglich, ein VPN direkt auf Ihrem Router einzurichten, so dass Sie alle Geräte in Ihrem Haus schützen können, ohne auf jedem einzelnen einen VPN-Client installieren zu müssen.
+Schliesslich ist es auch möglich, ein VPN direkt auf deinem Router einzurichten, so dass du alle Geräte in Ihrem Haus schützen kannst, ohne auf jedem einzelnen einen VPN-Client installieren zu müssen.
 
 ### Überwachung und Aufdeckung
 
-Sobald Ihr Netzwerk richtig konfiguriert und segmentiert ist, ist es wichtig, über die passive Sicherheit hinauszugehen. Durch die aktive Überwachung Ihres lokalen Netzes können Sie abnormales Verhalten, unbefugte Verbindungen oder Anzeichen eines Eindringens erkennen. Ziel ist es, Probleme frühzeitig zu erkennen, bevor sie Schaden anrichten.
+Sobald dein Netzwerk richtig konfiguriert und segmentiert ist, ist es wichtig, über die passive Sicherheit hinauszugehen. Durch die aktive Überwachung deines lokalen Netzes kannst du abnormales Verhalten, unbefugte Verbindungen oder Anzeichen eines Eindringens erkennen. Ziel ist es, Probleme frühzeitig zu erkennen, bevor sie Schaden anrichten.
 
-Der erste Schritt besteht darin, die Sicherheitsprotokolle zu zentralisieren. Jedes an das Netz angeschlossene Gerät erzeugt Protokolle mit Informationen über Verbindungen, Fehler oder verdächtige Aktivitäten. Anstatt diese Protokolle einzeln einzusehen, empfehle ich, sie an einen Server zu senden, der sie gruppieren, sortieren und analysieren kann. Lösungen wie Graylog oder Elastic Stack (ELK) ermöglichen es Ihnen, diese Protokolle in einem grafischen Interface zusammenzufassen, in dem Sie nach bestimmten Ereignissen suchen, Warnmeldungen erstellen oder die Netzwerkaktivität visualisieren können.
+Der erste Schritt besteht darin, die Sicherheitsprotokolle zu zentralisieren. Jedes an das Netz angeschlossene Gerät erzeugt Protokolle mit Informationen über Verbindungen, Fehler oder verdächtige Aktivitäten. Anstatt diese Protokolle einzeln einzusehen, empfehle ich, sie an einen Server zu senden, der sie gruppieren, sortieren und analysieren kann. Lösungen wie Graylog oder Elastic Stack (ELK) ermöglichen es dir, diese Protokolle in einem grafischen Interface zusammenzufassen, in dem du nach bestimmten Ereignissen suchst, Warnmeldungen erstellen oder die Netzwerkaktivität visualisieren können.
 
 https://planb.network/tutorials/computer-security/data/graylog-3a7f0377-1d95-4446-abe0-d7866a551455
 
-Führen Sie als nächstes regelmässige aktive Scans Ihres lokalen Netzwerks durch, zum Beispiel mit Nmap. So erhalten Sie einen Überblick über alle Geräte in Ihrem Netzwerk und die von ihnen geöffneten Ports. Wenn Sie ein unbekanntes Gerät oder einen ungewöhnlichen Dienst entdecken, könnte dies ein Anzeichen für einen Angriff sein.
+Führe als nächstes regelmässige aktive Scans deines lokalen Netzwerks durch, zum Beispiel mit Nmap. So erhältst du einen Überblick über alle Geräte in deinem Netzwerk und die von ihnen geöffneten Ports. Wenn du ein unbekanntes Gerät oder einen ungewöhnlichen Dienst entdeckst, könnte dies ein Anzeichen für einen Angriff sein.
 
 https://planb.network/tutorials/computer-security/communication/nmap-862300d7-6dfb-4660-970d-f56a9f58f60d
 
-Um noch weiter zu gehen, können Sie ein IDS (*Intrusion Detection System*) oder sogar ein IPS (*Intrusion Prevention System*) installieren. Diese Tools, wie Suricata oder Snort, überwachen den Netzwerkfluss in Echtzeit und erkennen Signaturen bekannter Angriffe (Port-Scans, Injektionen, verdächtige Verbindungen usw.). Das IDS warnt, während das IPS bestimmte Aktionen automatisch blockieren kann.
+Um noch weiter zu gehen, kannst du ein IDS (*Intrusion Detection System*) oder sogar ein IPS (*Intrusion Prevention System*) installieren. Diese Tools, wie Suricata oder Snort, überwachen den Netzwerkfluss in Echtzeit und erkennen Signaturen bekannter Angriffe (Port-Scans, Injektionen, verdächtige Verbindungen usw.). Das IDS warnt, während das IPS bestimmte Aktionen automatisch blockieren kann.
 
-Schliesslich ist die Überwachung des Bandbreitenverbrauchs auch ein guter Indikator für anormale Aktivitäten. Wenn ein Gerät plötzlich ohne ersichtlichen Grund eine grosse Menge an Daten verbraucht, kann dies auf einen nicht autorisierten Download, ein Datenleck oder sogar ein kompromittiertes Gerät hindeuten. Mit Tools wie ntopng oder vnStat können Sie die ein- und ausgehenden Datenströme pro Gerät anzeigen.
+Schliesslich ist die Überwachung des Bandbreitenverbrauchs auch ein guter Indikator für anormale Aktivitäten. Wenn ein Gerät plötzlich ohne ersichtlichen Grund eine grosse Menge an Daten verbraucht, kann dies auf einen nicht autorisierten Download, ein Datenleck oder sogar ein kompromittiertes Gerät hindeuten. Mit Tools wie ntopng oder vnStat kannst du die ein- und ausgehenden Datenströme pro Gerät anzeigen.
 
 https://planb.network/tutorials/computer-security/data/ntopng-77435bd3-674a-4f35-81d9-0a5325bbdcbd
 
 ### Sicherung und Ausfallsicherheit
 
-Selbst bei einem perfekt gesicherten Netzwerk können Hardwareausfälle, Konfigurationsfehler oder unvorhergesehene Ereignisse (Stromausfall, Überspannung, Hard-Festplattenausfall usw.) zu Datenverlusten oder Unterbrechungen Ihrer Dienste führen. Um die Kontinuität Ihrer digitalen Umgebung zu gewährleisten und zu vermeiden, dass Sie im Falle eines Problems wieder bei Null anfangen müssen, ist es wichtig, eine Backup- und Resilienzstrategie zu implementieren.
+Selbst bei einem perfekt gesicherten Netzwerk können Hardwareausfälle, Konfigurationsfehler oder unvorhergesehene Ereignisse (Stromausfall, Überspannung, Hard-Festplattenausfall usw.) zu Datenverlusten oder Unterbrechungen deiner Dienste führen. Um die Kontinuität deiner digitalen Umgebung zu gewährleisten und zu vermeiden, dass du im Falle eines Problems wieder bei Null anfangen musst, ist es wichtig, eine Backup- und Resilienzstrategie zu implementieren.
 
-Beginnen Sie damit, die Konfiguration Ihrer Netzwerkausrüstung, insbesondere des Routers, regelmässig zu sichern. Diese Konfigurationsdateien können oft über die Verwaltung Interface exportiert werden. Wenn Sie eine Kopie aufbewahren, können Sie im Falle eines Geräte-Resets oder eines Austauschs schnell ein funktionierendes System wiederherstellen. Ich empfehle ausserdem, diese Sicherungskopie zu verschlüsseln.
+Beginne damit, die Konfiguration deiner Netzwerkausrüstung, insbesondere des Routers, regelmässig zu sichern. Diese Konfigurationsdateien können oft über das Verwaltungsinterface exportiert werden. Wenn du eine Kopie aufbewahrst, kannst du im Falle eines Geräte-Resets oder eines Austauschs schnell ein funktionierendes System wiederherstellen. Ich empfehle ausserdem, diese Sicherungskopie zu verschlüsseln.
 
-Und schliesslich sollten Sie in eine USV investieren, um die Widerstandsfähigkeit Ihres Netzwerks bei einem Stromausfall zu verbessern. Dieses Gerät stellt bei einem Stromausfall für einige Minuten eine Notstromversorgung bereit und ermöglicht es Ihnen, das Internet weiter zu nutzen oder sicherzustellen, dass kritische Geräte (NAS, Router, Wi-Fi-Zugangspunkt usw.) sauber heruntergefahren werden. Einige Modelle können auch einen automatischen Abschaltbefehl an angeschlossene Geräte senden, wenn sie feststellen, dass die Batterie schwach ist.
+Und schliesslich solltest du in eine USV investieren, um die Widerstandsfähigkeit deines Netzwerks bei einem Stromausfall zu verbessern. Dieses Gerät stellt bei einem Stromausfall für einige Minuten eine Notstromversorgung bereit und ermöglicht es dir, das Internet weiter zu nutzen oder sicherzustellen, dass kritische Geräte (NAS, Router, Wi-Fi-Zugangspunkt usw.) sauber heruntergefahren werden. Einige Modelle können auch einen automatischen Abschaltbefehl an angeschlossene Geräte senden, wenn sie feststellen, dass die Batterie schwach ist.
 
-Wenn Sie diese wenigen Schritte befolgen, bauen Sie eine stabile, sichere Netzwerkumgebung auf, die Ihre Privatsphäre respektiert.
+Wenn du diese wenigen Schritte befolgst, baust du eine stabile, sichere Netzwerkumgebung auf, die deine Privatsphäre respektiert.
 
 # Letzter Teil
 
