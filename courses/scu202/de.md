@@ -66,7 +66,7 @@ Als Nächstes lernst du, wie du die Linux-Distribution auswählst, die am besten
 
 ### Teil 3 - Sichern deines Computers
 
-In diesem Abschnitt erfährst du, wie du die Sicherheit deines Computers erhöhen kannst. Wir gehen auf Methoden ein, mit denen du deinen Zugang wirksam schützt und deine Anwendungsfälle in der Nutzung trennen kannst. Du wirst verstehen, wie wichtig regelmäßige System- und Software-Updates sind, um potenzielle Schwachstellen zu minimieren.
+In diesem Abschnitt erfährst du, wie du die Sicherheit deines Computers erhöhen kannst. Wir gehen auf Methoden ein, mit denen du deinen Zugang wirksam schützt und deine Anwendungsfälle in der Nutzung trennen kannst. Du wirst verstehen, wie wichtig regelmässige System- und Software-Updates sind, um potenzielle Schwachstellen zu minimieren.
 
 Ausserdem lernst du, wie du die Integrität und Authentizität heruntergeladener Software überprüfst, um Infektionen oder Kompromisse zu vermeiden, und wie du deine persönlichen Daten und Backups durch Verschlüsselung effektiv schützt. Schliesslich erfährst du, warum und wie du die Metadaten deiner Dateien bereinigst, um deine Privatsphäre online zu schützen.
 
@@ -129,7 +129,7 @@ Bist du bereit, die volle Kontrolle über deine IT-Sicherheit zu übernehmen, de
 
 
 
-*Hinweis: Wenn du während des Kurses auf unbekannte Begriffe stößt, konsultiere bitte das [das Glossar] (https://planb.network/resources/glossary) für Definitionen.
+*Hinweis: Wenn du während des Kurses auf unbekannte Begriffe stösst, konsultiere bitte das [das Glossar] (https://planb.network/resources/glossary) für Definitionen.
 
 
 
@@ -159,11 +159,11 @@ https://planb.network/courses/99c46148-7080-4915-a7e0-9df0e145cd47
 
 
 
-Das Surfen im Internet ist oft der Haupteinstiegspunkt für Bedrohungen der Cybersicherheit. In SCU101 haben wir gesehen, dass es wichtig ist, wachsam zu bleiben, besonders wenn es um Downloads geht. Lade nur Dateien aus zuverlässigen Quellen herunter und bevorzuge Open-Source-Software, die oft von größerer Transparenz und Kontrolle durch die Gemeinschaft profitiert.
+Das Surfen im Internet ist oft der Haupteinstiegspunkt für Bedrohungen der Cybersicherheit. In SCU101 haben wir gesehen, dass es wichtig ist, wachsam zu bleiben, besonders wenn es um Downloads geht. Lade nur Dateien aus zuverlässigen Quellen herunter und bevorzuge Open-Source-Software, die oft von grösserer Transparenz und Kontrolle durch die Gemeinschaft profitiert.
 
-Eine weitere gute Praxis, die im Kurs behandelt wurde, sind Cookies – diese kleinen Dateien, die auf deinem Computer gespeichert werden, wenn du Websites besuchst. Du solltest sie regelmäßig löschen oder einschränken, um deine Privatsphäre zu schützen.
+Eine weitere gute Praxis, die im Kurs behandelt wurde, sind Cookies – diese kleinen Dateien, die auf deinem Computer gespeichert werden, wenn du Websites besuchst. Du solltest sie regelmässig löschen oder einschränken, um deine Privatsphäre zu schützen.
 
-Generell erfordert sicheres Surfen ein gewisses Maß an Vorsicht: Klicke nicht auf unbekannte Links, meide verdächtige Websites und verwende einen sicheren, aktuellen Browser.
+Generell erfordert sicheres Surfen ein gewisses Mass an Vorsicht: Klicke nicht auf unbekannte Links, meide verdächtige Websites und verwende einen sicheren, aktuellen Browser.
 
 
 
@@ -210,7 +210,7 @@ Ein wesentlicher Bestandteil der SCU101-Schulung war, dass du Cyberangriffe vers
 
 Einer der häufigsten Angriffe ist das Phishing, bei dem betrügerische Nachrichten verschickt werden, um dich dazu zu bringen, sensible Daten preiszugeben. Wenn du mit solchen Angriffen konfrontiert wirst, überprüfe systematisch den Absender und vermeide es, auf Links zu klicken oder Anhänge von unbekannten oder verdächtigen Quellen zu öffnen.
 
-Eine weitere große Bedrohung ist Ransomware, die deine Daten verschlüsselt und ein Lösegeld verlangt. Um dem zu begegnen, ist eine regelmäßige Sicherung deiner Daten unerlässlich.
+Eine weitere grosse Bedrohung ist Ransomware, die deine Daten verschlüsselt und ein Lösegeld verlangt. Um dem zu begegnen, ist eine regelmässige Sicherung deiner Daten unerlässlich.
 
 
 
@@ -248,7 +248,7 @@ Passwortmanager vereinfachen dir die Aufgabe, da du dir nur ein Master-Passwort 
 
 
 
-Schließlich wurdest du in SCU101 in die Zwei-Faktor-Authentifizierung (2FA) eingeführt. Das Prinzip besteht darin, die Authentifizierung in zwei separaten Schritten durchzuführen: dein normales Passwort und ein zweiter Faktor – zum Beispiel ein temporärer Code, der von einer Anwendung wie Google Authenticator oder Authy generiert wird, oder ein Hardware-Schlüssel wie YubiKey.
+Schliesslich wurdest du in SCU101 in die Zwei-Faktor-Authentifizierung (2FA) eingeführt. Das Prinzip besteht darin, die Authentifizierung in zwei separaten Schritten durchzuführen: dein normales Passwort und ein zweiter Faktor – zum Beispiel ein temporärer Code, der von einer Anwendung wie Google Authenticator oder Authy generiert wird, oder ein Hardware-Schlüssel wie YubiKey.
 
 2FA schützt deine Konten wesentlich besser: Selbst wenn dein Passwort kompromittiert wird, bleibt der Zugang ohne den zweiten Faktor unmöglich. Beachte, dass per SMS oder E-Mail gesendete Codes weniger sicher sind, da sie abgefangen oder umgeleitet werden können.
 
@@ -296,7 +296,7 @@ Ohne ein Betriebssystem müsste jedes Softwareprogramm seinen eigenen Weg zur Ko
 
 
 
-Genau so funktionierten die frühen Computer. Das allererste Betriebssystem, GM-NAA I/O, kam  1956 auf den Markt.  Es führte die Stapelverarbeitung ein, die die Aufgabenverwaltung automatisierte. In den 1960er Jahren kamen mit CTSS (1961) und Multics (1969) die Multiprogrammierung und das Time-Sharing auf, die es mehreren Benutzern ermöglichten, gleichzeitig mit demselben System zu arbeiten. In den 1970er Jahren revolutionierte die Erfindung von Unix die Computertechnik durch seine Portabilität, die Verwaltung von Multitasking und seine Einfachheit.
+Genau so funktionierten die frühen Computer. Das allererste Betriebssystem, GM-NAA I/O, kam 1956 auf den Markt. Es führte die Stapelverarbeitung ein, die die Aufgabenverwaltung automatisierte. In den 1960er Jahren kamen mit CTSS (1961) und Multics (1969) die Multiprogrammierung und das Time-Sharing auf, die es mehreren Benutzern ermöglichten, gleichzeitig mit demselben System zu arbeiten. In den 1970er Jahren revolutionierte die Erfindung von Unix die Computertechnik durch seine Portabilität, die Verwaltung von Multitasking und seine Einfachheit.
 
 
 
@@ -480,7 +480,7 @@ Deine Wahl wird in erster Linie von deinen Bedürfnissen und Erwartungen abhäng
 
 - Wenn du auf der Suche nach Einfachheit, umfassender Hardware- und Softwarekompatibilität (insbesondere für Videospiele) sowie allgemeiner Nutzung bist, kann Windows eine gute Wahl sein. Du solltest dir jedoch der Einschränkungen in Bezug auf Leistung, Sicherheit und Datenschutz bewusst sein;
 - Wenn du eine optimale Integration zwischen deiner Hardware und deinem System, ein ausgefeiltes und benutzerfreundliches Interface und eine relativ gute Sicherheit suchst, ohne dass eine fortgeschrittene Konfiguration erforderlich ist, und wenn du bereits im Apple-Ökosystem bist oder einsteigen möchtest, ist macOS eine natürliche Wahl;
-- Wenn du vor allem auf Sicherheit, Stabilität und Leistung Wert legst und außerdem eine umfassende Kontrolle über deine digitale Umgebung wünschst und bereit bist, Zeit in das Erlernen der Bedienung deines Betriebssystems zu investieren, ist Linux eine ausgezeichnete Wahl – insbesondere in einem Kontext, in dem technische Autonomie und digitale Souveränität Priorität haben.
+- Wenn du vor allem auf Sicherheit, Stabilität und Leistung Wert legst und ausserdem eine umfassende Kontrolle über deine digitale Umgebung wünschst und bereit bist, Zeit in das Erlernen der Bedienung deines Betriebssystems zu investieren, ist Linux eine ausgezeichnete Wahl – insbesondere in einem Kontext, in dem technische Autonomie und digitale Souveränität Priorität haben.
 
 In den nächsten Kapiteln dieses Abschnitts über Betriebssysteme werde ich mich näher mit Linux beschäftigen, gerade weil es dir diese bessere Kontrolle über deine persönliche digitale Umgebung ermöglicht.
 
@@ -1837,7 +1837,7 @@ Wenn auf deinem Computer bereits Windows installiert ist, erkennt Ubuntu diese I
 Wähle diese Option, wenn du Windows für bestimmte Softwareanwendungen (z.B. Videospiele) beibehalten möchtest, während du Linux entdeckst.
 
 
-Um dies richtig zu machen, empfehle ich dir, zunächst eine nicht zugewiesene Partition auf der Festplatte deiner Wahl in Windows zu erstellen und diese Partition dann bei der Installation von Ubuntu manuell auszuwählen. Öffne dazu in Windows die Datenträgerverwaltung, klicke mit der rechten Maustaste auf den betreffenden Datenträger und wähle "*Volume verkleinern*". Gib dann die Größe an, die du für Ubuntu reservieren möchtest (ich empfehle ein Minimum von 80 GB für eine komfortable Nutzung).
+Um dies richtig zu machen, empfehle ich dir, zunächst eine nicht zugewiesene Partition auf der Festplatte deiner Wahl in Windows zu erstellen und diese Partition dann bei der Installation von Ubuntu manuell auszuwählen. Öffne dazu in Windows die Datenträgerverwaltung, klicke mit der rechten Maustaste auf den betreffenden Datenträger und wähle "*Volume verkleinern*". Gib dann die Grösse an, die du für Ubuntu reservieren möchtest (ich empfehle ein Minimum von 80 GB für eine komfortable Nutzung).
 
 
 
@@ -2052,7 +2052,7 @@ cd /path/to/directory
 
 
 
-"cd" steht für "*Verzeichnis wechseln*". Damit können Sie sich im Dateibaum bewegen. Mit dem Befehl `cd Music` befinden Sie sich zum Beispiel im Verzeichnis `/Music`.
+"cd" steht für "*Verzeichnis wechseln*". Damit kannst du dich im Dateibaum bewegen. Mit dem Befehl `cd Music` befinden du dich zum Beispiel im Verzeichnis `/Music`.
 Damit kannst du dich im Dateibaum bewegen. Mit dem Befehl `cd Music` befindest du dich zum Beispiel im Verzeichnis `/Music`.
 
 
@@ -2321,7 +2321,7 @@ Noch einfacher: Du kannst auch den Namen der Software direkt in das Terminal ein
 
 
 
-Um Software zu entfernen, kannst du den folgenden Befehl verwenden (ersetzen Sie "gimp" durch den Namen der Software, die du deinstallieren möchtest):
+Um Software zu entfernen, kannst du den folgenden Befehl verwenden (ersetze "gimp" durch den Namen der Software, die du deinstallieren möchtest):
 
 
 
@@ -2766,7 +2766,7 @@ Nach der Installation startest du es über das Anwendungsmenü. Du kannst die Fi
 
 
 
-→ **Gute Praktiken:** Auch wenn du keine Netzwerkdienste nach außen freigibst, ist eine Firewall dennoch nützlich, um bestimmte Arten von Scans oder Zugriffen zu blockieren. Denke auch daran, unnötige Dienste zu deaktivieren und deine Netzwerksoftware immer auf dem neuesten Stand zu halten. Diese Absicherung des lokalen Netzwerks ist eine erste Verteidigungslinie im Rahmen einer umfassenderen Sicherheitsstrategie, auf die wir später im Kurs noch zurückkommen werden.
+→ **Gute Praktiken:** Auch wenn du keine Netzwerkdienste nach aussen freigibst, ist eine Firewall dennoch nützlich, um bestimmte Arten von Scans oder Zugriffen zu blockieren. Denke auch daran, unnötige Dienste zu deaktivieren und deine Netzwerksoftware immer auf dem neuesten Stand zu halten. Diese Absicherung des lokalen Netzwerks ist eine erste Verteidigungslinie im Rahmen einer umfassenderen Sicherheitsstrategie, auf die wir später im Kurs noch zurückkommen werden.
 
 
 
@@ -3073,10 +3073,10 @@ sudo apt update && sudo apt upgrade
 
 
 
-Mit diesem Kapitel über die Grundlagen von Ubuntu verfügst du nun über eine funktionale, konsistente und alltagstaugliche Linux-Umgebung. Du weißt, wie du Software installieren, dein Netzwerk konfigurieren, dein System auf dem neuesten Stand halten und über das Kommandozeilenterminal intervenieren kannst.
+Mit diesem Kapitel über die Grundlagen von Ubuntu verfügst du nun über eine funktionale, konsistente und alltagstaugliche Linux-Umgebung. Du weisst, wie du Software installieren, dein Netzwerk konfigurieren, dein System auf dem neuesten Stand halten und über das Kommandozeilenterminal intervenieren kannst.
 
 
-Diese technische Autonomie ist die wesentliche Grundlage, um den Rest dieses Kurses zuversichtlich anzugehen. Im nächsten Abschnitt werden wir die Sicherheitsmechanismen deines Arbeitsplatzes genauer unter die Lupe nehmen und die ersten konkreten Maßnahmen zur Stärkung seiner Widerstandsfähigkeit umsetzen.
+Diese technische Autonomie ist die wesentliche Grundlage, um den Rest dieses Kurses zuversichtlich anzugehen. Im nächsten Abschnitt werden wir die Sicherheitsmechanismen deines Arbeitsplatzes genauer unter die Lupe nehmen und die ersten konkreten Massnahmen zur Stärkung seiner Widerstandsfähigkeit umsetzen.
 
 
 
@@ -3142,7 +3142,7 @@ https://planb.network/tutorials/computer-security/authentication/bitwarden-0532f
 
 https://planb.network/tutorials/computer-security/authentication/keepass-f8073bb7-5b4a-4664-9246-228e307be246
 
-Ändere dieses Kennwort regelmäßig - alle 3 bis 6 Monate -, vor allem, wenn dein Computer in gemeinsam genutzten oder mobilen Umgebungen verwendet wird.
+Ändere dieses Kennwort regelmässig - alle 3 bis 6 Monate -, vor allem, wenn dein Computer in gemeinsam genutzten oder mobilen Umgebungen verwendet wird.
 
 
 #### Absicherung des BIOS/UEFI-Zugriffs
@@ -3191,7 +3191,7 @@ Wie du es aktivierst, hängt von deinem Motherboard-Modell ab. Aber im Allgemein
 **Warnung:** Wenn du dieses Passwort verlierst, wirst du gesperrt und musst die Hauptplatine zurücksetzen. Bewahre dieses Passwort daher in einem Passwort-Manager oder an einem sicheren Ort auf.
 
 
-Aktiviere außerdem die Funktion "Secure Boot", falls sie verfügbar und noch nicht aktiviert ist. Dieser Mechanismus verhindert, dass unsignierter oder veränderter Code beim Booten ausgeführt wird. Er wurde entwickelt, um Bootkits und Rootkits zu blockieren, Arten von Malware, die den Computer beim Booten infizieren, noch bevor das Betriebssystem startet.
+Aktiviere ausserdem die Funktion "Secure Boot", falls sie verfügbar und noch nicht aktiviert ist. Dieser Mechanismus verhindert, dass unsignierter oder veränderter Code beim Booten ausgeführt wird. Er wurde entwickelt, um Bootkits und Rootkits zu blockieren, Arten von Malware, die den Computer beim Booten infizieren, noch bevor das Betriebssystem startet.
 
 
 
@@ -3203,7 +3203,7 @@ Die Absicherung des UEFI ist eine oft übersehene, aber absolut entscheidende Ma
 
 
 
-Die Sicherung eines Arbeitsplatzes beschränkt sich nicht nur auf den Softwareschutz: Wenn eine böswillige Person physischen Zugang zu deinem Rechner erhält, kann sie viele Barrieren umgehen oder das System ohne dein Wissen kompromittieren. Dies gilt insbesondere für Laptops, die leicht zu transportieren sind, aber auch für jedes Gerät, das in einem gemeinsam genutzten Raum steht, der Öffentlichkeit  oder einfach nur für andere Personen zugänglich ist.
+Die Sicherung eines Arbeitsplatzes beschränkt sich nicht nur auf den Softwareschutz: Wenn eine böswillige Person physischen Zugang zu deinem Rechner erhält, kann sie viele Barrieren umgehen oder das System ohne dein Wissen kompromittieren. Dies gilt insbesondere für Laptops, die leicht zu transportieren sind, aber auch für jedes Gerät, das in einem gemeinsam genutzten Raum steht, der Öffentlichkeit oder einfach nur für andere Personen zugänglich ist.
 
 
 
@@ -3214,18 +3214,18 @@ Eines der häufigsten (aber unterschätzten) Risiken besteht darin, einen Comput
 Aus demselben Grund rate ich davon ab, externes Zubehör oder Peripheriegeräte zu verwenden, die du nicht kontrollierst. Vermeide das Einstecken von USB-Sticks, externen Festplatten, Ladegeräten oder Dongles in deinen Computer, wenn die Herkunft dieser Objekte nicht bekannt ist (neu oder im Besitz einer vertrauenswürdigen Person). Einige scheinbar harmlose Zubehörteile können Schaltkreise enthalten, die bösartige Befehle ausführen können, sobald sie eingesteckt sind. Umgekehrt solltest du dein eigenes Zubehör nicht ausleihen oder unbeaufsichtigt an zugänglichen Orten liegen lassen: Es könnte gegen kompromittierte Versionen ausgetauscht werden.
 
 
-Um das Risiko eines physischen Diebstahls zu begrenzen, kannst du einen Desktop-PC mit einem physischen Schließsystem ausstatten. Die meisten professionellen PCs verfügen über einen Kensington-Sicherheitsanschluss, mit dem ein Stahlseil an einem festen Möbelstück befestigt werden kann. Auch für Laptops gibt es Varianten. Diese Vorrichtungen bieten natürlich keinen absoluten Schutz vor Diebstahl, aber sie reichen aus, um opportunistische Angriffe abzuschrecken.
+Um das Risiko eines physischen Diebstahls zu begrenzen, kannst du einen Desktop-PC mit einem physischen Schliesssystem ausstatten. Die meisten professionellen PCs verfügen über einen Kensington-Sicherheitsanschluss, mit dem ein Stahlseil an einem festen Möbelstück befestigt werden kann. Auch für Laptops gibt es Varianten. Diese Vorrichtungen bieten natürlich keinen absoluten Schutz vor Diebstahl, aber sie reichen aus, um opportunistische Angriffe abzuschrecken.
 
 
 ![Image](assets/fr/202.webp)
 
 
 
-Außerdem solltest du deinen Rechner immer ausschalten, wenn du dich nicht in der Nähe aufhältst, insbesondere in einer ungesicherten Umgebung. Im Gegensatz zum einfachen Standby verhindert ein vollständiges Herunterfahren, dass das Betriebssystem geladen wird, und schützt vor bestimmten Angriffen auf den Arbeitsspeicher. Außerdem wird dadurch die BIOS/UEFI-Sicherheit aktiviert.
+Ausserdem solltest du deinen Rechner immer ausschalten, wenn du dich nicht in der Nähe aufhältst, insbesondere in einer ungesicherten Umgebung. Im Gegensatz zum einfachen Standby verhindert ein vollständiges Herunterfahren, dass das Betriebssystem geladen wird, und schützt vor bestimmten Angriffen auf den Arbeitsspeicher. Ausserdem wird dadurch die BIOS/UEFI-Sicherheit aktiviert.
 
 
 
-Eine der wichtigsten Maßnahmen gegen Diebstahl ist die Aktivierung der vollständigen Festplattenverschlüsselung. Dadurch werden deine Daten geschützt, indem sie ohne Kennwort unzugänglich gemacht werden, selbst wenn die Festplatte entnommen und in einen anderen Rechner gesteckt wird. Auf einigen Systemen ist diese Verschlüsselung standardmäßig aktiviert:
+Eine der wichtigsten Massnahmen gegen Diebstahl ist die Aktivierung der vollständigen Festplattenverschlüsselung. Dadurch werden deine Daten geschützt, indem sie ohne Kennwort unzugänglich gemacht werden, selbst wenn die Festplatte entnommen und in einen anderen Rechner gesteckt wird. Auf einigen Systemen ist diese Verschlüsselung standardmässig aktiviert:
 
 
 - macOS verwendet FileVault
@@ -3253,7 +3253,7 @@ Konkret bedeutet dies für deinen Computer, dass dein Hauptbenutzerkonto keine A
 
 
 
-Unter Windows haben die meisten Benutzer standardmäßig ein Administratorkonto, auch wenn dies eine schlechte Praxis ist. Ich empfehle dir, ein Standard-Benutzerkonto für den täglichen Gebrauch zu erstellen und das Administratorkonto für Vorgänge zu verwenden, die es wirklich benötigen. Wenn du versuchst, eine Aufgabe auszuführen, für die erhöhte Rechte erforderlich sind, wird Windows dich einfach auffordern, das Administratorkennwort einzugeben, anstatt einfach auf die Schaltfläche "*JA*" zu klicken.
+Unter Windows haben die meisten Benutzer standardmässig ein Administratorkonto, auch wenn dies eine schlechte Praxis ist. Ich empfehle dir, ein Standard-Benutzerkonto für den täglichen Gebrauch zu erstellen und das Administratorkonto für Vorgänge zu verwenden, die es wirklich benötigen. Wenn du versuchst, eine Aufgabe auszuführen, für die erhöhte Rechte erforderlich sind, wird Windows dich einfach auffordern, das Administratorkennwort einzugeben, anstatt einfach auf die Schaltfläche "*JA*" zu klicken.
 
 
 
@@ -3296,8 +3296,8 @@ Du könntest deine Sitzungen zum Beispiel wie folgt strukturieren:
 
 - Ein Konto für deine berufliche Tätigkeit, auf dem du nur die Software installierst, die du unbedingt benötigst (Office-Suiten, Tools für die Zusammenarbeit, professionelles Messaging...). Diese Sitzung darf nicht zum freien Surfen im Internet oder zum Testen von Software verwendet werden;
 - Ein Konto für den persönlichen Gebrauch, das für das tägliche Surfen im Internet, soziale Netzwerke, Streaming oder die Installation von Verbraucheranwendungen verwendet wird. Dies ist in der Regel die Sitzung, die am meisten für Browserangriffe oder verdächtige Downloads anfällig ist;
-- Ein Konto, das für sensible Aktivitäten reserviert ist, wie z.B. die Abfrage von Bankkonten, die Verwaltung deiner Bitcoin-Portfolios oder jede andere Verwendung, die ein hohes Maß an Sicherheit erfordert. Dieses Konto solltest du ausschließlich für diese Aufgaben verwenden, wobei die installierte Software auf das Nötigste beschränkt und die Netzwerkkonfiguration strenger sein sollte;
-- Ein Gastkonto oder ein stark eingeschränktes Konto, das ausschließlich für die gelegentliche Nutzung z.B. durch Familienmitglieder gedacht ist. Dieses Konto darf natürlich keine Administratorrechte und nur einen eingeschränkten Zugang haben.
+- Ein Konto, das für sensible Aktivitäten reserviert ist, wie z.B. die Abfrage von Bankkonten, die Verwaltung deiner Bitcoin-Portfolios oder jede andere Verwendung, die ein hohes Mass an Sicherheit erfordert. Dieses Konto solltest du ausschliesslich für diese Aufgaben verwenden, wobei die installierte Software auf das Nötigste beschränkt und die Netzwerkkonfiguration strenger sein sollte;
+- Ein Gastkonto oder ein stark eingeschränktes Konto, das ausschliesslich für die gelegentliche Nutzung z.B. durch Familienmitglieder gedacht ist. Dieses Konto darf natürlich keine Administratorrechte und nur einen eingeschränkten Zugang haben.
 
 
 Dieser Ansatz hat mehrere Vorteile. Erstens können die in einer Sitzung installierten Anwendungen nicht die Anwendungen anderer Benutzer beeinträchtigen (ausser im Falle einer Erhöhung der Berechtigungen). Zweitens: Wenn eine Sitzung kompromittiert wird, z.B. durch heruntergeladene Schadsoftware, bleiben die Auswirkungen in der Regel auf das betreffende Konto beschränkt. Dies bedeutet, dass deine Geschäftsdokumente oder Bitcoin-Portfolios für Malware unzugänglich bleiben, wenn sie in einer anderen, ordnungsgemäss isolierten Sitzung aufbewahrt werden.
@@ -3337,7 +3337,7 @@ Diese Technologie basiert auf einem Hypervisor, einem Softwareprogramm, das die 
 
 https://planb.network/tutorials/computer-security/operating-system/virtualbox-6472f5be-10ce-4a07-8b24-097bfbcedd65
 
-In Bezug auf die IT-Sicherheit ist einer der großen Vorteile virtueller Maschinen ihre Fähigkeit zur Abschottung. Eine virtuelle Maschine teilt ihre Dateien, Prozesse oder ihren Netzwerkzugang nicht mit dem Host-System. Es sei denn, du konfigurierst diesen Austausch ausdrücklich. Wenn also eine virtuelle Maschine mit Malware infiziert wird oder du darin sensible Software testest, bleiben die Auswirkungen auf diese virtuelle Maschine beschränkt: Dein Hauptsystem bleibt intakt, sofern die Isolierungsparameter eingehalten werden (keine gemeinsam genutzten Verzeichnisse, keine USB-Geräte, die an die virtuelle Maschine weitergegeben werden ...).
+In Bezug auf die IT-Sicherheit ist einer der grossen Vorteile virtueller Maschinen ihre Fähigkeit zur Abschottung. Eine virtuelle Maschine teilt ihre Dateien, Prozesse oder ihren Netzwerkzugang nicht mit dem Host-System. Es sei denn, du konfigurierst diesen Austausch ausdrücklich. Wenn also eine virtuelle Maschine mit Malware infiziert wird oder du darin sensible Software testest, bleiben die Auswirkungen auf diese virtuelle Maschine beschränkt: Dein Hauptsystem bleibt intakt, sofern die Isolierungsparameter eingehalten werden (keine gemeinsam genutzten Verzeichnisse, keine USB-Geräte, die an die virtuelle Maschine weitergegeben werden ...).
 
 
 
@@ -3345,7 +3345,7 @@ Mit einer VM kannst du verdächtige Software testen: Wenn du ein Programm von ei
 
 
 
-Schließlich ist es wichtig zu verstehen, dass die von VMs gebotene Sicherheit von ihrer korrekten Konfiguration abhängt. Einige Hypervisoren erlauben standardmäßig den Austausch von Dateien zwischen dem Host und der VM oder den Zugriff auf USB-Peripheriegeräte. Diese Funktionen sollten deaktiviert werden, um die Isolierung zu maximieren.
+Schliesslich ist es wichtig zu verstehen, dass die von VMs gebotene Sicherheit von ihrer korrekten Konfiguration abhängt. Einige Hypervisoren erlauben standardmässig den Austausch von Dateien zwischen dem Host und der VM oder den Zugriff auf USB-Peripheriegeräte. Diese Funktionen sollten deaktiviert werden, um die Isolierung zu maximieren.
 
 
 ### Sandboxing
@@ -3428,7 +3428,7 @@ Wie wir zu Beginn dieses Kurses gesehen haben, verwaltet das Betriebssystem die 
 
 
 
-Aufgrund ihrer Komplexität ist keine Betriebssystemversion völlig frei von Sicherheitslücken. Wir sprechen hier von zig Millionen Codezeilen. Diese Sicherheitslücken können von Angreifern ausgenutzt werden, um bösartigen Code auszuführen, unbefugte Rechte zu erlangen oder das gesamte System zu kompromittieren. Einige dieser Schwachstellen werden von verantwortungsbewussten Cybersecurity-Forschern  entdeckt, während andere bereits aktiv ausgenutzt werden, ohne dass die Allgemeinheit davon weiss: Diese sind als Zero-Day-Schwachstellen bekannt.
+Aufgrund ihrer Komplexität ist keine Betriebssystemversion völlig frei von Sicherheitslücken. Wir sprechen hier von zig Millionen Codezeilen. Diese Sicherheitslücken können von Angreifern ausgenutzt werden, um bösartigen Code auszuführen, unbefugte Rechte zu erlangen oder das gesamte System zu kompromittieren. Einige dieser Schwachstellen werden von verantwortungsbewussten Cybersecurity-Forschern entdeckt, während andere bereits aktiv ausgenutzt werden, ohne dass die Allgemeinheit davon weiss: Diese sind als Zero-Day-Schwachstellen bekannt.
 
 
 
@@ -3631,7 +3631,7 @@ Die Stärke der Linux-Distributionen liegt in ihrer zentralen Softwareverwaltung
 
 
 
-Um ein globales Update Ihrer Software durchzuführen, führe einfach wie bei der Betriebssystemaktualisierung einen Befehl aus:
+Um ein globales Update deiner Software durchzuführen, führe einfach wie bei der Betriebssystemaktualisierung einen Befehl aus:
 
 
 
@@ -3698,7 +3698,7 @@ Du kannst die automatische Aktualisierung von Anwendungen auch in den Einstellun
 
 
 
-Allerdings stammen nicht alle auf deinem Mac installierten Programme aus dem App Store. Andere Programme musst du manuell aktualisieren. Wie bei Windows-Nutzern empfehle ich dir daher, eine Liste all deiner Software zu führen und regelmäßig nach neuen Versionen zu suchen, insbesondere bei sensiblen Programmen wie deinem Webbrowser.
+Allerdings stammen nicht alle auf deinem Mac installierten Programme aus dem App Store. Andere Programme musst du manuell aktualisieren. Wie bei Windows-Nutzern empfehle ich dir daher, eine Liste all deiner Software zu führen und regelmässig nach neuen Versionen zu suchen, insbesondere bei sensiblen Programmen wie deinem Webbrowser.
 
 
 
@@ -3706,7 +3706,7 @@ Allerdings stammen nicht alle auf deinem Mac installierten Programme aus dem App
 
 
 
-Aus Sicht der IT-Sicherheit gilt: Je weniger Software du installiert hast, desto weniger potenzielle Einfallstore hast du für Angreifer. Jede auf deinem System installierte Anwendung kann Sicherheitslücken enthalten, selbst wenn du sie nie benutzt. Dies wird als Angriffsfläche bezeichnet: Je größer sie ist, desto größer ist das Risiko. Eine einfache, aber wirksame Präventivmaßnahme ist es, diese Angriffsfläche zu verringern, indem man unnötige Software entfernt.
+Aus Sicht der IT-Sicherheit gilt: Je weniger Software du installiert hast, desto weniger potenzielle Einfallstore hast du für Angreifer. Jede auf deinem System installierte Anwendung kann Sicherheitslücken enthalten, selbst wenn du sie nie benutzt. Dies wird als Angriffsfläche bezeichnet: Je grösser sie ist, desto grösser ist das Risiko. Eine einfache, aber wirksame Präventivmassnahme ist es, diese Angriffsfläche zu verringern, indem man unnötige Software entfernt.
 
 
 
@@ -3728,7 +3728,7 @@ Settings → Apps → Installed apps
 
 
 
-Gehe die Liste der Software durch und entferne alles, was du nicht mehr verwendest oder von dem du nicht weißt, wozu es dient (ggf. nach einer kurzen Internetrecherche). Sei vorsichtig mit Systemsoftware, aber zögere nicht, vorinstallierte Spiele, zweifelhafte Wartungsprogramme oder Marketinganwendungen zu deinstallieren.
+Gehe die Liste der Software durch und entferne alles, was du nicht mehr verwendest oder von dem du nicht weisst, wozu es dient (ggf. nach einer kurzen Internetrecherche). Sei vorsichtig mit Systemsoftware, aber zögere nicht, vorinstallierte Spiele, zweifelhafte Wartungsprogramme oder Marketinganwendungen zu deinstallieren.
 
 
 #### Unter Linux (Debian/Ubuntu)
@@ -3779,11 +3779,11 @@ Wenn die Schaltfläche "Löschen" nicht angezeigt wird, wurde die Anwendung nich
 
 
 
-Die Erweiterungen und Add-ons Ihres Browsers werden oft übersehen, aber auch sie stellen einen häufigen Angriffsvektor dar. Eine bösartige oder veraltete Erweiterung kann deine Browsing-Daten abfangen, Code einschleusen oder dich diskret ausspionieren.
+Die Erweiterungen und Add-ons deines Browsers werden oft übersehen, aber auch sie stellen einen häufigen Angriffsvektor dar. Eine bösartige oder veraltete Erweiterung kann deine Browsing-Daten abfangen, Code einschleusen oder dich diskret ausspionieren.
 
 
 
-Gehe zu den Einstellungen deines Browsers und deaktiviere oder lösche alle Erweiterungen, die du nicht verwendest oder von denen du nichts weißt. Behalte nur diejenigen, die unbedingt notwendig sind, aus vertrauenswürdigen Quellen stammen und noch gepflegt werden.
+Gehe zu den Einstellungen deines Browsers und deaktiviere oder lösche alle Erweiterungen, die du nicht verwendest oder von denen du nichts weisst. Behalte nur diejenigen, die unbedingt notwendig sind, aus vertrauenswürdigen Quellen stammen und noch gepflegt werden.
 
 
 ### Systemüberwachung und Auditing
@@ -3951,7 +3951,7 @@ Eine Datei kann intakt (unverändert) sein, aber von einer böswilligen Organisa
 
 Diese Überprüfung der Herkunft wird durch die digitale Signatur ermöglicht, einen kryptografischen Mechanismus, der die Datei mit dem privaten Schlüssel des Entwicklers verknüpft. Wenn du diese Signatur mit dem öffentlichen Schlüssel des Entwicklers (der über sichere Kanäle verteilt wird) überprüfst, kannst du sicher sein, dass die Datei tatsächlich von dieser Person stammt.
 
-Indem du sowohl die Authentizität (d.h., dass die Installationsdatei aus der richtigen Quelle stammt) als auch die Integrität (d.h., dass sie seit ihrer Veröffentlichung durch den rechtmäßigen Entwickler nicht verändert wurde) überprüfst, kannst du sicher sein, dass du die richtige Software installierst.
+Indem du sowohl die Authentizität (d.h., dass die Installationsdatei aus der richtigen Quelle stammt) als auch die Integrität (d.h., dass sie seit ihrer Veröffentlichung durch den rechtmässigen Entwickler nicht verändert wurde) überprüfst, kannst du sicher sein, dass du die richtige Software installierst.
 
 
 
@@ -4306,7 +4306,7 @@ In diesem Kapitel gehst du im Detail darauf ein, wie du deine Daten sichern und 
 
 
 
-Die regelmässige Sicherung deiner persönlichen oder geschäftlichen Daten ist eine absolut notwendige Sicherheitsmaßnahme, die oft vernachlässigt wird, bis es zu spät ist. Entgegen der landläufigen Meinung ist das Sichern von Daten keine optionale oder auf Unternehmen beschränkte Aufgabe: es betrifft jeden Computernutzer. Ganz gleich, ob es sich um Arbeitsunterlagen, Familienfotos, persönliche Dokumente oder andere sensible Inhalte handelt, diese Daten können aus den unterschiedlichsten Gründen plötzlich verschwinden:
+Die regelmässige Sicherung deiner persönlichen oder geschäftlichen Daten ist eine absolut notwendige Sicherheitsmassnahme, die oft vernachlässigt wird, bis es zu spät ist. Entgegen der landläufigen Meinung ist das Sichern von Daten keine optionale oder auf Unternehmen beschränkte Aufgabe: es betrifft jeden Computernutzer. Ganz gleich, ob es sich um Arbeitsunterlagen, Familienfotos, persönliche Dokumente oder andere sensible Inhalte handelt, diese Daten können aus den unterschiedlichsten Gründen plötzlich verschwinden:
 
 
 
@@ -4418,7 +4418,7 @@ Denke auch daran, deine Backups regelmässig zu testen, d.h. zu prüfen, ob du s
 
 
 
-Es ist nicht nur wichtig, die Ausfallsicherheit deiner Daten zu gewährleisten, sondern auch den Zugriff auf sie zu schützen. Tatsächlich stehen Belastbarkeit und Sicherheit oft in einem Spannungsverhältnis: Je mehr Kopien du von deinen Dateien anfertigst, desto mehr vergrößerst du deren Angriffsfläche und damit das Risiko, dass ein Angreifer Zugriff auf sie erhält. Aus diesem Grund ist die Verschlüsselung deiner Daten ein wichtiger Schritt. Schauen wir uns an, wie du das in die Praxis umsetzt.
+Es ist nicht nur wichtig, die Ausfallsicherheit deiner Daten zu gewährleisten, sondern auch den Zugriff auf sie zu schützen. Tatsächlich stehen Belastbarkeit und Sicherheit oft in einem Spannungsverhältnis: Je mehr Kopien du von deinen Dateien anfertigst, desto mehr vergrösserst du deren Angriffsfläche und damit das Risiko, dass ein Angreifer Zugriff auf sie erhält. Aus diesem Grund ist die Verschlüsselung deiner Daten ein wichtiger Schritt. Schauen wir uns an, wie du das in die Praxis umsetzt.
 
 
 ### Vollständige Verschlüsselung von externen Festplatten und Medien
@@ -4433,7 +4433,7 @@ Eine der Säulen der Sicherheit von Personalcomputern ist die Verschlüsselung d
 
 
 
-Wenn ein Speichermedium nicht verschlüsselt ist, schließt du es einfach an einen beliebigen Computer an, um sofortigen Zugriff auf seinen Inhalt zu erhalten. Es gibt keine Barrieren zum Schutz der Dateien. Das heißt, wenn dein Laptop gestohlen wird oder du einen einfachen USB‑Stick verlierst, kann jemand mit böswilligen Absichten auf deine persönlichen Dokumente zugreifen.
+Wenn ein Speichermedium nicht verschlüsselt ist, schliesst du es einfach an einen beliebigen Computer an, um sofortigen Zugriff auf seinen Inhalt zu erhalten. Es gibt keine Barrieren zum Schutz der Dateien. Das heisst, wenn dein Laptop gestohlen wird oder du einen einfachen USB‑Stick verlierst, kann jemand mit böswilligen Absichten auf deine persönlichen Dokumente zugreifen.
 
 
 
@@ -4764,7 +4764,7 @@ Sobald die Verschlüsselung aktiviert ist, kann das externe Laufwerk nur noch du
 
 Bevor du einen Datenträger verschlüsselst, musst du alle darauf befindlichen Daten sichern (es sei denn, der Datenträger ist leer), da der Verschlüsselungsvorgang im Allgemeinen den ursprünglichen Inhalt löscht.
 
-Auch die Wahl des Passworts ist sehr wichtig: Es muss lang, komplex und einzigartig sein, da es der einzige Schutz zwischen deinen Daten und einem böswilligen Dritten ist. Außerdem musst du eine Sicherungskopie erstellen, zum Beispiel in einem Passwort‑Manager, denn anders als bei Online‑Diensten gibt es keinen Wiederherstellungsmechanismus. Wenn du dein Passwort vergisst, sind die Daten für immer verloren.
+Auch die Wahl des Passworts ist sehr wichtig: Es muss lang, komplex und einzigartig sein, da es der einzige Schutz zwischen deinen Daten und einem böswilligen Dritten ist. Ausserdem musst du eine Sicherungskopie erstellen, zum Beispiel in einem Passwort‑Manager, denn anders als bei Online‑Diensten gibt es keinen Wiederherstellungsmechanismus. Wenn du dein Passwort vergisst, sind die Daten für immer verloren.
 
 ### Selektive Dateiverschlüsselung
 
@@ -4774,7 +4774,7 @@ Eine der bekanntesten Methoden zur Verschlüsselung von Dateien ist die Verwendu
 
 Dieses Protokoll eignet sich hervorragend für den sicheren Austausch sensibler Dateien mit anderen, ohne dass ein Passwort mitgeteilt werden muss. Für den persönlichen oder gelegentlichen Gebrauch ermöglicht GPG auch eine symmetrische Verschlüsselung: Die Datei ist dann durch ein eindeutiges, nur dir bekanntes Passwort geschützt.
 
-Eine ausgezeichnete Alternative ist Cryptomator. Mit dieser Open‑Source‑Software kannst du einen Safe erstellen: ein spezielles Verzeichnis, in dem alle hinterlegten Dateien automatisch verschlüsselt werden. Dieser Safe kann mit Cloud‑Diensten wie Dropbox, Google Drive oder Nextcloud synchronisiert werden, ohne dass der Anbieter jemals Zugriff auf die unverschlüsselten Daten hat. Die Anwendung ist auf allen Betriebssystemen, einschließlich Android und iOS, verfügbar und erfordert keine besonderen technischen Kenntnisse.
+Eine ausgezeichnete Alternative ist Cryptomator. Mit dieser Open‑Source‑Software kannst du einen Safe erstellen: ein spezielles Verzeichnis, in dem alle hinterlegten Dateien automatisch verschlüsselt werden. Dieser Safe kann mit Cloud‑Diensten wie Dropbox, Google Drive oder Nextcloud synchronisiert werden, ohne dass der Anbieter jemals Zugriff auf die unverschlüsselten Daten hat. Die Anwendung ist auf allen Betriebssystemen, einschliesslich Android und iOS, verfügbar und erfordert keine besonderen technischen Kenntnisse.
 
 https://planb.network/tutorials/computer-security/data/cryptomator-84e52c76-2253-49fe-81da-e05e90c28d0d
 
@@ -4794,7 +4794,7 @@ Nachdem du nun gelernt hast, wie du deine persönlichen Daten vor Verlust und Di
 
 <chapterId>0869e92e-5488-4e8a-90e6-9b9d1c58a19b</chapterId>
 
-Jedes Mal, wenn du eine digitale Datei erstellst, sei es ein Foto, ein Office‑Dokument, eine Audio‑ oder Videodatei, enthält sie im Hintergrund Metadaten. Diese Informationen sind nicht direkt sichtbar, wenn du die Datei öffnest, aber sie sind vorhanden und können äußerst sensible Daten enthalten.
+Jedes Mal, wenn du eine digitale Datei erstellst, sei es ein Foto, ein Office‑Dokument, eine Audio‑ oder Videodatei, enthält sie im Hintergrund Metadaten. Diese Informationen sind nicht direkt sichtbar, wenn du die Datei öffnest, aber sie sind vorhanden und können äusserst sensible Daten enthalten.
 
 ### Warum sind Metadaten ein Risiko?
 
@@ -5810,7 +5810,7 @@ Chrome kann trotz seiner Beliebtheit nicht als Teil eines Konzepts für digitale
 
 
 
-Die Wahl deines Browsers spielt heute eine wichtige Rolle für deine Online-Sicherheit und Ihre Privatsphäre. Nimm dir also die Zeit, um den Browser zu finden, der deinem Risikoprofil und deinen Prioritäten am besten entspricht.
+Die Wahl deines Browsers spielt heute eine wichtige Rolle für deine Online-Sicherheit und deine Privatsphäre. Nimm dir also die Zeit, um den Browser zu finden, der deinem Risikoprofil und deinen Prioritäten am besten entspricht.
 
 
 
@@ -5835,7 +5835,7 @@ Hier ist eine kurze Zusammenfassung, die dir bei der Wahl helfen soll (bedenke j
 | Orion           | 🟡              | 🟢      | 🟢              | 🟢        | 🔴          | 🟢                      |
 | Zen Browser     | 🟢              | 🟡      | 🟢              | 🟢        | 🟢          | 🟡                      |
 
-Im nächsten Kapitel befassen wir uns mit den besten Praktiken für ein sicheres Surfen im Internet, bei dem die Gefährdung Ihrer Privatsphäre möglichst gering ist.
+Im nächsten Kapitel befassen wir uns mit den besten Praktiken für ein sicheres Surfen im Internet, bei dem die Gefährdung deiner Privatsphäre möglichst gering ist.
 
 
 
@@ -6151,11 +6151,11 @@ Zusätzlich zu diesen Massnahmen kann die Verwendung eines guten Passwortmanager
 
 
 
-Das Vorhängeschloss-Symbol in der Adress-Leiste zeigt eine verschlüsselte Verbindung an, garantiert aber nicht die Legitimität der Website. Klicken Sie darauf, um das Zertifikat zu prüfen (Organisation, Domäne, Zertifizierungsstelle). Dies kann hilfreich sein, wenn du Zweifel an der URL einer Website hast.
+Das Vorhängeschloss-Symbol in der Adress-Leiste zeigt eine verschlüsselte Verbindung an, garantiert aber nicht die Legitimität der Website. Klicke darauf, um das Zertifikat zu prüfen (Organisation, Domäne, Zertifizierungsstelle). Dies kann hilfreich sein, wenn du Zweifel an der URL einer Website hast.
 
 
 
-Phishing funktioniert nur, wenn du zu schnell klickst. Mach dir zur Gewohnheit, jeden Link, den du erhältst, systematisch zu überprüfen, selbst wenn es sich um eine dir bekannte Website handelt. Wenn du dir die Zeit nimmst, URLs sorgfältig zu prüfen und zu verifizieren, selbst wenn sie dir bekannt sind, ist dies eine der besten Abwehrmaßnahmen gegen diese Art von Angriffen.
+Phishing funktioniert nur, wenn du zu schnell klickst. Mach dir zur Gewohnheit, jeden Link, den du erhältst, systematisch zu überprüfen, selbst wenn es sich um eine dir bekannte Website handelt. Wenn du dir die Zeit nimmst, URLs sorgfältig zu prüfen und zu verifizieren, selbst wenn sie dir bekannt sind, ist dies eine der besten Abwehrmassnahmen gegen diese Art von Angriffen.
 
 
 ### Installierte Erweiterungen prüfen
@@ -6557,7 +6557,7 @@ Bei der Wahl deines Smartphone-Betriebssystems musst du dich der Kompromisse zwi
 Standard-Android (mit GMS) ist heute die am weitesten verbreitete Lösung. Es bietet volle Kompatibilität mit allen Android-Anwendungen, Benutzerfreundlichkeit und sofortigen Zugriff auf beliebte Dienste (Play Store, Maps, Gmail...). Diese Benutzerfreundlichkeit beruht jedoch auf einer starken Integration der Google-eigenen Dienste mit einer systematischen Datenerfassung: GPS-Position, Browserverlauf, Anruf-Metadaten, Werbepräferenzen... Es ist also eine schlechte Wahl, wenn du dir Sorgen um deine digitale Souveränität oder deine Privatsphäre machst.
 
 
-Das iOS‑System von Apple zeichnet sich durch ein hohes Mass an Sicherheit aus. Diese Sicherheit geht jedoch mit einer extremen Abschottung der Umgebung einher: Du kannst keine Anwendungen außerhalb des App Store installieren (außer in Ausnahmefällen), kannst das Systemverhalten nicht ändern und bist bei der Verwaltung von Hardware, Cloud‑Speicher und Synchronisierung vollständig von Apple abhängig. Es handelt sich um eine effiziente und robuste Umgebung, die jedoch jede Form der Personalisierung oder Unabhängigkeit opfert.
+Das iOS‑System von Apple zeichnet sich durch ein hohes Mass an Sicherheit aus. Diese Sicherheit geht jedoch mit einer extremen Abschottung der Umgebung einher: Du kannst keine Anwendungen ausserhalb des App Store installieren (ausser in Ausnahmefällen), kannst das Systemverhalten nicht ändern und bist bei der Verwaltung von Hardware, Cloud‑Speicher und Synchronisierung vollständig von Apple abhängig. Es handelt sich um eine effiziente und robuste Umgebung, die jedoch jede Form der Personalisierung oder Unabhängigkeit opfert.
 
 
 GrapheneOS ist auf die anspruchsvollsten Profile in Bezug auf Sicherheit und Vertraulichkeit ausgerichtet. Sein Sicherheitsniveau bringt jedoch einige Einschränkungen mit sich: wenige kompatible Geräte (nur aktuelle Google‑Pixel‑Modelle), keine automatische Integration von Anwendungsdiensten von Drittanbietern und die Notwendigkeit, alternative Tools für Updates, den Store oder Benachrichtigungen manuell zu konfigurieren. Wenn Datenschutz und Sicherheit deine Prioritäten sind, ist dies eindeutig die beste Wahl.
@@ -6828,7 +6828,7 @@ Unter Android kannst du *Mein Gerät finden* über die Google-Einstellungen verw
 ![Image](assets/fr/147.webp)
 
 
-Diese Funktionen sind jedoch mit erheblichen Kompromissen verbunden: Sie zentralisieren deine sensiblen Daten (Geolokalisierung, Anmeldungen, Fernzugriff usw.) auf den Servern eines privaten Unternehmens und erfordern, dass du Ihren Standort aktiviert lässt.
+Diese Funktionen sind jedoch mit erheblichen Kompromissen verbunden: Sie zentralisieren deine sensiblen Daten (Geolokalisierung, Anmeldungen, Fernzugriff usw.) auf den Servern eines privaten Unternehmens und erfordern, dass du ihren Standort aktiviert lässt.
 
 
 Wenn du dich dennoch dafür entscheidest, diese Funktionen zu implementieren, teste sie im Voraus, um sicherzustellen, dass sie an dem Tag, an dem du sie tatsächlich benötigst, ordnungsgemäss funktionieren.
@@ -7761,7 +7761,7 @@ MuPDF Viewer ist ein ultraleichter, schneller und vollständig quelloffener PDF-
 - [MJ PDF Reader](https://gitlab.com/mudlej_android/mj_pdf_reader)
 
 
-MJ PDF Reader ist eine einfache Open-Source-Anwendung, mit der Sie PDF-Dateien ohne Werbung oder Verbindung zu einem Online-Konto lesen können.
+MJ PDF Reader ist eine einfache Open-Source-Anwendung, mit der du PDF-Dateien ohne Werbung oder Verbindung zu einem Online-Konto lesen kannst.
 
 
 ### Telefon
@@ -7857,7 +7857,7 @@ Warpinator, entwickelt von Linux Mint, erleichtert die Übertragung von Dateien 
 - [LocalSend](https://localsend.org/)
 
 
-LocalSend ist eine weitere kostenlose Alternative mit vollem Funktionsumfang und einem ordentlichen Interface. Diese vollständig quelloffene Anwendung ermöglicht dezentrale, verschlüsselte End-to-End-Dateiübertragungen zwischen Geräten, die mit demselben lokalen Netzwerk verbunden sind. Es werden keine Zwischenserver verwendet, wodurch sichergestellt wird, dass Ihre Daten Ihr Heimnetzwerk nie verlassen.
+LocalSend ist eine weitere kostenlose Alternative mit vollem Funktionsumfang und einem ordentlichen Interface. Diese vollständig quelloffene Anwendung ermöglicht dezentrale, verschlüsselte End-to-End-Dateiübertragungen zwischen Geräten, die mit demselben lokalen Netzwerk verbunden sind. Es werden keine Zwischenserver verwendet, wodurch sichergestellt wird, dass deine Daten dein Heimnetzwerk nie verlassen.
 
 
 ![Image](assets/fr/190.webp)
@@ -8168,10 +8168,10 @@ Die Sicherheit deines Heimnetzes beginnt mit der richtigen Wahl der Hardware: de
 Es ist wichtig, moderne Geräte zu wählen, die vom Hersteller gewartet werden und den neuesten Sicherheitsstandards entsprechen. Heute (Juni 2025) wird empfohlen, sich für ein Gerät zu entscheiden, das mit dem Verschlüsselungsprotokoll WPA3 (*Wi-Fi Protected Access 3*) kompatibel ist, das die Nachfolge von WPA2 antritt und mehrere seiner Schwächen behebt. Insbesondere verbessert WPA3 die Widerstandsfähigkeit gegen Brute-Force-Angriffe auf Wi-Fi-Passwörter und führt eine bessere Isolierung zwischen Netzwerk-Clients ein.
 
 
-Ein mit Wi-Fi 6, Wi-Fi 6E oder Wi-Fi 7 kompatibler Router bietet dir bessere Geschwindigkeiten und vor allem native Unterstützung für moderne Sicherheitstechnologien. Umgekehrt können sehr alte Geräte, insbesondere solche, die keine Software-Updates mehr erhalten, bekannte, ungepatchte Sicherheitslücken enthalten. Sie stellen daher ein Risiko für dein gesamtes Netz dar, selbst wenn du sie richtig konfigurierst. Im Vergleich zu Mobiltelefonen oder Computern sind Router Geräte, die wir in der Regel viele Jahre lang behalten. Es kann jedoch sinnvoll sein, sie in regelmäßigen Abständen zu ersetzen, um von einem moderneren und sichereren Modell zu profitieren.
+Ein mit Wi-Fi 6, Wi-Fi 6E oder Wi-Fi 7 kompatibler Router bietet dir bessere Geschwindigkeiten und vor allem native Unterstützung für moderne Sicherheitstechnologien. Umgekehrt können sehr alte Geräte, insbesondere solche, die keine Software-Updates mehr erhalten, bekannte, ungepatchte Sicherheitslücken enthalten. Sie stellen daher ein Risiko für dein gesamtes Netz dar, selbst wenn du sie richtig konfigurierst. Im Vergleich zu Mobiltelefonen oder Computern sind Router Geräte, die wir in der Regel viele Jahre lang behalten. Es kann jedoch sinnvoll sein, sie in regelmässigen Abständen zu ersetzen, um von einem moderneren und sichereren Modell zu profitieren.
 
 
-Aktualisiere daher systematisch die Firmware deines Routers. Diese Updates beheben Schwachstellen, fügen neue Funktionen hinzu und verbessern die allgemeine Systemstabilität. Einige Hersteller bieten automatische Aktualisierungen an, aber in einigen Fällen musst du sie manuell über das Interface-Verwaltungstool deines Routers überprüfen. Wie bei deinem Telefon, Computer, Betriebssystem und deiner Software ist es wichtig, dass du deinen Router regelmäßig aktualisierst. Du kannst dies zu einem Teil deiner wöchentlichen Routine machen – zum Beispiel jeden Sonntag – indem du eine Liste aller Elemente erstellst, die du überprüfst und auf dem neuesten Stand hältst.
+Aktualisiere daher systematisch die Firmware deines Routers. Diese Updates beheben Schwachstellen, fügen neue Funktionen hinzu und verbessern die allgemeine Systemstabilität. Einige Hersteller bieten automatische Aktualisierungen an, aber in einigen Fällen musst du sie manuell über das Interface-Verwaltungstool deines Routers überprüfen. Wie bei deinem Telefon, Computer, Betriebssystem und deiner Software ist es wichtig, dass du deinen Router regelmässig aktualisierst. Du kannst dies zu einem Teil deiner wöchentlichen Routine machen – zum Beispiel jeden Sonntag – indem du eine Liste aller Elemente erstellst, die du überprüfst und auf dem neuesten Stand hältst.
 
 
 Wenn dein Router nicht mehr gewartet wird, aber von der Hardware her noch einwandfrei funktioniert, kannst du eine alternative Open-Source-Firmware installieren, z. B.:
@@ -8433,7 +8433,7 @@ https://planb.network/tutorials/computer-security/communication/mullvad-968ec5f5
 
 https://planb.network/tutorials/computer-security/communication/ivpn-5a0cd5df-29f1-4382-a817-975a96646e68
 
-Schliesslich ist es auch möglich, ein VPN direkt auf deinem Router einzurichten, so dass du alle Geräte in Ihrem Haus schützen kannst, ohne auf jedem einzelnen einen VPN-Client installieren zu müssen.
+Schliesslich ist es auch möglich, ein VPN direkt auf deinem Router einzurichten, so dass du alle Geräte in deinem Haus schützen kannst, ohne auf jedem einzelnen einen VPN-Client installieren zu müssen.
 
 ### Überwachung und Aufdeckung
 
